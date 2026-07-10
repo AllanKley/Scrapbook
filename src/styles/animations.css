@@ -1,0 +1,23 @@
+[data-anime] {
+  opacity: 0;
+  transition:
+    opacity 800ms ease-in-out,
+    transform 800ms ease-in-out;
+}
+
+[data-anime='left'] {
+  transform: translate3d(-50px, 0, 0);
+}
+
+[data-anime='right'] {
+  transform: translate3d(50px, 0, 0);
+}
+
+[data-anime='top'] {
+  transform: translate3d(0, -50px, 0);
+}
+
+[data-anime].is-visible {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}

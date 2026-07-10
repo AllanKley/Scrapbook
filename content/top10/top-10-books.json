@@ -1,0 +1,22 @@
+{
+  "slug": "top-10-books",
+  "title": "Top 10 Books",
+  "description": "books that lived in my head rent-free for way too long",
+  "updatedAt": "2026-07-10",
+  "items": [
+    {
+      "rank": 1,
+      "title": "Project Hail Mary",
+      "note": "read it in two sittings, regret nothing",
+      "image": null,
+      "link": null
+    },
+    {
+      "rank": 2,
+      "title": "Mistborn: The Final Empire",
+      "note": "got me into fantasy magic systems as a personality trait",
+      "image": null,
+      "link": null
+    }
+  ]
+}

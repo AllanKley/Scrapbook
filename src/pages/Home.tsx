@@ -1,0 +1,27 @@
+import { Link } from 'react-router-dom';
+import { AnimatedSection } from '../components/shared/AnimatedSection';
+
+export function Home() {
+  return (
+    <>
+      <AnimatedSection direction="top" className="hero">
+        <h1>hey, i'm allan.</h1>
+        <p>
+          this is my little corner of the internet for showing friends the stuff i'm into &mdash; ranked
+          opinions, works in progress, and whatever ttrpg system i'm currently breaking and rebuilding.
+        </p>
+      </AnimatedSection>
+
+      <AnimatedSection direction="left" className="card-grid">
+        <Link to="/top10" className="card">
+          <h3>top 10s</h3>
+          <p>my ranked lists of games, books, food, and anything else worth arguing about.</p>
+        </Link>
+        <Link to="/devlog" className="card">
+          <h3>ttrpg devlog</h3>
+          <p>progress notes and changelogs for the tabletop system i'm designing.</p>
+        </Link>
+      </AnimatedSection>
+    </>
+  );
+}

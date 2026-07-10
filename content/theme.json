@@ -1,0 +1,19 @@
+{
+  "name": "default-teal",
+  "colors": {
+    "primary": "#587b7f",
+    "secondary": "#edf7fa",
+    "accent": "#e2c044",
+    "highlight": "#ff3f00",
+    "header": "#393e41"
+  },
+  "font": {
+    "body": "Quicksand"
+  },
+  "radii": {
+    "sm": "0px",
+    "md": "0px",
+    "lg": "0px"
+  },
+  "shadowsEnabled": false
+}
