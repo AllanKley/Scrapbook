@@ -1,5 +1,6 @@
-import { Link, useParams } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import { AnimatedSection } from '../components/shared/AnimatedSection';
+import { BackLink } from '../components/shared/BackLink';
 import { RankedItemCard } from '../components/top10/RankedItemCard';
 import { getTop10ListBySlug } from '../content-loaders/loadTop10Lists';
 
@@ -10,9 +11,7 @@ export function Top10Detail() {
   if (!list) {
     return (
       <AnimatedSection direction="top">
-        <Link to="/top10" className="back-link">
-          &larr; back to top 10s
-        </Link>
+        <BackLink to="/top10" label="back to top 10s" />
         <h2 className="section-heading">list not found</h2>
         <p>this one doesn't exist (yet?).</p>
       </AnimatedSection>
@@ -21,9 +20,7 @@ export function Top10Detail() {
 
   return (
     <AnimatedSection direction="top">
-      <Link to="/top10" className="back-link">
-        &larr; back to top 10s
-      </Link>
+      <BackLink to="/top10" label="back to top 10s" />
       <h2 className="section-heading">{list.title}</h2>
       {list.description && <p>{list.description}</p>}
       <ol className="ranked-list">

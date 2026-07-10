@@ -5,9 +5,18 @@ import type { Connect, Plugin } from 'vite';
 import type { ServerResponse } from 'node:http';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const REPO_ROOT = path.resolve(__dirname, '..');
 const CONTENT_ROOT = path.resolve(__dirname, '../content');
 const TOP10_DIR = path.join(CONTENT_ROOT, 'top10');
 const THEME_FILE = path.join(CONTENT_ROOT, 'theme.json');
+// Lives under public/ so Vite serves it as a static asset, same reasoning
+// as the devlog attachments directory synced by sync-devlog.mjs.
+const TOP10_IMAGES_DIR = path.join(REPO_ROOT, 'public', 'content', 'top10', 'images');
+
+function sanitizeFilename(name: string) {
+  const base = path.basename(name).replace(/[^a-zA-Z0-9.\-_]/g, '-');
+  return base || 'image';
+}
 
 function safeJoin(base: string, ...segments: string[]) {
   const target = path.resolve(base, ...segments);
@@ -42,6 +51,35 @@ async function withErrorHandling(
   } catch (err) {
     sendJson(res, 400, { error: err instanceof Error ? err.message : String(err) });
   }
+}
+
+// Writes a base64-encoded file to destDir and returns its public
+// (no-leading-slash) URL path so callers store something that resolves
+// under any deploy base.
+async function handleMediaUpload(
+  req: Connect.IncomingMessage,
+  res: ServerResponse,
+  destDir: string,
+  publicPathPrefix: string,
+) {
+  await withErrorHandling(res, async () => {
+    if (req.method !== 'POST') {
+      res.statusCode = 405;
+      res.end();
+      return;
+    }
+    const body = JSON.parse(await readBody(req));
+    const { filename, dataBase64 } = body as { filename?: string; dataBase64?: string };
+    if (!filename || !dataBase64) throw new Error('Missing filename or dataBase64');
+
+    await fs.mkdir(destDir, { recursive: true });
+    const safeName = sanitizeFilename(filename);
+    const uniqueName = `${Date.now()}-${safeName}`;
+    const filePath = safeJoin(destDir, uniqueName);
+    await fs.writeFile(filePath, Buffer.from(dataBase64, 'base64'));
+
+    sendJson(res, 200, { path: `${publicPathPrefix}/${uniqueName}` });
+  });
 }
 
 export default function adminFsPlugin(): Plugin {
@@ -97,6 +135,10 @@ export default function adminFsPlugin(): Plugin {
           res.end();
         });
       });
+
+      server.middlewares.use('/__admin-api/top10-image', (req, res) =>
+        handleMediaUpload(req, res, TOP10_IMAGES_DIR, 'content/top10/images'),
+      );
     },
   };
 }

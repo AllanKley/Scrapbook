@@ -14,7 +14,10 @@ export function useScrollReveal<T extends HTMLElement>() {
           observer.unobserve(el);
         }
       },
-      { threshold: 0.15 },
+      // A ratio-of-area threshold (e.g. 0.15) never fires for content taller
+      // than ~6x the viewport, since that much of the element's area can
+      // never be on screen at once. Fire as soon as any part is visible instead.
+      { threshold: 0, rootMargin: '0px 0px -10% 0px' },
     );
 
     observer.observe(el);

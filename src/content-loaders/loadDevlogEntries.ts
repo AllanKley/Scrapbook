@@ -55,6 +55,35 @@ export const changelogEntries: ChangelogEntry[] = Object.entries(changelogModule
   })
   .sort((a, b) => b.frontmatter.date.localeCompare(a.frontmatter.date));
 
+export interface DevlogSection {
+  /** Raw folder path relative to the vault root ("" for root-level notes). */
+  key: string;
+  label: string;
+  entries: DevlogEntry[];
+}
+
+// Groups entries by their synced Obsidian folder so adding a new vault
+// folder and re-syncing automatically produces a new section here — nothing
+// hardcoded. Root-level notes (no section) form the "Main" group, always first.
+export const devlogSections: DevlogSection[] = (() => {
+  const groups = new Map<string, DevlogEntry[]>();
+  for (const entry of devlogEntries) {
+    const key = entry.frontmatter.section ?? '';
+    const group = groups.get(key);
+    if (group) group.push(entry);
+    else groups.set(key, [entry]);
+  }
+  const otherKeys = Array.from(groups.keys())
+    .filter((k) => k !== '')
+    .sort((a, b) => a.localeCompare(b));
+  const orderedKeys = groups.has('') ? ['', ...otherKeys] : otherKeys;
+  return orderedKeys.map((key) => ({
+    key,
+    label: key === '' ? 'Main' : key.replace(/\//g, ' / '),
+    entries: groups.get(key) ?? [],
+  }));
+})();
+
 export function getDevlogEntryBySlug(slug: string): DevlogEntry | undefined {
   return devlogEntries.find((e) => e.slug === slug);
 }

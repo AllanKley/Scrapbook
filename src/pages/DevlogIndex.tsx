@@ -1,7 +1,7 @@
 import { AnimatedSection } from '../components/shared/AnimatedSection';
 import { ChangelogEntryCard } from '../components/devlog/ChangelogEntryCard';
-import { DevlogEntryCard } from '../components/devlog/DevlogEntryCard';
-import { changelogEntries, devlogEntries } from '../content-loaders/loadDevlogEntries';
+import { DevlogSectionGroup } from '../components/devlog/DevlogSectionGroup';
+import { changelogEntries, devlogSections } from '../content-loaders/loadDevlogEntries';
 
 export function DevlogIndex() {
   return (
@@ -20,15 +20,13 @@ export function DevlogIndex() {
         </div>
       )}
 
-      <h3>entries</h3>
-      {devlogEntries.length === 0 ? (
-        <p>nothing synced yet.</p>
+      {devlogSections.length === 0 ? (
+        <>
+          <h3>entries</h3>
+          <p>nothing synced yet.</p>
+        </>
       ) : (
-        <div className="card-grid">
-          {devlogEntries.map((entry) => (
-            <DevlogEntryCard key={entry.slug} entry={entry} />
-          ))}
-        </div>
+        devlogSections.map((section) => <DevlogSectionGroup key={section.key || 'main'} section={section} />)
       )}
     </AnimatedSection>
   );

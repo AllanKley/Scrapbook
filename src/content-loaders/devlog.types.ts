@@ -1,6 +1,7 @@
 export interface DevlogEntryFrontmatter {
   title: string;
   date: string;
+  section?: string;
   version?: string;
   tags?: string[];
   summary?: string;

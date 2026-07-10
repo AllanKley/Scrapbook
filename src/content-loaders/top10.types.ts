@@ -4,6 +4,7 @@ export interface Top10Item {
   note?: string;
   image?: string | null;
   link?: string | null;
+  tags?: string[];
 }
 
 export interface Top10List {

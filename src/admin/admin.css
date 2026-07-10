@@ -64,16 +64,37 @@
   border: 1px solid #ccc;
   border-radius: var(--radius-sm);
   font-family: var(--font-body);
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.admin-field textarea {
+  resize: vertical;
 }
 
 .admin-item-row {
-  display: flex;
-  align-items: center;
-  gap: 8px;
   padding: 10px;
   border: 1px solid #eee;
   border-radius: var(--radius-sm);
   margin-bottom: 8px;
+}
+
+.admin-item-row-main {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.admin-item-row-extra {
+  display: flex;
+  gap: 16px;
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px dashed #ddd;
+}
+
+.admin-item-row-extra .admin-field {
+  flex: 1;
 }
 
 .admin-item-row .admin-field {

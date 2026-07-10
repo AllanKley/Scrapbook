@@ -1,11 +1,11 @@
 {
   "name": "default-teal",
   "colors": {
-    "primary": "#587b7f",
-    "secondary": "#edf7fa",
-    "accent": "#e2c044",
-    "highlight": "#ff3f00",
-    "header": "#393e41"
+    "primary": "#8B5E3C",
+    "secondary": "#0A2947",
+    "accent": "#D3D4C0",
+    "highlight": "#4B5694",
+    "header": "#7288AE"
   },
   "font": {
     "body": "Quicksand"

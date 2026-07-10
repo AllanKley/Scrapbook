@@ -6,17 +6,21 @@
   "items": [
     {
       "rank": 1,
-      "title": "Project Hail Mary",
-      "note": "read it in two sittings, regret nothing",
+      "title": "Mistborn: The Final Empire",
+      "note": "got me into fantasy magic systems as a personality trait",
       "image": null,
       "link": null
     },
     {
       "rank": 2,
-      "title": "Mistborn: The Final Empire",
-      "note": "got me into fantasy magic systems as a personality trait",
-      "image": null,
-      "link": null
+      "title": "Project Hail Mary",
+      "note": "read it in two sittings, regret nothing",
+      "image": "content/top10/images/1783696990520-sketch1776530958402.png",
+      "link": "https://github.com/AllanKley/Scrapbook",
+      "tags": [
+        "Andy Weir",
+        "sci-fi"
+      ]
     }
   ]
 }
