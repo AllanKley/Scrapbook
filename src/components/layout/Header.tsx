@@ -15,7 +15,7 @@ export function Header() {
           </li>
           <li>
             <NavLink to="/devlog" className={({ isActive }) => (isActive ? 'active' : undefined)}>
-              devlog
+              Dungeon Rift
             </NavLink>
           </li>
         </ul>

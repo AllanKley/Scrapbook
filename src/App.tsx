@@ -4,6 +4,9 @@ import { Footer } from './components/layout/Footer';
 import { Header } from './components/layout/Header';
 import { PageShell } from './components/layout/PageShell';
 import { ChangelogDetail } from './pages/ChangelogDetail';
+import { CharacterCreator } from './pages/CharacterCreator';
+import { CharacterList } from './pages/CharacterList';
+import { CharacterSheet } from './pages/CharacterSheet';
 import { DevlogEntryDetail } from './pages/DevlogEntryDetail';
 import { DevlogIndex } from './pages/DevlogIndex';
 import { Home } from './pages/Home';
@@ -29,6 +32,9 @@ function App() {
             <Route path="/devlog" element={<DevlogIndex />} />
             <Route path="/devlog/entry/:slug" element={<DevlogEntryDetail />} />
             <Route path="/devlog/changelog/:slug" element={<ChangelogDetail />} />
+            <Route path="/devlog/personagens" element={<CharacterList />} />
+            <Route path="/devlog/personagens/novo" element={<CharacterCreator />} />
+            <Route path="/devlog/personagens/:id" element={<CharacterSheet />} />
             {AdminApp && (
               <Route
                 path="/admin"
