@@ -29,7 +29,9 @@ export function ClassDomainPanel({ character, onChange }: ClassDomainPanelProps)
         </select>
         {selectedClass && (
           <p style={{ margin: '4px 0 0' }}>
-            <Link to={`/devlog/entry/${selectedClass.devlogSlug}`}>ver regras de {selectedClass.label}</Link>
+            <Link to={`/devlog/entry/${selectedClass.devlogSlug}`} target="_blank" rel="noreferrer">
+              ver regras de {selectedClass.label}
+            </Link>
             <span className={`dr-badge ${selectedClass.status}`}>
               {selectedClass.status === 'completa' ? 'completa' : 'revisar'}
             </span>
@@ -56,7 +58,9 @@ export function ClassDomainPanel({ character, onChange }: ClassDomainPanelProps)
         </select>
         {selectedDomain && (
           <p style={{ margin: '4px 0 0' }}>
-            <Link to={`/devlog/entry/${DOMAIN_DEVLOG_SLUG}`}>ver regras de domínio</Link>
+            <Link to={`/devlog/entry/${DOMAIN_DEVLOG_SLUG}`} target="_blank" rel="noreferrer">
+              ver regras de domínio
+            </Link>
           </p>
         )}
       </div>

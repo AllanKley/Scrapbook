@@ -6,4 +6,5 @@ export * from './conexoes';
 export * from './patronos';
 export * from './equipment';
 export * from './conditions';
+export * from './rank';
 export * from './woundTable';

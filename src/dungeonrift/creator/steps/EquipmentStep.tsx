@@ -1,25 +1,12 @@
 import type { Dispatch } from 'react';
-import {
-  ARMOR_CATEGORIES,
-  EQUIPPED_SLOT_CAPACITY,
-  SHIELD_CATEGORIES,
-  SLOT_COST,
-  SUBESPACO_CAPACITY_PER_ESSENCIA,
-  WEAPON_CATEGORIES,
-} from '../../rules';
+import { CategorySelect, defaultCategoryFor } from '../../CategorySelect';
+import { EQUIPPED_SLOT_CAPACITY, SLOT_COST, SUBESPACO_CAPACITY_PER_ESSENCIA } from '../../rules';
 import type { EquipmentKind, Tamanho } from '../../types';
 import type { CreatorAction, CreatorDraft } from '../creatorReducer';
 
 interface StepProps {
   draft: CreatorDraft;
   dispatch: Dispatch<CreatorAction>;
-}
-
-function categoriesFor(kind: EquipmentKind): string[] {
-  if (kind === 'weapon') return WEAPON_CATEGORIES;
-  if (kind === 'armor') return ARMOR_CATEGORIES;
-  if (kind === 'shield') return SHIELD_CATEGORIES;
-  return [];
 }
 
 function generateId() {
@@ -34,7 +21,7 @@ export function EquipmentStep({ draft, dispatch }: StepProps) {
   function addItem() {
     dispatch({
       type: 'ADD_EQUIPMENT',
-      item: { id: generateId(), name: '', kind: 'weapon', category: WEAPON_CATEGORIES[0], tamanho: 'pequeno', location: 'equipped' },
+      item: { id: generateId(), name: '', kind: 'weapon', category: defaultCategoryFor('weapon'), tamanho: 'pequeno', location: 'equipped' },
     });
   }
 
@@ -57,7 +44,7 @@ export function EquipmentStep({ draft, dispatch }: StepProps) {
             value={item.kind}
             onChange={(e) => {
               const kind = e.target.value as EquipmentKind;
-              dispatch({ type: 'UPDATE_EQUIPMENT', id: item.id, patch: { kind, category: categoriesFor(kind)[0] ?? '' } });
+              dispatch({ type: 'UPDATE_EQUIPMENT', id: item.id, patch: { kind, category: defaultCategoryFor(kind) } });
             }}
           >
             <option value="weapon">arma</option>
@@ -65,25 +52,11 @@ export function EquipmentStep({ draft, dispatch }: StepProps) {
             <option value="shield">escudo</option>
             <option value="general">geral</option>
           </select>
-          {categoriesFor(item.kind).length > 0 ? (
-            <select
-              value={item.category}
-              onChange={(e) => dispatch({ type: 'UPDATE_EQUIPMENT', id: item.id, patch: { category: e.target.value } })}
-            >
-              {categoriesFor(item.kind).map((cat) => (
-                <option key={cat} value={cat}>
-                  {cat}
-                </option>
-              ))}
-            </select>
-          ) : (
-            <input
-              type="text"
-              placeholder="categoria"
-              value={item.category}
-              onChange={(e) => dispatch({ type: 'UPDATE_EQUIPMENT', id: item.id, patch: { category: e.target.value } })}
-            />
-          )}
+          <CategorySelect
+            kind={item.kind}
+            value={item.category}
+            onChange={(category) => dispatch({ type: 'UPDATE_EQUIPMENT', id: item.id, patch: { category } })}
+          />
           <select
             value={item.tamanho}
             onChange={(e) => dispatch({ type: 'UPDATE_EQUIPMENT', id: item.id, patch: { tamanho: e.target.value as Tamanho } })}

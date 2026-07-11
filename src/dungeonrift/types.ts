@@ -74,6 +74,13 @@ export type WoundOutcome =
   | 'ferimentoFatal'
   | 'morteSubita';
 
+/**
+ * Rank progression track (Despertar -> F -> D -> B -> S). The rulebook only defines this as
+ * "5 abilities at these progression ranks" per class/domain — it doesn't yet specify what
+ * unlocks each rank-up, so this is a placeholder progression track, not settled rule text.
+ */
+export type RankKey = 'despertar' | 'f' | 'd' | 'b' | 's';
+
 export type PatronoTier = 'menor' | 'maior' | 'supremo';
 
 export interface PatronoGrant {
@@ -128,6 +135,7 @@ export interface Character {
   attributes: Record<AttributeKey, number>;
   skills: Record<SkillKey, TrainingTier>;
 
+  rank: RankKey;
   classKey: ClassKey | null;
   domainKey: DomainKey | null;
   patronos: PatronoGrant[];

@@ -1,16 +1,29 @@
 import type { Tamanho } from '../types';
 
-export const WEAPON_CATEGORIES: string[] = [
-  'Ágeis',
-  'Versáteis',
-  'Brutas',
-  'Dominantes',
-  'Rápidas',
-  'Precisas',
-  'Devastadoras',
-  'Combate',
-  'Canalização',
-  'Ritualísticas',
+export type WeaponRangeGroup = 'corpo-a-corpo' | 'distancia' | 'magica';
+
+export const WEAPON_RANGE_GROUP_LABELS: Record<WeaponRangeGroup, string> = {
+  'corpo-a-corpo': 'corpo a corpo',
+  distancia: 'distância',
+  magica: 'mágica',
+};
+
+export interface WeaponCategoryDef {
+  category: string;
+  group: WeaponRangeGroup;
+}
+
+export const WEAPON_CATEGORIES: WeaponCategoryDef[] = [
+  { category: 'Ágeis', group: 'corpo-a-corpo' },
+  { category: 'Versáteis', group: 'corpo-a-corpo' },
+  { category: 'Brutas', group: 'corpo-a-corpo' },
+  { category: 'Dominantes', group: 'corpo-a-corpo' },
+  { category: 'Rápidas', group: 'distancia' },
+  { category: 'Precisas', group: 'distancia' },
+  { category: 'Devastadoras', group: 'distancia' },
+  { category: 'Combate', group: 'magica' },
+  { category: 'Canalização', group: 'magica' },
+  { category: 'Ritualísticas', group: 'magica' },
 ];
 
 export const ARMOR_CATEGORIES: string[] = ['Leves', 'Médias', 'Pesadas'];

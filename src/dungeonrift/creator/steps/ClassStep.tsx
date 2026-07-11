@@ -25,8 +25,13 @@ export function ClassStep({ draft, dispatch }: StepProps) {
               <span className={`dr-badge ${c.status}`}>{c.status === 'completa' ? 'completa' : 'revisar'}</span>
             </h4>
             <p>{c.concept}</p>
-            <Link to={`/devlog/entry/${c.devlogSlug}`} onClick={(e) => e.stopPropagation()}>
-              ver regras
+            <Link
+              to={`/devlog/entry/${c.devlogSlug}`}
+              target="_blank"
+              rel="noreferrer"
+              onClick={(e) => e.stopPropagation()}
+            >
+              ver regras (abre em nova aba)
             </Link>
           </div>
         ))}

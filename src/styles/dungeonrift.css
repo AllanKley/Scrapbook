@@ -241,3 +241,195 @@
 .dr-slot-bar-fill.over {
   background: var(--color-highlight);
 }
+
+.dr-rank-track {
+  display: flex;
+  align-items: center;
+  margin: 16px 0;
+}
+
+.dr-rank-node-wrapper {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.dr-rank-node-wrapper:last-child {
+  flex: 0;
+}
+
+.dr-rank-node {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  font-family: var(--font-body);
+}
+
+.dr-rank-node-circle {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 3px solid var(--color-primary);
+  background: var(--color-card-background);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  color: var(--color-primary);
+}
+
+.dr-rank-node.done .dr-rank-node-circle {
+  background: var(--color-primary);
+  color: var(--color-secondary);
+}
+
+.dr-rank-node.current .dr-rank-node-circle {
+  border-color: var(--color-accent);
+  background: var(--color-accent);
+  color: var(--color-header);
+}
+
+.dr-rank-node-label {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--color-header);
+  white-space: nowrap;
+}
+
+.dr-rank-connector {
+  height: 3px;
+  flex: 1;
+  background: var(--color-primary);
+  margin: 0 4px 22px;
+}
+
+.dr-rank-connector.done {
+  background: var(--color-accent);
+}
+
+/* Printable character sheet: hidden on screen, shown only when printing/exporting to PDF. */
+.dr-print-sheet {
+  display: none;
+}
+
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  .dr-print-sheet,
+  .dr-print-sheet * {
+    visibility: visible;
+  }
+  .dr-print-sheet {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+}
+
+.dr-print-sheet {
+  font-family: Georgia, 'Times New Roman', serif;
+  color: #1a1a1a;
+  padding: 24px;
+}
+
+.dr-print-header h1 {
+  font-size: 2rem;
+  margin: 0;
+  border-bottom: 3px double #1a1a1a;
+  padding-bottom: 8px;
+}
+
+.dr-print-subtitle {
+  font-style: italic;
+  margin: 4px 0;
+}
+
+.dr-print-concept {
+  margin: 8px 0;
+}
+
+.dr-print-section {
+  margin-top: 16px;
+  page-break-inside: avoid;
+}
+
+.dr-print-section h2 {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-bottom: 2px solid #1a1a1a;
+  font-size: 1rem;
+  margin-bottom: 8px;
+}
+
+.dr-print-attribute-grid,
+.dr-print-resource-row {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.dr-print-attribute-box,
+.dr-print-resource-box {
+  border: 2px solid #1a1a1a;
+  border-radius: 8px;
+  padding: 8px 12px;
+  text-align: center;
+  min-width: 70px;
+}
+
+.dr-print-attribute-value {
+  display: block;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.dr-print-attribute-label {
+  display: block;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+}
+
+.dr-print-skill-columns {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.dr-print-skill-column {
+  flex: 1;
+  min-width: 140px;
+}
+
+.dr-print-skill-column h3 {
+  font-size: 0.9rem;
+  margin: 0 0 4px;
+  border-bottom: 1px solid #999;
+}
+
+.dr-print-skill-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.85rem;
+  padding: 2px 0;
+}
+
+.dr-print-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.dr-print-table th,
+.dr-print-table td {
+  border: 1px solid #999;
+  padding: 4px 8px;
+  text-align: left;
+  font-size: 0.85rem;
+}

@@ -1,16 +1,10 @@
-import { ARMOR_CATEGORIES, EQUIPPED_SLOT_CAPACITY, SHIELD_CATEGORIES, SLOT_COST, SUBESPACO_CAPACITY_PER_ESSENCIA, WEAPON_CATEGORIES } from '../rules';
+import { CategorySelect, defaultCategoryFor } from '../CategorySelect';
+import { EQUIPPED_SLOT_CAPACITY, SLOT_COST, SUBESPACO_CAPACITY_PER_ESSENCIA } from '../rules';
 import type { Character, EquipmentItem, EquipmentKind, Tamanho } from '../types';
 
 interface EquipmentPanelProps {
   character: Character;
   onChange: (patch: Partial<Character>) => void;
-}
-
-function categoriesFor(kind: EquipmentKind): string[] {
-  if (kind === 'weapon') return WEAPON_CATEGORIES;
-  if (kind === 'armor') return ARMOR_CATEGORIES;
-  if (kind === 'shield') return SHIELD_CATEGORIES;
-  return [];
 }
 
 function generateId() {
@@ -35,7 +29,7 @@ export function EquipmentPanel({ character, onChange }: EquipmentPanelProps) {
       id: generateId(),
       name: '',
       kind: 'weapon',
-      category: WEAPON_CATEGORIES[0],
+      category: defaultCategoryFor('weapon'),
       tamanho: 'pequeno',
       location: 'equipped',
     };
@@ -83,7 +77,7 @@ export function EquipmentPanel({ character, onChange }: EquipmentPanelProps) {
             value={item.kind}
             onChange={(e) => {
               const kind = e.target.value as EquipmentKind;
-              updateItem(item.id, { kind, category: categoriesFor(kind)[0] ?? '' });
+              updateItem(item.id, { kind, category: defaultCategoryFor(kind) });
             }}
           >
             <option value="weapon">arma</option>
@@ -91,22 +85,7 @@ export function EquipmentPanel({ character, onChange }: EquipmentPanelProps) {
             <option value="shield">escudo</option>
             <option value="general">geral</option>
           </select>
-          {categoriesFor(item.kind).length > 0 ? (
-            <select value={item.category} onChange={(e) => updateItem(item.id, { category: e.target.value })}>
-              {categoriesFor(item.kind).map((cat) => (
-                <option key={cat} value={cat}>
-                  {cat}
-                </option>
-              ))}
-            </select>
-          ) : (
-            <input
-              type="text"
-              placeholder="categoria"
-              value={item.category}
-              onChange={(e) => updateItem(item.id, { category: e.target.value })}
-            />
-          )}
+          <CategorySelect kind={item.kind} value={item.category} onChange={(category) => updateItem(item.id, { category })} />
           <select value={item.tamanho} onChange={(e) => updateItem(item.id, { tamanho: e.target.value as Tamanho })}>
             <option value="pequeno">pequeno (1)</option>
             <option value="medio">médio (1)</option>

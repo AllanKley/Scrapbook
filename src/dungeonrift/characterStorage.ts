@@ -40,9 +40,9 @@ function isValidCharacter(value: unknown): value is Character {
   );
 }
 
-/** No-op today — the seam exists so the first real rules-schema change isn't also the first migration ever written. */
+/** Backfills fields added after a character may have already been saved. */
 function migrateCharacter(raw: Character): Character {
-  return raw;
+  return { ...raw, rank: raw.rank ?? 'despertar' };
 }
 
 function generateId(): string {
@@ -189,6 +189,7 @@ export function createBlankCharacter(name = 'Novo Personagem'): Character {
       sutileza: 'iniciante',
       estabilidade: 'iniciante',
     },
+    rank: 'despertar',
     classKey: null,
     domainKey: null,
     patronos: [],

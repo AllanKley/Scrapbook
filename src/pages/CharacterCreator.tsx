@@ -60,6 +60,7 @@ export function CharacterCreator() {
     const character = createCharacter({
       name: draft.name.trim() || 'Personagem sem nome',
       concept: draft.concept,
+      rank: 'despertar',
       attributes: draft.attributes,
       skills,
       classKey: draft.classKey,
