@@ -5,11 +5,17 @@ export function Home() {
   return (
     <>
       <AnimatedSection direction="top" className="hero">
-        <h1>hey, i'm allan.</h1>
-        <p>
-          this is my little corner of the internet for showing friends the stuff i'm into &mdash; ranked
-          opinions, works in progress, and whatever ttrpg system i'm currently breaking and rebuilding.
-        </p>
+        <div>
+          <h1>hey, i'm allan.</h1>
+          <p>
+            this is my little corner of the internet for showing friends the stuff i'm into &mdash; ranked
+            opinions, works in progress, and whatever <span className="hero-highlight">ttrpg system</span> i'm
+            currently breaking and rebuilding.
+          </p>
+        </div>
+        <div className="hero-portrait">
+          <img src="images/profile-hero.png" alt="pixel art portrait of allan" />
+        </div>
       </AnimatedSection>
 
       <AnimatedSection direction="left" className="card-grid">

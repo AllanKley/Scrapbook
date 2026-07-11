@@ -16,5 +16,5 @@
     "md": "0px",
     "lg": "0px"
   },
-  "shadowsEnabled": false
+  "shadowsEnabled": true
 }
