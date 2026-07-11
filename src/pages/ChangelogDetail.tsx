@@ -1,6 +1,6 @@
 import { useParams } from 'react-router-dom';
 import { AnimatedSection } from '../components/shared/AnimatedSection';
-import { BackLink } from '../components/shared/BackLink';
+import { PageHeading } from '../components/shared/PageHeading';
 import { InPageMarkdown } from '../components/shared/InPageMarkdown';
 import { getChangelogEntryBySlug } from '../content-loaders/loadDevlogEntries';
 
@@ -11,16 +11,18 @@ export function ChangelogDetail() {
   if (!entry) {
     return (
       <AnimatedSection direction="top">
-        <BackLink to="/devlog" label="back to devlog" />
-        <h2 className="section-heading">version not found</h2>
+        <PageHeading backTo="/devlog" backLabel="back to devlog">
+          version not found
+        </PageHeading>
       </AnimatedSection>
     );
   }
 
   return (
     <AnimatedSection direction="top">
-      <BackLink to="/devlog" label="back to devlog" />
-      <h2 className="section-heading">v{entry.frontmatter.version}</h2>
+      <PageHeading backTo="/devlog" backLabel="back to devlog">
+        v{entry.frontmatter.version}
+      </PageHeading>
       <p style={{ opacity: 0.7 }}>
         {entry.frontmatter.date}
         {entry.frontmatter.previousVersion ? ` · since v${entry.frontmatter.previousVersion}` : ''}

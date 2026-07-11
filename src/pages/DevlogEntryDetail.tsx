@@ -1,6 +1,6 @@
 import { useParams } from 'react-router-dom';
 import { AnimatedSection } from '../components/shared/AnimatedSection';
-import { BackLink } from '../components/shared/BackLink';
+import { PageHeading } from '../components/shared/PageHeading';
 import { InPageMarkdown } from '../components/shared/InPageMarkdown';
 import { getDevlogEntryBySlug } from '../content-loaders/loadDevlogEntries';
 
@@ -11,16 +11,18 @@ export function DevlogEntryDetail() {
   if (!entry) {
     return (
       <AnimatedSection direction="top">
-        <BackLink to="/devlog" label="back to devlog" />
-        <h2 className="section-heading">entry not found</h2>
+        <PageHeading backTo="/devlog" backLabel="back to devlog">
+          entry not found
+        </PageHeading>
       </AnimatedSection>
     );
   }
 
   return (
     <AnimatedSection direction="top">
-      <BackLink to="/devlog" label="back to devlog" />
-      <h2 className="section-heading">{entry.frontmatter.title}</h2>
+      <PageHeading backTo="/devlog" backLabel="back to devlog">
+        {entry.frontmatter.title}
+      </PageHeading>
       <p style={{ opacity: 0.7 }}>
         {entry.frontmatter.date}
         {entry.frontmatter.version ? ` · v${entry.frontmatter.version}` : ''}

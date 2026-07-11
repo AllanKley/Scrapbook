@@ -1,7 +1,7 @@
 import { useReducer, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { AnimatedSection } from '../components/shared/AnimatedSection';
-import { BackLink } from '../components/shared/BackLink';
+import { PageHeading } from '../components/shared/PageHeading';
 import { createCharacter } from '../dungeonrift/characterStorage';
 import { SKILLS } from '../dungeonrift/rules';
 import { createInitialDraft, creatorReducer } from '../dungeonrift/creator/creatorReducer';
@@ -79,8 +79,9 @@ export function CharacterCreator() {
 
   return (
     <AnimatedSection direction="top">
-      <BackLink to="/devlog/personagens" label="back to personagens" />
-      <h2 className="section-heading">criar personagem</h2>
+      <PageHeading backTo="/devlog/personagens" backLabel="back to personagens">
+        criar personagem
+      </PageHeading>
 
       <div className="dr-wizard-steps">
         {STEPS.map((step, i) => (

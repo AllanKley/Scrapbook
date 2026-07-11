@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import { AnimatedSection } from '../components/shared/AnimatedSection';
-import { BackLink } from '../components/shared/BackLink';
+import { PageHeading } from '../components/shared/PageHeading';
 import { deleteCharacter, exportCharacterToFile, getCharacter, updateCharacter } from '../dungeonrift/characterStorage';
 import type { Character } from '../dungeonrift/types';
 import { AttributesPanel } from '../dungeonrift/sheet/AttributesPanel';
@@ -59,17 +59,19 @@ export function CharacterSheet() {
   if (!character) {
     return (
       <AnimatedSection direction="top">
-        <BackLink to="/devlog/personagens" label="back to personagens" />
-        <h2 className="section-heading">personagem não encontrado</h2>
+        <PageHeading backTo="/devlog/personagens" backLabel="back to personagens">
+          personagem não encontrado
+        </PageHeading>
       </AnimatedSection>
     );
   }
 
   return (
     <AnimatedSection direction="top">
-      <BackLink to="/devlog/personagens" label="back to personagens" />
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', flexWrap: 'wrap', gap: '12px' }}>
-        <h2 className="section-heading">{character.name}</h2>
+        <PageHeading backTo="/devlog/personagens" backLabel="back to personagens">
+          {character.name}
+        </PageHeading>
         <div style={{ display: 'flex', gap: '8px' }}>
           <button type="button" className="dr-btn ghost" onClick={handlePrint}>
             exportar PDF

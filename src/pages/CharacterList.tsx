@@ -1,7 +1,7 @@
 import { useRef, useState, type ChangeEvent } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { AnimatedSection } from '../components/shared/AnimatedSection';
-import { BackLink } from '../components/shared/BackLink';
+import { PageHeading } from '../components/shared/PageHeading';
 import { CLASSES } from '../dungeonrift/rules';
 import {
   deleteCharacter,
@@ -44,8 +44,9 @@ export function CharacterList() {
 
   return (
     <AnimatedSection direction="top">
-      <BackLink to="/devlog" label="back to Dungeon Rift" />
-      <h2 className="section-heading">personagens</h2>
+      <PageHeading backTo="/devlog" backLabel="back to Dungeon Rift">
+        personagens
+      </PageHeading>
       <p>
         fichas ficam salvas só neste navegador. exporte para um arquivo se quiser fazer backup ou mandar pro
         mestre.
