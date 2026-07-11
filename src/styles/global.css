@@ -228,6 +228,7 @@ a {
   display: flex;
   align-items: center;
   gap: 12px;
+  margin-top: 32px;
   margin-bottom: 8px;
 }
 
