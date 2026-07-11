@@ -1,6 +1,6 @@
 ---
 title: combate   regras gerais
-date: '2026-07-10'
+date: '2026-07-11'
 section: mecanicas
 sourceNote: mecanicas/combate - regras gerais.md
 ---
@@ -10,64 +10,76 @@ A maior parte das regras de combate segue as regras de D&D, com algumas modifica
 
 ---
 
-# Iniciativa
+# Escala de Efeito (valores em aberto)
+#todo
 
-Ao entrar em combate, **os personagens dos jogadores sempre agem primeiro**.
+> [!info] Por que labels em vez de números
+> Praticamente nenhum número de dano, cura, bônus ou penalidade neste sistema foi balanceado e finalizado ainda — nem os que já aparecem escritos como um valor específico (ex: "+2 RD", "1d6 de dano"). Pra deixar isso visualmente claro e fácil de ajustar depois, todo efeito ainda não-finalizado usa uma das labels abaixo em vez de um número ou de um "X" solto.
+>
+> Essa é a mesma convenção que [Dano](#/devlog/entry/armas) de arma, [Redução de Dano](#/devlog/entry/armaduras) e [Usos](#/devlog/entry/escudos) de escudo já usavam — só está sendo estendida pro resto do sistema (habilidades de Classe, Domínio, Patrono, Infusões, Condições) pra tudo ficar consistente.
 
-A ordem de ação entre eles segue o **sentido horário da mesa**, começando pelo jogador à esquerda do mestre. Essa ordem pode ser alterada entre sessões ou cenas simplesmente trocando os lugares na mesa.
+Use sempre uma destas quatro labels para qualquer dano, cura, bônus, penalidade, Redução de Dano, Pontos de Vida concedidos ou distância de deslocamento que ainda não tenha um número final:
 
-## Emboscada
+| Label | Uso típico |
+| --- | --- |
+| **Baixo** | Um efeito coadjuvante — um empurrão pequeno, um bônus discreto, dano incidental. |
+| **Médio** | O efeito padrão de uma habilidade — o "meio de tabela" na maioria dos casos. |
+| **Alto** | Um efeito que define a habilidade — o motivo pelo qual alguém escolheria essa opção. |
+| **Extremo** | Reservado para habilidades de Rank S, Primordial, ou capstones — o teto do sistema. |
 
-Quando um grupo é pego de surpresa, os personagens emboscados devem realizar um **teste de Percepção**.
-
-- **Sucesso:** age normalmente.
-- **Falha:** perde sua primeira rodada de combate.
+**O que continua com números reais, sem virar label:**
+- **[Alcances](#/devlog/entry/alcances)** — as categorias de alcance já vieram de medição direta e não mudam.
+- **Custos ou ganhos de PA e PE** — já são pequenos e estruturais (interagem com [Ritmo de Combate](#ritmo-de-combate) e Sobrecarga diretamente), então continuam como números fixos.
+- **Bônus e penalidades em Fortuna/Ruína** — já são valores discretos definidos pela própria mecânica de [Agouro](#/devlog/entry/testes-de-pericias) (rolar 1 dado extra por ponto), não uma questão de balanceamento de poder.
+- **Frequência de uso** ("1x por cena", "2x por descanso longo") — é uma decisão de estrutura da habilidade, não uma questão de balanceamento de poder.
 
 ---
 
-# Sobrecarga
-#duvida
-> Gostaria de remover o custo de Essência das habilidades de domínio (deixando tudo custando apenas PA), mas ainda não sei se dá pra manter mecânicas interessantes sem esse custo. Enquanto isso não for decidido, essa regra continua valendo.
+# Iniciativa
 
-A humanidade já não possui a mesma afinidade natural com a Essência. Séculos de afastamento fizeram com que seu uso deixasse de ser seguro, e todo corpo possui um limite para suportá-la.
+A forma como a primeira rodada de combate se organiza depende de como o combate começou. Existem duas situações possíveis: **Combate Planejado** e **Emboscada**.
 
-Cada personagem possui um **Limite de Essência**. Enquanto permanecer dentro desse limite, pode utilizar suas habilidades normalmente.
+Em ambos os casos, assim que a ordem entre os personagens dos jogadores é definida pela primeira vez, ela se mantém fixa até o fim do combate.
 
-Ao ultrapassar esse limite, o uso da Essência passa a representar um risco.
+## Combate Planejado
 
-Para **cada ponto de Essência gasto acima do limite**, role **1d4** imediatamente após utilizar a habilidade.
+Quando são os próprios jogadores que decidem iniciar o combate — atacando de propósito, fechando o cerco, entrando em uma sala já sabendo o que vão enfrentar — **os personagens dos jogadores sempre agem primeiro**.
 
-- Para cada resultado **1**, o personagem sofre **1 Ferimento**.
+A ordem de ação entre eles é de escolha livre do grupo. As criaturas controladas pelo mestre agem depois, na ordem que ele preferir.
 
-> Quanto mais você força seu corpo além de seus limites, maior o risco de sofrer consequências permanentes.
+## Emboscada
+
+Quando o grupo é pego de surpresa, **as criaturas do mestre agem primeiro**.
+
+Antes de qualquer ação dos jogadores, cada personagem realiza um teste de [Reflexo](#/devlog/entry/pericias):
+
+- **Sucesso:** o personagem age normalmente na primeira rodada, depois das criaturas.
+- **Falha:** o personagem perde a primeira rodada de combate.
+
+A partir da **segunda rodada**, todos os personagens passam a agir na ordem que preferirem.
 
 ---
 
 # Penalidade de Peso
 
-Diversos fatores podem impor **Penalidade de Peso**, como armaduras, escudos, mochilas carregadas ou até mesmo certos efeitos mágicos.
+> [!todo] Valores em aberto
+> As labels abaixo (veja [Escala de Efeito](#escala-de-efeito-valores-em-aberto)) ainda precisam virar números reais de penalidade. #todo
 
-Some todas as penalidades recebidas e compare o resultado com seus limites.
+Diversos fatores podem impor **Penalidade de Peso**, como armaduras, escudos, mochilas carregadas ou até mesmo certos efeitos mágicos. Cada item que impõe penalidade já vem marcado com um dos dois níveis abaixo — **Leve** ou **Severa** — ou com **Nenhuma**, se não impuser penalidade alguma.
 
-As penalidades são **cumulativas**.
+Existem apenas dois níveis de Penalidade de Peso. Para saber qual afeta seu personagem a qualquer momento, olhe para o item mais pesado entre tudo que está carregando (equipado ou nos slots de acesso rápido) e aplique **apenas** a penalidade dele.
 
-## Limites
-
-**Penalidade Leve:** `X + Ímpeto`
-
-**Penalidade Severa:** `X + Ímpeto`
+> As penalidades **não se somam**. Carregar um item de penalidade Severa junto com um de penalidade Leve? Vale a Severa. Dois itens de penalidade Leve? Vale a Leve. Só a pior penalidade entre os itens carregados conta.
 
 ## Penalidade Leve
 
-- `-X` em todos os testes baseados em graça.
+- Penalidade **Baixa** em todos os testes baseados em Graça.
 
 ## Penalidade Severa
 
-A cada `X` pontos acima do limite severo, aplique novamente todas as penalidades abaixo.
-
 - `-1 PA` por turno.
-- `-X` em todos os testes baseados em graça.
-- `-X` de Movimento por turno.
+- Penalidade **Média** em todos os testes baseados em Graça.
+- Penalidade **Média** de Movimento por turno.
 
 ---
 
@@ -82,3 +94,9 @@ Essa regra se aplica a qualquer ação ou habilidade, exceto quando sua descriç
 No início do próximo turno, todos os custos retornam ao valor inicial.
 
 > Essa regra incentiva o uso de diferentes ações e torna o combate mais dinâmico.
+
+---
+
+# Ações de Combate
+
+As ações básicas de combate (Atacar, Defender, Esquivar, Mover-se) foram centralizadas em [tipos de acoes](#/devlog/entry/tipos-de-acoes), já que também eram referenciadas espalhadas em [armas](#/devlog/entry/armas) e [escudos](#/devlog/entry/escudos).

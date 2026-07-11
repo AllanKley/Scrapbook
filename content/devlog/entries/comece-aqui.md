@@ -1,6 +1,6 @@
 ---
 title: Comece Aqui
-date: '2026-07-10'
+date: '2026-07-11'
 sourceNote: Comece Aqui.md
 ---
 #hub #índice
@@ -71,6 +71,7 @@ Este é um mundo que já se adaptou ao impossível, mas que ainda não entende o
 ## Combate
 - [combate - regras gerais](#/devlog/entry/combate-regras-gerais) — iniciativa, Sobrecarga de Essência, penalidade de peso e ritmo de combate.
 - [armas](#/devlog/entry/armas), [armaduras](#/devlog/entry/armaduras), [escudos](#/devlog/entry/escudos), [alcances](#/devlog/entry/alcances).
+- [infusoes](#/devlog/entry/infusoes) — melhorias elementais permanentes para armas, armaduras e escudos, pagas em Ecos.
 - [ferimentos](#/devlog/entry/ferimentos) — o que acontece quando um personagem chega a 0 PV.
 - [condições](#/devlog/entry/condicoes) — efeitos temporários como sangramento, veneno e atordoamento.
 
@@ -83,6 +84,7 @@ Este é um mundo que já se adaptou ao impossível, mas que ainda não entende o
 ## Economia
 - [ecos](#/devlog/entry/ecos) — a moeda que move o verdadeiro poder.
 - [comércio](#/devlog/entry/comercio) — estilo de vida e comércio arcano.
+- Veja também [infusoes](#/devlog/entry/infusoes), que é o que a maioria dos Ecos acaba financiando.
 
 ---
 

@@ -1,12 +1,12 @@
 ---
 title: Geografia Mundial
-date: '2026-07-10'
+date: '2026-07-11'
 sourceNote: Geografia Mundial.md
 ---
 #lore #mundo
 
 > [!info] Adaptado do RPG anterior
-> #adaptado #revisar
+> #adaptado #revisar #todo
 > Este documento vem da versão antiga do sistema (baseada em Percy Jackson, onde essas regiões eram ligadas a panteões reais) e foi adaptado para a lore atual. A ideia central — regiões de história e mito intensos viraram zonas de altíssima concentração de Dungeons, enquanto cidades "novas" viraram polos estáveis — encaixa muito bem com [lore_mundo](#/devlog/entry/lore-mundo) e com os Ecos Primordiais descritos em Ecos (Stonehenge, Pirâmides e cidades perdidas já são citados lá como fontes de Ecos Primordiais). Ainda assim, revise: alguns trechos tratavam divindades como literalmente reais, e eu suavizei essas partes para tratá-las como mito/folclore local em vez de fato — meça se concorda com essa leitura ou prefere reescrever.
 
 ---

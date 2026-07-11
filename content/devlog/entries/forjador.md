@@ -1,6 +1,6 @@
 ---
 title: forjador
-date: '2026-07-10'
+date: '2026-07-11'
 section: mecanicas/classes
 sourceNote: mecanicas/classes/forjador.md
 ---
@@ -11,20 +11,23 @@ Engenheiros místicos que moldam armas, armaduras e até o próprio corpo com ru
 # Habilidades
 
 > [!info] Sugestão de habilidades (rascunho, revisar)
-> Habilidades propostas a partir dos "Conceitos de Habilidade" e da nota de design já listados abaixo (infusões temporárias, alcance, arremesso retornável, runas em exploração/social). Ajuste nomes, custos e valores numéricos (X) conforme o restante do sistema for fechado.
+> Habilidades propostas a partir dos "Conceitos de Habilidade" e da nota de design já listados abaixo (infusões temporárias, alcance, arremesso retornável, runas em exploração/social). Ajuste nomes, custos e valores numéricos (X) conforme o restante do sistema for fechado. #todo
 
 ## Criação Perfeita
 
 #despertar
 
-1 PA. Você grava uma Runa temporária em uma arma, armadura ou objeto em alcance de toque, escolhendo um efeito:
+1 PA. Você grava uma Runa temporária em uma arma, armadura ou objeto em [alcance de toque](#/devlog/entry/alcances), escolhendo um efeito:
 
-- **Runa de Corte:** o próximo ataque realizado com este item causa +1d6 de dano.
+- **Runa de Corte:** o próximo ataque realizado com este item causa dano **Médio** adicional.
 - **Runa de Alcance:** o alcance de ataques com este item aumenta em 1 categoria até o fim do turno.
 - **Runa de Retorno:** se este item for arremessado, ele retorna à mão de quem o usou imediatamente após o ataque.
 - **Runa de Escuta:** enquanto gravada em qualquer objeto, permite ouvir tudo ao redor dele à distância, por 1 cena.
 
 Você pode manter apenas 1 Runa ativa por vez, a menos que uma habilidade diga o contrário. Runas gravadas em seus próprios equipamentos duram o dobro do tempo normal.
+
+> [!note] Sinergia com Infusões
+> Diferente de um artesão comum, você pode realizar [Infusões](#/devlog/entry/infusoes) permanentes sozinho, sem depender de uma Guilda ou de um artesão independente — sua Criação Perfeita é o que outras classes chamariam de processo de Infusão. Isso não muda o custo em Ecos nem os requisitos de Rank para usar o item, só remove a necessidade de um terceiro.
 
 ---
 
@@ -40,7 +43,7 @@ Passivo. Ao examinar uma arma, armadura ou construto por alguns instantes, você
 
 #rank_d
 
-1 PA • 1 PE. Toque uma armadura ou escudo em alcance de toque e restaure 1 Uso perdido, ou conceda +2 de Redução de Dano a ele até o fim da cena.
+1 PA • 1 PE. Toque uma armadura ou escudo em [alcance de toque](#/devlog/entry/alcances) e restaure 1 Uso perdido, ou conceda Redução de Dano **Baixa** a ele até o fim da cena.
 
 ---
 
@@ -56,7 +59,7 @@ Passivo. Você pode manter um número de Runas ativas simultaneamente igual ao s
 
 #rank_s
 
-1 PA • 2 PE. Transforme um item em alcance de toque em um Golem temporário do tamanho de uma criatura Média, que luta ao seu lado até o fim da cena ou até ser destruído. O Golem age no seu turno, usando seu atributo de Essência para testes de ataque e causando 2d6 de dano por golpe.
+1 PA • 2 PE. Transforme um item em [alcance de toque](#/devlog/entry/alcances) em um Golem temporário do tamanho de uma criatura Média, que luta ao seu lado até o fim da cena ou até ser destruído. O Golem age no seu turno, usando seu atributo de Essência para testes de ataque e causando dano **Médio** por golpe.
 
 ---
 

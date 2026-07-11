@@ -1,6 +1,6 @@
 ---
 title: selvagem
-date: '2026-07-10'
+date: '2026-07-11'
 section: mecanicas/classes
 sourceNote: mecanicas/classes/selvagem.md
 ---
@@ -18,14 +18,14 @@ Sua Essência se manifesta na forma de um companheiro animal espiritual. Sua apa
 
 O companheiro possui aproximadamente o tamanho de um cachorro, compreende ordens simples e permanece próximo de você, a menos que receba outra instrução. Ele é capaz de alcançar locais de difícil acesso para humanoides, atravessar passagens estreitas compatíveis com seu tamanho e manipular objetos simples. Além disso, pode carregar ou arrastar objetos de porte médio, como armas, ferramentas ou itens semelhantes, mas não objetos volumosos como baús, móveis ou criaturas.
 
-Você pode perceber o mundo através dos sentidos do companheiro enquanto ele estiver a até alcance longo de você.
+Você pode perceber o mundo através dos sentidos do companheiro enquanto ele estiver a até [alcance longo](#/devlog/entry/alcances) de você.
 
 Ao primeiro sinal de combate, o companheiro se funde automaticamente a você até o fim da cena. Durante a fusão, você recebe os seguintes benefícios:
 
-- +1d4 em rolagens de dano;
-- +5 de RD Física;
-- +2 em testes de Percepção;
-- +2 em deslocamento.
+- dano **Baixo** adicional em rolagens de dano;
+- Redução de Dano Física **Média**;
+- bônus **Baixo** em testes de Percepção;
+- deslocamento **Baixo** adicional.
 
 Seu corpo manifesta traços bestiais visíveis relacionados à forma do companheiro.
 
@@ -47,7 +47,7 @@ Seus sentidos são mais aguçados que o normal. Você recebe +1 Fortuna em teste
 
 #rank_d
 
-Seu companheiro animal passa a ser capaz de se comunicar mentalmente com você em alcance médio e é capaz de realizar tarefas mais complexas sem se perder.
+Seu companheiro animal passa a ser capaz de se comunicar mentalmente com você em [alcance médio](#/devlog/entry/alcances) e é capaz de realizar tarefas mais complexas sem se perder.
 
 ---
 
@@ -55,7 +55,7 @@ Seu companheiro animal passa a ser capaz de se comunicar mentalmente com você e
 
 #rank_b
 
-Você jamais se deixará ser uma presa, e quanto maior seu inimigo, mais focado você fica. Sempre que estiver lutando contra uma criatura de tamanho enorme ou colossal, todos os seus ataques terão um bônus de 1d6 dano.
+Você jamais se deixará ser uma presa, e quanto maior seu inimigo, mais focado você fica. Sempre que estiver lutando contra uma criatura de tamanho enorme ou colossal, todos os seus ataques terão dano **Médio** adicional.
 
 ---
 

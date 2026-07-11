@@ -1,6 +1,6 @@
 ---
 title: exploracao
-date: '2026-07-10'
+date: '2026-07-11'
 section: mecanicas
 sourceNote: mecanicas/exploracao.md
 ---
@@ -40,7 +40,7 @@ O objetivo não é fazer os jogadores passarem vários minutos procurando uma ch
 
 Em vez disso, o mestre deve fornecer automaticamente todas as informações necessárias para que o grupo possa continuar explorando.
 
-Testes de Investigação servem para descobrir:
+Testes de [Investigação](#/devlog/entry/pericias) servem para descobrir:
 
 - atalhos;
 - tesouros escondidos;
@@ -58,7 +58,7 @@ Dessa forma, quando os jogadores decidem deixar uma zona, eles podem fazê-lo co
 
 Mover-se entre Zonas de Interesse pode significar atravessar uma porta ou cruzar um grande pátio.
 
-Independentemente da distância percorrida, o principal fator considerado durante o deslocamento é a **furtividade**.
+Independentemente da distância percorrida, o principal fator considerado durante o deslocamento é a **[Furtividade](#/devlog/entry/pericias)**.
 
 ## Deslocamentos Curtos
 
@@ -76,11 +76,11 @@ Quando o deslocamento exige atravessar corredores, áreas abertas ou outros espa
 
 Caso façam isso:
 
-- realizam testes de Furtividade;
+- realizam testes de [Furtividade](#/devlog/entry/pericias);
 - gastam mais tempo para avançar;
-- permitem que o mestre realize rolagens de **Eventos Aleatórios**.
+- permitem que o mestre realize rolagens de **[Eventos Aleatórios](#/devlog/entry/eventos-aleatorios)**.
 
-Além disso, sempre que fizer sentido, o mestre pode solicitar testes de **Percepção** para detectar armadilhas ou outros perigos durante o trajeto.
+Além disso, sempre que fizer sentido, o mestre pode solicitar testes de **[Percepção](#/devlog/entry/pericias)** para detectar armadilhas ou outros perigos durante o trajeto.
 
 ---
 
@@ -113,9 +113,9 @@ Exemplos:
 
 Caso o percurso seja longo ou perigoso:
 
-- os jogadores realizam testes de Furtividade, se desejarem;
-- o mestre resolve eventuais Eventos Aleatórios;
-- testes de Percepção podem ser solicitados para detectar armadilhas.
+- os jogadores realizam testes de [Furtividade](#/devlog/entry/pericias), se desejarem;
+- o mestre resolve eventuais [Eventos Aleatórios](#/devlog/entry/eventos-aleatorios);
+- testes de [Percepção](#/devlog/entry/pericias) podem ser solicitados para detectar armadilhas.
 
 ---
 
@@ -164,7 +164,7 @@ Inicie uma nova etapa de exploração, retornando ao passo **1**.
 
 ### Montar Acampamento
 
-Consulte a seção **Montar Acampamento**.
+Consulte [Descanso Longo](#/devlog/entry/descanso) — montar acampamento é a forma mais comum de conseguir um.
 
 ---
 
@@ -172,6 +172,6 @@ Consulte a seção **Montar Acampamento**.
 
 O grupo permanece no local.
 
-Enquanto isso, o mestre inicia a contagem para os **Eventos Aleatórios** conforme a Volatilidade da área.
+Enquanto isso, o mestre inicia a contagem para os **[Eventos Aleatórios](#/devlog/entry/eventos-aleatorios)** conforme a Volatilidade da área.
 
 Após resolver os eventos decorrentes da espera, o grupo escolhe novamente como deseja prosseguir.

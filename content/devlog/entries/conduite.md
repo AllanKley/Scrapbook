@@ -1,6 +1,6 @@
 ---
 title: conduite
-date: '2026-07-10'
+date: '2026-07-11'
 section: mecanicas/classes
 sourceNote: mecanicas/classes/conduite.md
 ---
@@ -11,7 +11,7 @@ Avatares das forças naturais, capazes de moldar o campo de batalha como um fen�
 # Habilidades
 
 > [!info] Sugestão de habilidades (rascunho, revisar)
-> Habilidades propostas a partir do conceito da classe e do quadro (Excalidraw) abaixo. Removi "Magia Maleável" e "Sintonia Elemental" — pelo texto, elas parecem ter sido coladas da página do Apotecário por engano (mesmo template de elixires e de efígie/boneca vodu, sem nenhuma ligação com clima ou elementos). O quadro original do Conduíte já tinha um esboço de sistema de magia por pontos (elemento + forma + duração + efeito), então usei isso como base da habilidade central. Ajuste nomes, custos e valores numéricos (X) conforme o restante do sistema for fechado.
+> Habilidades propostas a partir do conceito da classe e do quadro (Excalidraw) abaixo. Removi "Magia Maleável" e "Sintonia Elemental" — pelo texto, elas parecem ter sido coladas da página do Apotecário por engano (mesmo template de elixires e de efígie/boneca vodu, sem nenhuma ligação com clima ou elementos). O quadro original do Conduíte já tinha um esboço de sistema de magia por pontos (elemento + forma + duração + efeito), então usei isso como base da habilidade central. Ajuste nomes, custos e valores numéricos (X) conforme o restante do sistema for fechado. #todo
 
 ## Convergência Elemental
 
@@ -30,8 +30,8 @@ Avatares das forças naturais, capazes de moldar o campo de batalha como um fen�
 - 3p — Lava: causa dano e cria uma área de Terreno Difícil que continua causando dano de Fogo.
 
 **Forma** (escolha 1)
-- 1p — Tiro: atinge 1 alvo em alcance médio.
-- 2p — Cone: atinge todos os alvos em uma área em cone de alcance curto.
+- 1p — Tiro: atinge 1 alvo em [alcance médio](#/devlog/entry/alcances).
+- 2p — Cone: atinge todos os alvos em uma área em cone de [alcance curto](#/devlog/entry/alcances).
 
 **Duração** (escolha 1)
 - 1p — Instantâneo: o efeito se resolve imediatamente.
@@ -39,7 +39,7 @@ Avatares das forças naturais, capazes de moldar o campo de batalha como um fen�
 
 **Efeito adicional** (opcional)
 - 2p — Cria Terreno Difícil na área.
-- 3p — Cria uma explosão que empurra as criaturas atingidas em 3 metros.
+- 3p — Cria uma explosão que empurra as criaturas atingidas uma distância **Baixa**.
 
 Você não pode repetir a mesma combinação de Elemento + Forma na mesma cena — a segunda tentativa falha automaticamente. Isso representa a natureza instável e irrepetível dos fenômenos que você canaliza.
 
@@ -57,9 +57,9 @@ Passivo. Você sente mudanças climáticas e fenômenos naturais antes que acont
 
 #rank_d
 
-Passivo. Você pode alterar sutilmente a temperatura, a umidade, a luminosidade ou a pressão do ar em alcance curto — o suficiente para um trovão distante, um vento repentino ou uma garoa fina, sem efeito mecânico direto.
+Passivo. Você pode alterar sutilmente a temperatura, a umidade, a luminosidade ou a pressão do ar em [alcance curto](#/devlog/entry/alcances) — o suficiente para um trovão distante, um vento repentino ou uma garoa fina, sem efeito mecânico direto.
 
-Uma vez por cena, use esse efeito a seu favor: você ou um aliado em alcance curto recebe +1 Fortuna em um teste de Intimidação ou Performance.
+Uma vez por cena, use esse efeito a seu favor: você ou um aliado em alcance curto recebe +1 Fortuna em um teste de [Intimidação](#/devlog/entry/pericias) ou [Performance](#/devlog/entry/pericias).
 
 ---
 
@@ -75,12 +75,12 @@ Passivo. Sempre que usar Convergência Elemental gastando o número máximo de P
 
 #rank_s
 
-1 PA • 2 PE. Uma vez por descanso longo, desate um fenômeno em escala total, afetando toda a área em alcance longo. Escolha uma opção:
+1 PA • 2 PE. Uma vez por descanso longo, desate um fenômeno em escala total, afetando toda a área em [alcance longo](#/devlog/entry/alcances). Escolha uma opção:
 
-- **Incêndio Florestal:** a área pega fogo. Toda criatura nela sofre 2d6 de dano de Fogo e recebe 1 stack de Sangramento a cada rodada em que permanecer dentro.
-- **Terremoto:** todas as criaturas na área são derrubadas e recebem 1 stack de Lentidão.
-- **Furacão:** todas as criaturas na área são empurradas até 6 metros na direção que você escolher e sofrem Desvantagem em testes de Percepção até o fim da cena.
-- **Nevasca:** a área se torna Terreno Difícil e todas as criaturas nela recebem 1 stack de Congelamento.
+- **Incêndio Florestal:** a área pega fogo. Toda criatura nela sofre dano de [Fogo](#/devlog/entry/condicoes) **Médio** e recebe 1 stack de [Sangramento](#/devlog/entry/condicoes) a cada rodada em que permanecer dentro.
+- **Terremoto:** todas as criaturas na área são derrubadas e recebem 1 stack de [Lentidão](#/devlog/entry/condicoes).
+- **Furacão:** todas as criaturas na área são empurradas uma distância **Média** na direção que você escolher e sofrem Desvantagem em testes de Percepção até o fim da cena.
+- **Nevasca:** a área se torna Terreno Difícil e todas as criaturas nela recebem 1 stack de [Congelamento](#/devlog/entry/condicoes).
 
 ---
 

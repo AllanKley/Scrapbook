@@ -4,6 +4,7 @@ export interface ThemeColors {
   accent: string;
   highlight: string;
   header: string;
+  cardBackground: string;
 }
 
 export interface ThemeRadii {

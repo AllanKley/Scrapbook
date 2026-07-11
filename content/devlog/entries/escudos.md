@@ -1,26 +1,14 @@
 ---
 title: escudos
-date: '2026-07-10'
+date: '2026-07-11'
 section: mecanicas
 sourceNote: mecanicas/escudos.md
 ---
 #combate
 
-Escudos permitem **anular completamente o dano** de um ataque, mas possuem durabilidade limitada.
+Escudos permitem **anular completamente o dano** de um ataque, mas possuem durabilidade limitada — veja [equipamentos](#/devlog/entry/equipamentos) para o que cada atributo (Manuseio, Tamanho, Penalidade de Peso, Usos, Atributo) significa, e [Defender](#/devlog/entry/tipos-de-acoes) para o processo completo de bloqueio.
 
-Quando for alvo de um ataque, você pode gastar **1 PA** para tentar bloqueá-lo.
-
-Para isso, faça um **teste do atributo do escudo** contra o **teste de ataque do inimigo**.
-
-- **Sucesso:** o dano do ataque é reduzido a **0**.
-- **Falha:** o ataque causa dano normalmente.
-- O **1 PA** é gasto independentemente do resultado.
-
-> A decisão de usar o escudo deve ser tomada **antes de saber quanto dano o ataque causaria**.
-
-Cada escudo possui um número limitado de **Usos** antes de quebrar.
-
-Escudos parcialmente danificados podem ser restaurados. *(Método de reparo a definir.)*
+Cada escudo possui um número limitado de **Usos** antes de quebrar. Escudos parcialmente danificados podem ser restaurados. *(Método de reparo a definir.)* #todo
 
 ---
 
@@ -29,10 +17,10 @@ Escudos parcialmente danificados podem ser restaurados. *(Método de reparo a de
 Pequenos e ágeis, dependem da precisão do usuário para bloquear ataques.
 
 > **Manuseio:** 1 mão  
-> **Tamanho:** 1 espaço  
+> **Tamanho:** Médio  
 > **Penalidade de Peso:** Nenhuma  
 > **Usos:** Poucos  
-> **Atributo:** Graça
+> **Atributo:** [Graça](#/devlog/entry/atributos)
 
 ---
 
@@ -41,10 +29,10 @@ Pequenos e ágeis, dependem da precisão do usuário para bloquear ataques.
 Projetados para um equilíbrio entre resistência e mobilidade.
 
 > **Manuseio:** 1 mão  
-> **Tamanho:** 2 espaços  
+> **Tamanho:** Grande  
 > **Penalidade de Peso:** Nenhuma  
 > **Usos:** Médios  
-> **Atributo:** Ímpeto
+> **Atributo:** [Ímpeto](#/devlog/entry/atributos)
 
 ---
 
@@ -53,7 +41,11 @@ Projetados para um equilíbrio entre resistência e mobilidade.
 Escudos robustos que suportam muitos impactos, mas exigem mais força e comprometem a mobilidade.
 
 > **Manuseio:** 1 mão  
-> **Tamanho:** 1 espaço  
-> **Penalidade de Peso:** 1  
+> **Tamanho:** Médio  
+> **Penalidade de Peso:** Leve  
 > **Usos:** Muitos  
-> **Atributo:** Ímpeto
+> **Atributo:** [Ímpeto](#/devlog/entry/atributos)
+
+---
+
+Qualquer escudo acima pode receber uma [Infusão](#/devlog/entry/infusoes) elemental — veja essa página para o processo e os efeitos disponíveis.

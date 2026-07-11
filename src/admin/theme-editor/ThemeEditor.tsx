@@ -11,6 +11,7 @@ const COLOR_LABELS: Record<keyof ThemeColors, string> = {
   accent: 'Accent',
   highlight: 'Highlight',
   header: 'Header',
+  cardBackground: 'Card background',
 };
 
 export function ThemeEditor() {

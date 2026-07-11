@@ -1,6 +1,6 @@
 ---
 title: malandro
-date: '2026-07-10'
+date: '2026-07-11'
 section: mecanicas/classes
 sourceNote: mecanicas/classes/malandro.md
 ---
@@ -11,7 +11,7 @@ Quebradores de regras da realidade, usando caos, truques e ilusões para dominar
 # Habilidades
 
 > [!info] Sugestão de habilidades (rascunho, revisar)
-> Habilidades propostas a partir do conceito da classe e das anotações do quadro abaixo. A Cartas na Manga foi montada em cima da ideia de "mecânica central de manipular probabilidades" (rolar dados no descanso longo e usá-los pra substituir outras rolagens, tipo o Portento do mago d&d). As outras seguem as ideias de ilusão/disfarce já listadas. Ajuste nomes, custos e valores numéricos (X) conforme o restante do sistema for fechado.
+> Habilidades propostas a partir do conceito da classe e das anotações do quadro abaixo. A Cartas na Manga foi montada em cima da ideia de "mecânica central de manipular probabilidades" (rolar dados no descanso longo e usá-los pra substituir outras rolagens, tipo o Portento do mago d&d). As outras seguem as ideias de ilusão/disfarce já listadas. Ajuste nomes, custos e valores numéricos (X) conforme o restante do sistema for fechado. #todo
 
 ## Cartas na Manga
 
@@ -19,7 +19,7 @@ Quebradores de regras da realidade, usando caos, truques e ilusões para dominar
 
 Você trapaceia até contra o destino. Ao concluir um descanso longo, role uma quantidade de d20 igual ao seu atributo de Astúcia (mínimo 1) e anote os resultados: essas são suas Cartas na Manga.
 
-A qualquer momento antes que uma rolagem de d20 seja feita — sua ou de qualquer criatura em alcance médio — você pode descartar uma Carta na Manga para definir o resultado daquele dado como o valor anotado, ignorando a rolagem normal. Você pode fazer isso mesmo fora do seu turno, sem gastar PA.
+A qualquer momento antes que uma rolagem de d20 seja feita — sua ou de qualquer criatura em [alcance médio](#/devlog/entry/alcances) — você pode descartar uma Carta na Manga para definir o resultado daquele dado como o valor anotado, ignorando a rolagem normal. Você pode fazer isso mesmo fora do seu turno, sem gastar PA.
 
 Cartas na Manga não utilizadas são perdidas ao final do dia.
 
@@ -37,7 +37,7 @@ Passivo. Gastando 10 minutos, você assume a aparência de qualquer pessoa que j
 
 #rank_d
 
-1 PA • 1 PE. Crie uma ilusão sensorial (visual e sonora) do tamanho de uma criatura Média em alcance curto. Ela pode se mover de forma simples — andar, gesticular, falar frases curtas — mas não interage fisicamente com nada nem causa dano.
+1 PA • 1 PE. Crie uma ilusão sensorial (visual e sonora) do tamanho de uma criatura Média em [alcance curto](#/devlog/entry/alcances). Ela pode se mover de forma simples — andar, gesticular, falar frases curtas — mas não interage fisicamente com nada nem causa dano.
 
 A ilusão persiste até ser tocada, atacada ou até o fim da cena. Uma criatura que desconfie pode fazer um teste de Investigação ou Percepção contra sua Enganação para perceber a farsa.
 
@@ -57,7 +57,7 @@ Além disso, ao gastar sua última Carta na Manga do dia, role imediatamente mai
 
 #rank_s
 
-1 PA • 2 PE. Escolha uma criatura em alcance médio que tenha acabado de rolar um d20. Force-a a rolar novamente e usar o pior resultado entre os dois.
+1 PA • 2 PE. Escolha uma criatura em [alcance médio](#/devlog/entry/alcances) que tenha acabado de rolar um d20. Force-a a rolar novamente e usar o pior resultado entre os dois.
 
 Antes de ver o novo resultado, você pode gastar quantas Cartas na Manga quiser para substituí-lo pelos valores anotados, na ordem que preferir.
 

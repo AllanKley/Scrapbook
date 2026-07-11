@@ -1,6 +1,6 @@
 ---
 title: ceifador
-date: '2026-07-10'
+date: '2026-07-11'
 section: mecanicas/classes
 sourceNote: mecanicas/classes/ceifador.md
 ---
@@ -16,7 +16,7 @@ Senhores do limiar entre vida e morte, transformando cadáveres e energia vital 
 
 Sua ligação com a morte permite aprisionar fragmentos de almas errantes e invocá-las temporariamente ao mundo físico. Essas almas podem assumir formas diferentes — esqueletos, espíritos, cadáveres reanimados ou aparições sombrias — mas todas contam como criaturas Médias sobrenaturais.
 
-Como 1 PA, você pode invocar uma Alma em um espaço adjacente a você ou um aliado em alcance curto. Esse custo não é afetado por Ritmo de Combate. Você pode manter simultaneamente um número máximo de Almas invocadas igual ao seu atributo de Essência. Todas as Almas desaparecem ao fim de um combate e você pode sacrificar almas livremente sem custo.
+Como 1 PA, você pode invocar uma Alma em um espaço adjacente a você ou um aliado em [alcance curto](#/devlog/entry/alcances). Esse custo *não é afetado por Ritmo de Combate*. Você pode manter simultaneamente um número máximo de Almas invocadas igual ao seu atributo de *Essência*. Todas as Almas desaparecem ao fim de um combate e você pode sacrificar almas livremente sem custo.
 
 Cada Alma ocupa um espaço adjacente ao alvo protegido e permanece vinculada a ele até ser destruída, movida ou dissipada. Por precisarem permanecer adjacentes, uma criatura não pode ser protegida por mais de 4 Almas ao mesmo tempo.
 
@@ -38,15 +38,15 @@ Ao tocar uma criatura morta você vê um fragmento de seus últimos momentos, de
 
 #rank_d
 
-Gastando 1 PA, você pode absorver uma alma invocada em alcance toque para recuperar 1d6 HP.
+Gastando 1 PA, você pode absorver uma alma invocada em [alcance toque](#/devlog/entry/alcances) para recuperar PV em uma quantidade **Baixa**.
 
 ---
 
-## Alimentado pela Morte
+## Alimentado pela Dor
 
 #rank_b
 
-Sempre que sofrer um ferimento, seu próximo ataque causa +1d8 de dano cumulativo.
+Sempre que sofrer um ferimento, seu próximo ataque causa dano **Baixo** adicional, cumulativo.
 
 ---
 

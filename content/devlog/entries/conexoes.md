@@ -1,6 +1,6 @@
 ---
 title: conexões
-date: '2026-07-10'
+date: '2026-07-11'
 section: mecanicas
 sourceNote: mecanicas/conexões.md
 ---
@@ -9,7 +9,7 @@ Conexões representam os laços que unem seu personagem ao mundo: guildas, organ
 ---
 
 > [!info] Adaptado do RPG anterior
-> #adaptado #revisar
+> #adaptado #revisar #todo
 > Este conteúdo vem da versão antiga do sistema (baseada em Percy Jackson, onde a mecânica se chamava "Tempo de Acampamento") e foi adaptado para a lore e as mecânicas atuais. Pontos que merecem uma segunda olhada:
 > - "Aptidões" virou "Perícias" e "acampamento" virou "guilda" em todo o texto.
 > - O texto original usava um único recurso chamado "Pontos de Superação" tanto para a recompensa por falhar um teste quanto para a ajuda de aliados. No sistema atual isso já existe separado: **Marcas de Esforço** (ganhas ao falhar um teste, veja [testes de pericias](#/devlog/entry/testes-de-pericias)) e **Pontos de Superação** (gastos por aliados em Ações Planejadas, veja [tipos de acoes](#/devlog/entry/tipos-de-acoes)). Adaptei cada menção para o recurso equivalente — confira se bateu certo.
@@ -72,7 +72,7 @@ Esses marcos não são apenas decorativos: servem para mostrar o progresso do ca
 >
 > **Passiva — Experiência de Batalha:** Você aperfeiçoou suas habilidades de batalha com muito treino e esforço. Pode rerolar qualquer rolagem inicial de ataque que resulte em 1. Isso não vale para explosões.
 >
-> **Desvantagem — Teimosia de Veterano:** Você é confiante em suas habilidades, às vezes até demais. Sempre que um aliado resolver te ajudar com Pontos de Superação, ele precisa gastar 2 pontos para cada 1 ponto que te conceder.
+> **Desvantagem — Teimosia de Veterano:** Você é confiante em suas habilidades, às vezes até demais. Sempre que um aliado resolver te ajudar com [Pontos de Superação](#/devlog/entry/tipos-de-acoes), ele precisa gastar 2 pontos para cada 1 ponto que te conceder.
 
 ---
 
@@ -85,4 +85,4 @@ Esses marcos não são apenas decorativos: servem para mostrar o progresso do ca
 >
 > **Passiva — Mentoria de Campo:** Seu tempo em campo é valioso, especialmente para ajudar os novatos. Uma vez por cena, você pode ajudar um companheiro em um teste de perícia em que você é treinado; ele rola o teste com Vantagem.
 >
-> **Desvantagem — Semi-Aposentado:** Seus dias de aventura descontrolada já passaram, e você ficou um pouco enferrujado. Só pode receber ajuda de Pontos de Superação em testes de perícias mentais (Astúcia e Encanto), não em físicas.
+> **Desvantagem — Semi-Aposentado:** Seus dias de aventura descontrolada já passaram, e você ficou um pouco enferrujado. Só pode receber ajuda de [Pontos de Superação](#/devlog/entry/tipos-de-acoes) em testes de perícias mentais ([Astúcia](#/devlog/entry/atributos) e [Encanto](#/devlog/entry/atributos)), não em físicas.

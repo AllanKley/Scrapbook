@@ -15,6 +15,7 @@ const CSS_VAR_MAP: Record<keyof SiteTheme['colors'], string> = {
   accent: '--color-accent',
   highlight: '--color-highlight',
   header: '--color-header',
+  cardBackground: '--color-card-background',
 };
 
 export function ThemeProvider({ children }: PropsWithChildren) {

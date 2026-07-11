@@ -1,6 +1,6 @@
 ---
 title: criacao de personagem
-date: '2026-07-10'
+date: '2026-07-11'
 section: mecanicas
 sourceNote: mecanicas/criacao de personagem.md
 ---
@@ -57,7 +57,7 @@ A distribuição dos atributos ajuda a definir os pontos fortes e as limitaçõe
 
 ---
 
-# templates/classe
+# [classe](#/devlog/entry/classe)
 
 A classe representa o treinamento, estilo de combate e conjunto principal de habilidades do personagem.
 
@@ -140,6 +140,9 @@ Dependendo das regras do sistema, isso pode incluir:
 
 Consulte as regras específicas para calcular cada recurso.
 
+> [!todo] Defesa e Evasão nunca foram definidas
+> "Defesa" e "Evasão" são citadas aqui e em algumas habilidades (Aprimorado, Espectro, [patrono](#/devlog/entry/patrono)) como se fossem testes ou valores calculáveis, mas nenhuma página define como calculá-las ou o que exatamente significam. #todo
+
 ---
 
 # Revisando a Ficha
@@ -164,7 +167,7 @@ Cada etapa da criação possui uma página própria com regras detalhadas:
 
 - [Atributos](#/devlog/entry/atributos)
 - [Perícias](#/devlog/entry/pericias)
-- templates/classe
+- [classe](#/devlog/entry/classe)
 - [Domínio](#/devlog/entry/dominio)
 - [Patrono](#/devlog/entry/patrono)
 - [Conexões](#/devlog/entry/conexoes)

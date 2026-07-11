@@ -1,6 +1,6 @@
 ---
 title: perícias
-date: '2026-07-10'
+date: '2026-07-11'
 section: mecanicas
 sourceNote: mecanicas/perícias.md
 ---

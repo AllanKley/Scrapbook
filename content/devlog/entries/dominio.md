@@ -1,6 +1,6 @@
 ---
 title: domínio
-date: '2026-07-10'
+date: '2026-07-11'
 section: mecanicas
 sourceNote: mecanicas/domínio.md
 ---
@@ -21,7 +21,7 @@ Os Bastiões são especialistas em proteger seus aliados e resistir ao perigo. E
 
 Você é o escudo da equipe, colocando-se entre seus aliados e qualquer ameaça.
 
-**Pontos de Vida:** **20 + 4 PV por nível**
+**Pontos de Vida:** inicial **Alta**, **Baixa** por nível.
 
 ### Habilidades
 
@@ -29,7 +29,7 @@ Você é o escudo da equipe, colocando-se entre seus aliados e qualquer ameaça.
 
 Quando um aliado em [alcance adjacente](#/devlog/entry/alcances) for alvo de um ataque, você pode redirecioná-lo para si.
 
-Reduza o dano recebido em **X**.
+Reduza o dano recebido em uma quantidade **Alta**.
 
 ---
 
@@ -67,7 +67,7 @@ Ela se estende em linha até [alcance curto](#/devlog/entry/alcances), impedindo
 
 Seu papel é permanecer de pé até o fim do combate, suportando danos que derrubariam qualquer outro.
 
-**Pontos de Vida:** **25 + 6 PV por nível**
+**Pontos de Vida:** inicial **Alta**, **Média** por nível.
 
 ### Habilidades
 
@@ -93,7 +93,7 @@ Enquanto possuir pelo menos **1 Ferimento**, você recebe **Redução de Dano 5*
 
 #### Rank B — *Pressão Constante* (Passivo)
 
-Você causa **+X de dano** para cada inimigo adjacente a você.
+Você causa dano **Baixo** adicional para cada inimigo adjacente a você.
 
 ---
 
@@ -111,7 +111,7 @@ Especialistas em manter o grupo funcionando. Seja restaurando aliados ou oferece
 
 Você canaliza a Essência para restaurar o equilíbrio físico e espiritual dos seus aliados.
 
-**Pontos de Vida:** **X + X PV por nível**
+**Pontos de Vida:** inicial **Média**, **Baixa** por nível.
 
 ### Habilidades
 
@@ -119,7 +119,7 @@ Você canaliza a Essência para restaurar o equilíbrio físico e espiritual dos
 
 Transfira Pontos de Vida entre criaturas em [alcance estendido](#/devlog/entry/alcances), incluindo você.
 
-Caso retire vida de um inimigo, o máximo transferido por ação é **X PV**.
+Caso retire vida de um inimigo, o máximo transferido por ação é uma quantidade **Alta** de PV.
 
 ---
 
@@ -133,21 +133,21 @@ Quando um aliado em [alcance curto](#/devlog/entry/alcances) chegar a **0 PV**, 
 
 Analise o fluxo de Essência de uma criatura.
 
-Enquanto mantiver essa análise, receba **+X** em testes de **Intuição** e **Persuasão** contra ela.
+Enquanto mantiver essa análise, receba um bônus **Baixo** em testes de **Intuição** e **Persuasão** contra ela.
 
 ---
 
 #### Rank B — *Instinto Protetor* (Passivo)
 
-Enquanto estiver em [alcance estendido](#/devlog/entry/alcances) de um aliado que possua Ferimentos, seus ataques recebem **+X de dano**.
+Enquanto estiver em [alcance estendido](#/devlog/entry/alcances) de um aliado que possua [Ferimentos](#/devlog/entry/ferimentos), seus ataques recebem dano **Baixo** adicional.
 
 ---
 
-#### Rank S — *Infusão Vital* (1 PA • X PE)
+#### Rank S — *Infusão Vital* (1 PA • PE variável)
 
 Injete sua Essência em um aliado.
 
-- Cure **X PV** para cada PE gasto.
+- Cure uma quantidade **Baixa** de PV para cada PE gasto.
 - Alternativamente, gaste **2 PE** para remover **1 Ferimento**.
 
 ---
@@ -156,29 +156,29 @@ Injete sua Essência em um aliado.
 
 Seu maior poder é o conhecimento. Você identifica padrões, resolve problemas e encontra respostas onde ninguém mais consegue.
 
-**Pontos de Vida:** **X + X PV por nível**
+**Pontos de Vida:** inicial **Média**, **Baixa** por nível.
 
 ### Habilidades
 
-#### Despertar — *Conhecimento Paralelo* (X PA • X PE)
+#### Despertar — *Conhecimento Paralelo* (1 PA • 1 PE)
 
 Realize um teste utilizando uma perícia na qual você não é treinado como se fosse treinado.
 
 ---
 
-#### Rank F — *(A definir)*
+#### Rank F — *(A definir)* #todo
 
 ---
 
-#### Rank D — *(A definir)*
+#### Rank D — *(A definir)* #todo
 
 ---
 
-#### Rank B — *(A definir)*
+#### Rank B — *(A definir)* #todo
 
 ---
 
-#### Rank S — *(A definir)*
+#### Rank S — *(A definir)* #todo
 
 ---
 
@@ -190,13 +190,13 @@ Os Executores existem para eliminar ameaças rapidamente. Quanto mais tempo perm
 
 Sua presença em combate significa pressão constante e muito dano.
 
-**Pontos de Vida:** **X + X PV por nível**
+**Pontos de Vida:** inicial **Média**, **Baixa** por nível.
 
 ### Habilidades
 
 #### Despertar — *Retribuição* (Passivo)
 
-Sempre que atacar um inimigo que tenha causado dano a você desde seu último turno, receba **+X de dano**.
+Sempre que atacar um inimigo que tenha causado dano a você desde seu último turno, receba dano **Baixo** adicional.
 
 ---
 
@@ -210,17 +210,17 @@ Escolha a ordem das ações.
 
 #### Rank D — *Surto de Energia* (0 PA • 2 PE)
 
-Até o fim da rodada, você recebe **+X PA**.
+Até o fim da rodada, você recebe **+1 PA**.
 
 ---
 
 #### Rank B — *Foco Letal* (Passivo)
 
-Sempre que atingir o mesmo alvo em ataques consecutivos, receba **+X de dano**.
+Sempre que atingir o mesmo alvo em ataques consecutivos, receba dano **Baixo** adicional, cumulativo.
 
 O bônus termina ao errar um ataque ou trocar de alvo.
 
-**Máximo:** +X.
+**Máximo:** dano **Alto**.
 
 ---
 
@@ -236,13 +236,13 @@ Você escolhe um alvo — e ele não escapa.
 
 Seu poder cresce quando elimina inimigos isolados com rapidez e precisão.
 
-**Pontos de Vida:** **X + X PV por nível**
+**Pontos de Vida:** inicial **Média**, **Baixa** por nível.
 
 ### Habilidades
 
 #### Despertar — *Duelista* (Passivo)
 
-Ao atacar um inimigo que não possua aliados em [alcance curto](#/devlog/entry/alcances), adicione **XdX** ao dano.
+Ao atacar um inimigo que não possua aliados em [alcance curto](#/devlog/entry/alcances), adicione dano **Médio** ao ataque.
 
 ---
 
@@ -256,19 +256,19 @@ Na primeira rodada de cada combate, você recebe uma ação de Movimento gratuit
 
 Marque um inimigo em [alcance médio](#/devlog/entry/alcances).
 
-Enquanto permanecer marcado, todos os ataques contra ele recebem **+X no teste de ataque**.
+Enquanto permanecer marcado, todos os ataques contra ele recebem um bônus **Baixo** no teste de ataque.
 
 ---
 
 #### Rank B — *Fantasma* (Passivo)
 
-Receba **+X em Furtividade**.
+Receba um bônus **Médio** em Furtividade.
 
 Além disso, você pode repetir sua primeira tentativa de se esconder em cada cena.
 
 ---
 
-#### Rank S — *Finalizador* (X PA • X PE)
+#### Rank S — *Finalizador* (1 PA • 2 PE)
 
 Até o fim da rodada, seus ataques:
 
@@ -285,7 +285,7 @@ Especialistas controlam situações através de inteligência, influência e est
 
 Você é a voz do grupo. Resolve conflitos através da influência, manipulação e presença.
 
-**Pontos de Vida:** **X + X PV por nível**
+**Pontos de Vida:** inicial **Média**, **Baixa** por nível.
 
 ### Habilidades
 
@@ -309,11 +309,11 @@ Influencie um inimigo, alterando seu estilo de combate para um de sua escolha.
 
 ---
 
-#### Rank B — *(A definir)*
+#### Rank B — *(A definir)* #todo
 
 ---
 
-#### Rank S — *(A definir)*
+#### Rank S — *(A definir)* #todo
 
 ---
 
@@ -323,11 +323,11 @@ Você controla o ritmo da batalha.
 
 Movimentos, posicionamentos e oportunidades passam pelas suas mãos.
 
-**Pontos de Vida:** **X + X PV por nível**
+**Pontos de Vida:** inicial **Média**, **Baixa** por nível.
 
 ### Habilidades
 
-#### Despertar — *Olhar Analítico* (X PA • X PE)
+#### Despertar — *Olhar Analítico* (1 PA • 1 PE)
 
 Faça um teste para analisar um inimigo em [alcance médio](#/devlog/entry/alcances).
 
@@ -348,12 +348,12 @@ Aliados em [alcance curto](#/devlog/entry/alcances) recebem **+1 PA por rodada**
 
 ---
 
-#### Rank D — *(A definir)*
+#### Rank D — *(A definir)* #todo
 
 ---
 
-#### Rank B — *(A definir)*
+#### Rank B — *(A definir)* #todo
 
 ---
 
-#### Rank S — *(A definir)*
+#### Rank S — *(A definir)* #todo

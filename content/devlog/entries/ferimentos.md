@@ -1,6 +1,6 @@
 ---
 title: ferimentos
-date: '2026-07-10'
+date: '2026-07-11'
 section: mecanicas
 sourceNote: mecanicas/ferimentos.md
 ---
@@ -95,7 +95,7 @@ Seu corpo sofre danos permanentes.
 
 Caso seu PV Máximo seja reduzido a **0**, trate este resultado como um **Ferimento Fatal**.
 
-Este efeito só pode ser removido utilizando a ação **Recuperar Corpo** durante um Descanso Longo.
+Este efeito só pode ser removido utilizando a ação [Recuperar-se](#/devlog/entry/descanso) durante um [Descanso Longo](#/devlog/entry/descanso).
 
 ---
 
@@ -122,7 +122,7 @@ Além disso:
 
 Caso todos os seus atributos já estejam em **d4**, trate este resultado como um **Ferimento Fatal**.
 
-Este efeito só pode ser removido utilizando a ação **Recuperar Corpo** durante um Descanso Longo.
+Este efeito só pode ser removido utilizando a ação [Recuperar-se](#/devlog/entry/descanso) durante um [Descanso Longo](#/devlog/entry/descanso).
 
 ---
 
@@ -147,7 +147,7 @@ Você morrerá ao final da sua próxima rodada.
 Durante sua última rodada:
 
 - todas as suas rolagens possuem **Vantagem**;
-- você recebe **+X PA**.
+- você recebe **+2 PA**.
 
 Nada pode impedir sua morte após esse período.
 

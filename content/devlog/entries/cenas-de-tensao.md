@@ -1,6 +1,6 @@
 ---
 title: cenas de tensao
-date: '2026-07-10'
+date: '2026-07-11'
 section: mecanicas
 sourceNote: mecanicas/cenas de tensao.md
 ---
@@ -51,7 +51,9 @@ Além disso, falhas graves podem acelerar a situação, reduzindo imediatamente 
 
 ## 4. Escolha o Ritmo das Ações
 
-Durante cada rodada, cada personagem decide como irá agir.
+Durante cada rodada, cada personagem decide como irá agir — veja **Ritmo das Ações** abaixo.
+
+---
 
 # Ritmo das Ações
 

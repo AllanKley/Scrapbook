@@ -1,6 +1,6 @@
 ---
 title: ecos
-date: '2026-07-10'
+date: '2026-07-11'
 section: mecanicas
 sourceNote: mecanicas/ecos.md
 ---
@@ -13,6 +13,14 @@ Ele apenas esqueceu.
 Os **Ecos do Passado** são fragmentos desse esquecimento: vestígios condensados de uma época em que a Essência fluía livremente pelo mundo. Eles permanecem presos a lugares, criaturas e acontecimentos que um dia foram maiores do que são hoje.
 
 Um Eco não é apenas uma fonte de energia. É uma memória cristalizada.
+
+---
+
+## Elemento dos Ecos
+
+Todo Eco carrega um **Elemento**, refletido na criatura ou no local de onde ele foi retirado — um Eco tirado de dentro de uma criatura de fogo carrega Fogo; um Eco encontrado num santuário congelado carrega Gelo. O tier do Eco (Tênue, Manifesto, Ancestral, Primordial) e o Elemento juntos determinam o que ele pode fazer quando usado para [Infundir](#/devlog/entry/infusoes) um equipamento.
+
+Veja [infusoes](#/devlog/entry/infusoes) para a lista completa de Elementos e seus efeitos.
 
 ---
 
@@ -136,3 +144,8 @@ Algo que o mundo se recusou a esquecer.
 > Esses lugares não geram Ecos comuns.
 >
 > Eles geram lembranças que o próprio mundo se recusa a deixar desaparecer.
+
+---
+
+> [!todo] Falta tabela de preços
+> Nenhuma página define quantos Ecos custam itens ou serviços específicos (poções, armas, artesãos). #todo

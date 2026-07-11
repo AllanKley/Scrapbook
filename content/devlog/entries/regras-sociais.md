@@ -1,6 +1,6 @@
 ---
 title: regras sociais
-date: '2026-07-10'
+date: '2026-07-11'
 section: mecanicas
 sourceNote: mecanicas/regras sociais.md
 ---
@@ -75,7 +75,7 @@ Nem todo conflito social pode ser resolvido com uma única rolagem.
 
 Convencer um nobre a trair sua família, desmontar lentamente as defesas emocionais de alguém ou negociar um tratado entre facções são objetivos que exigem tempo, múltiplas abordagens e diversas conversas.
 
-Nesses casos, o Mestre pode utilizar um **Relógio de Progresso**, transformando o conflito em um **Teste Estendido**.
+Nesses casos, o Mestre pode utilizar um **Relógio de Progresso**, transformando o conflito em um **[Teste Estendido](#/devlog/entry/testes-de-pericias)**.
 
 ---
 
@@ -140,7 +140,7 @@ Esse método é propositalmente aberto e recompensa investigação, interpretaç
 
 ### Por Habilidades
 
-Algumas habilidades de Classe, Domínio ou Patrono permitem obter Alavancas de forma direta.
+Algumas habilidades de [Classe](#/devlog/entry/classe), [Domínio](#/devlog/entry/dominio) ou [Patrono](#/devlog/entry/patrono) permitem obter Alavancas de forma direta.
 
 Essas habilidades representam treinamento em leitura emocional, espionagem, manipulação, intimidação ou outras formas especializadas de influência social.
 

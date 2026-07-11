@@ -1,6 +1,6 @@
 ---
 title: testes de pericias
-date: '2026-07-10'
+date: '2026-07-11'
 section: mecanicas
 sourceNote: mecanicas/testes de pericias.md
 ---
@@ -166,7 +166,7 @@ Antes da nova tentativa, o mestre pode revelar parte das possíveis consequênci
 
 # Marcas de Esforço
 
-Sempre que você falhar em um teste de perícia — exceto **Luta**, **Precisão** e **Canalização** — receba **1 Marca de Esforço**.
+Sempre que você falhar em um teste de perícia — exceto **[Luta](#/devlog/entry/pericias)**, **[Precisão](#/devlog/entry/pericias)** e **[Canalização](#/devlog/entry/pericias)** — receba **1 Marca de Esforço**.
 
 Você pode gastar Marcas de Esforço para obter **Fortunas**, na proporção de **1 para 1**.
 

@@ -1,11 +1,12 @@
 {
   "name": "default-teal",
   "colors": {
-    "primary": "#8B5E3C",
-    "secondary": "#0A2947",
-    "accent": "#D3D4C0",
-    "highlight": "#4B5694",
-    "header": "#7288AE"
+    "primary": "#9c48ae",
+    "secondary": "#c2cce7",
+    "accent": "#86c6be",
+    "highlight": "#76a2c9",
+    "header": "#765fbc",
+    "cardBackground": "#fcfaf8"
   },
   "font": {
     "body": "Quicksand"

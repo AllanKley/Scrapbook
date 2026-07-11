@@ -1,6 +1,6 @@
 ---
 title: aprimorado
-date: '2026-07-10'
+date: '2026-07-11'
 section: mecanicas/classes
 sourceNote: mecanicas/classes/aprimorado.md
 ---
@@ -20,15 +20,15 @@ Gastando **1 PA**, você força seu corpo além dos próprios limites, acumuland
 
 Cada ativação concede, cumulativamente, até o fim da cena:
 
-- **+1d4** nas rolagens de dano.
-- **+2 m** de deslocamento.
-- **+2 RD Física**.
+- Dano **Baixo** adicional nas rolagens de dano.
+- Deslocamento **Baixo** adicional.
+- Redução de Dano **Baixa** adicional.
 
 Entretanto, cada ativação também impõe um preço:
 
-- Sofra **1d6 de dano**.
-- Receba **+1 Ruína** em testes de Defesa e Evasão.
-- Reduza seu **HP Máximo em 5** até o fim da cena.
+- Sofra dano **Baixo**.
+- Receba **+1 Ruína** em testes de Defesa e [Reflexo](#/devlog/entry/pericias).
+- Reduza seu PV Máximo em uma quantidade **Média** até o fim da cena.
 
 Você pode ativar Além do Limite dessa forma um número de vezes igual ao seu valor de **Ímpeto**.
 
@@ -60,7 +60,7 @@ Sempre que sofrer um **Ferimento**, recupere **1 PA** imediatamente.
 ## Corpo Blindado
 
 #rank_b
-#não_gosto_efeito
+#não_gosto_efeito #todo
 
 Seu corpo e sua mente resistem a adversidades que derrubariam outras pessoas.
 
@@ -72,7 +72,7 @@ Seu corpo e sua mente resistem a adversidades que derrubariam outras pessoas.
 ## Foco Brutal
 
 #rank_s
-#não_gosto_nome
+#não_gosto_nome #todo
 
 Você inicia cada rodada com agressividade máxima.
 
