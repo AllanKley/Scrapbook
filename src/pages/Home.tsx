@@ -9,7 +9,7 @@ export function Home() {
           <h1>hey, i'm allan.</h1>
           <p>
             this is my little corner of the internet for showing friends the stuff i'm into &mdash; ranked
-            opinions, works in progress, and whatever <span className="hero-highlight">ttrpg system</span> i'm
+            opinions, works in progress, and whatever <span className="text-highlight">ttrpg system</span> i'm
             currently breaking and rebuilding.
           </p>
         </div>

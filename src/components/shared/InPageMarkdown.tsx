@@ -2,6 +2,7 @@ import type { AnchorHTMLAttributes } from 'react';
 import ReactMarkdown from 'react-markdown';
 import rehypeSlug from 'rehype-slug';
 import remarkGfm from 'remark-gfm';
+import { remarkCallouts } from './remarkCallouts';
 
 // HashRouter owns the URL fragment for routing (#/devlog/entry/foo), so a
 // plain in-page anchor href like "#some-heading" can't be left to native
@@ -39,7 +40,11 @@ function MarkdownLink({ href, children, ...props }: AnchorHTMLAttributes<HTMLAnc
 
 export function InPageMarkdown({ children }: { children: string }) {
   return (
-    <ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeSlug]} components={{ a: MarkdownLink }}>
+    <ReactMarkdown
+      remarkPlugins={[remarkGfm, remarkCallouts]}
+      rehypePlugins={[rehypeSlug]}
+      components={{ a: MarkdownLink }}
+    >
       {children}
     </ReactMarkdown>
   );

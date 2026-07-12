@@ -94,7 +94,7 @@ a {
 .hero {
   display: grid;
   grid-template-columns: 1fr 260px;
-  align-items: end;
+  align-items: start;
   gap: 48px;
   padding: 64px 0 32px;
 }
@@ -111,7 +111,7 @@ a {
   max-width: 60ch;
 }
 
-.hero-highlight {
+.text-highlight {
   background: var(--color-accent);
   color: var(--color-header);
   padding: 1px 8px;
@@ -121,19 +121,13 @@ a {
 .hero-portrait {
   justify-self: center;
   align-self: end;
-  width: 220px;
-  height: 300px;
-  border: 3px solid var(--color-header);
-  background: var(--color-card-background);
-  box-shadow: calc(var(--shadow-strength) * 8px) calc(var(--shadow-strength) * 8px) 0 var(--color-header);
-  overflow: hidden;
+  width: 240px;
 }
 
 .hero-portrait img {
+  display: block;
   width: 100%;
-  height: 100%;
-  object-fit: contain;
-  object-position: center bottom;
+  height: auto;
   image-rendering: pixelated;
 }
 
@@ -352,6 +346,66 @@ a {
 .markdown-body td {
   border: 1px solid var(--color-primary);
   padding: 8px 12px;
+}
+
+.markdown-body strong {
+  background: var(--color-accent);
+  color: var(--color-header);
+  padding: 1px 6px;
+  font-weight: 700;
+}
+
+.callout {
+  --callout-color: var(--color-primary);
+  border: 2px solid var(--callout-color);
+  border-left-width: 6px;
+  background: var(--color-card-background);
+  padding: 14px 18px;
+  margin: 20px 0;
+  border-radius: var(--radius-sm);
+}
+
+.callout::before {
+  content: attr(data-callout-title);
+  display: block;
+  color: var(--callout-color);
+  font-weight: 700;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 8px;
+}
+
+.callout p {
+  margin: 0;
+}
+
+.callout p + p {
+  margin-top: 8px;
+}
+
+.callout-info {
+  --callout-color: var(--color-accent);
+}
+
+.callout-tip {
+  --callout-color: var(--color-highlight);
+}
+
+.callout-todo {
+  --callout-color: var(--color-header);
+}
+
+.callout-quote {
+  --callout-color: var(--color-header);
+  border-width: 0 0 0 4px;
+  background: none;
+  padding: 4px 18px;
+  font-style: italic;
+}
+
+.callout-quote::before {
+  content: none;
 }
 
 @media (max-width: 1000px) {
