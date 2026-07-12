@@ -1,0 +1,78 @@
+{
+  "slug": "top-10-comidas",
+  "title": "Top 10 Comidas",
+  "description": "",
+  "updatedAt": "2026-07-12",
+  "items": [
+    {
+      "rank": 1,
+      "title": "escondidinho de mandioca com carne seca",
+      "note": "",
+      "image": "content/top10/images/1783882060729-escondidinho.webp",
+      "link": null
+    },
+    {
+      "rank": 2,
+      "title": "sushi",
+      "note": "Dito isso a maior parte dos restaurantes de sushi são bem meh",
+      "image": "content/top10/images/1783882128626-receita-de-sushi.jpg",
+      "link": null
+    },
+    {
+      "rank": 3,
+      "title": "yakisoba",
+      "note": "",
+      "image": "content/top10/images/1783882105801-images.jpg",
+      "link": null
+    },
+    {
+      "rank": 4,
+      "title": "Salpicão",
+      "note": "Uva passa é essencial, meu prato favorito de natal",
+      "image": "content/top10/images/1783882601761-salpicao-de-frango-natal-betto-auge.avif",
+      "link": null
+    },
+    {
+      "rank": 5,
+      "title": "Sobá",
+      "note": "O de campo grande pra ser mais específico",
+      "image": "content/top10/images/1783882339802-Sob--da-Feirona-e1376856363244.jpg",
+      "link": null
+    },
+    {
+      "rank": 6,
+      "title": "Tábua de frios",
+      "note": "Não tenho auto controle",
+      "image": "content/top10/images/1783882685398-canopus_blog_segredos_montar_tabua_frios_embutidos_3e838ad88e.png",
+      "link": null
+    },
+    {
+      "rank": 7,
+      "title": "Tabbouleh",
+      "note": "Única salada que eu gosto de vdd",
+      "image": "content/top10/images/1783882224080-Tabule-Verde-6016x4016-1.webp",
+      "link": null
+    },
+    {
+      "rank": 8,
+      "title": "Enroladinho de salsicha",
+      "note": "Em todas as suas versões, desde os de beira de estrada que dão azia até a versão salgadinho de festa",
+      "image": "content/top10/images/1783885898936-9ae5e0c4c6cc31faac49283836601c0e.jpg",
+      "link": null
+    },
+    {
+      "rank": 9,
+      "title": "Pão de queijo frito",
+      "note": "mas é frito na hora, nçao pode esfriar",
+      "image": "content/top10/images/1783885997517-pao-de-queijo-frito.jpg",
+      "link": null
+    },
+    {
+      "rank": 10,
+      "title": "Misso shiro",
+      "note": "Gosto muito dessa sopinha sem graça",
+      "image": "content/top10/images/1783883045192-missoshiro-receita-mikami-asa-sul-brasilia.png",
+      "link": null
+    }
+  ]
+}

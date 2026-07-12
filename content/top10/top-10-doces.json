@@ -1,0 +1,78 @@
+{
+  "slug": "top-10-doces",
+  "title": "Top 10 Doces",
+  "description": "",
+  "updatedAt": "2026-07-12",
+  "items": [
+    {
+      "rank": 1,
+      "title": "Cheesecake basco",
+      "note": "Ou torta de requeijão. Sem calda ou com calda de frutas vermelhas",
+      "image": "content/top10/images/1783886639812-cheesecake-basco-1598548904437_v2_4x3.jpg",
+      "link": null
+    },
+    {
+      "rank": 2,
+      "title": "Mousse de limão",
+      "note": "Só o mousse é melhor do que uma torta de limão",
+      "image": "content/top10/images/1783886680256-images.jpg",
+      "link": null
+    },
+    {
+      "rank": 3,
+      "title": "Sorvete de manga com Tajin",
+      "note": "Do DiLido beach Bar. Eu PRECISO comprar Tajin pra tentar reproduzir",
+      "image": "content/top10/images/1783885015318-IMG_0178.jpg",
+      "link": null
+    },
+    {
+      "rank": 4,
+      "title": "Cookies",
+      "note": "Os macios tipo do Subway, não os de biscoito tipo Bauduco",
+      "image": "content/top10/images/1783886720758-images.jpg",
+      "link": null
+    },
+    {
+      "rank": 5,
+      "title": "Pudim",
+      "note": "O da bosch é especial",
+      "image": "content/top10/images/1783886747483-Pudim-de-Leite-Condensado-Sem-Ovos.webp",
+      "link": null
+    },
+    {
+      "rank": 6,
+      "title": "Creme de papaya com licor de cassis",
+      "note": "Faz muito tempo que não como mas é bom demais",
+      "image": "content/top10/images/1783886754223-creme-de-papaia-com-licor-de-cassis-1638464039514_v2_615x300.jpg",
+      "link": null
+    },
+    {
+      "rank": 7,
+      "title": "Pêssego em calda",
+      "note": "Isso é coisa de velho? Não sei, mas é bom",
+      "image": "content/top10/images/1783886775698-images.jpg",
+      "link": null
+    },
+    {
+      "rank": 8,
+      "title": "Doce de leite",
+      "note": "",
+      "image": null,
+      "link": null
+    },
+    {
+      "rank": 9,
+      "title": "Açaí",
+      "note": "Sem banana, sem leite ninho, Sem nada",
+      "image": "content/top10/images/1783886799865-images.jpg",
+      "link": null
+    },
+    {
+      "rank": 10,
+      "title": "Milkshake de chocolate",
+      "note": "",
+      "image": null,
+      "link": null
+    }
+  ]
+}
