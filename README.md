@@ -61,5 +61,10 @@ entry together.
 ## one-time setup
 
 - Repo Settings → Pages → Source: **GitHub Actions**.
-- `vite.config.ts` has `base: '/Scrapbook/'` for GitHub Pages project-page
-  hosting — update this if the repo is ever renamed.
+- Custom domain: `allankley.is-a.dev`, registered via a PR to
+  [is-a.dev](https://github.com/is-a-dev/register) (`domains/allankley.json`).
+  `public/CNAME` tells GitHub Pages to serve the site there instead of
+  `allankley.github.io/Scrapbook`.
+- `vite.config.ts` has `base: '/'` since the custom domain serves the site
+  from the root — this would need to go back to `/Scrapbook/` if the custom
+  domain were ever removed.

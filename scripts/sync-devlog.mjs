@@ -182,8 +182,9 @@ async function main() {
           await fs.copyFile(found, path.join(ATTACHMENTS_DIR, attachmentName));
         }
         copiedAttachments++;
-        // No leading slash: resolves relative to the deployed base path
-        // (e.g. /Scrapbook/) instead of the domain root.
+        // No leading slash: resolves relative to whatever base path the
+        // site is deployed under, so it keeps working whether that's the
+        // domain root or a GitHub Pages project-page subpath.
         body = body.replace(placeholder, `![${attachmentName}](content/devlog/attachments/${attachmentName})`);
       } else {
         console.warn(`  ! attachment not found for embed "${target}" in ${relSource}`);

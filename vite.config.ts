@@ -4,6 +4,6 @@ import adminFsPlugin from './vite-plugins/admin-fs-plugin.ts'
 
 // https://vite.dev/config/
 export default defineConfig(({ command }) => ({
-  base: '/Scrapbook/',
+  base: '/',
   plugins: [react(), ...(command === 'serve' ? [adminFsPlugin()] : [])],
 }))
