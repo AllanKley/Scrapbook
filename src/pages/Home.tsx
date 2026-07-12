@@ -3,7 +3,11 @@ import { AnimatedSection } from '../components/shared/AnimatedSection';
 
 export function Home() {
   return (
-    <>
+    <div className="home-hero-block">
+      <div className="hero-portrait">
+        <img src="images/profile-hero.png" alt="pixel art portrait of allan" />
+      </div>
+
       <AnimatedSection direction="top" className="hero">
         <div className="hero-copy">
           <h1>hey, i'm allan.</h1>
@@ -12,9 +16,6 @@ export function Home() {
             opinions, works in progress, and whatever <span className="text-highlight">ttrpg system</span> i'm
             currently breaking and rebuilding.
           </p>
-        </div>
-        <div className="hero-portrait">
-          <img src="images/profile-hero.png" alt="pixel art portrait of allan" />
         </div>
       </AnimatedSection>
 
@@ -28,6 +29,6 @@ export function Home() {
           <p>progress notes and changelogs for the tabletop system i'm designing.</p>
         </Link>
       </AnimatedSection>
-    </>
+    </div>
   );
 }

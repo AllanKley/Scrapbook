@@ -92,9 +92,12 @@ a {
   opacity: 0.8;
 }
 
-.hero {
+.home-hero-block {
   position: relative;
-  padding: 64px 0 32px;
+}
+
+.hero {
+  padding: 64px 380px 32px 0;
 }
 
 .hero-copy {
@@ -122,9 +125,10 @@ a {
 
 .hero-portrait {
   position: absolute;
-  top: 0;
+  top: 50%;
   right: 0;
-  width: 240px;
+  width: 340px;
+  transform: translateY(-50%);
 }
 
 .hero-portrait img {
@@ -135,10 +139,14 @@ a {
 }
 
 @media (max-width: 800px) {
-  .hero {
+  .home-hero-block {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  .hero {
+    padding-right: 0;
     text-align: center;
   }
 
@@ -150,6 +158,7 @@ a {
     position: static;
     order: -1;
     width: 200px;
+    transform: none;
     margin-bottom: 16px;
   }
 }
