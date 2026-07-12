@@ -113,7 +113,7 @@
 
 .admin-btn.primary {
   background: var(--color-accent);
-  color: var(--color-header);
+  color: var(--color-primary);
 }
 
 .admin-btn.danger {

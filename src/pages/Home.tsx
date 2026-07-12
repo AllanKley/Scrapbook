@@ -5,7 +5,7 @@ export function Home() {
   return (
     <>
       <AnimatedSection direction="top" className="hero">
-        <div>
+        <div className="hero-copy">
           <h1>hey, i'm allan.</h1>
           <p>
             this is my little corner of the internet for showing friends the stuff i'm into &mdash; ranked

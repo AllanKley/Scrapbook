@@ -18,7 +18,7 @@ export function SkillsPanel({ character, onChange }: SkillsPanelProps) {
       <h3>perícias</h3>
       {ATTRIBUTES.map((attr) => (
         <div key={attr.key} style={{ marginBottom: '12px' }}>
-          <p style={{ fontWeight: 700, margin: '0 0 4px', color: 'var(--color-header)' }}>{attr.label}</p>
+          <p style={{ fontWeight: 700, margin: '0 0 4px', color: 'var(--color-primary)' }}>{attr.label}</p>
           {SKILLS.filter((s) => s.attribute === attr.key).map((skill) => (
             <div key={skill.key} className="dr-skill-row">
               <span className="dr-label">{skill.label}</span>

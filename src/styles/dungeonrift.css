@@ -14,7 +14,7 @@
 .dr-btn.primary {
   background: var(--color-accent);
   border-color: var(--color-accent);
-  color: var(--color-header);
+  color: var(--color-primary);
 }
 
 .dr-btn.danger {
@@ -42,7 +42,7 @@
 .dr-field label {
   font-weight: 600;
   font-size: 0.9rem;
-  color: var(--color-header);
+  color: var(--color-primary);
 }
 
 .dr-field input[type='text'],
@@ -56,7 +56,7 @@
   box-sizing: border-box;
   width: 100%;
   background: var(--color-card-background);
-  color: var(--color-header);
+  color: var(--color-primary);
 }
 
 .dr-field textarea {
@@ -144,7 +144,7 @@
   padding: 10px 16px;
   border-radius: var(--radius-sm);
   background: var(--color-secondary);
-  color: var(--color-header);
+  color: var(--color-primary);
   font-weight: 600;
   margin-bottom: 16px;
 }
@@ -172,7 +172,7 @@
 
 .dr-wizard-steps span.current {
   background: var(--color-accent);
-  color: var(--color-header);
+  color: var(--color-primary);
   opacity: 1;
   font-weight: 700;
 }
@@ -291,13 +291,13 @@
 .dr-rank-node.current .dr-rank-node-circle {
   border-color: var(--color-accent);
   background: var(--color-accent);
-  color: var(--color-header);
+  color: var(--color-primary);
 }
 
 .dr-rank-node-label {
   font-size: 0.8rem;
   font-weight: 600;
-  color: var(--color-header);
+  color: var(--color-primary);
   white-space: nowrap;
 }
 

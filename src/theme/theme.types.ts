@@ -3,7 +3,6 @@ export interface ThemeColors {
   secondary: string;
   accent: string;
   highlight: string;
-  header: string;
   cardBackground: string;
 }
 

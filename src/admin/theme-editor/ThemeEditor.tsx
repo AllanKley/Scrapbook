@@ -10,7 +10,6 @@ const COLOR_LABELS: Record<keyof ThemeColors, string> = {
   secondary: 'Secondary',
   accent: 'Accent',
   highlight: 'Highlight',
-  header: 'Header',
   cardBackground: 'Card background',
 };
 
