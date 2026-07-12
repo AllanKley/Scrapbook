@@ -1,8 +1,8 @@
 ---
 title: conduite
-date: '2026-07-11'
-section: mecanicas/classes
-sourceNote: mecanicas/classes/conduite.md
+date: '2026-07-12'
+section: mecanicas/criacao de personagem/classes
+sourceNote: mecanicas/criacao de personagem/classes/conduite.md
 ---
 Avatares das forças naturais, capazes de moldar o campo de batalha como um fenômeno climático vivo.
 

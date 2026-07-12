@@ -1,8 +1,8 @@
 ---
 title: patrono
-date: '2026-07-11'
-section: mecanicas
-sourceNote: mecanicas/patrono.md
+date: '2026-07-12'
+section: mecanicas/criacao de personagem
+sourceNote: mecanicas/criacao de personagem/patrono.md
 ---
 #criacao_de_personagem
 
@@ -15,19 +15,22 @@ Você não pode escolher o mesmo Patrono mais de uma vez.
 
 ---
 
-# Slots de Patrono por Rank
+# Progressão de Patrono
 
-Ao alcançar certos Ranks, você ganha um **slot** para escolher um novo Patrono de um tier específico. Esta é a única tabela que precisa mudar se você quiser alterar quando cada tier libera — o resto do documento não faz referência a Ranks.
+Diferente de Classe e Domínio, seus Patronos não avançam nos ranks "cheios" (F, E, D, C, B, A, S) — eles avançam nos seis ranks **F+, E+, D+, C+, B+ e A+** da escada de [Ranks](#/devlog/entry/progressao-de-personagem), um degrau intermediário entre cada dupla de ranks cheios. Esta é a única tabela que precisa mudar se você quiser alterar quando cada tier libera — o resto do documento não faz referência a Ranks.
 
-| Rank | Slot ganho |
-| --- | --- |
-| Despertar | +1 Patrono Menor |
-| Rank F | +1 Patrono Menor |
-| Rank D | +1 Patrono Menor · +1 Patrono Maior |
-| Rank B | +1 Patrono Maior |
-| Rank S | +1 Patrono Supremo |
+Em cada um desses ranks, você ganha **os dois benefícios abaixo ao mesmo tempo**:
 
-Ao longo de uma carreira completa, isso normalmente resulta em **3 Patronos Menores, 2 Patronos Maiores e 1 Patrono Supremo**.
+| Rank | Slot de Patrono ganho | Crescimento pessoal |
+| --- | --- | --- |
+| Rank F+ | +1 Patrono Menor | +1 em um atributo à escolha · 1 perícia sobe um nível de treinamento |
+| Rank E+ | +1 Patrono Menor | +1 em um atributo à escolha · 1 perícia sobe um nível de treinamento |
+| Rank D+ | +1 Patrono Menor | +1 em um atributo à escolha · 1 perícia sobe um nível de treinamento |
+| Rank C+ | +1 Patrono Maior | +1 em um atributo à escolha · 1 perícia sobe um nível de treinamento |
+| Rank B+ | +1 Patrono Maior | +1 em um atributo à escolha · 1 perícia sobe um nível de treinamento |
+| Rank A+ | +1 Patrono Supremo | +1 em um atributo à escolha · 1 perícia sobe um nível de treinamento |
+
+Ao longo de uma carreira completa, isso resulta em **3 Patronos Menores, 2 Patronos Maiores, 1 Patrono Supremo**, **+6 em atributos** (distribuídos como o jogador quiser, respeitando o teto de [7](#/devlog/entry/atributos)) e **6 subidas de nível de treinamento de perícia** — a mesma proporção de Patronos de antes, só redistribuída pelos ranks intermediários em vez de Despertar/F/D/B/S. O crescimento de atributo/perícia é sentido como a influência crescente dos próprios Patronos sobre o personagem, não como um sistema separado.
 
 ---
 
@@ -76,17 +79,17 @@ O trapaceiro que transforma erro em oportunidade. **Efeito:** uma vez por cena, 
 A aranha que venceu deuses maiores usando apenas astúcia. **Efeito:** uma vez por cena, repita um teste de Enganação ou Persuasão que tenha acabado de falhar.
 
 ### Curupira
-*Origem: florestas fora das Fraturas, folclore tupi (Brasil).*
+*Origem: florestas fora das Cicatrizes, folclore tupi (Brasil).*
 
 O guardião de pés virados para trás, protetor da mata contra quem a explora sem respeito. **Efeito:** uma vez por cena, faça raízes [Imobilizarem](#/devlog/entry/condicoes) um inimigo em [alcance curto](#/devlog/entry/alcances) (ele pode se soltar com um teste de Força ou Atletismo).
 
 ### Saci-Pererê
-*Origem: florestas fora das Fraturas, folclore brasileiro.*
+*Origem: florestas fora das Cicatrizes, folclore brasileiro.*
 
 O moleque de uma perna só, que aparece e desaparece em redemoinhos de vento. **Efeito:** uma vez por cena, desapareça de vista por 1 rodada ao se mover, reaparecendo em qualquer ponto do seu deslocamento.
 
 ### Iara
-*Origem: rios fora das Fraturas, folclore tupi (Brasil).*
+*Origem: rios fora das Cicatrizes, folclore tupi (Brasil).*
 
 A mãe-d'água cujo canto ninguém resiste. **Efeito:** uma vez por cena, force um inimigo em [alcance curto](#/devlog/entry/alcances) a um teste de [Resistência](#/devlog/entry/pericias) ou [Estabilidade](#/devlog/entry/pericias); se falhar, ele não pode atacar você até o fim do turno dele.
 
@@ -106,7 +109,7 @@ A ninfa condenada a repetir apenas o que ouve. **Efeito:** uma vez por cena, rep
 O espírito zombeteiro que transforma noites em confusão. **Efeito:** uma vez por cena, force um inimigo em [alcance curto](#/devlog/entry/alcances) a uma risada incontrolável — ele perde a próxima Reação disponível.
 
 ### Baba Yaga
-*Origem: florestas fora das Fraturas, folclore eslavo.*
+*Origem: florestas fora das Cicatrizes, folclore eslavo.*
 
 A bruxa da cabana de pernas de galinha, que testa todos que a procuram. **Efeito:** uma vez por cena, escolha uma perícia; se um inimigo falhar em um teste dessa perícia antes do fim da cena, ele recebe 1 Ruína em seu próximo teste.
 
@@ -157,7 +160,7 @@ O deus que derrotou o caos primordial Tiamat e reorganizou o mundo a partir dela
 Orixá do trovão, do fogo e da justiça implacável. **Efeito:** uma vez por cena, ao acertar um ataque, force o alvo a um teste de [Resistência](#/devlog/entry/pericias) ou sofrer [Atordoamento](#/devlog/entry/condicoes).
 
 ### Perun
-*Origem: florestas fora das Fraturas, folclore eslavo.*
+*Origem: florestas fora das Cicatrizes, folclore eslavo.*
 
 Deus supremo do trovão e protetor guerreiro. **Efeito:** +1 Fortuna em testes de ataque sempre que estiver chovendo ou houver tempestade na cena.
 

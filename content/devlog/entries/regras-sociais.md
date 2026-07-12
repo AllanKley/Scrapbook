@@ -1,6 +1,6 @@
 ---
 title: regras sociais
-date: '2026-07-11'
+date: '2026-07-12'
 section: mecanicas
 sourceNote: mecanicas/regras sociais.md
 ---

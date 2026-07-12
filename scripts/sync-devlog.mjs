@@ -83,12 +83,26 @@ function normalizeDate(value) {
   return value;
 }
 
+// Folders the vault owner uses to stash notes that aren't meant to be
+// published (drafts, scratch, homebrewery exports, etc). Matched
+// case-insensitively against every path segment under the vault root.
+const IGNORED_DIR_NAMES = new Set(['ignorar', 'ignore']);
+
+function isUnderIgnoredDir(relPath) {
+  return relPath
+    .split(path.sep)
+    .slice(0, -1)
+    .some((segment) => IGNORED_DIR_NAMES.has(segment.toLowerCase()));
+}
+
 async function walkMarkdownFiles(dir) {
   const entries = await fs.readdir(dir, { withFileTypes: true, recursive: true });
   const files = [];
   for (const entry of entries) {
     if (entry.isFile() && entry.name.toLowerCase().endsWith('.md')) {
       const base = entry.parentPath ?? entry.path ?? dir;
+      const relPath = path.relative(dir, path.join(base, entry.name));
+      if (isUnderIgnoredDir(relPath)) continue;
       files.push(path.join(base, entry.name));
     }
   }
@@ -100,6 +114,8 @@ async function findFileInVault(vaultDir, filename) {
   for (const entry of entries) {
     if (entry.isFile() && entry.name === filename) {
       const base = entry.parentPath ?? entry.path ?? vaultDir;
+      const relPath = path.relative(vaultDir, path.join(base, entry.name));
+      if (isUnderIgnoredDir(relPath)) continue;
       return path.join(base, entry.name);
     }
   }

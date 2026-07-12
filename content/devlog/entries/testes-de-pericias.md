@@ -1,6 +1,6 @@
 ---
 title: testes de pericias
-date: '2026-07-11'
+date: '2026-07-12'
 section: mecanicas
 sourceNote: mecanicas/testes de pericias.md
 ---
@@ -44,7 +44,7 @@ Seu bônus de perícia representa o quão bom você é em uma tarefa, independen
 
 Sempre que dois personagens tiverem objetivos diretamente conflitantes, realiza-se um Teste Oposto.
 
-Cada participante realiza um [Teste Simples](#teste-simples) utilizando a perícia apropriada para sua ação.
+Cada participante realiza um [Teste Simples](#teste-simples) utilizando a [perícia](#/devlog/entry/atributos) apropriada para sua ação.
 
 Quem obtiver o maior resultado vence o conflito.
 

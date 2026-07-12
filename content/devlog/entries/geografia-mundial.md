@@ -1,31 +1,32 @@
 ---
 title: Geografia Mundial
-date: '2026-07-11'
-sourceNote: Geografia Mundial.md
+date: '2026-07-12'
+section: world_building
+sourceNote: world_building/Geografia Mundial.md
 ---
 #lore #mundo
 
 > [!info] Adaptado do RPG anterior
 > #adaptado #revisar #todo
-> Este documento vem da versão antiga do sistema (baseada em Percy Jackson, onde essas regiões eram ligadas a panteões reais) e foi adaptado para a lore atual. A ideia central — regiões de história e mito intensos viraram zonas de altíssima concentração de Dungeons, enquanto cidades "novas" viraram polos estáveis — encaixa muito bem com [lore_mundo](#/devlog/entry/lore-mundo) e com os Ecos Primordiais descritos em Ecos (Stonehenge, Pirâmides e cidades perdidas já são citados lá como fontes de Ecos Primordiais). Ainda assim, revise: alguns trechos tratavam divindades como literalmente reais, e eu suavizei essas partes para tratá-las como mito/folclore local em vez de fato — meça se concorda com essa leitura ou prefere reescrever.
+> Este documento vem da versão antiga do sistema (baseada em Percy Jackson, onde essas regiões eram ligadas a panteões reais) e foi adaptado para a lore atual. A ideia central — regiões de história e mito intensos viraram zonas de altíssima concentração de Fraturas, enquanto cidades "novas" viraram polos estáveis — encaixa muito bem com [lore_mundo](#/devlog/entry/lore-mundo) e com os Ecos Primordiais descritos em [Ecos](#/devlog/entry/ecos) (Stonehenge, Pirâmides e cidades perdidas já são citados lá como fontes de Ecos Primordiais). Ainda assim, revise: alguns trechos tratavam divindades como literalmente reais, e eu suavizei essas partes para tratá-las como mito/folclore local em vez de fato — meça se concorda com essa leitura ou prefere reescrever.
 
 ---
 
-## Fraturas e Bases Estáveis
+## Cicatrizes e Bases Estáveis
 
-Nem toda Dungeon é um evento isolado. Em certas regiões do mundo — locais que já foram palco de impérios, templos e lendas na Primeira Era — a memória da Essência é tão forte que gera Dungeons maiores, mais numerosas e mais próximas de mito. Essas regiões são chamadas de **Fraturas**: zonas de altíssima concentração de Essência, cheias de Dungeons, Ecos raros e criaturas que a população local atribui a deuses e lendas antigas — mesmo que estudiosos da Essência saibam que se trata de memória, não de divindades reais.
+Nem toda Fratura é um evento isolado. Em certas regiões do mundo — locais que já foram palco de impérios, templos e lendas na Primeira Era — a memória da Essência é tão forte que gera Fraturas maiores, mais numerosas e mais próximas de mito. Essas regiões são chamadas de **Cicatrizes**: zonas de altíssima concentração de Essência, cheias de Fraturas, Ecos raros e criaturas que a população local atribui a deuses e lendas antigas — mesmo que estudiosos da Essência saibam que se trata de memória, não de divindades reais.
 
 Em contraste, cidades sem grande peso histórico ou mítico permaneceram relativamente livres da Essência. Essas **Bases Estáveis** se tornaram os grandes centros de poder do mundo pós-Rompimento: sede de guildas, governos e comércio.
 
-Quarenta anos depois do Rompimento, esse mapa já é bem conhecido. Guildas mantêm postos avançados nas bordas das maiores Fraturas, e caçadores relatam suas expedições ali como quem descreve um trabalho — ainda perigoso, mas familiar.
+Quarenta anos depois do Rompimento, esse mapa já é bem conhecido. Guildas mantêm postos avançados nas bordas das maiores Cicatrizes, e caçadores relatam suas expedições ali como quem descreve um trabalho — ainda perigoso, mas familiar.
 
 ---
 
 ### Europa
 
-**Grandes Fraturas**
+**Grandes Cicatrizes**
 - **Grécia (Atenas, Delfos, Olímpia):** epicentro da mitologia grega, com templos e oráculos, tornou-se um dos locais mais instáveis.
-- **Roma (Itália):** símbolo máximo de poder e religião antiga. O Coliseu e o Vaticano se sobrepõem como centro de fratura, irradiando Essência.
+- **Roma (Itália):** símbolo máximo de poder e religião antiga. O Coliseu e o Vaticano se sobrepõem como centro de cicatriz, irradiando Essência.
 - **Stonehenge (Inglaterra):** o círculo de pedras se transformou em uma fissura energética constante — e uma das maiores fontes de Ecos Primordiais do continente.
 
 **Bases Estáveis**
@@ -37,9 +38,9 @@ Quarenta anos depois do Rompimento, esse mapa já é bem conhecido. Guildas mant
 
 ### África
 
-**Grandes Fraturas**
-- **Vale do Nilo (Egito — Cairo, Luxor):** centro de adoração faraônica, com fraturas nos templos de Karnak e nas pirâmides de Gizé.
-- **Cartago (Tunísia):** antigo centro religioso e militar fenício, hoje partido por uma das fraturas mais profundas do continente.
+**Grandes Cicatrizes**
+- **Vale do Nilo (Egito — Cairo, Luxor):** centro de adoração faraônica, com cicatrizes nos templos de Karnak e nas pirâmides de Gizé.
+- **Cartago (Tunísia):** antigo centro religioso e militar fenício, hoje partido por uma das cicatrizes mais profundas do continente.
 - **Lagos de Dogon (Mali):** onde os mitos cosmogônicos africanos ganharam força com o Rompimento.
 
 **Bases Estáveis**
@@ -50,11 +51,11 @@ Quarenta anos depois do Rompimento, esse mapa já é bem conhecido. Guildas mant
 
 ### Ásia
 
-**Grandes Fraturas**
+**Grandes Cicatrizes**
 - **Índia (Varanasi, Kurukshetra):** palco de grandes mitos hindus, onde o selo estourou com intensidade.
 - **Xi'an (China):** cidade ancestral da Rota da Seda, carregando mitos taoístas e confucionistas.
 - **Monte Fuji (Japão):** reverenciado como divino, explodiu em Essência.
-- **Mesopotâmia (Iraque — Babilônia, Ur):** o berço das lendas sumérias, hoje uma das fraturas mais violentas do mundo.
+- **Mesopotâmia (Iraque — Babilônia, Ur):** o berço das lendas sumérias, hoje uma das cicatrizes mais violentas do mundo.
 
 **Bases Estáveis**
 - **Singapura:** modernidade extrema, poucos laços com mitologias antigas.
@@ -65,9 +66,9 @@ Quarenta anos depois do Rompimento, esse mapa já é bem conhecido. Guildas mant
 
 ### Américas
 
-**Grandes Fraturas**
+**Grandes Cicatrizes**
 - **México (Chichén Itzá, Teotihuacán):** as lendas maias e astecas deixaram marcas profundas.
-- **Cusco e Machu Picchu (Peru):** o coração do império inca, devastado por fraturas profundas.
+- **Cusco e Machu Picchu (Peru):** o coração do império inca, devastado por cicatrizes profundas.
 - **Ilha de Páscoa (Chile):** as estátuas Moai se tornaram guardiãs das fissuras energéticas.
 
 **Bases Estáveis**
@@ -79,7 +80,7 @@ Quarenta anos depois do Rompimento, esse mapa já é bem conhecido. Guildas mant
 
 ### Oceania
 
-**Grandes Fraturas**
+**Grandes Cicatrizes**
 - **Uluru (Austrália):** centro espiritual dos aborígenes, tornou-se uma fissura viva.
 - **Polinésia (Havaí, Tonga, Samoa):** marcada pelos mitos de Maui e dos deuses do oceano.
 
@@ -91,7 +92,7 @@ Quarenta anos depois do Rompimento, esse mapa já é bem conhecido. Guildas mant
 
 ## Consequência Cultural
 
-Regiões com fraturas profundas viraram **zonas perigosas**, cheias de monstros e Despertados instáveis, atraindo aventureiros, caçadores e estudiosos.
+Regiões com cicatrizes profundas viraram **zonas perigosas**, cheias de monstros e Despertados instáveis, atraindo aventureiros, caçadores e estudiosos.
 
 Bases estáveis se tornaram **centros de poder moderno**, abrigando governos, comércio e guildas, muitas vezes tentando controlar ou explorar as zonas instáveis.
 
@@ -100,16 +101,16 @@ Bases estáveis se tornaram **centros de poder moderno**, abrigando governos, co
 ## Estado Atual dos Continentes
 
 **Europa**
-A Europa é um mosaico de ruínas antigas e cidades vibrantes que lutam para sobreviver à sombra de seu próprio passado. As fraturas em Atenas, Roma e Stonehenge transformaram esses locais em zonas instáveis, onde criaturas de lenda caminham entre humanos e a Essência se derrama em tempestades imprevisíveis. Ainda assim, regiões como Paris, Berlim e Lisboa florescem como refúgios modernos, erguendo muralhas de ciência, diplomacia e comércio para resistir ao caos. A Europa vive em constante tensão entre a glória de seu passado mítico e a necessidade de estabilidade para o presente.
+A Europa é um mosaico de ruínas antigas e cidades vibrantes que lutam para sobreviver à sombra de seu próprio passado. As cicatrizes em Atenas, Roma e Stonehenge transformaram esses locais em zonas instáveis, onde criaturas de lenda caminham entre humanos e a Essência se derrama em tempestades imprevisíveis. Ainda assim, regiões como Paris, Berlim e Lisboa florescem como refúgios modernos, erguendo muralhas de ciência, diplomacia e comércio para resistir ao caos. A Europa vive em constante tensão entre a glória de seu passado mítico e a necessidade de estabilidade para o presente.
 
 **África**
-O continente africano pulsa com a memória de antigos faraós e divindades que a população nunca esqueceu. No Vale do Nilo, as pirâmides exalam uma Essência que distorce o tempo e o espaço, e Cartago tornou-se um campo de batalha eterno entre criaturas despertadas por essa memória. Em contrapartida, cidades como Cidade do Cabo e Nairóbi servem de polos estáveis, conectando o passado mítico ao futuro moderno. A África é hoje um território de contrastes: guardiã de algumas das fraturas mais intensas do mundo, mas também berço de comunidades resilientes que aprenderam a conviver com o legado que a Essência trouxe de volta.
+O continente africano pulsa com a memória de antigos faraós e divindades que a população nunca esqueceu. No Vale do Nilo, as pirâmides exalam uma Essência que distorce o tempo e o espaço, e Cartago tornou-se um campo de batalha eterno entre criaturas despertadas por essa memória. Em contrapartida, cidades como Cidade do Cabo e Nairóbi servem de polos estáveis, conectando o passado mítico ao futuro moderno. A África é hoje um território de contrastes: guardiã de algumas das cicatrizes mais intensas do mundo, mas também berço de comunidades resilientes que aprenderam a conviver com o legado que a Essência trouxe de volta.
 
 **Ásia**
-Nenhum continente foi tão violentamente marcado quanto a Ásia. Das terras sagradas da Índia às ruínas da Mesopotâmia, as fraturas explodiram em cataclismos que redesenharam geografias e transformaram montanhas e rios em condutos vivos de Essência. O Monte Fuji arde com um fogo espiritual que nunca se apaga, e Xi'an, outrora centro de impérios, tornou-se uma cidade onde lendas caminham de forma tangível. Porém, centros urbanos como Seul, Hong Kong e Singapura prosperam como bastiões de modernidade e tecnologia, sustentando-se como faróis de ordem em meio ao caos místico que assola o continente.
+Nenhum continente foi tão violentamente marcado quanto a Ásia. Das terras sagradas da Índia às ruínas da Mesopotâmia, as cicatrizes explodiram em cataclismos que redesenharam geografias e transformaram montanhas e rios em condutos vivos de Essência. O Monte Fuji arde com um fogo espiritual que nunca se apaga, e Xi'an, outrora centro de impérios, tornou-se uma cidade onde lendas caminham de forma tangível. Porém, centros urbanos como Seul, Hong Kong e Singapura prosperam como bastiões de modernidade e tecnologia, sustentando-se como faróis de ordem em meio ao caos místico que assola o continente.
 
 **Américas**
-As Américas carregam as cicatrizes de suas civilizações ancestrais. O México vive sob o peso das fraturas maias e astecas, onde pirâmides ecoam cantos de deuses famintos. Nos Andes, Machu Picchu e Cusco foram engolidas pela memória do império inca, transformando-se em labirintos vivos de pedra e magia. Já a Ilha de Páscoa tornou-se um enigma, guardada por moais que parecem vigiar algo além do horizonte. Mas no Norte, os Estados Unidos erguem-se como uma fortaleza estável, moldando uma identidade quase mítica própria para compensar a falta de raízes antigas. A estabilidade americana atraiu migrantes de todo o mundo, tornando-a uma potência cultural e política em meio à instabilidade global.
+As Américas carregam as cicatrizes de suas civilizações ancestrais. O México vive sob o peso das cicatrizes maias e astecas, onde pirâmides ecoam cantos de deuses famintos. Nos Andes, Machu Picchu e Cusco foram engolidas pela memória do império inca, transformando-se em labirintos vivos de pedra e magia. Já a Ilha de Páscoa tornou-se um enigma, guardada por moais que parecem vigiar algo além do horizonte. Mas no Norte, os Estados Unidos erguem-se como uma fortaleza estável, moldando uma identidade quase mítica própria para compensar a falta de raízes antigas. A estabilidade americana atraiu migrantes de todo o mundo, tornando-a uma potência cultural e política em meio à instabilidade global.
 
 **Oceania**
 Na Oceania, o sagrado e o selvagem colidem em um cenário de belezas mortais. Uluru tornou-se um vórtice espiritual, onde os cantos aborígenes ecoam como chamados vivos à Essência primordial. As ilhas da Polinésia, marcadas pelas lendas de Maui, tornaram-se mares perigosos e mágicos, onde monstros oceânicos emergem das profundezas. No entanto, cidades como Sydney e Wellington prosperam em relativa estabilidade, funcionando como portos seguros em um mar de instabilidade. A Oceania vive dividida entre o mito que a molda e o pragmatismo moderno que a sustenta.

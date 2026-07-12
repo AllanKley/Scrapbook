@@ -1,6 +1,6 @@
 ---
 title: combate   regras gerais
-date: '2026-07-11'
+date: '2026-07-12'
 section: mecanicas
 sourceNote: mecanicas/combate - regras gerais.md
 ---
@@ -73,12 +73,12 @@ Existem apenas dois níveis de Penalidade de Peso. Para saber qual afeta seu per
 
 ## Penalidade Leve
 
-- Penalidade **Baixa** em todos os testes baseados em Graça.
+- Penalidade **Baixa** em todos os testes baseados em [Graça](#/devlog/entry/atributos).
 
 ## Penalidade Severa
 
 - `-1 PA` por turno.
-- Penalidade **Média** em todos os testes baseados em Graça.
+- Penalidade **Média** em todos os testes baseados em [Graça](#/devlog/entry/atributos).
 - Penalidade **Média** de Movimento por turno.
 
 ---

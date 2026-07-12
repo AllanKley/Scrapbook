@@ -1,6 +1,6 @@
 ---
 title: eventos aleatorios
-date: '2026-07-11'
+date: '2026-07-12'
 section: mecanicas
 sourceNote: mecanicas/eventos aleatorios.md
 ---

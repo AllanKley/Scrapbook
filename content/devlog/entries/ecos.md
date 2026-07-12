@@ -1,8 +1,8 @@
 ---
 title: ecos
-date: '2026-07-11'
-section: mecanicas
-sourceNote: mecanicas/ecos.md
+date: '2026-07-12'
+section: world_building
+sourceNote: world_building/ecos.md
 ---
 # Ecos do Passado
 

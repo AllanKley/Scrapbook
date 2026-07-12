@@ -1,12 +1,12 @@
 ---
 title: armaduras
-date: '2026-07-11'
-section: mecanicas
-sourceNote: mecanicas/armaduras.md
+date: '2026-07-12'
+section: mecanicas/criacao de personagem/equipamentos
+sourceNote: mecanicas/criacao de personagem/equipamentos/armaduras.md
 ---
 #combate
 
-Armaduras reduzem passivamente o dano recebido, oferecendo maior proteção em troca de mobilidade e capacidade de carga — veja [equipamentos](#/devlog/entry/equipamentos) para o que cada atributo (Manuseio, Tamanho, Penalidade de Peso, Redução de Dano) significa.
+Armaduras reduzem passivamente o dano recebido, oferecendo maior proteção em troca de mobilidade e capacidade de carga — veja [_equipamentos](#/devlog/entry/equipamentos) para o que cada atributo (Manuseio, Tamanho, Penalidade de Peso, Redução de Dano) significa.
 
 ---
 
@@ -15,7 +15,7 @@ Armaduras reduzem passivamente o dano recebido, oferecendo maior proteção em t
 Oferecem proteção básica sem impor penalidades significativas, sendo ideais para combatentes que dependem de agilidade.
 
 > **Manuseio:** 1 mão  
-> **Tamanho:** 1 espaço  
+> **Tamanho:** Pequeno  
 > **Penalidade de Peso:** Nenhuma  
 > **Redução de Dano:** Baixa
 
@@ -26,7 +26,7 @@ Oferecem proteção básica sem impor penalidades significativas, sendo ideais p
 Equilibram proteção e mobilidade, sendo uma opção versátil para a maioria dos combatentes.
 
 > **Manuseio:** 1 mão  
-> **Tamanho:** 2 espaços  
+> **Tamanho:** Médio  
 > **Penalidade de Peso:** Leve  
 > **Redução de Dano:** Média
 
@@ -37,7 +37,7 @@ Equilibram proteção e mobilidade, sendo uma opção versátil para a maioria d
 Fornecem a maior proteção disponível, mas reduzem significativamente a mobilidade do usuário.
 
 > **Manuseio:** 1 mão  
-> **Tamanho:** 2 espaços  
+> **Tamanho:** Grande  
 > **Penalidade de Peso:** Severa  
 > **Redução de Dano:** Alta
 

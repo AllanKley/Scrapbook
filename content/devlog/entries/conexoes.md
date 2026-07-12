@@ -1,8 +1,8 @@
 ---
 title: conexões
-date: '2026-07-11'
-section: mecanicas
-sourceNote: mecanicas/conexões.md
+date: '2026-07-12'
+section: mecanicas/criacao de personagem
+sourceNote: mecanicas/criacao de personagem/conexões.md
 ---
 Conexões representam os laços que unem seu personagem ao mundo: guildas, organizações, governos, famílias, mestres, grupos religiosos ou até mesmo outros personagens.
 
@@ -12,13 +12,13 @@ Conexões representam os laços que unem seu personagem ao mundo: guildas, organ
 > #adaptado #revisar #todo
 > Este conteúdo vem da versão antiga do sistema (baseada em Percy Jackson, onde a mecânica se chamava "Tempo de Acampamento") e foi adaptado para a lore e as mecânicas atuais. Pontos que merecem uma segunda olhada:
 > - "Aptidões" virou "Perícias" e "acampamento" virou "guilda" em todo o texto.
-> - O texto original usava um único recurso chamado "Pontos de Superação" tanto para a recompensa por falhar um teste quanto para a ajuda de aliados. No sistema atual isso já existe separado: **Marcas de Esforço** (ganhas ao falhar um teste, veja [testes de pericias](#/devlog/entry/testes-de-pericias)) e **Pontos de Superação** (gastos por aliados em Ações Planejadas, veja [tipos de acoes](#/devlog/entry/tipos-de-acoes)). Adaptei cada menção para o recurso equivalente — confira se bateu certo.
+> - O texto original usava um único recurso chamado "Pontos de Superação" tanto para a recompensa por falhar um teste quanto para a ajuda de aliados. No sistema atual isso já existe separado: **Marcas de Esforço** (ganhas ao falhar um teste, veja [Marcas de Esforço](#/devlog/entry/testes-de-pericias)) e **Pontos de Superação** (gastos por aliados em Ações Planejadas, veja [Pontos de Superação](#/devlog/entry/tipos-de-acoes)). Adaptei cada menção para o recurso equivalente — confira se bateu certo.
 > - A passiva "Explosão Inesperada" pressupõe uma mecânica de dados explosivos que não existe no sistema atual (que usa 1d20 + bônus + Agouro). Decida se vale criar essa mecânica ou trocar a passiva por outra coisa.
 > - As duas tradições de marcação de tempo (colar de contas / tatuagens) vieram de dois acampamentos específicos do RPG antigo. Generalizei para "cada guilda tem sua tradição" — se quiser, pode amarrar isso a guildas específicas da sua lore.
 
 # Tempo de Guilda
 
-A vida de um caçador é cheia de desafios, desde monstros de Dungeon até situações imprevisíveis causadas pela própria Essência. Cada ano de serviço numa guilda deve ser comemorado, e cada guilda tem suas próprias tradições para marcar esse tempo — colares de contas, tatuagens rúnicas, insígnias de rank, entre outras.
+A vida de um caçador é cheia de desafios, desde monstros de Fratura até situações imprevisíveis causadas pela própria Essência. Cada ano de serviço numa guilda deve ser comemorado, e cada guilda tem suas próprias tradições para marcar esse tempo — colares de contas, tatuagens rúnicas, insígnias de rank, entre outras.
 
 Esses marcos não são apenas decorativos: servem para mostrar o progresso do caçador, refletindo experiência, maturidade e resiliência. No jogo, o Tempo de Guilda determina quantas perícias adicionais o personagem pode treinar, além de suas habilidades passivas e desvantagens relacionadas à experiência acumulada.
 

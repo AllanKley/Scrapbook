@@ -1,8 +1,8 @@
 ---
 title: criacao de personagem
-date: '2026-07-11'
-section: mecanicas
-sourceNote: mecanicas/criacao de personagem.md
+date: '2026-07-12'
+section: mecanicas/criacao de personagem
+sourceNote: mecanicas/criacao de personagem/_criacao de personagem.md
 ---
 Criar um personagem é mais do que preencher uma ficha. Durante esse processo você define sua identidade, habilidades, papel dentro do grupo e sua relação com o mundo.
 
@@ -18,12 +18,12 @@ A criação de personagem normalmente segue as seguintes etapas:
 
 1. Defina um conceito para o personagem.
 2. Distribua seus [atributos](#/devlog/entry/atributos).
-3. Escolha uma [classe](#/devlog/entry/classe).
+3. Escolha uma [_classe](#/devlog/entry/classe).
 4. Escolha um [domínio](#/devlog/entry/dominio).
 5. Selecione suas [perícias](#/devlog/entry/pericias).
 6. Escolha um [patrono](#/devlog/entry/patrono).
 7. Defina suas [conexões](#/devlog/entry/conexoes).
-8. Escolha seus [equipamentos](#/devlog/entry/equipamentos).
+8. Escolha seus [_equipamentos](#/devlog/entry/equipamentos).
 9. Calcule seus recursos iniciais.
 10. Revise a ficha.
 
@@ -47,7 +47,7 @@ Um conceito sólido facilita todas as escolhas posteriores.
 
 ---
 
-# [Atributos](#/devlog/entry/atributos)
+# [atributos](#/devlog/entry/atributos)
 
 Os atributos representam as capacidades fundamentais do personagem.
 
@@ -57,7 +57,7 @@ A distribuição dos atributos ajuda a definir os pontos fortes e as limitaçõe
 
 ---
 
-# [classe](#/devlog/entry/classe)
+# [_classe](#/devlog/entry/classe)
 
 A classe representa o treinamento, estilo de combate e conjunto principal de habilidades do personagem.
 
@@ -67,7 +67,7 @@ Duas pessoas da mesma classe ainda podem desempenhar funções completamente dif
 
 ---
 
-# [Domínio](#/devlog/entry/dominio)
+# [domínio](#/devlog/entry/dominio)
 
 O Domínio representa a especialização escolhida dentro da classe.
 
@@ -85,7 +85,7 @@ Essa combinação permite que uma mesma classe seja adaptada para diferentes est
 
 ---
 
-# [Perícias](#/devlog/entry/pericias)
+# [perícias](#/devlog/entry/pericias)
 
 Perícias representam treinamento, conhecimento e experiência em atividades específicas.
 
@@ -95,7 +95,7 @@ Sua escolha ajuda a diferenciar personagens que compartilham a mesma classe.
 
 ---
 
-# [Patrono](#/devlog/entry/patrono)
+# [patrono](#/devlog/entry/patrono)
 
 Durante sua jornada, personagens podem receber a bênção de entidades poderosas, tornando-se seus patronos.
 
@@ -105,7 +105,7 @@ Além das vantagens mecânicas, Patronos também possuem forte importância narr
 
 ---
 
-# [Conexões](#/devlog/entry/conexoes)
+# [conexões](#/devlog/entry/conexoes)
 
 Conexões representam os laços que unem seu personagem ao mundo.
 
@@ -115,7 +115,7 @@ Além de fornecer pequenos benefícios mecânicos, as Conexões servem como ferr
 
 ---
 
-# [Equipamentos](#/devlog/entry/equipamentos)
+# [_equipamentos](#/devlog/entry/equipamentos)
 
 Armas, armaduras e outros equipamentos determinam grande parte das capacidades do personagem em combate e exploração.
 
@@ -140,8 +140,10 @@ Dependendo das regras do sistema, isso pode incluir:
 
 Consulte as regras específicas para calcular cada recurso.
 
+Todo personagem começa no rank **Despertar**. Veja [Ranks](#/devlog/entry/progressao-de-personagem) para como a progressão funciona daqui em diante.
+
 > [!todo] Defesa e Evasão nunca foram definidas
-> "Defesa" e "Evasão" são citadas aqui e em algumas habilidades (Aprimorado, Espectro, [patrono](#/devlog/entry/patrono)) como se fossem testes ou valores calculáveis, mas nenhuma página define como calculá-las ou o que exatamente significam. #todo
+> "Defesa" e "Evasão" são citadas aqui e em algumas habilidades ([Aprimorado](#/devlog/entry/aprimorado), [Espectro](#/devlog/entry/espectro), [patrono](#/devlog/entry/patrono)) como se fossem testes ou valores calculáveis, mas nenhuma página define como calculá-las ou o que exatamente significam. #todo
 
 ---
 
@@ -165,10 +167,11 @@ Antes de iniciar a campanha, confirme que:
 
 Cada etapa da criação possui uma página própria com regras detalhadas:
 
-- [Atributos](#/devlog/entry/atributos)
-- [Perícias](#/devlog/entry/pericias)
-- [classe](#/devlog/entry/classe)
-- [Domínio](#/devlog/entry/dominio)
-- [Patrono](#/devlog/entry/patrono)
-- [Conexões](#/devlog/entry/conexoes)
-- [Equipamentos](#/devlog/entry/equipamentos)
+- [atributos](#/devlog/entry/atributos)
+- [perícias](#/devlog/entry/pericias)
+- [_classe](#/devlog/entry/classe)
+- [domínio](#/devlog/entry/dominio)
+- [patrono](#/devlog/entry/patrono)
+- [conexões](#/devlog/entry/conexoes)
+- [_equipamentos](#/devlog/entry/equipamentos)
+- [progressao de personagem](#/devlog/entry/progressao-de-personagem) — progressão após a criação.

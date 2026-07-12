@@ -1,12 +1,12 @@
 ---
 title: domínio
-date: '2026-07-11'
-section: mecanicas
-sourceNote: mecanicas/domínio.md
+date: '2026-07-12'
+section: mecanicas/criacao de personagem
+sourceNote: mecanicas/criacao de personagem/domínio.md
 ---
 Os Domínios definem o papel do seu personagem dentro do grupo. Cada um oferece duas especializações, que concedem habilidades únicas ao longo da progressão.
 
-As habilidades são desbloqueadas seguindo os mesmos ranks das classes: **Despertar, Rank F, Rank D, Rank B e Rank S**.
+As habilidades de Domínio são desbloqueadas em **Despertar, Rank E, Rank C, Rank A e Rank S** — ranks diferentes dos de Classe (que usam F, D e B), intercalados na mesma escada. Veja [Ranks](#/devlog/entry/progressao-de-personagem) para a progressão completa.
 
 > [!todo] Rank provisório
 > Os ranks abaixo foram distribuídos de forma provisória, só para que cada habilidade tenha um marcador — a posição exata de cada uma ainda pode mudar.
@@ -33,13 +33,13 @@ Reduza o dano recebido em uma quantidade **Alta**.
 
 ---
 
-#### Rank F — *Instinto Defensivo* (Passivo)
+#### Rank E — *Instinto Defensivo* (Passivo)
 
 Enquanto houver pelo menos um aliado em [alcance estendido](#/devlog/entry/alcances), você recebe **+2 em testes de ataque**.
 
 ---
 
-#### Rank D — *Defensor Veloz* (1 PA • 1 PE)
+#### Rank C — *Defensor Veloz* (1 PA • 1 PE)
 
 Mova-se até um aliado em [alcance curto](#/devlog/entry/alcances).
 
@@ -47,7 +47,7 @@ Você ocupa o espaço dele e move esse aliado para qualquer espaço em [alcance 
 
 ---
 
-#### Rank B — *Controle de Área* (Passivo)
+#### Rank A — *Controle de Área* (Passivo)
 
 Sempre que um inimigo tentar sair voluntariamente de um espaço em [alcance de toque](#/devlog/entry/alcances) de você, faça um teste de Intimidação.
 
@@ -79,19 +79,19 @@ Para atacar outro alvo ou se afastar, precisam passar em um teste de **Estabilid
 
 ---
 
-#### Rank F — *Recusa em Cair* (Passivo)
+#### Rank E — *Recusa em Cair* (Passivo)
 
 Se iniciar seu turno com **0 PV**, recupere **1 PV**.
 
 ---
 
-#### Rank D — *Corpo Inabalável* (Passivo)
+#### Rank C — *Corpo Inabalável* (Passivo)
 
 Enquanto possuir pelo menos **1 Ferimento**, você recebe **Redução de Dano 5**.
 
 ---
 
-#### Rank B — *Pressão Constante* (Passivo)
+#### Rank A — *Pressão Constante* (Passivo)
 
 Você causa dano **Baixo** adicional para cada inimigo adjacente a você.
 
@@ -123,13 +123,13 @@ Caso retire vida de um inimigo, o máximo transferido por ação é uma quantida
 
 ---
 
-#### Rank F — *Resgate Veloz* (Passivo)
+#### Rank E — *Resgate Veloz* (Passivo)
 
 Quando um aliado em [alcance curto](#/devlog/entry/alcances) chegar a **0 PV**, você pode mover-se até um espaço adjacente sem gastar PA e fazê-lo retornar com **1 PV**.
 
 ---
 
-#### Rank D — *Flutuações de Essência* (0 PA • 1 PE)
+#### Rank C — *Flutuações de Essência* (0 PA • 1 PE)
 
 Analise o fluxo de Essência de uma criatura.
 
@@ -137,7 +137,7 @@ Enquanto mantiver essa análise, receba um bônus **Baixo** em testes de **Intui
 
 ---
 
-#### Rank B — *Instinto Protetor* (Passivo)
+#### Rank A — *Instinto Protetor* (Passivo)
 
 Enquanto estiver em [alcance estendido](#/devlog/entry/alcances) de um aliado que possua [Ferimentos](#/devlog/entry/ferimentos), seus ataques recebem dano **Baixo** adicional.
 
@@ -166,15 +166,15 @@ Realize um teste utilizando uma perícia na qual você não é treinado como se 
 
 ---
 
-#### Rank F — *(A definir)* #todo
+#### Rank E — *(A definir)* #todo
 
 ---
 
-#### Rank D — *(A definir)* #todo
+#### Rank C — *(A definir)* #todo
 
 ---
 
-#### Rank B — *(A definir)* #todo
+#### Rank A — *(A definir)* #todo
 
 ---
 
@@ -200,7 +200,7 @@ Sempre que atacar um inimigo que tenha causado dano a você desde seu último tu
 
 ---
 
-#### Rank F — *Reposicionar* (Passivo)
+#### Rank E — *Reposicionar* (Passivo)
 
 Uma vez por turno, você pode realizar uma ação de Movimento e uma ação de Ataque gastando apenas **1 PA**.
 
@@ -208,13 +208,13 @@ Escolha a ordem das ações.
 
 ---
 
-#### Rank D — *Surto de Energia* (0 PA • 2 PE)
+#### Rank C — *Surto de Energia* (0 PA • 2 PE)
 
 Até o fim da rodada, você recebe **+1 PA**.
 
 ---
 
-#### Rank B — *Foco Letal* (Passivo)
+#### Rank A — *Foco Letal* (Passivo)
 
 Sempre que atingir o mesmo alvo em ataques consecutivos, receba dano **Baixo** adicional, cumulativo.
 
@@ -246,13 +246,13 @@ Ao atacar um inimigo que não possua aliados em [alcance curto](#/devlog/entry/a
 
 ---
 
-#### Rank F — *Ponto de Vantagem* (Passivo)
+#### Rank E — *Ponto de Vantagem* (Passivo)
 
 Na primeira rodada de cada combate, você recebe uma ação de Movimento gratuita.
 
 ---
 
-#### Rank D — *Marca do Assassino* (1 PA • 1 PE)
+#### Rank C — *Marca do Assassino* (1 PA • 1 PE)
 
 Marque um inimigo em [alcance médio](#/devlog/entry/alcances).
 
@@ -260,7 +260,7 @@ Enquanto permanecer marcado, todos os ataques contra ele recebem um bônus **Bai
 
 ---
 
-#### Rank B — *Fantasma* (Passivo)
+#### Rank A — *Fantasma* (Passivo)
 
 Receba um bônus **Médio** em Furtividade.
 
@@ -295,7 +295,7 @@ Você pode reutilizar uma Alavanca Social.
 
 ---
 
-#### Rank F — *Rosto Confiável* (Passivo)
+#### Rank E — *Rosto Confiável* (Passivo)
 
 NPCs tendem a confiar mais em você.
 
@@ -303,13 +303,13 @@ Em testes de convencimento, você sempre pode cometer **1 falha adicional** ante
 
 ---
 
-#### Rank D — *Influência Forçada* (1 PA • 2 PE)
+#### Rank C — *Influência Forçada* (1 PA • 2 PE)
 
 Influencie um inimigo, alterando seu estilo de combate para um de sua escolha.
 
 ---
 
-#### Rank B — *(A definir)* #todo
+#### Rank A — *(A definir)* #todo
 
 ---
 
@@ -342,17 +342,17 @@ Se usar esta habilidade na primeira rodada do combate, descubra **2 informaçõe
 
 ---
 
-#### Rank F — *Estrategista de Campo* (Passivo)
+#### Rank E — *Estrategista de Campo* (Passivo)
 
 Aliados em [alcance curto](#/devlog/entry/alcances) recebem **+1 PA por rodada**.
 
 ---
 
-#### Rank D — *(A definir)* #todo
+#### Rank C — *(A definir)* #todo
 
 ---
 
-#### Rank B — *(A definir)* #todo
+#### Rank A — *(A definir)* #todo
 
 ---
 

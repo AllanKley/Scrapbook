@@ -1,8 +1,8 @@
 ---
 title: oraculo
-date: '2026-07-11'
-section: mecanicas/classes
-sourceNote: mecanicas/classes/oraculo.md
+date: '2026-07-12'
+section: mecanicas/criacao de personagem/classes
+sourceNote: mecanicas/criacao de personagem/classes/oraculo.md
 ---
 Mestres da mente e das emoções, dominando campos sociais e psicológicos como verdadeiros tabuleiros de guerra.
 

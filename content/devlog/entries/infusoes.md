@@ -1,15 +1,15 @@
 ---
 title: infusoes
-date: '2026-07-11'
-section: mecanicas
-sourceNote: mecanicas/infusoes.md
+date: '2026-07-12'
+section: mecanicas/criacao de personagem/equipamentos
+sourceNote: mecanicas/criacao de personagem/equipamentos/infusoes.md
 ---
 #combate #economia
 
 > [!info] Sugestão de sistema (rascunho, revisar)
 > Construído em cima da ideia original: cada [Eco](#/devlog/entry/ecos) carrega um Elemento, refletido na criatura ou local de onde veio. Esses Elementos podem ser usados para Infundir armas (corpo a corpo, à distância e mágicas), armaduras e escudos, e a força da melhoria escala com o tier do Eco gasto (Tênue → Manifesto → Ancestral → Primordial), no mesmo espírito de uma melhoria de ritual Discente/Verdadeiro. Ajuste nomes, números e efeitos conforme o restante do sistema for fechado. #todo
 
-Uma Infusão é o que acontece quando um Eco é consumido para gravar permanentemente um Elemento dentro de um equipamento. Diferente das Runas temporárias do Forjador (veja Forjador), uma Infusão não desaparece — ela se torna parte do item.
+Uma Infusão é o que acontece quando um Eco é consumido para gravar permanentemente um Elemento dentro de um equipamento. Diferente das Runas temporárias do Forjador (veja [Forjador](#/devlog/entry/forjador)), uma Infusão não desaparece — ela se torna parte do item.
 
 ---
 
@@ -24,7 +24,7 @@ Um equipamento nunca pode carregar mais de uma Infusão ao mesmo tempo. Para tro
 Infundir um equipamento exige:
 
 - **1 Eco** do Elemento e do tier escolhidos (ele é consumido no processo).
-- Um artesão especializado — geralmente ligado a uma Guilda — ou a habilidade **Criação Perfeita** do Forjador, que permite ao próprio personagem realizar Infusões permanentes.
+- Um artesão especializado — geralmente ligado a uma Guilda — ou a habilidade **Criação Perfeita** do [Forjador](#/devlog/entry/forjador), que permite ao próprio personagem realizar Infusões permanentes.
 - Tempo de trabalho dedicado (referência: 1 dia por tier de Eco usado).
 
 Artesãos independentes podem exigir mais do que apenas o Eco em troca do serviço — veja [comércio](#/devlog/entry/comercio).
@@ -57,7 +57,7 @@ Cada Elemento oferece uma Infusão diferente para cada tipo de item — **Arma C
 
 ## Fogo
 
-*Combustão, fúria, destruição total.* **Onde encontrar:** criaturas ígneas, Dungeons vulcânicas, Fraturas como Roma ou o Vale do Nilo.
+*Combustão, fúria, destruição total.* **Onde encontrar:** criaturas ígneas, Fraturas vulcânicas, Cicatrizes como Roma ou o Vale do Nilo.
 
 ### Lâmina em Brasa
 *Fogo · Arma Corpo a Corpo*
@@ -103,7 +103,7 @@ Cada Elemento oferece uma Infusão diferente para cada tipo de item — **Arma C
 
 ## Gelo
 
-*Controle, imobilidade, frio absoluto.* **Onde encontrar:** a Antártida, criaturas de nevasca, Dungeons congeladas.
+*Controle, imobilidade, frio absoluto.* **Onde encontrar:** a Antártida, criaturas de nevasca, Fraturas congeladas.
 
 ### Fio de Gelo
 *Gelo · Arma Corpo a Corpo*
@@ -379,7 +379,7 @@ Cada Elemento oferece uma Infusão diferente para cada tipo de item — **Arma C
 
 ## Luz
 
-*Cura, revelação, verdade.* **Onde encontrar:** templos e santuários intactos, Fraturas ligadas a antigos cultos solares.
+*Cura, revelação, verdade.* **Onde encontrar:** templos e santuários intactos, Cicatrizes ligadas a antigos cultos solares.
 
 ### Golpe Radiante
 *Luz · Arma Corpo a Corpo*
@@ -425,7 +425,7 @@ Cada Elemento oferece uma Infusão diferente para cada tipo de item — **Arma C
 
 ## Sangue
 
-*Vida, sacrifício, drenagem.* **Onde encontrar:** campos de batalha antigos, criaturas necróticas, Dungeons ligadas a rituais.
+*Vida, sacrifício, drenagem.* **Onde encontrar:** campos de batalha antigos, criaturas necróticas, Fraturas ligadas a rituais.
 
 ### Lâmina Sanguessuga
 *Sangue · Arma Corpo a Corpo*
@@ -471,7 +471,7 @@ Cada Elemento oferece uma Infusão diferente para cada tipo de item — **Arma C
 
 ## Natureza
 
-*Crescimento, ciclo, vida selvagem.* **Onde encontrar:** florestas antigas, territórios do Selvagem, ruínas tomadas pela vegetação.
+*Crescimento, ciclo, vida selvagem.* **Onde encontrar:** florestas antigas, territórios do [Selvagem](#/devlog/entry/selvagem), ruínas tomadas pela vegetação.
 
 ### Raízes da Lâmina
 *Natureza · Arma Corpo a Corpo*

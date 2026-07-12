@@ -1,8 +1,8 @@
 ---
 title: apotecario
-date: '2026-07-11'
-section: mecanicas/classes
-sourceNote: mecanicas/classes/apotecario.md
+date: '2026-07-12'
+section: mecanicas/criacao de personagem/classes
+sourceNote: mecanicas/criacao de personagem/classes/apotecario.md
 ---
 Alquimistas do campo de batalha que manipulam vida, toxinas e flora, sempre equilibrando poder com instabilidade.
 

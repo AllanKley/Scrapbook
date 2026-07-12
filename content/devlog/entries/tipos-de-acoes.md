@@ -1,6 +1,6 @@
 ---
 title: tipos de acoes
-date: '2026-07-11'
+date: '2026-07-12'
 section: mecanicas
 sourceNote: mecanicas/tipos de acoes.md
 ---

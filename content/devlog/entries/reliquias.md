@@ -1,13 +1,14 @@
 ---
 title: reliquias
-date: '2026-07-11'
-sourceNote: reliquias.md
+date: '2026-07-12'
+section: mecanicas/criacao de personagem/equipamentos
+sourceNote: mecanicas/criacao de personagem/equipamentos/reliquias.md
 ---
 #economia #lore
 #todo
 
 > [!info] Rascunho
-> Relíquias são o oposto dos [Itens Gerais](#/devlog/entry/itens-gerais): nunca genéricas, sempre únicas. Cada uma nasce de um Eco Primordial que não perdeu completamente a identidade de sua origem (veja Ecos Primordiais) — o que significa que toda Relíquia carrega tanto um poder de verdade quanto um custo real, no mesmo espírito dos itens amaldiçoados de Ordem Paranormal. Nenhuma delas é vendida por Guildas ou Artesãos — só se encontra, se herda ou se rouba. #todo
+> Relíquias são o oposto dos [Itens Gerais](#/devlog/entry/itens-gerais): nunca genéricas, sempre únicas. Cada uma nasce de um Eco Primordial que não perdeu completamente a identidade de sua origem (veja [Ecos Primordiais](#/devlog/entry/ecos)) — o que significa que toda Relíquia carrega tanto um poder de verdade quanto um custo real, no mesmo espírito dos itens amaldiçoados de Ordem Paranormal. Nenhuma delas é vendida por Guildas ou Artesãos — só se encontra, se herda ou se rouba. #todo
 
 Uma Relíquia nunca aparece duas vezes. Se existem cópias, elas não são a mesma coisa — só imitações sem a memória real por trás.
 
@@ -17,7 +18,7 @@ Toda Relíquia tem três partes: **Origem** (de onde ela vem), **Efeito** (o pod
 
 # Coroa do Rei Esquecido
 
-*Origem: um reino inteiro engolido por uma Dungeon na Mesopotâmia — o Core daquele lugar é, até hoje, o trono vazio que a coroa deixou para trás.*
+*Origem: um reino inteiro engolido por uma Fratura na Mesopotâmia — o Core daquele lugar é, até hoje, o trono vazio que a coroa deixou para trás.*
 
 **Efeito:** enquanto estiver usando a Coroa, você recebe **Fortuna Alta** em qualquer teste de Persuasão ou Intimidação contra alguém que reconheça algum tipo de autoridade — nobres, guardas, funcionários de guilda, cultistas.
 
@@ -27,7 +28,7 @@ Toda Relíquia tem três partes: **Origem** (de onde ela vem), **Efeito** (o pod
 
 # Machado que Partiu o Céu
 
-*Origem: dizem que foi o primeiro golpe já desferido — um Eco Primordial tão antigo que nem uma Fratura específica reivindica sua origem.*
+*Origem: dizem que foi o primeiro golpe já desferido — um Eco Primordial tão antigo que nem uma Cicatriz específica reivindica sua origem.*
 
 **Efeito:** contra estruturas, portas, muralhas e objetos, o dano do Machado é **Extremo**. Uma vez por cena, um golpe pode abrir uma rachadura instantânea no ambiente — chão, parede, teto — larga o suficiente para uma pessoa passar.
 
@@ -37,7 +38,7 @@ Toda Relíquia tem três partes: **Origem** (de onde ela vem), **Efeito** (o pod
 
 # Espelho de Eco
 
-*Origem: recuperado de uma Fratura ligada a Eco, a ninfa condenada a repetir o que ouve — o espelho parece ter aprendido a mesma lição.*
+*Origem: recuperado de uma Cicatriz ligada a Eco, a ninfa condenada a repetir o que ouve — o espelho parece ter aprendido a mesma lição.*
 
 **Efeito:** uma vez por cena, quando for atingido por um ataque, você pode gastar uma reação para refletir uma quantidade **Média** do dano de volta ao atacante, sem precisar de teste.
 
@@ -57,11 +58,11 @@ Toda Relíquia tem três partes: **Origem** (de onde ela vem), **Efeito** (o pod
 
 # Manto de Cinzas Vivas
 
-*Origem: tecido a partir das cinzas de um incêndio que uma Dungeon nunca deixou apagar — Fratura ligada a Roma.*
+*Origem: tecido a partir das cinzas de um incêndio que uma Fratura nunca deixou apagar — Cicatriz ligada a Roma.*
 
 **Efeito:** uma vez por Descanso Longo, o Manto remove automaticamente 1 Ferimento Leve de quem o veste, sem precisar da ação Recuperar-se.
 
-**Custo:** o Manto não cura de graça. Cada vez que remove um Ferimento dessa forma, o mestre apaga ou corrompe silenciosamente um fragmento de uma Conexão do personagem — uma lembrança que fica mais vaga, um vínculo que esfria sem motivo aparente. Quem usa o Manto por tempo demais se cura às custas de quem se importa com ele.
+**Custo:** o Manto não cura de graça. Cada vez que remove um Ferimento dessa forma, o mestre apaga ou corrompe silenciosamente um fragmento de uma [Conexão](#/devlog/entry/conexoes) do personagem — uma lembrança que fica mais vaga, um vínculo que esfria sem motivo aparente. Quem usa o Manto por tempo demais se cura às custas de quem se importa com ele.
 
 ---
 
@@ -78,4 +79,4 @@ Toda Relíquia tem três partes: **Origem** (de onde ela vem), **Efeito** (o pod
 > [!todo] Pendências
 > - Todo valor com label (Fortuna Alta, dano Extremo, PV Baixo etc.) segue a Escala de Efeito — nenhum tem número final.
 > - Falta decidir como (ou se) uma Relíquia amaldiçoada pode ser purificada/restaurada.
-> - Mais Relíquias são bem-vindas — o objetivo é uma por Fratura, eventualmente, não uma lista fechada. #todo
+> - Mais Relíquias são bem-vindas — o objetivo é uma por Cicatriz, eventualmente, não uma lista fechada. #todo

@@ -1,8 +1,8 @@
 ---
 title: equipamentos
-date: '2026-07-11'
-section: mecanicas
-sourceNote: mecanicas/equipamentos.md
+date: '2026-07-12'
+section: mecanicas/criacao de personagem/equipamentos
+sourceNote: mecanicas/criacao de personagem/equipamentos/_equipamentos.md
 ---
 > [!info] Adaptado do RPG anterior
 > #adaptado #revisar #todo

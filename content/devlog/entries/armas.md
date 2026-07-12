@@ -1,12 +1,12 @@
 ---
 title: armas
-date: '2026-07-11'
-section: mecanicas
-sourceNote: mecanicas/armas.md
+date: '2026-07-12'
+section: mecanicas/criacao de personagem/equipamentos
+sourceNote: mecanicas/criacao de personagem/equipamentos/armas.md
 ---
 #combate
 
-Todas as armas podem ser utilizadas por qualquer classe. Cada categoria de arma define seu modo de combate, atributos e propriedades especiais — veja [equipamentos](#/devlog/entry/equipamentos) para o que cada atributo (Manuseio, Tamanho, Alcance, Dano, Perícia, Atributo, Penalidade de Peso, Passiva) significa, e [Atacar](#/devlog/entry/tipos-de-acoes) para a ação de ataque em si.
+Todas as armas podem ser utilizadas por qualquer classe. Cada categoria de arma define seu modo de combate, atributos e propriedades especiais — veja [_equipamentos](#/devlog/entry/equipamentos) para o que cada atributo (Manuseio, Tamanho, Alcance, Dano, Perícia, Atributo, Penalidade de Peso, Passiva) significa, e [Atacar](#/devlog/entry/tipos-de-acoes) para a ação de ataque em si.
 
 > [!todo] Converter dano em dado
 > As categorias de Dano (Baixo/Médio/Alto) abaixo ainda precisam virar valores numéricos de dado. #todo

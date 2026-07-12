@@ -1,8 +1,8 @@
 ---
 title: classe
-date: '2026-07-11'
-section: mecanicas
-sourceNote: mecanicas/classe.md
+date: '2026-07-12'
+section: mecanicas/criacao de personagem/classes
+sourceNote: mecanicas/criacao de personagem/classes/_classe.md
 ---
 #criacao_de_personagem
 
@@ -42,6 +42,6 @@ Duas pessoas da mesma Classe ainda podem jogar de formas completamente diferente
 
 # Documentação relacionada
 
-- [criacao de personagem](#/devlog/entry/criacao-de-personagem) — onde a Classe entra no processo de criação.
+- [_criacao de personagem](#/devlog/entry/criacao-de-personagem) — onde a Classe entra no processo de criação.
 - [domínio](#/devlog/entry/dominio) — o papel que a Classe vai desempenhar dentro do grupo.
 - [patrono](#/devlog/entry/patrono) — outra camada de personalização, independente de Classe e Domínio.

@@ -1,6 +1,6 @@
 ---
 title: descanso
-date: '2026-07-11'
+date: '2026-07-12'
 section: mecanicas
 sourceNote: mecanicas/descanso.md
 ---
@@ -37,7 +37,7 @@ Ao concluir um Descanso Longo, cada personagem escolhe **2 Ações de Descanso d
 > [!info] Isso substitui a recuperação automática
 > Diferente da maioria dos sistemas, recuperar Pontos de Vida, PA e PE **não é automático** — é o que a ação [Dormir](#dormir) faz. Um personagem que abra mão de Dormir em favor de outras duas ações não recupera esses recursos neste descanso. A ideia é criar a mesma tensão de Ordem Paranormal: descansar de verdade tem um custo de oportunidade.
 
-Habilidades de Classe ou Domínio que disparam **"ao concluir um descanso longo"** (como as de Oráculo, Malandro e Apotecário) acontecem normalmente, **independente** de quais Ações de Descanso o personagem escolheu.
+Habilidades de Classe ou Domínio que disparam **"ao concluir um descanso longo"** (como as de [Oráculo](#/devlog/entry/oraculo), [Malandro](#/devlog/entry/malandro) e [Apotecário](#/devlog/entry/apotecario)) acontecem normalmente, **independente** de quais Ações de Descanso o personagem escolheu.
 
 ## Ações de Descanso
 
@@ -63,7 +63,7 @@ Volte sua atenção para dentro, buscando controlar sua própria relação com a
 Limpe, afie e ajuste seu equipamento e o de quem pedir ajuda. Escolha 1 item entre um Escudo (recupere Usos em quantidade **Baixa**) ou uma Armadura/Arma com [Corrosão](#/devlog/entry/condicoes) (remova 1 stack).
 
 ### Estudar
-Debruce-se sobre um livro, um mapa, um item recuperado ou o que se sabe sobre a Dungeon atual. Faça um teste de [Histórico](#/devlog/entry/pericias) ou [Investigação](#/devlog/entry/pericias) (dificuldade a critério do mestre); em caso de sucesso, receba uma informação relevante sobre a área, a Dungeon ou o item em questão, ou **1 Fortuna** no próximo teste diretamente relacionado a essa pesquisa.
+Debruce-se sobre um livro, um mapa, um item recuperado ou o que se sabe sobre a Fratura atual. Faça um teste de [Histórico](#/devlog/entry/pericias) ou [Investigação](#/devlog/entry/pericias) (dificuldade a critério do mestre); em caso de sucesso, receba uma informação relevante sobre a área, a Fratura ou o item em questão, ou **1 Fortuna** no próximo teste diretamente relacionado a essa pesquisa.
 
 ### Explorar Arredores
 Dê uma volta pela área próxima ao acampamento, sem se afastar o suficiente para virar uma nova Zona de Interesse. O mestre pode revelar um pequeno achado (uma quantidade **Baixa** de Ecos, um recurso útil, ou informação sobre o caminho à frente).

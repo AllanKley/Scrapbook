@@ -1,8 +1,8 @@
 ---
 title: malandro
-date: '2026-07-11'
-section: mecanicas/classes
-sourceNote: mecanicas/classes/malandro.md
+date: '2026-07-12'
+section: mecanicas/criacao de personagem/classes
+sourceNote: mecanicas/criacao de personagem/classes/malandro.md
 ---
 Quebradores de regras da realidade, usando caos, truques e ilusões para dominar o imprevisível.
 

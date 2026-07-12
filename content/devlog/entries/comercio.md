@@ -1,8 +1,8 @@
 ---
 title: comércio
-date: '2026-07-11'
-section: mecanicas
-sourceNote: mecanicas/comércio.md
+date: '2026-07-12'
+section: world_building
+sourceNote: world_building/comércio.md
 ---
 # Estilo de Vida
 

@@ -1,8 +1,8 @@
 ---
 title: perícias
-date: '2026-07-11'
-section: mecanicas
-sourceNote: mecanicas/perícias.md
+date: '2026-07-12'
+section: mecanicas/criacao de personagem
+sourceNote: mecanicas/criacao de personagem/perícias.md
 ---
 As perícias são as habilidades do personagem e são utilizadas sempre que o personagem precisa realizar um teste. Elas representam a habilidade do personagem em uma determinada tarefa.
 
@@ -10,7 +10,7 @@ As perícias são as habilidades do personagem e são utilizadas sempre que o pe
 
 ## Tabela de Perícias
 
-| ímpeto | graça | encanto | astúcia | instinto | essência |
+| [ímpeto](#/devlog/entry/atributos) | [graça](#/devlog/entry/atributos) | [encanto](#/devlog/entry/atributos) | [astúcia](#/devlog/entry/atributos) | [instinto](#/devlog/entry/atributos) | [essência](#/devlog/entry/atributos) |
 | -------------------------------------- | ------------------------------------ | ---------------------------------------- | ---------------------------------------- | ------------------------------------------ | ------------------------------------------ |
 | [Atletismo](#atletismo)                         | [Furtividade](#furtividade)                     | [Persuasão](#persuasão)                           | [Natural](#natural)                             | [Percepção](#percepção)                             | [Canalização](#canalização)                           |
 | [Força](#força)                             | [Acrobacia](#acrobacia)                       | [Enganação](#enganação)                           | [Ilegal](#ilegal)                              | [Reflexo](#reflexo)                               | [Ressonância](#ressonância)                           |
@@ -36,6 +36,15 @@ Mecanicamente, o nível de treinamento indica qual o tier de dado que vai ser ut
 ## Distribuição de Perícias
 
 Ao criar seu caçador, todas as suas perícias iniciam com nível de treinamento **iniciante**, e você pode subir **5** perícias para nível **intermediário**.
+
+## Crescimento pós-criação
+
+O treinamento continua evoluindo depois da criação, por dois caminhos independentes:
+
+- **Treinar durante Descansos Longos:** acumule pontos de treino em uma perícia até subir de nível — veja [Treinar](#/devlog/entry/descanso).
+- **Ranks de Patrono:** a cada rank **F+/E+/D+/C+/B+/A+** da escada de [Ranks](#/devlog/entry/progressao-de-personagem), suba o nível de treinamento de 1 perícia à sua escolha (veja [Progressão de Patrono](#/devlog/entry/patrono)).
+
+Em ambos os casos, o teto continua sendo **Elite**.
 
 ---
 
