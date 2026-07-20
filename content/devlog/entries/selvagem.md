@@ -1,8 +1,8 @@
 ---
 title: selvagem
-date: '2026-07-12'
-section: mecanicas/criacao de personagem/classes
-sourceNote: mecanicas/criacao de personagem/classes/selvagem.md
+date: '2026-07-20'
+section: mecanicas/criacao de personagem/linhagens
+sourceNote: mecanicas/criacao de personagem/linhagens/selvagem.md
 ---
 Mestres do vínculo espiritual com a fauna e os espíritos naturais, lutando ao lado de criaturas e manipulando o ambiente através de totens.
 
@@ -29,7 +29,7 @@ Ao primeiro sinal de combate, o companheiro se funde automaticamente a você at�
 
 Seu corpo manifesta traços bestiais visíveis relacionados à forma do companheiro.
 
-Fora de combate, você pode se fundir ou separar do companheiro livremente. Você pode realizar essa fusão um número de vezes por descanso longo igual ao seu atributo de Essência (mínimo 1).
+Fora de combate, você pode se fundir ou separar do companheiro livremente. Você pode realizar essa fusão um número de vezes por descanso longo igual ao seu traço de Essência (mínimo 1).
 
 Caso o companheiro seja ferido, morto ou dissipado de qualquer forma, ele desaparece e só pode ser invocado novamente após um descanso longo.
 

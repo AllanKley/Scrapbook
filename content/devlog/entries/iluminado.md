@@ -1,8 +1,8 @@
 ---
 title: iluminado
-date: '2026-07-12'
-section: mecanicas/criacao de personagem/classes
-sourceNote: mecanicas/criacao de personagem/classes/iluminado.md
+date: '2026-07-20'
+section: mecanicas/criacao de personagem/linhagens
+sourceNote: mecanicas/criacao de personagem/linhagens/iluminado.md
 ---
 Canalizadores da luz vital, focados em suporte, restauração e proteção espiritual e física.
 
@@ -11,13 +11,13 @@ Canalizadores da luz vital, focados em suporte, restauração e proteção espir
 # Habilidades
 
 > [!info] Sugestão de habilidades (rascunho, revisar)
-> Habilidades propostas a partir do conceito da classe e do tema de luz/espectro/cores já listado abaixo. "Prisma Interior" usa a ideia de luz que se refrata em efeitos diferentes; as demais incorporam Extração Cromática, Limpeza de Alma e Voo de Socorro, que já estavam nas ideias soltas. Ajuste nomes, custos e valores numéricos (X) conforme o restante do sistema for fechado. #todo
+> Habilidades propostas a partir do conceito da Linhagem e do tema de luz/espectro/cores já listado abaixo. "Prisma Interior" usa a ideia de luz que se refrata em efeitos diferentes; as demais incorporam Extração Cromática, Limpeza de Alma e Voo de Socorro, que já estavam nas ideias soltas. Ajuste nomes, custos e valores numéricos (X) conforme o restante do sistema for fechado. #todo
 
 ## Prisma Interior
 
 #despertar
 
-1 PA • 1 PE. Sua Essência se manifesta como luz pura, capaz de se refratar em cores diferentes, cada uma com um efeito distinto. Emita um Feixe em [alcance médio](#/devlog/entry/alcances), escolhendo uma cor:
+1 PA. Sua Essência se manifesta como luz pura, capaz de se refratar em cores diferentes, cada uma com um efeito distinto. Emita um Feixe em [alcance médio](#/devlog/entry/alcances), escolhendo uma cor:
 
 - **Vermelho:** causa dano **Médio**.
 - **Azul:** cura PV em uma quantidade **Média**.
@@ -25,7 +25,10 @@ Canalizadores da luz vital, focados em suporte, restauração e proteção espir
 - **Amarelo:** concede +1 Fortuna no próximo teste do alvo.
 - **Violeta:** aplica Cegueira até o início do próximo turno do alvo.
 
-Você só pode manter uma cor ativa por vez. Trocar de cor no mesmo turno custa +1 PE adicional.
+> [!todo] Redesenhada sem PE
+> Original cobrava +1 PE adicional para trocar de cor no mesmo turno. Sem PE, o custo de trocar de cor virou PA. #todo
+
+Você só pode manter uma cor ativa por vez. Trocar de cor no mesmo turno custa **+1 PA** adicional.
 
 ---
 
@@ -41,7 +44,7 @@ Você só pode manter uma cor ativa por vez. Trocar de cor no mesmo turno custa 
 
 #rank_d
 
-1 PA • 1 PE. Toque um aliado em alcance de toque e remova até 2 condições dele, ou ignore um dos efeitos de um Ferimento que ele possua até o fim da cena.
+1 PA. Toque um aliado em alcance de toque e remova até 2 condições dele, ou ignore um dos efeitos de um Ferimento que ele possua até o fim da cena.
 
 ---
 
@@ -57,7 +60,7 @@ Passivo. Aliados em [alcance curto](#/devlog/entry/alcances) de você recebem Re
 
 #rank_s
 
-1 PA • 2 PE. Manifeste asas de luz e mova-se instantaneamente até um aliado em qualquer parte do campo de batalha. Se ele estiver com 0 PV, estabilize-o imediatamente e cure PV em uma quantidade **Baixa**.
+1 PA. Manifeste asas de luz e mova-se instantaneamente até um aliado em qualquer parte do campo de batalha. Se ele estiver com 0 PV, estabilize-o imediatamente e cure PV em uma quantidade **Baixa**.
 
 ---
 

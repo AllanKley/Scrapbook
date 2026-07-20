@@ -1,15 +1,22 @@
 ---
 title: patrono
-date: '2026-07-12'
+date: '2026-07-20'
 section: mecanicas/criacao de personagem
 sourceNote: mecanicas/criacao de personagem/patrono.md
 ---
 #criacao_de_personagem
 
 > [!info] Sugestão de sistema (rascunho, revisar)
-> Patronos funcionam como talentos: não definem seu papel em combate como [Classe](#/devlog/entry/classe) ou [Domínio](#/devlog/entry/dominio), mas concedem uma habilidade passiva ou de uso limitado, permanente, e ajudam a diversificar a build. Todo Patrono é um **ser individual e específico** — nunca uma categoria inteira de criaturas (nada de "uma ninfa" ou "um djinn": tem que ser uma ninfa específica, com nome). Cada um reflete uma cultura ou lenda real da Primeira Era, na mesma linha de memória-não-divindade de [lore_mundo](#/devlog/entry/lore-mundo). Ajuste nomes, efeitos e a tabela de Ranks conforme o restante do sistema for fechado. #todo
+> Patronos funcionam como talentos: não definem seu papel em combate como [Linhagem](#/devlog/entry/linhagem) ou [Domínio](#/devlog/entry/dominio), mas concedem uma habilidade passiva ou de uso limitado, permanente, e ajudam a diversificar a build. Todo Patrono é um **ser individual e específico** — nunca uma categoria inteira de criaturas (nada de "uma ninfa" ou "um djinn": tem que ser uma ninfa específica, com nome). Cada um reflete uma cultura ou lenda real da Primeira Era, na mesma linha de memória-não-divindade de [lore_mundo](#/devlog/entry/lore-mundo). Ajuste nomes, efeitos e a tabela de Ranks conforme o restante do sistema for fechado. #todo
 
-Durante sua jornada, personagens recebem a bênção de entidades poderosas, tornando-se seus Patronos. Cada Patrono concede um benefício permanente que representa sua influência sobre o personagem, além de ter forte peso narrativo — os Patronos podem influenciar a história, os objetivos e as relações do personagem.
+# Origem (lore)
+
+Um Patrono não é uma bênção consciente nem um pacto — é uma **conexão direta com o fragmento** de um ser poderoso o bastante para ter deixado uma marca de sua própria existência gravada na Essência. Aquele ser talvez nem exista mais como entidade completa, mas o fragmento que sobrou é, de certa forma, uma centelha de imortalidade: o suficiente pra continuar influenciando quem se conecta a ele, mesmo sem consciência ou vontade própria — daí o nome "fragmento", nunca a coisa inteira.
+
+Se o personagem **sabe ou não** com qual ser ele se conectou é escolha do jogador, não uma regra fixa. Duas formas comuns como isso se manifesta:
+
+- **Visão em sonho:** o Despertado sonha com uma cena da vida daquele ser — um vislumbre real, não uma metáfora — e acorda sabendo, sem dúvida, que aquilo aconteceu e que agora está mais forte por causa disso.
+- **Mudança sem explicação:** o Despertado simplesmente sente algo mudar no próprio corpo — um novo instinto, uma nova capacidade — sem qualquer pista de onde veio. Descobrir a identidade do Patrono, nesse caso, vira ganho narrativo para investigar depois, se o jogador quiser.
 
 Você não pode escolher o mesmo Patrono mais de uma vez.
 
@@ -17,20 +24,20 @@ Você não pode escolher o mesmo Patrono mais de uma vez.
 
 # Progressão de Patrono
 
-Diferente de Classe e Domínio, seus Patronos não avançam nos ranks "cheios" (F, E, D, C, B, A, S) — eles avançam nos seis ranks **F+, E+, D+, C+, B+ e A+** da escada de [Ranks](#/devlog/entry/progressao-de-personagem), um degrau intermediário entre cada dupla de ranks cheios. Esta é a única tabela que precisa mudar se você quiser alterar quando cada tier libera — o resto do documento não faz referência a Ranks.
+Diferente de Linhagem e Domínio, seus Patronos não avançam nos ranks "cheios" (F, E, D, C, B, A, S) — eles avançam nos seis ranks **F+, E+, D+, C+, B+ e A+** da escada de [Ranks](#/devlog/entry/progressao-de-personagem), um degrau intermediário entre cada dupla de ranks cheios. Esta é a única tabela que precisa mudar se você quiser alterar quando cada tier libera — o resto do documento não faz referência a Ranks.
 
 Em cada um desses ranks, você ganha **os dois benefícios abaixo ao mesmo tempo**:
 
 | Rank | Slot de Patrono ganho | Crescimento pessoal |
 | --- | --- | --- |
-| Rank F+ | +1 Patrono Menor | +1 em um atributo à escolha · 1 perícia sobe um nível de treinamento |
-| Rank E+ | +1 Patrono Menor | +1 em um atributo à escolha · 1 perícia sobe um nível de treinamento |
-| Rank D+ | +1 Patrono Menor | +1 em um atributo à escolha · 1 perícia sobe um nível de treinamento |
-| Rank C+ | +1 Patrono Maior | +1 em um atributo à escolha · 1 perícia sobe um nível de treinamento |
-| Rank B+ | +1 Patrono Maior | +1 em um atributo à escolha · 1 perícia sobe um nível de treinamento |
-| Rank A+ | +1 Patrono Supremo | +1 em um atributo à escolha · 1 perícia sobe um nível de treinamento |
+| Rank F+ | +1 Patrono Menor | +1 em um traço à escolha · 1 perícia sobe um nível de treinamento |
+| Rank E+ | +1 Patrono Menor | +1 em um traço à escolha · 1 perícia sobe um nível de treinamento |
+| Rank D+ | +1 Patrono Menor | +1 em um traço à escolha · 1 perícia sobe um nível de treinamento |
+| Rank C+ | +1 Patrono Maior | +1 em um traço à escolha · 1 perícia sobe um nível de treinamento |
+| Rank B+ | +1 Patrono Maior | +1 em um traço à escolha · 1 perícia sobe um nível de treinamento |
+| Rank A+ | +1 Patrono Supremo | +1 em um traço à escolha · 1 perícia sobe um nível de treinamento |
 
-Ao longo de uma carreira completa, isso resulta em **3 Patronos Menores, 2 Patronos Maiores, 1 Patrono Supremo**, **+6 em atributos** (distribuídos como o jogador quiser, respeitando o teto de [7](#/devlog/entry/atributos)) e **6 subidas de nível de treinamento de perícia** — a mesma proporção de Patronos de antes, só redistribuída pelos ranks intermediários em vez de Despertar/F/D/B/S. O crescimento de atributo/perícia é sentido como a influência crescente dos próprios Patronos sobre o personagem, não como um sistema separado.
+Ao longo de uma carreira completa, isso resulta em **3 Patronos Menores, 2 Patronos Maiores, 1 Patrono Supremo**, **+6 em traços** (distribuídos como o jogador quiser, respeitando o teto de [7](#/devlog/entry/tracos)) e **6 subidas de nível de treinamento de perícia** — a mesma proporção de Patronos de antes, só redistribuída pelos ranks intermediários em vez de Despertar/F/D/B/S. O crescimento de traço/perícia é sentido como a influência crescente dos próprios Patronos sobre o personagem, não como um sistema separado.
 
 ---
 
@@ -41,7 +48,7 @@ Ao longo de uma carreira completa, isso resulta em **3 Patronos Menores, 2 Patro
 ### Hércules
 *Origem: Grécia.*
 
-O herói que completou o impossível através da força bruta e da teimosia. **Efeito:** uma vez por cena, ao acertar um ataque corpo a corpo, cause dano adicional igual ao seu atributo de Ímpeto.
+O herói que completou o impossível através da força bruta e da teimosia. **Efeito:** uma vez por cena, ao acertar um ataque corpo a corpo, cause dano adicional igual ao seu traço de Ímpeto.
 
 ### Cú Chulainn
 *Origem: Stonehenge, Inglaterra (adotado das lendas célticas locais).*
@@ -79,17 +86,17 @@ O trapaceiro que transforma erro em oportunidade. **Efeito:** uma vez por cena, 
 A aranha que venceu deuses maiores usando apenas astúcia. **Efeito:** uma vez por cena, repita um teste de Enganação ou Persuasão que tenha acabado de falhar.
 
 ### Curupira
-*Origem: florestas fora das Cicatrizes, folclore tupi (Brasil).*
+*Origem: florestas fora dos Epicentros, folclore tupi (Brasil).*
 
 O guardião de pés virados para trás, protetor da mata contra quem a explora sem respeito. **Efeito:** uma vez por cena, faça raízes [Imobilizarem](#/devlog/entry/condicoes) um inimigo em [alcance curto](#/devlog/entry/alcances) (ele pode se soltar com um teste de Força ou Atletismo).
 
 ### Saci-Pererê
-*Origem: florestas fora das Cicatrizes, folclore brasileiro.*
+*Origem: florestas fora dos Epicentros, folclore brasileiro.*
 
 O moleque de uma perna só, que aparece e desaparece em redemoinhos de vento. **Efeito:** uma vez por cena, desapareça de vista por 1 rodada ao se mover, reaparecendo em qualquer ponto do seu deslocamento.
 
 ### Iara
-*Origem: rios fora das Cicatrizes, folclore tupi (Brasil).*
+*Origem: rios fora dos Epicentros, folclore tupi (Brasil).*
 
 A mãe-d'água cujo canto ninguém resiste. **Efeito:** uma vez por cena, force um inimigo em [alcance curto](#/devlog/entry/alcances) a um teste de [Resistência](#/devlog/entry/pericias) ou [Estabilidade](#/devlog/entry/pericias); se falhar, ele não pode atacar você até o fim do turno dele.
 
@@ -109,7 +116,7 @@ A ninfa condenada a repetir apenas o que ouve. **Efeito:** uma vez por cena, rep
 O espírito zombeteiro que transforma noites em confusão. **Efeito:** uma vez por cena, force um inimigo em [alcance curto](#/devlog/entry/alcances) a uma risada incontrolável — ele perde a próxima Reação disponível.
 
 ### Baba Yaga
-*Origem: florestas fora das Cicatrizes, folclore eslavo.*
+*Origem: florestas fora dos Epicentros, folclore eslavo.*
 
 A bruxa da cabana de pernas de galinha, que testa todos que a procuram. **Efeito:** uma vez por cena, escolha uma perícia; se um inimigo falhar em um teste dessa perícia antes do fim da cena, ele recebe 1 Ruína em seu próximo teste.
 
@@ -160,7 +167,7 @@ O deus que derrotou o caos primordial Tiamat e reorganizou o mundo a partir dela
 Orixá do trovão, do fogo e da justiça implacável. **Efeito:** uma vez por cena, ao acertar um ataque, force o alvo a um teste de [Resistência](#/devlog/entry/pericias) ou sofrer [Atordoamento](#/devlog/entry/condicoes).
 
 ### Perun
-*Origem: florestas fora das Cicatrizes, folclore eslavo.*
+*Origem: florestas fora dos Epicentros, folclore eslavo.*
 
 Deus supremo do trovão e protetor guerreiro. **Efeito:** +1 Fortuna em testes de ataque sempre que estiver chovendo ou houver tempestade na cena.
 

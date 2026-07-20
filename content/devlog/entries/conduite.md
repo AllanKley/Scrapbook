@@ -1,8 +1,8 @@
 ---
 title: conduite
-date: '2026-07-12'
-section: mecanicas/criacao de personagem/classes
-sourceNote: mecanicas/criacao de personagem/classes/conduite.md
+date: '2026-07-20'
+section: mecanicas/criacao de personagem/linhagens
+sourceNote: mecanicas/criacao de personagem/linhagens/conduite.md
 ---
 Avatares das forças naturais, capazes de moldar o campo de batalha como um fenômeno climático vivo.
 
@@ -11,7 +11,7 @@ Avatares das forças naturais, capazes de moldar o campo de batalha como um fen�
 # Habilidades
 
 > [!info] Sugestão de habilidades (rascunho, revisar)
-> Habilidades propostas a partir do conceito da classe e do quadro (Excalidraw) abaixo. Removi "Magia Maleável" e "Sintonia Elemental" — pelo texto, elas parecem ter sido coladas da página do Apotecário por engano (mesmo template de elixires e de efígie/boneca vodu, sem nenhuma ligação com clima ou elementos). O quadro original do Conduíte já tinha um esboço de sistema de magia por pontos (elemento + forma + duração + efeito), então usei isso como base da habilidade central. Ajuste nomes, custos e valores numéricos (X) conforme o restante do sistema for fechado. #todo
+> Habilidades propostas a partir do conceito da Linhagem e do quadro (Excalidraw) abaixo. Removi "Magia Maleável" e "Sintonia Elemental" — pelo texto, elas parecem ter sido coladas da página do Apotecário por engano (mesmo template de elixires e de efígie/boneca vodu, sem nenhuma ligação com clima ou elementos). O quadro original do Conduíte já tinha um esboço de sistema de magia por pontos (elemento + forma + duração + efeito), então usei isso como base da habilidade central. Ajuste nomes, custos e valores numéricos (X) conforme o restante do sistema for fechado. #todo
 
 ## Convergência Elemental
 
@@ -75,7 +75,7 @@ Passivo. Sempre que usar Convergência Elemental gastando o número máximo de P
 
 #rank_s
 
-1 PA • 2 PE. Uma vez por descanso longo, desate um fenômeno em escala total, afetando toda a área em [alcance longo](#/devlog/entry/alcances). Escolha uma opção:
+1 PA. Uma vez por descanso longo, desate um fenômeno em escala total, afetando toda a área em [alcance longo](#/devlog/entry/alcances). Escolha uma opção:
 
 - **Incêndio Florestal:** a área pega fogo. Toda criatura nela sofre dano de [Fogo](#/devlog/entry/condicoes) **Médio** e recebe 1 stack de [Sangramento](#/devlog/entry/condicoes) a cada rodada em que permanecer dentro.
 - **Terremoto:** todas as criaturas na área são derrubadas e recebem 1 stack de [Lentidão](#/devlog/entry/condicoes).

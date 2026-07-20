@@ -1,8 +1,8 @@
 ---
 title: ceifador
-date: '2026-07-12'
-section: mecanicas/criacao de personagem/classes
-sourceNote: mecanicas/criacao de personagem/classes/ceifador.md
+date: '2026-07-20'
+section: mecanicas/criacao de personagem/linhagens
+sourceNote: mecanicas/criacao de personagem/linhagens/ceifador.md
 ---
 Senhores do limiar entre vida e morte, transformando cadáveres e energia vital em poder.
 
@@ -16,7 +16,7 @@ Senhores do limiar entre vida e morte, transformando cadáveres e energia vital 
 
 Sua ligação com a morte permite aprisionar fragmentos de almas errantes e invocá-las temporariamente ao mundo físico. Essas almas podem assumir formas diferentes — esqueletos, espíritos, cadáveres reanimados ou aparições sombrias — mas todas contam como criaturas Médias sobrenaturais.
 
-Como 1 PA, você pode invocar uma Alma em um espaço adjacente a você ou um aliado em [alcance curto](#/devlog/entry/alcances). Esse custo *não é afetado por Ritmo de Combate*. Você pode manter simultaneamente um número máximo de Almas invocadas igual ao seu atributo de *Essência*. Todas as Almas desaparecem ao fim de um combate e você pode sacrificar almas livremente sem custo.
+Como 1 PA, você pode invocar uma Alma em um espaço adjacente a você ou um aliado em [alcance curto](#/devlog/entry/alcances). Esse custo *não é afetado por Ritmo de Combate*. Você pode manter simultaneamente um número máximo de Almas invocadas igual ao seu traço de *Essência*. Todas as Almas desaparecem ao fim de um combate e você pode sacrificar almas livremente sem custo.
 
 Cada Alma ocupa um espaço adjacente ao alvo protegido e permanece vinculada a ele até ser destruída, movida ou dissipada. Por precisarem permanecer adjacentes, uma criatura não pode ser protegida por mais de 4 Almas ao mesmo tempo.
 

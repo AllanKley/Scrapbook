@@ -1,6 +1,6 @@
 ---
 title: alcances
-date: '2026-07-12'
+date: '2026-07-20'
 section: mecanicas
 sourceNote: mecanicas/alcances.md
 ---

@@ -1,6 +1,6 @@
 ---
 title: regras sociais
-date: '2026-07-12'
+date: '2026-07-20'
 section: mecanicas
 sourceNote: mecanicas/regras sociais.md
 ---
@@ -140,7 +140,7 @@ Esse método é propositalmente aberto e recompensa investigação, interpretaç
 
 ### Por Habilidades
 
-Algumas habilidades de [Classe](#/devlog/entry/classe), [Domínio](#/devlog/entry/dominio) ou [Patrono](#/devlog/entry/patrono) permitem obter Alavancas de forma direta.
+Algumas habilidades de [Linhagem](#/devlog/entry/linhagem), [Domínio](#/devlog/entry/dominio) ou [Patrono](#/devlog/entry/patrono) permitem obter Alavancas de forma direta.
 
 Essas habilidades representam treinamento em leitura emocional, espionagem, manipulação, intimidação ou outras formas especializadas de influência social.
 

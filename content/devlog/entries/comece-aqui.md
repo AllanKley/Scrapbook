@@ -1,6 +1,6 @@
 ---
 title: Comece Aqui
-date: '2026-07-12'
+date: '2026-07-20'
 sourceNote: Comece Aqui.md
 ---
 #hub #índice
@@ -12,7 +12,7 @@ sourceNote: Comece Aqui.md
 
 # O que é Dungeon Rift
 
-Há quase quarenta anos, o antigo selo que continha a **Essência** se rompeu, e ela voltou ao mundo do jeito que só ela poderia voltar: como memória. As **Fraturas** não são criações humanas — são lembranças da própria Essência, reflexos de lugares e eventos de uma era que ninguém viu de fato. Cada uma delas guarda em algum lugar um **Core**, o que resta daquela memória ativa, e é ele que precisa ser destruído para fechar a Fratura.
+Há quase quarenta anos, o antigo selo que continha a **Essência** se rompeu, e ela voltou ao mundo do jeito que só ela poderia voltar: como memória. As **Fraturas** não são criações humanas — são lembranças da própria Essência, reflexos de lugares e eventos de uma era que ninguém viu de fato. Cada uma delas guarda em algum lugar uma **Âncora**, o que resta daquela memória ativa, e é ela que precisa ser destruída para fechar a Fratura.
 
 A humanidade já se adaptou a esse mundo. Não é mais uma era de pânico — guildas são instituições consolidadas, os **Despertados** formam uma classe profissional inteira, e a sociedade aprendeu a conviver com o impossível. Mas Fraturas continuam surgindo, e em lugares onde ninguém consegue fechá-las — como a Antártida ou o fundo dos oceanos — a realidade se torna cada vez mais instável.
 
@@ -26,18 +26,18 @@ Para a história completa — a natureza da Essência, a causa (ainda em rascunh
 
 Seu personagem é definido por:
 
-- Seus [atributos](#/devlog/entry/atributos), que representam suas capacidades físicas, mentais e arcanas.
-- Sua [_classe](#/devlog/entry/classe) e seu [domínio](#/devlog/entry/dominio), que definem como você luta e qual papel ocupa no grupo.
+- Seus [Traços](#/devlog/entry/tracos), que representam suas capacidades físicas, mentais e arcanas.
+- Sua [Linhagem](#/devlog/entry/linhagem) e seu [domínio](#/devlog/entry/dominio), que definem como você luta e qual papel ocupa no grupo.
 - Suas [perícias](#/devlog/entry/pericias), que representam seu treinamento e experiência.
 - Seu [patrono](#/devlog/entry/patrono), uma entidade poderosa cuja influência molda parte do que você se tornou.
-- Suas [conexões](#/devlog/entry/conexoes), os laços que unem você ao mundo.
-- Seus [_equipamentos](#/devlog/entry/equipamentos), que determinam grande parte da sua capacidade em combate e exploração.
+- Seus [Vínculos](#/devlog/entry/conexoes), os laços que unem você ao mundo.
+- Seu [Arsenal](#/devlog/entry/equipamentos), que determina grande parte da sua capacidade em combate e exploração.
 
 > Consulte [_criacao de personagem](#/devlog/entry/criacao-de-personagem) para o processo completo de criação.
 
 ## Ranks
 
-Rank é o equivalente a nível: mede o poder do seu Caçador, sobe por marco (a critério do mestre) e segue a mesma escada pra qualquer build. Classe e Domínio se intercalam nela — Classe em F/D/B, Domínio em E/C/A, ambos junto com Despertar e Rank S — e os Patronos avançam nos ranks intermediários (F+/E+/D+/C+/B+/A+). Alcançar um Rank já concede seus benefícios mecânicos, mas o reconhecimento oficial das Guildas (padrão de vida, acesso a lojas e a Fraturas daquele Rank) exige passar num Teste de Rank. Veja [Ranks](#/devlog/entry/progressao-de-personagem) para a escada completa.
+Rank é o equivalente a nível: mede o poder do seu Caçador, sobe por marco (a critério do mestre) e segue a mesma escada pra qualquer build. Linhagem e Domínio se intercalam nela — Linhagem em F/D/B, Domínio em E/C/A, ambos junto com Despertar e Rank S — e os Patronos avançam nos ranks intermediários (F+/E+/D+/C+/B+/A+). Alcançar um Rank já concede seus benefícios mecânicos, mas o reconhecimento oficial da Federação e das Guildas (padrão de vida, acesso a lojas e a Fraturas daquele Rank) exige passar num Exame de Ascensão. Veja [Ranks](#/devlog/entry/progressao-de-personagem) para a escada completa.
 
 ---
 
@@ -59,18 +59,19 @@ Este é um mundo que já se adaptou ao impossível, mas que ainda não entende o
 
 ## Criação de personagem
 - [_criacao de personagem](#/devlog/entry/criacao-de-personagem) — visão geral do processo.
-- [atributos](#/devlog/entry/atributos), [perícias](#/devlog/entry/pericias), [_classe](#/devlog/entry/classe), [domínio](#/devlog/entry/dominio), [patrono](#/devlog/entry/patrono), [conexões](#/devlog/entry/conexoes) `(adaptado, revisar)`, [_equipamentos](#/devlog/entry/equipamentos) `(adaptado, revisar)`.
+- [Traços](#/devlog/entry/tracos), [perícias](#/devlog/entry/pericias), [Linhagem](#/devlog/entry/linhagem), [domínio](#/devlog/entry/dominio), [patrono](#/devlog/entry/patrono), [Vínculos](#/devlog/entry/conexoes) `(adaptado, revisar)`, [Arsenal](#/devlog/entry/equipamentos) `(adaptado, revisar)`.
+- [recursos](#/devlog/entry/recursos) — PV, PA, Redução de Dano, Defesa, Evasão, Deslocamento e Subespaço.
 - [progressao de personagem](#/devlog/entry/progressao-de-personagem) — a escada de progressão, do Despertar ao Rank S.
 
 ## Mundo
 - [lore_mundo](#/devlog/entry/lore-mundo) — a Essência, as Fraturas e a causa do selamento.
-- [Geografia Mundial](#/devlog/entry/geografia-mundial) `(adaptado, revisar)` — Cicatrizes e Bases Estáveis pelo mundo.
+- [Geografia Mundial](#/devlog/entry/geografia-mundial) `(adaptado, revisar)` — Epicentros e Bases Estáveis pelo mundo.
 
 ## Testes e resolução
 - [testes de pericias](#/devlog/entry/testes-de-pericias) — Teste Simples, Teste Oposto, Teste Estendido e Agouro (Fortunas/Ruínas).
 
 ## Combate
-- [combate - regras gerais](#/devlog/entry/combate-regras-gerais) — iniciativa, Sobrecarga de Essência, penalidade de peso e ritmo de combate.
+- [combate - regras gerais](#/devlog/entry/combate-regras-gerais) — iniciativa, penalidade de peso e ritmo de combate.
 - [armas](#/devlog/entry/armas), [armaduras](#/devlog/entry/armaduras), [escudos](#/devlog/entry/escudos), [alcances](#/devlog/entry/alcances).
 - [infusoes](#/devlog/entry/infusoes) — melhorias elementais permanentes para armas, armaduras e escudos, pagas em Ecos.
 - [ferimentos](#/devlog/entry/ferimentos) — o que acontece quando um personagem chega a 0 PV.

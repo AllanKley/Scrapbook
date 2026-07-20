@@ -1,6 +1,6 @@
 ---
 title: ecos
-date: '2026-07-12'
+date: '2026-07-20'
 section: world_building
 sourceNote: world_building/ecos.md
 ---
@@ -18,7 +18,7 @@ Um Eco não é apenas uma fonte de energia. É uma memória cristalizada.
 
 ## Elemento dos Ecos
 
-Todo Eco carrega um **Elemento**, refletido na criatura ou no local de onde ele foi retirado — um Eco tirado de dentro de uma criatura de fogo carrega Fogo; um Eco encontrado num santuário congelado carrega Gelo. O tier do Eco (Tênue, Manifesto, Ancestral, Primordial) e o Elemento juntos determinam o que ele pode fazer quando usado para [Infundir](#/devlog/entry/infusoes) um equipamento.
+Todo Eco carrega um **Elemento**, refletido na criatura ou no local de onde ele foi retirado — um Eco tirado de dentro de uma criatura de fogo carrega Fogo; um Eco encontrado num santuário congelado carrega Gelo. O tier do Eco (Tênue, Manifesto, Ancestral, Primordial) e o Elemento juntos determinam o que ele pode fazer quando usado para [Infundir](#/devlog/entry/infusoes) um item do Arsenal.
 
 Veja [infusoes](#/devlog/entry/infusoes) para a lista completa de Elementos e seus efeitos.
 
@@ -32,7 +32,7 @@ Eles não compram comida, hospedagem ou favores cotidianos. Essas coisas pertenc
 
 Os Ecos compram apenas aquilo que ainda carrega o peso desse passado:
 
-- equipamentos com infusões;
+- itens do Arsenal com infusões;
 - artefatos antigos;
 - contratos com despertados;
 - poções;

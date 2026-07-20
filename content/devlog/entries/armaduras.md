@@ -1,12 +1,12 @@
 ---
 title: armaduras
-date: '2026-07-12'
+date: '2026-07-20'
 section: mecanicas/criacao de personagem/equipamentos
 sourceNote: mecanicas/criacao de personagem/equipamentos/armaduras.md
 ---
 #combate
 
-Armaduras reduzem passivamente o dano recebido, oferecendo maior proteção em troca de mobilidade e capacidade de carga — veja [_equipamentos](#/devlog/entry/equipamentos) para o que cada atributo (Manuseio, Tamanho, Penalidade de Peso, Redução de Dano) significa.
+Armaduras reduzem passivamente o dano recebido, oferecendo maior proteção em troca de mobilidade e capacidade de carga — veja [_equipamentos](#/devlog/entry/equipamentos) para o que cada propriedade (Manuseio, Tamanho, Penalidade de Peso, Redução de Dano) significa.
 
 ---
 

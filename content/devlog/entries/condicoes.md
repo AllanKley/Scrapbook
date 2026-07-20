@@ -1,6 +1,6 @@
 ---
 title: condições
-date: '2026-07-12'
+date: '2026-07-20'
 section: mecanicas
 sourceNote: mecanicas/condições.md
 ---
@@ -87,7 +87,7 @@ Fraqueza não acumula em stacks — uma nova aplicação apenas renova sua dura�
 Enquanto estiver com Fraqueza, você:
 
 - causa metade do dano normal em seus ataques (arredondado para baixo);
-- sofre 1 Ruína em testes baseados em [Ímpeto](#/devlog/entry/atributos).
+- sofre 1 Ruína em testes baseados em [Ímpeto](#/devlog/entry/tracos).
 
 ---
 
@@ -124,7 +124,7 @@ Isso impede o uso de qualquer habilidade que dependa de fala, canto ou comando v
 
 # Corrosão
 
-A Corrosão danifica equipamentos de proteção.
+A Corrosão danifica itens do Arsenal usados para proteção.
 
 Cada stack de Corrosão reduz os Usos restantes de um escudo, ou a Redução de Dano de uma armadura, em uma quantidade **Baixa** (até um mínimo de 0), na primeira vez que a criatura equipada for atingida enquanto tiver esse stack. Cada stack é consumido assim que aplica seu efeito.
 

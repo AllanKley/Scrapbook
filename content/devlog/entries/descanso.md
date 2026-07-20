@@ -1,6 +1,6 @@
 ---
 title: descanso
-date: '2026-07-12'
+date: '2026-07-20'
 section: mecanicas
 sourceNote: mecanicas/descanso.md
 ---
@@ -20,7 +20,7 @@ Uma pausa breve — minutos, não horas — o suficiente para recuperar o fôleg
 
 Ao concluir um Descanso Curto:
 
-- Recupere uma quantidade **Média** de PA e PE.
+- Recupere uma quantidade **Média** de PA.
 - Escolha 1 [condição](#/devlog/entry/condicoes) afetando você e remova 1 stack dela.
 - Um Escudo em sua posse recupera uma quantidade **Baixa** de Usos.
 
@@ -35,32 +35,32 @@ Representa horas de descanso de verdade — acampar, dormir em uma pousada, ou q
 Ao concluir um Descanso Longo, cada personagem escolhe **2 Ações de Descanso diferentes** entre as listadas abaixo — não é possível escolher a mesma ação duas vezes. Cada personagem do grupo escolhe as suas de forma independente; nada obriga o grupo inteiro a escolher as mesmas duas.
 
 > [!info] Isso substitui a recuperação automática
-> Diferente da maioria dos sistemas, recuperar Pontos de Vida, PA e PE **não é automático** — é o que a ação [Dormir](#dormir) faz. Um personagem que abra mão de Dormir em favor de outras duas ações não recupera esses recursos neste descanso. A ideia é criar a mesma tensão de Ordem Paranormal: descansar de verdade tem um custo de oportunidade.
+> Diferente da maioria dos sistemas, recuperar Pontos de Vida e PA **não é automático** — é o que a ação [Dormir](#dormir) faz. Um personagem que abra mão de Dormir em favor de outras duas ações não recupera esses recursos neste descanso. A ideia é criar a mesma tensão de Ordem Paranormal: descansar de verdade tem um custo de oportunidade.
 
-Habilidades de Classe ou Domínio que disparam **"ao concluir um descanso longo"** (como as de [Oráculo](#/devlog/entry/oraculo), [Malandro](#/devlog/entry/malandro) e [Apotecário](#/devlog/entry/apotecario)) acontecem normalmente, **independente** de quais Ações de Descanso o personagem escolheu.
+Habilidades de Linhagem ou Domínio que disparam **"ao concluir um descanso longo"** (como as de [Oráculo](#/devlog/entry/oraculo), [Malandro](#/devlog/entry/malandro) e [Apotecário](#/devlog/entry/apotecario)) acontecem normalmente, **independente** de quais Ações de Descanso o personagem escolheu.
 
 ## Ações de Descanso
 
 ### Dormir
-A opção padrão e segura. Recupere PV, PA e PE em uma quantidade **Alta** (o mais próximo de "cheio" que este descanso permite).
+A opção padrão e segura. Recupere PV e PA em uma quantidade **Alta** (o mais próximo de "cheio" que este descanso permite).
 
 ### Recuperar-se
 A ação de tratar ferimentos de verdade — é a ação **Recuperar Corpo** referenciada em [ferimentos](#/devlog/entry/ferimentos). Escolha 1 [Ferimento Leve](#/devlog/entry/ferimentos) ou [Mutilado](#/devlog/entry/ferimentos) seu (ou de um aliado que também esteja descansando) e remova-o.
 
 ### Conversar
-Passe o tempo conversando de verdade com outro personagem do grupo — sem teste, sem mecânica escondida, só a cena. Escolha outro personagem presente: vocês dois recebem **1 Fortuna** no próximo teste que fizerem juntos (Teste Oposto cooperativo, ajudar numa Ação Planejada, etc.), e o mestre pode aprofundar uma [Conexão](#/devlog/entry/conexoes) existente entre vocês ou plantar uma nova.
+Passe o tempo conversando de verdade com outro personagem do grupo — sem teste, sem mecânica escondida, só a cena. Escolha outro personagem presente: vocês dois recebem **1 Fortuna** no próximo teste que fizerem juntos (Teste Oposto cooperativo, ajudar numa Ação Planejada, etc.), e o mestre pode aprofundar um [Vínculo](#/devlog/entry/conexoes) existente entre vocês ou plantar um novo.
 
 ### Treinar
-Pratique uma perícia, sozinho ou com a ajuda de outro personagem presente. Escolha 1 [perícia](#/devlog/entry/pericias) e marque 1 ponto de treino nela. Ao acumular uma quantidade **Alta** de pontos de treino na mesma perícia, ela sobe um nível de treinamento (até o limite de Elite) — veja [Níveis de Treinamento](#/devlog/entry/pericias).
+Pratique uma perícia, sozinho ou com a ajuda de outro personagem presente. Escolha 1 [perícia](#/devlog/entry/pericias) e marque 1 ponto de treino nela. Ao acumular uma quantidade **Alta** de pontos de treino na mesma perícia, ela sobe um nível de treinamento (até o limite de Especialista) — veja [Níveis de Treinamento](#/devlog/entry/pericias).
 
 ### Vigiar
 Fique de guarda enquanto os outros descansam. Enquanto pelo menos 1 personagem do grupo escolher Vigiar, o grupo não pode ser pego de **Emboscada** durante este descanso.
 
 ### Meditar
-Volte sua atenção para dentro, buscando controlar sua própria relação com a Essência. Reduza uma quantidade **Baixa** o risco da próxima [Sobrecarga](#/devlog/entry/combate-regras-gerais) que sofrer antes do próximo descanso (a critério do mestre, ex: trate o primeiro resultado de Sobrecarga como se tivesse saído 1 ponto melhor).
+Volte sua atenção para dentro, fortalecendo sua conexão com a própria Essência. Receba **1 Fortuna** no próximo teste que envolva sua Essência (Canalização, Sintonia, Sutileza, Estabilidade, ou uma habilidade de Rank que dependa dela) antes do próximo descanso.
 
-### Cuidar dos Equipamentos
-Limpe, afie e ajuste seu equipamento e o de quem pedir ajuda. Escolha 1 item entre um Escudo (recupere Usos em quantidade **Baixa**) ou uma Armadura/Arma com [Corrosão](#/devlog/entry/condicoes) (remova 1 stack).
+### Cuidar do Arsenal
+Limpe, afie e ajuste seu Arsenal e o de quem pedir ajuda. Escolha 1 item entre um Escudo (recupere Usos em quantidade **Baixa**) ou uma Armadura/Arma com [Corrosão](#/devlog/entry/condicoes) (remova 1 stack).
 
 ### Estudar
 Debruce-se sobre um livro, um mapa, um item recuperado ou o que se sabe sobre a Fratura atual. Faça um teste de [Histórico](#/devlog/entry/pericias) ou [Investigação](#/devlog/entry/pericias) (dificuldade a critério do mestre); em caso de sucesso, receba uma informação relevante sobre a área, a Fratura ou o item em questão, ou **1 Fortuna** no próximo teste diretamente relacionado a essa pesquisa.
@@ -74,6 +74,6 @@ Conte uma história, toque um instrumento, cozinhe algo melhor que ração de vi
 ---
 
 > [!todo] Pendências
-> - Os valores de recuperação (PA/PE/Usos/Ecos) ainda precisam de números reais — hoje usam a Escala de Efeito.
+> - Os valores de recuperação (PA/Usos/Ecos) ainda precisam de números reais — hoje usam a Escala de Efeito.
 > - Quantos "pontos de treino" (ação Treinar) equivalem a uma label **Alta** ainda não foi decidido.
 > - Falta decidir se existe algum limite de quantos Descansos Longos o grupo pode tomar por dia, ou se isso fica só a critério do mestre. #todo

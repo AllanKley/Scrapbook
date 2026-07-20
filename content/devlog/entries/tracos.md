@@ -1,24 +1,24 @@
 ---
-title: atributos
-date: '2026-07-12'
+title: traços
+date: '2026-07-20'
 section: mecanicas/criacao de personagem
-sourceNote: mecanicas/criacao de personagem/atributos.md
+sourceNote: mecanicas/criacao de personagem/traços.md
 ---
-Todo personagem é definido por seus atributos, que representam suas capacidades físicas, mentais e arcanas. Eles servem como base para testes de perícia, habilidades e diversas outras mecânicas do sistema.
+Todo personagem é definido por seus traços, que representam suas capacidades físicas, mentais e arcanas. Eles servem como base para testes de perícia, habilidades e diversas outras mecânicas do sistema.
 
-Os atributos são medidos em uma **escala numérica de 0 a 7**. Esses números representam não apenas a sua capacidade naquele atributo, mas a sua confiabilidade — o quão confiante você pode ficar em sua habilidade.
+Os traços são medidos em uma **escala numérica de 0 a 7**. Esses números representam não apenas a sua capacidade naquele traço, mas a sua confiabilidade — o quão confiante você pode ficar em sua habilidade.
 
 ---
 
-## Distribuição de Atributos
+## Distribuição de Traços
 
-Ao criar seu caçador, **todos os seus atributos começam em 1** e você recebe **5 pontos** para distribuir entre eles como quiser. Você também pode **reduzir um atributo para 0 para receber 1 ponto adicional**. O valor máximo inicial que você pode ter em cada atributo é **4**.
+Ao criar seu caçador, **todos os seus traços começam em 1** e você recebe **5 pontos** para distribuir entre eles como quiser. Você também pode **reduzir um traço para 0 para receber 1 ponto adicional**. O valor máximo inicial que você pode ter em cada traço é **4**.
 
-Um ser humano não despertado possui 0 em todos os seus atributos, ou no máximo 1 em seu campo de especialização. Você prefere um personagem equilibrado, capaz de lidar com qualquer situação, ou um especialista excepcional em uma área... à custa de falhas catastróficas em outras?
+Um ser humano não despertado possui 0 em todos os seus traços, ou no máximo 1 em seu campo de especialização. Você prefere um personagem equilibrado, capaz de lidar com qualquer situação, ou um especialista excepcional em uma área... à custa de falhas catastróficas em outras?
 
 ## Crescimento pós-criação
 
-Os atributos não ficam travados no valor da criação: a cada rank **F+/E+/D+/C+/B+/A+** da escada de [Ranks](#/devlog/entry/progressao-de-personagem), seus Patronos concedem +1 em um atributo à sua escolha (veja [Progressão de Patrono](#/devlog/entry/patrono)). Isso permite ultrapassar o teto inicial de 4, até o limite absoluto de **7**.
+Os traços não ficam travados no valor da criação: a cada rank **F+/E+/D+/C+/B+/A+** da escada de [Ranks](#/devlog/entry/progressao-de-personagem), seus Patronos concedem +1 em um traço à sua escolha (veja [Progressão de Patrono](#/devlog/entry/patrono)). Isso permite ultrapassar o teto inicial de 4, até o limite absoluto de **7**.
 
 ---
 
@@ -35,7 +35,7 @@ Os atributos não ficam travados no valor da criação: a cada rank **F+/E+/D+/C
 
 ---
 
-## Lista de Atributos
+## Lista de Traços
 
 ### Ímpeto
 

@@ -1,6 +1,6 @@
 ---
 title: ferimentos
-date: '2026-07-12'
+date: '2026-07-20'
 section: mecanicas
 sourceNote: mecanicas/ferimentos.md
 ---
@@ -118,9 +118,9 @@ Você sofre todos os efeitos de um **Ferimento Leve**.
 
 Além disso:
 
-- reduza um de seus atributos em **1 passo de dado**.
+- reduza um de seus traços em **1 passo de dado**.
 
-Caso todos os seus atributos já estejam em **d4**, trate este resultado como um **Ferimento Fatal**.
+Caso todos os seus traços já estejam em **d4**, trate este resultado como um **Ferimento Fatal**.
 
 Este efeito só pode ser removido utilizando a ação [Recuperar-se](#/devlog/entry/descanso) durante um [Descanso Longo](#/devlog/entry/descanso).
 

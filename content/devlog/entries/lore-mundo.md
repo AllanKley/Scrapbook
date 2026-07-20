@@ -1,6 +1,6 @@
 ---
 title: lore mundo
-date: '2026-07-12'
+date: '2026-07-20'
 section: world_building
 sourceNote: world_building/lore_mundo.md
 ---
@@ -61,16 +61,16 @@ Quando a Essência retornou no Rompimento, ela não voltou como algo novo. Ela v
 
 As Fraturas são exatamente isso: não são criações humanas, mas lembranças da própria Essência — reflexos de lugares e eventos da Primeira Era, reconstruídos de forma imperfeita a partir daquilo que restou de sua memória instintiva.
 
-## O Core
+## A Âncora
 
-Toda Fratura possui, em algum lugar dentro dela, um Core: o elemento que mantém aquela memória específica ativa. É o Core que precisa ser destruído para que a Fratura se feche.
+Toda Fratura possui, em algum lugar dentro dela, uma Âncora: o elemento que mantém aquela memória específica ativa. É a Âncora que precisa ser destruída para que a Fratura se feche.
 
-O Core pode assumir praticamente qualquer forma, e é essa variação que define o tipo de aventura possível dentro de cada Fratura:
+A Âncora pode assumir praticamente qualquer forma, e é essa variação que define o tipo de aventura possível dentro de cada Fratura:
 
-- Em Fraturas mais simples, o Core costuma ser um objeto que o chefe da Fratura está guardando — destrua o guardião, destrua o Core, feche a Fratura.
-- Em Fraturas mais complexas, o Core pode estar integrado à própria estrutura social daquela memória — a coroa de um rei, por exemplo. Nesses casos, fechar a Fratura pode exigir que os jogadores invadam um reino inteiro, naveguem sua política interna, ou roubem o Core de dentro de uma corte vigiada.
+- Em Fraturas mais simples, a Âncora costuma ser um objeto que o chefe da Fratura está guardando — destrua o guardião, destrua a Âncora, feche a Fratura.
+- Em Fraturas mais complexas, a Âncora pode estar integrada à própria estrutura social daquela memória — a coroa de um rei, por exemplo. Nesses casos, fechar a Fratura pode exigir que os jogadores invadam um reino inteiro, naveguem sua política interna, ou roubem a Âncora de dentro de uma corte vigiada.
 
-São essas diferenças de Core e de cenário interno que permitem contar histórias completamente diferentes dentro da mesma mecânica básica — uma Fratura pode ser uma masmorra linear ou uma campanha política inteira, dependendo do que sua memória específica reconstrói.
+São essas diferenças de Âncora e de cenário interno que permitem contar histórias completamente diferentes dentro da mesma mecânica básica — uma Fratura pode ser uma masmorra linear ou uma campanha política inteira, dependendo do que sua memória específica reconstrói.
 
 ## Por que fechar Fraturas
 
@@ -86,8 +86,8 @@ Existem regiões do mundo onde Fraturas não são fechadas — não por falta de
 
 Nessas áreas, a ausência de controle permite que a concentração de Essência cresça sem limites. As mudanças na paisagem se tornam absurdas, e criaturas surgem constantemente, sem qualquer padrão previsível. Isso torna essas regiões extremamente imprevisíveis e perigosas — mas também extremamente lucrativas, já que os recursos e Ecos gerados por esse fluxo descontrolado não têm equivalente em nenhum outro lugar do mundo.
 
-## Cicatrizes: Concentração Regional
+## Epicentros: Concentração Regional
 
-Antártida e oceanos são os casos extremos, mas a concentração de Fraturas não é uniforme em nenhum lugar do mundo. Regiões que já foram palco de grandes impérios, templos e lendas na Primeira Era guardam uma memória de Essência mais forte, e por isso concentram Fraturas maiores e mais numerosas — o que o mundo chama de **Cicatrizes**. Veja [Geografia Mundial](#/devlog/entry/geografia-mundial) para o mapa completo de Cicatrizes e das Bases Estáveis que cresceram ao redor delas. `(adaptado do RPG anterior, ainda em revisão)`
+Antártida e oceanos são os casos extremos, mas a concentração de Fraturas não é uniforme em nenhum lugar do mundo. Regiões que já foram palco de grandes impérios, templos e lendas na Primeira Era guardam uma memória de Essência mais forte, e por isso concentram Fraturas maiores e mais numerosas — o que o mundo chama de **Epicentros**. Veja [Geografia Mundial](#/devlog/entry/geografia-mundial) para o mapa completo de Epicentros e das Bases Estáveis que cresceram ao redor deles. `(adaptado do RPG anterior, ainda em revisão)`
 
 ---

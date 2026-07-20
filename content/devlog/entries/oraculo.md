@@ -1,8 +1,8 @@
 ---
 title: oraculo
-date: '2026-07-12'
-section: mecanicas/criacao de personagem/classes
-sourceNote: mecanicas/criacao de personagem/classes/oraculo.md
+date: '2026-07-20'
+section: mecanicas/criacao de personagem/linhagens
+sourceNote: mecanicas/criacao de personagem/linhagens/oraculo.md
 ---
 Mestres da mente e das emoções, dominando campos sociais e psicológicos como verdadeiros tabuleiros de guerra.
 
@@ -14,7 +14,7 @@ Mestres da mente e das emoções, dominando campos sociais e psicológicos como 
 
 #despertar
 
-Ao concluir um descanso longo, role uma quantidade de **d20** igual ao seu atributo de **Essência**. Os resultados determinam quais cartas estarão disponíveis para você até seu próximo descanso longo. Além disso, [O Louco](#o-louco) e [O Mundo](#o-mundo) estão sempre disponíveis. Cada carta pode ser usada apenas uma vez por descanso longo.
+Ao concluir um descanso longo, role uma quantidade de **d20** igual ao seu traço de **Essência**. Os resultados determinam quais cartas estarão disponíveis para você até seu próximo descanso longo. Além disso, [O Louco](#o-louco) e [O Mundo](#o-mundo) estão sempre disponíveis. Cada carta pode ser usada apenas uma vez por descanso longo.
 
 ### O Louco
 
@@ -51,7 +51,7 @@ Recupere uma carta já utilizada.
 
 #rank_f
 
-Você é capaz de produzir uma barreira psíquica que conta como um escudo leve e usa Essência como atributo base. Essa barreira tem os mesmos limites de uso de um escudo leve e se recupera após um descanso curto.
+Você é capaz de produzir uma barreira psíquica que conta como um escudo leve e usa Essência como traço base. Essa barreira tem os mesmos limites de uso de um escudo leve e se recupera após um descanso curto.
 
 ---
 

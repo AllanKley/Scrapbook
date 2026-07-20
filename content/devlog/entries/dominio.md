@@ -1,15 +1,45 @@
 ---
 title: domínio
-date: '2026-07-12'
+date: '2026-07-20'
 section: mecanicas/criacao de personagem
 sourceNote: mecanicas/criacao de personagem/domínio.md
 ---
 Os Domínios definem o papel do seu personagem dentro do grupo. Cada um oferece duas especializações, que concedem habilidades únicas ao longo da progressão.
 
-As habilidades de Domínio são desbloqueadas em **Despertar, Rank E, Rank C, Rank A e Rank S** — ranks diferentes dos de Classe (que usam F, D e B), intercalados na mesma escada. Veja [Ranks](#/devlog/entry/progressao-de-personagem) para a progressão completa.
+As habilidades de Domínio são desbloqueadas em **Despertar, Rank E, Rank C, Rank A e Rank S** — ranks diferentes dos de Linhagem (que usam F, D e B), intercalados na mesma escada. Veja [Ranks](#/devlog/entry/progressao-de-personagem) para a progressão completa.
 
 > [!todo] Rank provisório
 > Os ranks abaixo foram distribuídos de forma provisória, só para que cada habilidade tenha um marcador — a posição exata de cada uma ainda pode mudar.
+
+> [!info] PV e Deslocamento são por Domínio, não por especialização
+> As duas especializações de um mesmo Domínio compartilham o mesmo PV inicial/por nível e o mesmo Deslocamento — só as habilidades mudam entre elas. Veja [recursos](#/devlog/entry/recursos) para como esses dois recursos se encaixam no resto da ficha.
+
+---
+
+# Origem (lore)
+
+Diferente da [Linhagem](#/devlog/entry/linhagem), nada no Domínio é inato ou único ao personagem: toda habilidade de Domínio representa dedicação e treino — o resultado direto de alguém se esforçando para controlar melhor a própria Essência, não um dom com que já nasceu. As quatro categorias (Bastião, Suporte, Executor, Especialista) e suas oito especializações são um sistema de classificação da **Associação**, criado para organizar e ensinar esse treino de forma consistente — não uma força mística ou uma marca da alma.
+
+É justamente por ser treino, e não fundação, que o Domínio pode ser expandido: um personagem pode se dedicar a treinar um Domínio diferente do seu principal, algo impensável para a Linhagem, que é fixa desde o Despertar.
+
+---
+
+# Multiclasse de Domínio
+
+Toda vez que o personagem ganha um **nível de Domínio** (Despertar, Rank E, Rank C, Rank A ou Rank S), ele escolhe uma das duas opções abaixo:
+
+- **Continuar uma trilha existente** — pegar a próxima habilidade não desbloqueada de um Domínio (e especialização) em que já tenha investido antes, seja o principal ou um secundário.
+- **Multiclassar** — pegar a habilidade de **Despertar** de um Domínio que o personagem ainda não tenha treinado, escolhendo uma das suas duas especializações. Esse Domínio passa a ser uma trilha própria: da próxima vez que o jogador quiser continuar treinando nele, pega a habilidade seguinte dessa mesma trilha (Rank E → C → A → S, nessa ordem, não importa quantos níveis de personagem se passem entre uma escolha e a outra).
+
+Cada trilha de Domínio avança na sua própria ordem interna, independente do restante da ficha — só não é possível pular uma habilidade da trilha sem antes ter pego a anterior.
+
+**Recursos ganhos ao multiclassar:**
+
+- **PV:** ao pegar uma habilidade de um Domínio diferente do inicial, o personagem ganha o **PV por nível** daquele Domínio — nunca o **PV inicial**, que só é concedido uma vez, pelo Domínio com que o personagem começou.
+- **Deslocamento:** nunca muda por multiclasse. Permanece sempre o valor do Domínio inicial, não importa quantos outros Domínios o personagem treine depois.
+
+> [!todo] Especialização ao multiclassar
+> Assumindo que, ao multiclassar num Domínio novo, o jogador escolhe uma das duas especializações dele (como faria normalmente) e segue só nessa daí em diante — não é possível alternar entre as duas especializações do mesmo Domínio secundário. Confirmar se é essa mesma a intenção. #todo #duvida
 
 ---
 
@@ -17,15 +47,16 @@ As habilidades de Domínio são desbloqueadas em **Despertar, Rank E, Rank C, Ra
 
 Os Bastiões são especialistas em proteger seus aliados e resistir ao perigo. Enquanto outros se concentram em derrotar os inimigos, eles garantem que ninguém fique para trás.
 
+**Pontos de Vida:** inicial **Alto**, **Alto** por nível.
+**Deslocamento:** 4 quadrados.
+
 ## Protetor
 
 Você é o escudo da equipe, colocando-se entre seus aliados e qualquer ameaça.
 
-**Pontos de Vida:** inicial **Alta**, **Baixa** por nível.
-
 ### Habilidades
 
-#### Despertar — *Mártir* (1 PA • 0 PE • Reação)
+#### Despertar — *Mártir* (1 PA • Reação)
 
 Quando um aliado em [alcance adjacente](#/devlog/entry/alcances) for alvo de um ataque, você pode redirecioná-lo para si.
 
@@ -39,7 +70,7 @@ Enquanto houver pelo menos um aliado em [alcance estendido](#/devlog/entry/alcan
 
 ---
 
-#### Rank C — *Defensor Veloz* (1 PA • 1 PE)
+#### Rank C — *Defensor Veloz* (1 PA)
 
 Mova-se até um aliado em [alcance curto](#/devlog/entry/alcances).
 
@@ -55,7 +86,7 @@ Em caso de sucesso, ele permanece onde está.
 
 ---
 
-#### Rank S — *Escudo Protetor* (1 PA • 2 PE • Reação)
+#### Rank S — *Escudo Protetor* (1 PA • Reação)
 
 Sua Essência toma forma como uma barreira sólida.
 
@@ -67,11 +98,9 @@ Ela se estende em linha até [alcance curto](#/devlog/entry/alcances), impedindo
 
 Seu papel é permanecer de pé até o fim do combate, suportando danos que derrubariam qualquer outro.
 
-**Pontos de Vida:** inicial **Alta**, **Média** por nível.
-
 ### Habilidades
 
-#### Despertar — *Ponto Focal* (1 PA • 1 PE)
+#### Despertar — *Ponto Focal* (1 PA)
 
 Até o início do seu próximo turno, todos os inimigos em [alcance curto](#/devlog/entry/alcances) devem focar seus ataques em você.
 
@@ -97,7 +126,7 @@ Você causa dano **Baixo** adicional para cada inimigo adjacente a você.
 
 ---
 
-#### Rank S — *Inquebrável* (1 PA • 2 PE • Reação)
+#### Rank S — *Inquebrável* (1 PA • Reação)
 
 Ao sofrer dano, reduza esse dano pela metade.
 
@@ -107,15 +136,16 @@ Ao sofrer dano, reduza esse dano pela metade.
 
 Especialistas em manter o grupo funcionando. Seja restaurando aliados ou oferecendo conhecimento, sua presença fortalece toda a equipe.
 
+**Pontos de Vida:** inicial **Médio**, **Médio** por nível.
+**Deslocamento:** 5 quadrados.
+
 ## Curandeiro
 
 Você canaliza a Essência para restaurar o equilíbrio físico e espiritual dos seus aliados.
 
-**Pontos de Vida:** inicial **Média**, **Baixa** por nível.
-
 ### Habilidades
 
-#### Despertar — *Transferência de Vitalidade* (1 PA • 2 PE)
+#### Despertar — *Transferência de Vitalidade* (1 PA)
 
 Transfira Pontos de Vida entre criaturas em [alcance estendido](#/devlog/entry/alcances), incluindo você.
 
@@ -129,7 +159,7 @@ Quando um aliado em [alcance curto](#/devlog/entry/alcances) chegar a **0 PV**, 
 
 ---
 
-#### Rank C — *Flutuações de Essência* (0 PA • 1 PE)
+#### Rank C — *Flutuações de Essência* (1 PA)
 
 Analise o fluxo de Essência de uma criatura.
 
@@ -143,12 +173,12 @@ Enquanto estiver em [alcance estendido](#/devlog/entry/alcances) de um aliado qu
 
 ---
 
-#### Rank S — *Infusão Vital* (1 PA • PE variável)
+#### Rank S — *Infusão Vital* (1 PA • 1x por descanso curto)
 
-Injete sua Essência em um aliado.
+> [!todo] Redesenhada sem PE
+> Original escalava com PE gasto ("cure uma quantidade Baixa de PV para cada PE gasto"). Sem PE, virou uma cura fixa com frequência limitada — ajuste a magnitude/frequência quando os números reais forem fechados. #todo
 
-- Cure uma quantidade **Baixa** de PV para cada PE gasto.
-- Alternativamente, gaste **2 PE** para remover **1 Ferimento**.
+Injete sua Essência em um aliado. Cure uma quantidade **Alta** de PV, ou remova **1 Ferimento**.
 
 ---
 
@@ -156,11 +186,9 @@ Injete sua Essência em um aliado.
 
 Seu maior poder é o conhecimento. Você identifica padrões, resolve problemas e encontra respostas onde ninguém mais consegue.
 
-**Pontos de Vida:** inicial **Média**, **Baixa** por nível.
-
 ### Habilidades
 
-#### Despertar — *Conhecimento Paralelo* (1 PA • 1 PE)
+#### Despertar — *Conhecimento Paralelo* (1 PA)
 
 Realize um teste utilizando uma perícia na qual você não é treinado como se fosse treinado.
 
@@ -186,11 +214,12 @@ Realize um teste utilizando uma perícia na qual você não é treinado como se 
 
 Os Executores existem para eliminar ameaças rapidamente. Quanto mais tempo permanecem atacando, mais perigosos se tornam.
 
+**Pontos de Vida:** inicial **Alto**, **Médio** por nível.
+**Deslocamento:** 6 quadrados.
+
 ## Ofensivo
 
 Sua presença em combate significa pressão constante e muito dano.
-
-**Pontos de Vida:** inicial **Média**, **Baixa** por nível.
 
 ### Habilidades
 
@@ -206,9 +235,15 @@ Uma vez por turno, você pode realizar uma ação de Movimento e uma ação de A
 
 Escolha a ordem das ações.
 
+> [!todo] Ficou mais forte com o novo custo de Ataque
+> Quando Atacar custava 1 PA, isso não era desconto nenhum (Movimento já é de graça). Agora que Atacar custa 2 PA, esta habilidade economiza 1 PA de verdade — revisar se ainda faz sentido no Rank E ou se deveria subir de rank. #todo
+
 ---
 
-#### Rank C — *Surto de Energia* (0 PA • 2 PE)
+#### Rank C — *Surto de Energia* (0 PA • 1x por cena)
+
+> [!todo] Redesenhada sem PE
+> Original convertia PE em PA ("0 PA • 2 PE"). Sem PE, virou uma explosão de ação gratuita limitada por cena. #todo
 
 Até o fim da rodada, você recebe **+1 PA**.
 
@@ -224,7 +259,7 @@ O bônus termina ao errar um ataque ou trocar de alvo.
 
 ---
 
-#### Rank S — *Guerreiro Imparável* (1 PA • 2 PE)
+#### Rank S — *Guerreiro Imparável* (1 PA)
 
 Até o fim da rodada, você recupera Pontos de Vida iguais à metade do dano causado por seus ataques.
 
@@ -235,8 +270,6 @@ Até o fim da rodada, você recupera Pontos de Vida iguais à metade do dano cau
 Você escolhe um alvo — e ele não escapa.
 
 Seu poder cresce quando elimina inimigos isolados com rapidez e precisão.
-
-**Pontos de Vida:** inicial **Média**, **Baixa** por nível.
 
 ### Habilidades
 
@@ -252,7 +285,7 @@ Na primeira rodada de cada combate, você recebe uma ação de Movimento gratuit
 
 ---
 
-#### Rank C — *Marca do Assassino* (1 PA • 1 PE)
+#### Rank C — *Marca do Assassino* (1 PA)
 
 Marque um inimigo em [alcance médio](#/devlog/entry/alcances).
 
@@ -268,7 +301,7 @@ Além disso, você pode repetir sua primeira tentativa de se esconder em cada ce
 
 ---
 
-#### Rank S — *Finalizador* (1 PA • 2 PE)
+#### Rank S — *Finalizador* (1 PA)
 
 Até o fim da rodada, seus ataques:
 
@@ -281,15 +314,16 @@ Até o fim da rodada, seus ataques:
 
 Especialistas controlam situações através de inteligência, influência e estratégia.
 
+**Pontos de Vida:** inicial **Médio**, **Baixo** por nível.
+**Deslocamento:** 5 quadrados.
+
 ## Social
 
 Você é a voz do grupo. Resolve conflitos através da influência, manipulação e presença.
 
-**Pontos de Vida:** inicial **Média**, **Baixa** por nível.
-
 ### Habilidades
 
-#### Despertar — *Discurso Persuasivo* (0 PA • 1 PE)
+#### Despertar — *Discurso Persuasivo* (1 PA)
 
 Você pode reutilizar uma Alavanca Social.
 
@@ -303,7 +337,7 @@ Em testes de convencimento, você sempre pode cometer **1 falha adicional** ante
 
 ---
 
-#### Rank C — *Influência Forçada* (1 PA • 2 PE)
+#### Rank C — *Influência Forçada* (1 PA)
 
 Influencie um inimigo, alterando seu estilo de combate para um de sua escolha.
 
@@ -323,11 +357,9 @@ Você controla o ritmo da batalha.
 
 Movimentos, posicionamentos e oportunidades passam pelas suas mãos.
 
-**Pontos de Vida:** inicial **Média**, **Baixa** por nível.
-
 ### Habilidades
 
-#### Despertar — *Olhar Analítico* (1 PA • 1 PE)
+#### Despertar — *Olhar Analítico* (1 PA)
 
 Faça um teste para analisar um inimigo em [alcance médio](#/devlog/entry/alcances).
 

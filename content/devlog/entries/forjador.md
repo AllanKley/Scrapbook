@@ -1,8 +1,8 @@
 ---
 title: forjador
-date: '2026-07-12'
-section: mecanicas/criacao de personagem/classes
-sourceNote: mecanicas/criacao de personagem/classes/forjador.md
+date: '2026-07-20'
+section: mecanicas/criacao de personagem/linhagens
+sourceNote: mecanicas/criacao de personagem/linhagens/forjador.md
 ---
 Engenheiros místicos que moldam armas, armaduras e até o próprio corpo com runas e essência.
 
@@ -24,10 +24,10 @@ Engenheiros místicos que moldam armas, armaduras e até o próprio corpo com ru
 - **Runa de Retorno:** se este item for arremessado, ele retorna à mão de quem o usou imediatamente após o ataque.
 - **Runa de Escuta:** enquanto gravada em qualquer objeto, permite ouvir tudo ao redor dele à distância, por 1 cena.
 
-Você pode manter apenas 1 Runa ativa por vez, a menos que uma habilidade diga o contrário. Runas gravadas em seus próprios equipamentos duram o dobro do tempo normal.
+Você pode manter apenas 1 Runa ativa por vez, a menos que uma habilidade diga o contrário. Runas gravadas em seu próprio Arsenal duram o dobro do tempo normal.
 
 > [!note] Sinergia com Infusões
-> Diferente de um artesão comum, você pode realizar [Infusões](#/devlog/entry/infusoes) permanentes sozinho, sem depender de uma Guilda ou de um artesão independente — sua Criação Perfeita é o que outras classes chamariam de processo de Infusão. Isso não muda o custo em Ecos nem os requisitos de Rank para usar o item, só remove a necessidade de um terceiro.
+> Diferente de um artesão comum, você pode realizar [Infusões](#/devlog/entry/infusoes) permanentes sozinho, sem depender de uma Guilda ou de um artesão independente — sua Criação Perfeita é o que outras Linhagens chamariam de processo de Infusão. Isso não muda o custo em Ecos nem os requisitos de Rank para usar o item, só remove a necessidade de um terceiro.
 
 ---
 
@@ -43,7 +43,7 @@ Passivo. Ao examinar uma arma, armadura ou construto por alguns instantes, você
 
 #rank_d
 
-1 PA • 1 PE. Toque uma armadura ou escudo em [alcance de toque](#/devlog/entry/alcances) e restaure 1 Uso perdido, ou conceda Redução de Dano **Baixa** a ele até o fim da cena.
+1 PA. Toque uma armadura ou escudo em [alcance de toque](#/devlog/entry/alcances) e restaure 1 Uso perdido, ou conceda Redução de Dano **Baixa** a ele até o fim da cena.
 
 ---
 
@@ -51,7 +51,7 @@ Passivo. Ao examinar uma arma, armadura ou construto por alguns instantes, você
 
 #rank_b
 
-Passivo. Você pode manter um número de Runas ativas simultaneamente igual ao seu atributo de Essência (mínimo 1), em vez de apenas 1.
+Passivo. Você pode manter um número de Runas ativas simultaneamente igual ao seu traço de Essência (mínimo 1), em vez de apenas 1.
 
 ---
 
@@ -59,7 +59,7 @@ Passivo. Você pode manter um número de Runas ativas simultaneamente igual ao s
 
 #rank_s
 
-1 PA • 2 PE. Transforme um item em [alcance de toque](#/devlog/entry/alcances) em um Golem temporário do tamanho de uma criatura Média, que luta ao seu lado até o fim da cena ou até ser destruído. O Golem age no seu turno, usando seu atributo de Essência para testes de ataque e causando dano **Médio** por golpe.
+1 PA. Transforme um item em [alcance de toque](#/devlog/entry/alcances) em um Golem temporário do tamanho de uma criatura Média, que luta ao seu lado até o fim da cena ou até ser destruído. O Golem age no seu turno, usando seu traço de Essência para testes de ataque e causando dano **Médio** por golpe.
 
 ---
 
@@ -107,4 +107,4 @@ Temas ligados à criação, metal, técnica e construção:
 > [!note] Ideia de design (rascunho)
 > Usa runas em situações de exploração e social — por exemplo, uma runa que permite escutar coisas ao redor daquele item.
 >
-> Melhorias temporárias, mas que duram mais para os equipamentos dele. Na lore, as runas são alimentadas pela energia dele.
+> Melhorias temporárias, mas que duram mais para o Arsenal dele. Na lore, as runas são alimentadas pela energia dele.

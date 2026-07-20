@@ -1,10 +1,10 @@
 ---
 title: conexões
-date: '2026-07-12'
+date: '2026-07-20'
 section: mecanicas/criacao de personagem
 sourceNote: mecanicas/criacao de personagem/conexões.md
 ---
-Conexões representam os laços que unem seu personagem ao mundo: guildas, organizações, governos, famílias, mestres, grupos religiosos ou até mesmo outros personagens.
+Vínculos representam os laços que unem seu personagem ao mundo: guildas, organizações, governos, famílias, mestres, grupos religiosos ou até mesmo outros personagens.
 
 ---
 
@@ -12,7 +12,7 @@ Conexões representam os laços que unem seu personagem ao mundo: guildas, organ
 > #adaptado #revisar #todo
 > Este conteúdo vem da versão antiga do sistema (baseada em Percy Jackson, onde a mecânica se chamava "Tempo de Acampamento") e foi adaptado para a lore e as mecânicas atuais. Pontos que merecem uma segunda olhada:
 > - "Aptidões" virou "Perícias" e "acampamento" virou "guilda" em todo o texto.
-> - O texto original usava um único recurso chamado "Pontos de Superação" tanto para a recompensa por falhar um teste quanto para a ajuda de aliados. No sistema atual isso já existe separado: **Marcas de Esforço** (ganhas ao falhar um teste, veja [Marcas de Esforço](#/devlog/entry/testes-de-pericias)) e **Pontos de Superação** (gastos por aliados em Ações Planejadas, veja [Pontos de Superação](#/devlog/entry/tipos-de-acoes)). Adaptei cada menção para o recurso equivalente — confira se bateu certo.
+> - O texto original usava um recurso chamado "Pontos de Superação". Esse recurso (e o equivalente "Marcas de Esforço") foi cortado do sistema — ajuda entre aliados em Ações Planejadas agora concede Fortuna diretamente, sem passar por um pool de pontos. Reescrevi as passivas/desvantagens afetadas para usar Fortuna.
 > - A passiva "Explosão Inesperada" pressupõe uma mecânica de dados explosivos que não existe no sistema atual (que usa 1d20 + bônus + Agouro). Decida se vale criar essa mecânica ou trocar a passiva por outra coisa.
 > - As duas tradições de marcação de tempo (colar de contas / tatuagens) vieram de dois acampamentos específicos do RPG antigo. Generalizei para "cada guilda tem sua tradição" — se quiser, pode amarrar isso a guildas específicas da sua lore.
 
@@ -44,7 +44,7 @@ Esses marcos não são apenas decorativos: servem para mostrar o progresso do ca
 > **Perícias adicionais em Intermediário:** 3
 > **Acesso a melhorias de forja:** 3
 >
-> **Passiva — Aberto a Aprendizados:** Você está sempre disposto a aprender com os erros. Sempre que falhar em um teste de perícia, receba 2 Marcas de Esforço em vez de 1.
+> **Passiva — Aberto a Aprendizados:** Você está sempre disposto a aprender com os erros. Sempre que falhar em um teste de perícia, receba **1 Fortuna** no próximo teste dessa mesma perícia.
 >
 > **Desvantagem — Reflexos Inseguros:** Você ainda é inexperiente e pode facilmente ser pego de surpresa. Recebe -2 em testes de Reflexo para reagir a emboscadas.
 
@@ -72,7 +72,7 @@ Esses marcos não são apenas decorativos: servem para mostrar o progresso do ca
 >
 > **Passiva — Experiência de Batalha:** Você aperfeiçoou suas habilidades de batalha com muito treino e esforço. Pode rerolar qualquer rolagem inicial de ataque que resulte em 1. Isso não vale para explosões.
 >
-> **Desvantagem — Teimosia de Veterano:** Você é confiante em suas habilidades, às vezes até demais. Sempre que um aliado resolver te ajudar com [Pontos de Superação](#/devlog/entry/tipos-de-acoes), ele precisa gastar 2 pontos para cada 1 ponto que te conceder.
+> **Desvantagem — Teimosia de Veterano:** Você é confiante em suas habilidades, às vezes até demais. Mesmo que vários aliados queiram ajudar na mesma [Ação Planejada](#/devlog/entry/tipos-de-acoes), você só aceita a ajuda de **1 deles** por vez.
 
 ---
 
@@ -85,4 +85,4 @@ Esses marcos não são apenas decorativos: servem para mostrar o progresso do ca
 >
 > **Passiva — Mentoria de Campo:** Seu tempo em campo é valioso, especialmente para ajudar os novatos. Uma vez por cena, você pode ajudar um companheiro em um teste de perícia em que você é treinado; ele rola o teste com Vantagem.
 >
-> **Desvantagem — Semi-Aposentado:** Seus dias de aventura descontrolada já passaram, e você ficou um pouco enferrujado. Só pode receber ajuda de [Pontos de Superação](#/devlog/entry/tipos-de-acoes) em testes de perícias mentais ([Astúcia](#/devlog/entry/atributos) e [Encanto](#/devlog/entry/atributos)), não em físicas.
+> **Desvantagem — Semi-Aposentado:** Seus dias de aventura descontrolada já passaram, e você ficou um pouco enferrujado. Só pode receber ajuda de aliados em [Ações Planejadas](#/devlog/entry/tipos-de-acoes) em testes de perícias mentais ([Astúcia](#/devlog/entry/tracos) e [Encanto](#/devlog/entry/tracos)), não em físicas.

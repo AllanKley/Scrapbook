@@ -1,6 +1,6 @@
 ---
 title: combate   regras gerais
-date: '2026-07-12'
+date: '2026-07-20'
 section: mecanicas
 sourceNote: mecanicas/combate - regras gerais.md
 ---
@@ -16,7 +16,7 @@ A maior parte das regras de combate segue as regras de D&D, com algumas modifica
 > [!info] Por que labels em vez de números
 > Praticamente nenhum número de dano, cura, bônus ou penalidade neste sistema foi balanceado e finalizado ainda — nem os que já aparecem escritos como um valor específico (ex: "+2 RD", "1d6 de dano"). Pra deixar isso visualmente claro e fácil de ajustar depois, todo efeito ainda não-finalizado usa uma das labels abaixo em vez de um número ou de um "X" solto.
 >
-> Essa é a mesma convenção que [Dano](#/devlog/entry/armas) de arma, [Redução de Dano](#/devlog/entry/armaduras) e [Usos](#/devlog/entry/escudos) de escudo já usavam — só está sendo estendida pro resto do sistema (habilidades de Classe, Domínio, Patrono, Infusões, Condições) pra tudo ficar consistente.
+> Essa é a mesma convenção que [Dano](#/devlog/entry/armas) de arma, [Redução de Dano](#/devlog/entry/armaduras) e [Usos](#/devlog/entry/escudos) de escudo já usavam — só está sendo estendida pro resto do sistema (habilidades de Linhagem, Domínio, Patrono, Infusões, Condições) pra tudo ficar consistente.
 
 Use sempre uma destas quatro labels para qualquer dano, cura, bônus, penalidade, Redução de Dano, Pontos de Vida concedidos ou distância de deslocamento que ainda não tenha um número final:
 
@@ -29,7 +29,7 @@ Use sempre uma destas quatro labels para qualquer dano, cura, bônus, penalidade
 
 **O que continua com números reais, sem virar label:**
 - **[Alcances](#/devlog/entry/alcances)** — as categorias de alcance já vieram de medição direta e não mudam.
-- **Custos ou ganhos de PA e PE** — já são pequenos e estruturais (interagem com [Ritmo de Combate](#ritmo-de-combate) e Sobrecarga diretamente), então continuam como números fixos.
+- **Custos ou ganhos de PA** — já são pequenos e estruturais (interagem com [Ritmo de Combate](#ritmo-de-combate) diretamente), então continuam como números fixos.
 - **Bônus e penalidades em Fortuna/Ruína** — já são valores discretos definidos pela própria mecânica de [Agouro](#/devlog/entry/testes-de-pericias) (rolar 1 dado extra por ponto), não uma questão de balanceamento de poder.
 - **Frequência de uso** ("1x por cena", "2x por descanso longo") — é uma decisão de estrutura da habilidade, não uma questão de balanceamento de poder.
 
@@ -73,12 +73,12 @@ Existem apenas dois níveis de Penalidade de Peso. Para saber qual afeta seu per
 
 ## Penalidade Leve
 
-- Penalidade **Baixa** em todos os testes baseados em [Graça](#/devlog/entry/atributos).
+- Penalidade **Baixa** em todos os testes baseados em [Graça](#/devlog/entry/tracos).
 
 ## Penalidade Severa
 
 - `-1 PA` por turno.
-- Penalidade **Média** em todos os testes baseados em [Graça](#/devlog/entry/atributos).
+- Penalidade **Média** em todos os testes baseados em [Graça](#/devlog/entry/tracos).
 - Penalidade **Média** de Movimento por turno.
 
 ---

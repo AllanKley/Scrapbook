@@ -1,6 +1,6 @@
 ---
 title: infusoes
-date: '2026-07-12'
+date: '2026-07-20'
 section: mecanicas/criacao de personagem/equipamentos
 sourceNote: mecanicas/criacao de personagem/equipamentos/infusoes.md
 ---
@@ -9,19 +9,19 @@ sourceNote: mecanicas/criacao de personagem/equipamentos/infusoes.md
 > [!info] Sugestão de sistema (rascunho, revisar)
 > Construído em cima da ideia original: cada [Eco](#/devlog/entry/ecos) carrega um Elemento, refletido na criatura ou local de onde veio. Esses Elementos podem ser usados para Infundir armas (corpo a corpo, à distância e mágicas), armaduras e escudos, e a força da melhoria escala com o tier do Eco gasto (Tênue → Manifesto → Ancestral → Primordial), no mesmo espírito de uma melhoria de ritual Discente/Verdadeiro. Ajuste nomes, números e efeitos conforme o restante do sistema for fechado. #todo
 
-Uma Infusão é o que acontece quando um Eco é consumido para gravar permanentemente um Elemento dentro de um equipamento. Diferente das Runas temporárias do Forjador (veja [Forjador](#/devlog/entry/forjador)), uma Infusão não desaparece — ela se torna parte do item.
+Uma Infusão é o que acontece quando um Eco é consumido para gravar permanentemente um Elemento dentro de um item do Arsenal. Diferente das Runas temporárias do Forjador (veja [Forjador](#/devlog/entry/forjador)), uma Infusão não desaparece — ela se torna parte do item.
 
 ---
 
 # Regras Gerais
 
-## Um equipamento, uma Infusão
+## Um item do Arsenal, uma Infusão
 
-Um equipamento nunca pode carregar mais de uma Infusão ao mesmo tempo. Para trocar o Elemento ou subir o tier, o item precisa ser **re-infundido**: a Infusão anterior é destruída (o Eco usado nela não é recuperado, refinado ou reembolsado de qualquer forma) e um novo Eco é consumido no processo.
+Um item do Arsenal nunca pode carregar mais de uma Infusão ao mesmo tempo. Para trocar o Elemento ou subir o tier, o item precisa ser **re-infundido**: a Infusão anterior é destruída (o Eco usado nela não é recuperado, refinado ou reembolsado de qualquer forma) e um novo Eco é consumido no processo.
 
 ## Processo de Infusão
 
-Infundir um equipamento exige:
+Infundir um item do Arsenal exige:
 
 - **1 Eco** do Elemento e do tier escolhidos (ele é consumido no processo).
 - Um artesão especializado — geralmente ligado a uma Guilda — ou a habilidade **Criação Perfeita** do [Forjador](#/devlog/entry/forjador), que permite ao próprio personagem realizar Infusões permanentes.
@@ -41,7 +41,10 @@ Quanto mais forte o Eco usado na Infusão, mais preparado o corpo do usuário pr
 | Primordial | Rank S |
 
 - **Não-Despertados** que tentem usar um item com qualquer Infusão simplesmente não conseguem ativá-la — a Infusão fica inerte, e o item funciona normalmente, só que sem o efeito do Elemento.
-- **Despertados abaixo do Rank exigido** podem usar o item normalmente, mas toda vez que a Infusão seria ativada (mesmo que o efeito específico não dispare por falha na condição de chance), o usuário sofre imediatamente **1 rolagem de Sobrecarga** (veja [Sobrecarga](#/devlog/entry/combate-regras-gerais)), como se tivesse ultrapassado seu Limite de Essência.
+- **Despertados abaixo do Rank exigido** podem usar o item normalmente, mas toda vez que a Infusão seria ativada (mesmo que o efeito específico não dispare por falha na condição de chance), o corpo do usuário não aguenta o excesso de Essência concentrada: ele recebe imediatamente **1 stack de [Corrosão](#/devlog/entry/condicoes)** no próprio item e **1 Ruína** no próximo teste que realizar.
+
+> [!todo] Redesenhada sem Sobrecarga
+> Original usava uma "rolagem de Sobrecarga" — mecânica cortada do sistema (nunca chegou a ter uma tabela própria definida). Substituída por consequências que já existem: Corrosão no item e Ruína no usuário. #todo
 
 Esse requisito e o custo em Ecos são os mesmos para qualquer combinação de Elemento e tipo de item abaixo — só o efeito muda.
 
@@ -57,7 +60,7 @@ Cada Elemento oferece uma Infusão diferente para cada tipo de item — **Arma C
 
 ## Fogo
 
-*Combustão, fúria, destruição total.* **Onde encontrar:** criaturas ígneas, Fraturas vulcânicas, Cicatrizes como Roma ou o Vale do Nilo.
+*Combustão, fúria, destruição total.* **Onde encontrar:** criaturas ígneas, Fraturas vulcânicas, Epicentros como Roma ou o Vale do Nilo.
 
 ### Lâmina em Brasa
 *Fogo · Arma Corpo a Corpo*
@@ -79,8 +82,8 @@ Cada Elemento oferece uma Infusão diferente para cada tipo de item — **Arma C
 *Fogo · Arma Mágica*
 
 - **Tênue:** seus ataques mágicos que causam dano ignoram Redução de Dano contra Fogo.
-- **Manifesto:** dano **Médio** de Fogo adicional, e o próximo ataque mágico após um acerto custa 1 PE a menos.
-- **Ancestral:** sempre que sofrer Sobrecarga usando esta arma, receba 1 Fortuna nessa rolagem.
+- **Manifesto:** dano **Médio** de Fogo adicional, e você recebe **1 Fortuna** no próximo ataque mágico que realizar com esta arma.
+- **Ancestral:** 1x por cena, ao acertar com esta arma, receba **1 Fortuna** no próximo ataque mágico que realizar.
 - **Primordial:** uma vez por cena, transforme um ataque mágico em uma explosão de Fogo que atinge todos em [alcance curto](#/devlog/entry/alcances) do alvo.
 
 ### Couraça Ígnea
@@ -125,8 +128,8 @@ Cada Elemento oferece uma Infusão diferente para cada tipo de item — **Arma C
 *Gelo · Arma Mágica*
 
 - **Tênue:** seus ataques mágicos de Gelo não podem ser resistidos por criaturas com Estabilidade menor que 3.
-- **Manifesto:** +1 stack de Congelamento adicional, e o próximo ataque mágico custa 1 PE a menos.
-- **Ancestral:** sempre que sofrer Sobrecarga usando esta arma, receba 1 Fortuna nessa rolagem.
+- **Manifesto:** +1 stack de Congelamento adicional, e você recebe **1 Fortuna** no próximo ataque mágico que realizar com esta arma.
+- **Ancestral:** 1x por cena, ao acertar com esta arma, receba **1 Fortuna** no próximo ataque mágico que realizar.
 - **Primordial:** uma vez por cena, congele instantaneamente um alvo em [alcance médio](#/devlog/entry/alcances) — ele fica Imobilizado e recebe 1 stack de Lentidão, sem teste.
 
 ### Manto de Inverno
@@ -172,7 +175,7 @@ Cada Elemento oferece uma Infusão diferente para cada tipo de item — **Arma C
 
 - **Tênue:** seus ataques mágicos que causam dano recebem um bônus **Baixo** no teste de ataque contra criaturas com armadura ou escudo metálico.
 - **Manifesto:** dano **Médio** de Raio adicional, e você recupera 1 PA se o ataque eliminar o alvo.
-- **Ancestral:** sempre que sofrer Sobrecarga usando esta arma, receba 1 Fortuna nessa rolagem.
+- **Ancestral:** 1x por cena, ao acertar com esta arma, receba **1 Fortuna** no próximo ataque mágico que realizar.
 - **Primordial:** uma vez por cena, encadeie um ataque mágico para atingir até 3 alvos em [alcance curto](#/devlog/entry/alcances) entre si.
 
 ### Pele Condutora
@@ -218,7 +221,7 @@ Cada Elemento oferece uma Infusão diferente para cada tipo de item — **Arma C
 
 - **Tênue:** seus ataques mágicos que causam dano ignoram Redução de Dano de Terreno Difícil ou cobertura.
 - **Manifesto:** dano **Médio** físico adicional, e o alvo tem o Movimento reduzido em uma quantidade **Baixa** até o fim do turno dele.
-- **Ancestral:** sempre que sofrer Sobrecarga usando esta arma, receba 1 Fortuna nessa rolagem.
+- **Ancestral:** 1x por cena, ao acertar com esta arma, receba **1 Fortuna** no próximo ataque mágico que realizar.
 - **Primordial:** uma vez por cena, erga uma parede de pedra com largura **Extrema**, em [alcance curto](#/devlog/entry/alcances), bloqueando linha de visão e movimento.
 
 ### Couraça de Pedra
@@ -264,7 +267,7 @@ Cada Elemento oferece uma Infusão diferente para cada tipo de item — **Arma C
 
 - **Tênue:** seus ataques mágicos podem ser feitos a partir de 1 categoria de alcance a mais do que o normal.
 - **Manifesto:** acertar um alvo o empurra uma distância **Baixa**, e você pode se mover a mesma distância de graça depois.
-- **Ancestral:** sempre que sofrer Sobrecarga usando esta arma, receba 1 Fortuna nessa rolagem.
+- **Ancestral:** 1x por cena, ao acertar com esta arma, receba **1 Fortuna** no próximo ataque mágico que realizar.
 - **Primordial:** uma vez por cena, um ataque mágico pode ser desviado para atingir um segundo alvo em qualquer lugar do alcance, ignorando obstáculos.
 
 ### Manto Etéreo
@@ -294,7 +297,7 @@ Cada Elemento oferece uma Infusão diferente para cada tipo de item — **Arma C
 
 - **Tênue:** acerto tem chance de aplicar 1 stack de [Veneno](#/devlog/entry/condicoes).
 - **Manifesto:** enquanto o alvo tiver Veneno, curas nele funcionam pela metade.
-- **Ancestral:** cada stack de Veneno no alvo também aplica 1 stack de [Corrosão](#/devlog/entry/condicoes) nos equipamentos dele.
+- **Ancestral:** cada stack de Veneno no alvo também aplica 1 stack de [Corrosão](#/devlog/entry/condicoes) no Arsenal dele.
 - **Primordial:** o alvo com 5 ou mais stacks de Veneno sofre 1 Ferimento automático.
 
 ### Ferrão Tóxico
@@ -310,7 +313,7 @@ Cada Elemento oferece uma Infusão diferente para cada tipo de item — **Arma C
 
 - **Tênue:** seus ataques mágicos que causam dano têm chance de aplicar 1 stack de Veneno.
 - **Manifesto:** o Veneno aplicado ignora curas normais enquanto ativo.
-- **Ancestral:** sempre que sofrer Sobrecarga usando esta arma, receba 1 Fortuna nessa rolagem.
+- **Ancestral:** 1x por cena, ao acertar com esta arma, receba **1 Fortuna** no próximo ataque mágico que realizar.
 - **Primordial:** uma vez por cena, transforme um ataque mágico em uma nuvem tóxica que aplica Veneno em todos os inimigos em [alcance curto](#/devlog/entry/alcances) do alvo.
 
 ### Pele Curtida
@@ -325,7 +328,7 @@ Cada Elemento oferece uma Infusão diferente para cada tipo de item — **Arma C
 *Veneno · Escudo*
 
 - **Tênue:** bloqueio aplica 1 stack de Veneno no atacante.
-- **Manifesto:** também aplica 1 stack de [Corrosão](#/devlog/entry/condicoes) no equipamento do atacante.
+- **Manifesto:** também aplica 1 stack de [Corrosão](#/devlog/entry/condicoes) no item do atacante.
 - **Ancestral:** a Corrosão aplicada afeta o dobro (2 Usos ou 2 RD em vez de 1).
 - **Primordial:** o atacante sofre o dobro do Veneno que tentou te aplicar.
 
@@ -356,7 +359,7 @@ Cada Elemento oferece uma Infusão diferente para cada tipo de item — **Arma C
 
 - **Tênue:** seus ataques mágicos não revelam sua posição para quem não te enxerga.
 - **Manifesto:** acerto crítico aplica Medo no alvo.
-- **Ancestral:** sempre que sofrer Sobrecarga usando esta arma, receba 1 Fortuna nessa rolagem.
+- **Ancestral:** 1x por cena, ao acertar com esta arma, receba **1 Fortuna** no próximo ataque mágico que realizar.
 - **Primordial:** uma vez por cena, desapareça em sombras logo após atacar, ficando oculto até seu próximo ataque.
 
 ### Manto das Sombras
@@ -379,7 +382,7 @@ Cada Elemento oferece uma Infusão diferente para cada tipo de item — **Arma C
 
 ## Luz
 
-*Cura, revelação, verdade.* **Onde encontrar:** templos e santuários intactos, Cicatrizes ligadas a antigos cultos solares.
+*Cura, revelação, verdade.* **Onde encontrar:** templos e santuários intactos, Epicentros ligados a antigos cultos solares.
 
 ### Golpe Radiante
 *Luz · Arma Corpo a Corpo*
@@ -402,7 +405,7 @@ Cada Elemento oferece uma Infusão diferente para cada tipo de item — **Arma C
 
 - **Tênue:** você pode escolher curar em vez de causar dano ao usar esta arma contra um aliado.
 - **Manifesto:** cura uma quantidade **Média** de PV extra ao acertar um aliado, ou aplica Cegueira ao acertar um inimigo.
-- **Ancestral:** sempre que sofrer Sobrecarga usando esta arma, receba 1 Fortuna nessa rolagem.
+- **Ancestral:** 1x por cena, ao acertar com esta arma, receba **1 Fortuna** no próximo ataque mágico que realizar.
 - **Primordial:** uma vez por cena, um único ataque mágico pode curar todos os aliados e ferir todos os inimigos em [alcance curto](#/devlog/entry/alcances) simultaneamente.
 
 ### Couraça Sagrada
@@ -448,7 +451,7 @@ Cada Elemento oferece uma Infusão diferente para cada tipo de item — **Arma C
 
 - **Tênue:** você cura PV igual a 1/4 do dano mágico causado por esta arma.
 - **Manifesto:** a cura sobe para metade do dano causado.
-- **Ancestral:** sempre que sofrer Sobrecarga usando esta arma, receba 1 Fortuna nessa rolagem.
+- **Ancestral:** 1x por cena, ao acertar com esta arma, receba **1 Fortuna** no próximo ataque mágico que realizar.
 - **Primordial:** uma vez por cena, sacrifique PV seu (até a metade do seu máximo) para causar o dobro desse valor em dano com um único ataque mágico.
 
 ### Couraça Viva
@@ -494,7 +497,7 @@ Cada Elemento oferece uma Infusão diferente para cada tipo de item — **Arma C
 
 - **Tênue:** seus ataques mágicos podem crescer vinhas que Imobilizam o alvo até ele se soltar (teste de Força ou Atletismo).
 - **Manifesto:** o alvo Imobilizado sofre dano **Médio** por rodada preso.
-- **Ancestral:** sempre que sofrer Sobrecarga usando esta arma, receba 1 Fortuna nessa rolagem.
+- **Ancestral:** 1x por cena, ao acertar com esta arma, receba **1 Fortuna** no próximo ataque mágico que realizar.
 - **Primordial:** uma vez por cena, invoque um emaranhado de raízes que Imobiliza todos os inimigos em [alcance curto](#/devlog/entry/alcances) por 1 rodada.
 
 ### Casca Viva

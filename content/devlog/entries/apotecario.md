@@ -1,8 +1,8 @@
 ---
 title: apotecario
-date: '2026-07-12'
-section: mecanicas/criacao de personagem/classes
-sourceNote: mecanicas/criacao de personagem/classes/apotecario.md
+date: '2026-07-20'
+section: mecanicas/criacao de personagem/linhagens
+sourceNote: mecanicas/criacao de personagem/linhagens/apotecario.md
 ---
 Alquimistas do campo de batalha que manipulam vida, toxinas e flora, sempre equilibrando poder com instabilidade.
 
@@ -17,7 +17,7 @@ Alquimistas do campo de batalha que manipulam vida, toxinas e flora, sempre equi
 
 #despertar
 
-Ao concluir um descanso longo, ou gastando 10 minutos de preparo, você produz uma quantidade de Elixires Voláteis igual ao seu atributo de Astúcia (mínimo 2), escolhidos livremente entre os tipos abaixo. Elixires não utilizados perdem o efeito ao final do dia.
+Ao concluir um descanso longo, ou gastando 10 minutos de preparo, você produz uma quantidade de Elixires Voláteis igual ao seu traço de Astúcia (mínimo 2), escolhidos livremente entre os tipos abaixo. Elixires não utilizados perdem o efeito ao final do dia.
 
 Consumir ou aplicar um Elixir custa 1 PA. Podem ser bebidos por você, administrados em um aliado em [alcance de toque](#/devlog/entry/alcances), ou arremessados em um inimigo em [alcance curto](#/devlog/entry/alcances).
 
@@ -43,7 +43,7 @@ Passivo. Você é imune a dano de veneno e ácido.
 
 #rank_d
 
-1 PA • 1 PE. Preparação: 10 minutos. Alcance: médio. Alvo: 1 pessoa. Duração: sustentada. Requisito: 1 objeto que pertence ao alvo.
+1 PA. Preparação: 10 minutos. Alcance: médio. Alvo: 1 pessoa. Duração: sustentada. Requisito: 1 objeto que pertence ao alvo.
 
 Usando um objeto que pertence ao alvo, você produz uma efígie com a qual, enquanto estiver em alcance dele, pode exercer uma das influências abaixo a cada rodada. O alvo pode fazer um teste de Intuição ou Ressonância (o que for maior) contra a sua Sutileza para perceber a influência — caso perceba, saberá que você o estava manipulando.
 
@@ -65,4 +65,4 @@ Passivo. Sempre que aplicar uma condição (Veneno, Sangramento, Congelamento et
 
 #rank_s
 
-1 PA • 2 PE. Gaste todos os Elixires Voláteis que ainda possui. Para cada um, escolha um dos efeitos da Bolsa de Poções e aplique-o imediatamente, distribuindo os efeitos entre até 3 alvos em [alcance médio](#/devlog/entry/alcances).
+1 PA. Gaste todos os Elixires Voláteis que ainda possui. Para cada um, escolha um dos efeitos da Bolsa de Poções e aplique-o imediatamente, distribuindo os efeitos entre até 3 alvos em [alcance médio](#/devlog/entry/alcances).

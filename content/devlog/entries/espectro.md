@@ -1,8 +1,8 @@
 ---
 title: espectro
-date: '2026-07-12'
-section: mecanicas/criacao de personagem/classes
-sourceNote: mecanicas/criacao de personagem/classes/espectro.md
+date: '2026-07-20'
+section: mecanicas/criacao de personagem/linhagens
+sourceNote: mecanicas/criacao de personagem/linhagens/espectro.md
 ---
 Predadores táticos que caçam alvos específicos, eliminando ameaças com precisão cirúrgica.
 

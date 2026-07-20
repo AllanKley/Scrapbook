@@ -1,8 +1,8 @@
 ---
 title: aprimorado
-date: '2026-07-12'
-section: mecanicas/criacao de personagem/classes
-sourceNote: mecanicas/criacao de personagem/classes/aprimorado.md
+date: '2026-07-20'
+section: mecanicas/criacao de personagem/linhagens
+sourceNote: mecanicas/criacao de personagem/linhagens/aprimorado.md
 ---
 Sua força não vem apenas do poder bruto, mas da capacidade de controlar o ritmo do confronto e permanecer de pé quando qualquer outro já teria caído.
 
