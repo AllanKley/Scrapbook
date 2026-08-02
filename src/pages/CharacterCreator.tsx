@@ -96,7 +96,7 @@ export function CharacterCreator() {
       {stepKey === 'vinculos' && <VinculosStep draft={draft} dispatch={dispatch} />}
       {stepKey === 'experiencias' && <ExperienciasStep draft={draft} dispatch={dispatch} />}
       {stepKey === 'equipment' && <EquipmentStep draft={draft} dispatch={dispatch} />}
-      {stepKey === 'resources' && <ResourcesStep draft={draft} dispatch={dispatch} />}
+      {stepKey === 'resources' && <ResourcesStep draft={draft} />}
       {stepKey === 'review' && <ReviewStep draft={draft} />}
 
       <div style={{ display: 'flex', gap: '8px', marginTop: '16px' }}>

@@ -71,10 +71,7 @@ export type CreatorAction =
   | { type: 'SET_EXPERIENCIA_TEXT'; index: number; texto: string }
   | { type: 'ADD_EQUIPMENT'; item: EquipmentItem }
   | { type: 'UPDATE_EQUIPMENT'; id: string; patch: Partial<EquipmentItem> }
-  | { type: 'REMOVE_EQUIPMENT'; id: string }
-  | { type: 'SET_RESOURCE'; key: 'pv' | 'pa'; patch: Partial<ResourcePool> }
-  | { type: 'SET_RD'; rd: number }
-  | { type: 'SET_DESLOCAMENTO'; value: number };
+  | { type: 'REMOVE_EQUIPMENT'; id: string };
 
 export function creatorReducer(state: CreatorDraft, action: CreatorAction): CreatorDraft {
   switch (action.type) {
@@ -118,12 +115,6 @@ export function creatorReducer(state: CreatorDraft, action: CreatorAction): Crea
       };
     case 'REMOVE_EQUIPMENT':
       return { ...state, equipment: state.equipment.filter((item) => item.id !== action.id) };
-    case 'SET_RESOURCE':
-      return { ...state, resources: { ...state.resources, [action.key]: { ...state.resources[action.key], ...action.patch } } };
-    case 'SET_RD':
-      return { ...state, resources: { ...state.resources, rd: action.rd } };
-    case 'SET_DESLOCAMENTO':
-      return { ...state, resources: { ...state.resources, deslocamento: action.value } };
     default:
       return state;
   }

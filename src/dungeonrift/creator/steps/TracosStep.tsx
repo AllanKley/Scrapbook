@@ -45,7 +45,7 @@ export function TracosStep({ draft, dispatch }: StepProps) {
               <button
                 type="button"
                 onClick={() => dispatch({ type: 'SET_TRAIT', key: trait.key, die: nextDie(die) })}
-                disabled={die >= TRAIT_CREATION_RULES.maxAtCreation}
+                disabled={die >= TRAIT_CREATION_RULES.maxAtCreation || budget.remaining <= 0}
               >
                 +
               </button>

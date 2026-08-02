@@ -25,10 +25,9 @@ export function ExperienciasPanel({ character, onChange }: ExperienciasPanelProp
 
   return (
     <div className="dr-panel">
-      <h3>experiências</h3>
-      <p style={{ opacity: 0.7 }}>
-        {character.experiencias.length} / {MAX_EXPERIENCES} (limite sugerido pelas regras, não travado aqui)
-      </p>
+      <h3>
+        experiências <span style={{ opacity: 0.6, fontWeight: 400, fontSize: '0.85rem' }}>{character.experiencias.length} / {MAX_EXPERIENCES}</span>
+      </h3>
       {character.experiencias.map((exp) => (
         <div key={exp.id} className="dr-equipment-row" style={{ flexWrap: 'wrap' }}>
           <input

@@ -1,4 +1,5 @@
 import { PATRONOS_MAIOR, PATRONOS_MENOR, PATRONOS_SUPREMO } from '../rules';
+import type { PatronoOption } from '../rules/patronos';
 import type { Character, PatronoGrant, PatronoTier } from '../types';
 
 interface PatronosPanelProps {
@@ -6,7 +7,7 @@ interface PatronosPanelProps {
   onChange: (patch: Partial<Character>) => void;
 }
 
-const TIER_OPTIONS: { tier: PatronoTier; label: string; roster: { name: string }[] }[] = [
+const TIER_OPTIONS: { tier: PatronoTier; label: string; roster: PatronoOption[] }[] = [
   { tier: 'menor', label: 'Menor', roster: PATRONOS_MENOR },
   { tier: 'maior', label: 'Maior', roster: PATRONOS_MAIOR },
   { tier: 'supremo', label: 'Supremo', roster: PATRONOS_SUPREMO },
@@ -30,43 +31,43 @@ export function PatronosPanel({ character, onChange }: PatronosPanelProps) {
   return (
     <div className="dr-panel">
       <h3>patronos</h3>
-      <p style={{ opacity: 0.75 }}>
-        um personagem recém-Despertado começa com 1 Patrono Menor. Patronos Maiores e Supremos chegam depois, via
-        Rank (C-/B-/A- para Maior, S-/SS- para Supremo).
-      </p>
       {character.patronos.map((patrono, index) => {
         const roster = TIER_OPTIONS.find((t) => t.tier === patrono.tier)?.roster ?? [];
+        const selected = roster.find((p) => p.name === patrono.name);
         return (
-          <div key={index} className="dr-equipment-row">
-            <select
-              value={patrono.tier}
-              onChange={(e) => updatePatrono(index, { tier: e.target.value as PatronoTier })}
-            >
-              {TIER_OPTIONS.map((t) => (
-                <option key={t.tier} value={t.tier}>
-                  {t.label}
-                </option>
-              ))}
-            </select>
-            {roster.length > 0 ? (
-              <select value={patrono.name} onChange={(e) => updatePatrono(index, { name: e.target.value })}>
-                {roster.map((p) => (
-                  <option key={p.name} value={p.name}>
-                    {p.name}
+          <div key={index}>
+            <div className="dr-equipment-row">
+              <select
+                value={patrono.tier}
+                onChange={(e) => updatePatrono(index, { tier: e.target.value as PatronoTier })}
+              >
+                {TIER_OPTIONS.map((t) => (
+                  <option key={t.tier} value={t.tier}>
+                    {t.label}
                   </option>
                 ))}
               </select>
-            ) : (
-              <input
-                type="text"
-                placeholder="nome do patrono"
-                value={patrono.name}
-                onChange={(e) => updatePatrono(index, { name: e.target.value })}
-              />
-            )}
-            <button type="button" className="dr-btn danger" onClick={() => removePatrono(index)}>
-              remover
-            </button>
+              {roster.length > 0 ? (
+                <select value={patrono.name} onChange={(e) => updatePatrono(index, { name: e.target.value })}>
+                  {roster.map((p) => (
+                    <option key={p.name} value={p.name}>
+                      {p.name}
+                    </option>
+                  ))}
+                </select>
+              ) : (
+                <input
+                  type="text"
+                  placeholder="nome do patrono"
+                  value={patrono.name}
+                  onChange={(e) => updatePatrono(index, { name: e.target.value })}
+                />
+              )}
+              <button type="button" className="dr-btn danger" onClick={() => removePatrono(index)}>
+                remover
+              </button>
+            </div>
+            {selected && <p className="dr-ability-preview">{selected.effect}</p>}
           </div>
         );
       })}

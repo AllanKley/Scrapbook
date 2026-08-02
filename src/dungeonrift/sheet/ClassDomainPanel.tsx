@@ -98,13 +98,15 @@ export function ClassDomainPanel({ character, onChange }: ClassDomainPanelProps)
             )}
           </div>
         ))}
-        <button type="button" className="dr-btn ghost" onClick={addDomainTrack} style={{ marginTop: '8px' }}>
+        <button
+          type="button"
+          className="dr-btn ghost"
+          onClick={addDomainTrack}
+          style={{ marginTop: '8px' }}
+          title="Só a trilha inicial concede PV inicial e Deslocamento — trilhas extras só concedem PV por nível ao avançar."
+        >
           + multiclassar
         </button>
-        <p style={{ opacity: 0.7, margin: '8px 0 0' }}>
-          só a trilha inicial concede PV inicial e Deslocamento — trilhas de multiclasse só concedem PV por nível ao
-          avançar.
-        </p>
       </div>
     </div>
   );

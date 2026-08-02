@@ -13,15 +13,19 @@ export function PatronoStep({ draft, dispatch }: StepProps) {
       <h3>patrono</h3>
       <p>um personagem recém-Despertado ganha exatamente 1 Patrono Menor.</p>
       <div className="dr-option-grid">
-        {PATRONOS_MENOR.map((p) => (
-          <div
-            key={p.name}
-            className={`dr-option-card ${draft.patronoName === p.name ? 'selected' : ''}`}
-            onClick={() => dispatch({ type: 'SET_PATRONO', name: p.name })}
-          >
-            <h4>{p.name}</h4>
-          </div>
-        ))}
+        {PATRONOS_MENOR.map((p) => {
+          const selected = draft.patronoName === p.name;
+          return (
+            <div
+              key={p.name}
+              className={`dr-option-card ${selected ? 'selected' : ''}`}
+              onClick={() => dispatch({ type: 'SET_PATRONO', name: p.name })}
+            >
+              <h4>{p.name}</h4>
+              {selected && <p className="dr-ability-preview">{p.effect}</p>}
+            </div>
+          );
+        })}
       </div>
     </div>
   );
