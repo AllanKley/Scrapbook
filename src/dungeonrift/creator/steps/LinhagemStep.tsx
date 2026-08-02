@@ -29,7 +29,7 @@ export function LinhagemStep({ draft, dispatch }: StepProps) {
               <p>{l.concept}</p>
               {selected && (
                 <p className="dr-ability-preview">
-                  <strong>{l.despertarAbility.name}</strong> (Despertar) — {l.despertarAbility.summary}
+                  <strong>{l.abilities[0].name}</strong> (Despertar) — {l.abilities[0].summary}
                 </p>
               )}
               <Link to={`/devlog/entry/${l.devlogSlug}`} target="_blank" rel="noreferrer" onClick={(e) => e.stopPropagation()}>

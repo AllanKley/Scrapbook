@@ -276,6 +276,72 @@
   flex-wrap: wrap;
 }
 
+.dr-sheet-rank {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  padding: 10px 16px;
+  border: 3px solid var(--color-accent);
+  border-radius: var(--radius-md);
+}
+
+.dr-sheet-rank-value {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.1;
+  color: var(--color-primary);
+}
+
+.dr-sheet-rank-padrao {
+  font-size: 0.75rem;
+  opacity: 0.7;
+  margin-bottom: 6px;
+  color: var(--color-primary);
+}
+
+/* ---- Ability lists (linhagem / domínio / patrono) ---- */
+
+.dr-ability-row {
+  display: flex;
+  gap: 12px;
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.dr-ability-row:last-child {
+  border-bottom: none;
+}
+
+.dr-ability-row.locked {
+  opacity: 0.4;
+}
+
+.dr-ability-rank {
+  flex: 0 0 84px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--color-primary);
+  opacity: 0.75;
+  padding-top: 3px;
+}
+
+.dr-ability-body {
+  flex: 1;
+  min-width: 0;
+}
+
+.dr-ability-body strong {
+  color: var(--color-primary);
+}
+
+.dr-ability-body p {
+  margin: 2px 0 0;
+  font-size: 0.9rem;
+}
+
 /* ---- Character sheet: hero stat bar ---- */
 
 .dr-hero-stats {
@@ -342,6 +408,39 @@
   color: var(--color-primary);
   font-weight: 700;
   cursor: pointer;
+}
+
+.dr-hero-stat-sub {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.7rem;
+  color: var(--color-primary);
+  opacity: 0.65;
+}
+
+.dr-hero-stat-sub input {
+  width: 46px;
+  padding: 1px 3px;
+  border: 1px solid var(--color-primary);
+  border-radius: var(--radius-sm);
+  background: var(--color-card-background);
+  color: var(--color-primary);
+  font-family: var(--font-body);
+  text-align: center;
+}
+
+.dr-hero-stat-input {
+  width: 62px;
+  padding: 2px 4px;
+  border: 2px solid var(--color-primary);
+  border-radius: var(--radius-sm);
+  background: var(--color-card-background);
+  color: var(--color-primary);
+  font-family: var(--font-body);
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-align: center;
 }
 
 /* ---- Character sheet: Traço blocks ---- */

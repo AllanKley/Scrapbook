@@ -4,24 +4,22 @@ import { AnimatedSection } from '../components/shared/AnimatedSection';
 import { PageHeading } from '../components/shared/PageHeading';
 import { deleteCharacter, exportCharacterToFile, getCharacter, updateCharacter } from '../dungeonrift/characterStorage';
 import type { Character } from '../dungeonrift/types';
-import { ClassDomainPanel } from '../dungeonrift/sheet/ClassDomainPanel';
+import { AbilitiesPanel } from '../dungeonrift/sheet/AbilitiesPanel';
 import { EcosPanel } from '../dungeonrift/sheet/EcosPanel';
 import { EquipmentPanel } from '../dungeonrift/sheet/EquipmentPanel';
 import { ExperienciasPanel } from '../dungeonrift/sheet/ExperienciasPanel';
 import { HeroStats } from '../dungeonrift/sheet/HeroStats';
-import { PatronosPanel } from '../dungeonrift/sheet/PatronosPanel';
-import { RankPanel } from '../dungeonrift/sheet/RankPanel';
-import { ResourcesPanel } from '../dungeonrift/sheet/ResourcesPanel';
 import { SheetHeader } from '../dungeonrift/sheet/SheetHeader';
 import { TraitBlocks } from '../dungeonrift/sheet/TraitBlocks';
 import { VinculosPanel } from '../dungeonrift/sheet/VinculosPanel';
 import { WoundsConditionsPanel } from '../dungeonrift/sheet/WoundsConditionsPanel';
 import { PrintableCharacterSheet } from '../dungeonrift/PrintableCharacterSheet';
 
-type SheetTab = 'mesa' | 'perfil';
+type SheetTab = 'habilidades' | 'combate' | 'perfil';
 
 const TABS: { key: SheetTab; label: string }[] = [
-  { key: 'mesa', label: 'mesa' },
+  { key: 'habilidades', label: 'habilidades' },
+  { key: 'combate', label: 'combate' },
   { key: 'perfil', label: 'perfil' },
 ];
 
@@ -30,7 +28,7 @@ export function CharacterSheet() {
   const navigate = useNavigate();
   const [character, setCharacter] = useState<Character | undefined>(() => (id ? getCharacter(id) : undefined));
   const [savedFlash, setSavedFlash] = useState(false);
-  const [tab, setTab] = useState<SheetTab>('mesa');
+  const [tab, setTab] = useState<SheetTab>('habilidades');
 
   useEffect(() => {
     if (id) setCharacter(getCharacter(id));
@@ -92,7 +90,7 @@ export function CharacterSheet() {
       {savedFlash && <span className="dr-save-indicator">salvo ✓</span>}
 
       <HeroStats character={character} onChange={save} />
-      <TraitBlocks character={character} onChange={save} />
+      <TraitBlocks character={character} />
 
       <div className="dr-tabs" role="tablist">
         {TABS.map((t) => (
@@ -109,13 +107,11 @@ export function CharacterSheet() {
         ))}
       </div>
 
-      {tab === 'mesa' && (
+      {tab === 'habilidades' && <AbilitiesPanel character={character} />}
+
+      {tab === 'combate' && (
         <>
-          <ResourcesPanel character={character} onChange={save} />
           <WoundsConditionsPanel character={character} onChange={save} />
-          <RankPanel character={character} onChange={save} />
-          <ClassDomainPanel character={character} onChange={save} />
-          <PatronosPanel character={character} onChange={save} />
           <EquipmentPanel character={character} onChange={save} />
           <InvocaveisReference character={character} />
         </>

@@ -1,4 +1,5 @@
-import { DOMAINS, LINHAGENS, RANKS, rankIndex } from '../rules';
+import { Link } from 'react-router-dom';
+import { DOMAINS, LINHAGENS, RANKS, nextRank, padraoDeVidaAt, rankIndex } from '../rules';
 import type { Character } from '../types';
 
 interface SheetHeaderProps {
@@ -15,9 +16,10 @@ export function SheetHeader({ character, onChange, onPrint, onExportJson, onDele
     .map((track) => DOMAINS.find((d) => d.key === track.domainKey)?.label)
     .filter(Boolean)
     .join(' + ');
-  const rank = RANKS[rankIndex(character.rank)]?.label;
+  const rank = RANKS[rankIndex(character.rank)];
+  const upcoming = nextRank(character.rank);
 
-  const subtitle = [linhagem ?? 'sem linhagem', domains || 'sem domínio', rank].filter(Boolean).join(' · ');
+  const subtitle = [linhagem ?? 'sem linhagem', domains || 'sem domínio'].join(' · ');
 
   return (
     <div className="dr-sheet-header">
@@ -31,6 +33,20 @@ export function SheetHeader({ character, onChange, onPrint, onExportJson, onDele
         />
         <p className="dr-sheet-subtitle">{subtitle}</p>
       </div>
+
+      <div className="dr-sheet-rank">
+        <span className="dr-hero-stat-label">rank</span>
+        <span className="dr-sheet-rank-value">{rank.label}</span>
+        <span className="dr-sheet-rank-padrao">{padraoDeVidaAt(character.rank)}</span>
+        {upcoming ? (
+          <Link to={`/devlog/personagens/${character.id}/subir-de-rank`} className="dr-btn primary">
+            subir de rank
+          </Link>
+        ) : (
+          <span style={{ opacity: 0.6, fontSize: '0.8rem' }}>rank máximo</span>
+        )}
+      </div>
+
       <div className="dr-sheet-actions">
         <button type="button" className="dr-btn ghost" onClick={onPrint}>
           exportar PDF

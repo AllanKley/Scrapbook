@@ -5,6 +5,7 @@ import { Header } from './components/layout/Header';
 import { PageShell } from './components/layout/PageShell';
 import { ChangelogDetail } from './pages/ChangelogDetail';
 import { CharacterCreator } from './pages/CharacterCreator';
+import { CharacterLevelUp } from './pages/CharacterLevelUp';
 import { CharacterList } from './pages/CharacterList';
 import { CharacterSheet } from './pages/CharacterSheet';
 import { DevlogEntryDetail } from './pages/DevlogEntryDetail';
@@ -35,6 +36,7 @@ function App() {
             <Route path="/devlog/personagens" element={<CharacterList />} />
             <Route path="/devlog/personagens/novo" element={<CharacterCreator />} />
             <Route path="/devlog/personagens/:id" element={<CharacterSheet />} />
+            <Route path="/devlog/personagens/:id/subir-de-rank" element={<CharacterLevelUp />} />
             {AdminApp && (
               <Route
                 path="/admin"

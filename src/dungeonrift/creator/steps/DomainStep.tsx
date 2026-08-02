@@ -30,7 +30,7 @@ export function DomainStep({ draft, dispatch }: StepProps) {
                   {selected && (
                     <>
                       <p className="dr-ability-preview">
-                        <strong>{d.despertarAbility.name}</strong> (Despertar) — {d.despertarAbility.summary}
+                        <strong>{d.abilities[0].name}</strong> (Despertar) — {d.abilities[0].summary}
                       </p>
                       <p className="dr-ability-preview">
                         PV {PV_TIER_BY_GROUP[d.group].initial} · Deslocamento {DESLOCAMENTO_BY_GROUP[d.group]}
