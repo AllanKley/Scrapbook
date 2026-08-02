@@ -4,23 +4,33 @@ import { AnimatedSection } from '../components/shared/AnimatedSection';
 import { PageHeading } from '../components/shared/PageHeading';
 import { deleteCharacter, exportCharacterToFile, getCharacter, updateCharacter } from '../dungeonrift/characterStorage';
 import type { Character } from '../dungeonrift/types';
-import { TracosPanel } from '../dungeonrift/sheet/TracosPanel';
 import { ClassDomainPanel } from '../dungeonrift/sheet/ClassDomainPanel';
-import { VinculosPanel } from '../dungeonrift/sheet/VinculosPanel';
 import { EcosPanel } from '../dungeonrift/sheet/EcosPanel';
 import { EquipmentPanel } from '../dungeonrift/sheet/EquipmentPanel';
+import { ExperienciasPanel } from '../dungeonrift/sheet/ExperienciasPanel';
+import { HeroStats } from '../dungeonrift/sheet/HeroStats';
 import { PatronosPanel } from '../dungeonrift/sheet/PatronosPanel';
 import { RankPanel } from '../dungeonrift/sheet/RankPanel';
 import { ResourcesPanel } from '../dungeonrift/sheet/ResourcesPanel';
-import { ExperienciasPanel } from '../dungeonrift/sheet/ExperienciasPanel';
+import { SheetHeader } from '../dungeonrift/sheet/SheetHeader';
+import { TraitBlocks } from '../dungeonrift/sheet/TraitBlocks';
+import { VinculosPanel } from '../dungeonrift/sheet/VinculosPanel';
 import { WoundsConditionsPanel } from '../dungeonrift/sheet/WoundsConditionsPanel';
 import { PrintableCharacterSheet } from '../dungeonrift/PrintableCharacterSheet';
+
+type SheetTab = 'mesa' | 'perfil';
+
+const TABS: { key: SheetTab; label: string }[] = [
+  { key: 'mesa', label: 'mesa' },
+  { key: 'perfil', label: 'perfil' },
+];
 
 export function CharacterSheet() {
   const { id } = useParams<{ id: string }>();
   const navigate = useNavigate();
   const [character, setCharacter] = useState<Character | undefined>(() => (id ? getCharacter(id) : undefined));
   const [savedFlash, setSavedFlash] = useState(false);
+  const [tab, setTab] = useState<SheetTab>('mesa');
 
   useEffect(() => {
     if (id) setCharacter(getCharacter(id));
@@ -68,47 +78,106 @@ export function CharacterSheet() {
 
   return (
     <AnimatedSection direction="top">
-      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', flexWrap: 'wrap', gap: '12px' }}>
-        <PageHeading backTo="/devlog/personagens" backLabel="back to personagens">
-          {character.name}
-        </PageHeading>
-        <div style={{ display: 'flex', gap: '8px' }}>
-          <button type="button" className="dr-btn ghost" onClick={handlePrint}>
-            exportar PDF
-          </button>
-          <button type="button" className="dr-btn ghost" onClick={() => exportCharacterToFile(character.id)}>
-            exportar JSON
-          </button>
-          <button type="button" className="dr-btn danger" onClick={handleDelete}>
-            excluir
-          </button>
-        </div>
-      </div>
+      <PageHeading backTo="/devlog/personagens" backLabel="back to personagens">
+        ficha
+      </PageHeading>
+
+      <SheetHeader
+        character={character}
+        onChange={save}
+        onPrint={handlePrint}
+        onExportJson={() => exportCharacterToFile(character.id)}
+        onDelete={handleDelete}
+      />
       {savedFlash && <span className="dr-save-indicator">salvo ✓</span>}
 
-      <div className="dr-panel">
-        <div className="dr-field">
-          <label>nome</label>
-          <input type="text" value={character.name} onChange={(e) => save({ name: e.target.value })} />
-        </div>
-        <div className="dr-field">
-          <label>conceito / história</label>
-          <textarea rows={3} value={character.concept} onChange={(e) => save({ concept: e.target.value })} />
-        </div>
+      <HeroStats character={character} onChange={save} />
+      <TraitBlocks character={character} onChange={save} />
+
+      <div className="dr-tabs" role="tablist">
+        {TABS.map((t) => (
+          <button
+            key={t.key}
+            type="button"
+            role="tab"
+            aria-selected={tab === t.key}
+            className={`dr-tab ${tab === t.key ? 'active' : ''}`}
+            onClick={() => setTab(t.key)}
+          >
+            {t.label}
+          </button>
+        ))}
       </div>
 
-      <RankPanel character={character} onChange={save} />
-      <ClassDomainPanel character={character} onChange={save} />
-      <TracosPanel character={character} onChange={save} />
-      <ExperienciasPanel character={character} onChange={save} />
-      <VinculosPanel character={character} onChange={save} />
-      <PatronosPanel character={character} onChange={save} />
-      <EquipmentPanel character={character} onChange={save} />
-      <ResourcesPanel character={character} onChange={save} />
-      <WoundsConditionsPanel character={character} onChange={save} />
-      <EcosPanel character={character} onChange={save} />
+      {tab === 'mesa' && (
+        <>
+          <ResourcesPanel character={character} onChange={save} />
+          <WoundsConditionsPanel character={character} onChange={save} />
+          <RankPanel character={character} onChange={save} />
+          <ClassDomainPanel character={character} onChange={save} />
+          <PatronosPanel character={character} onChange={save} />
+          <EquipmentPanel character={character} onChange={save} />
+          <InvocaveisReference character={character} />
+        </>
+      )}
+
+      {tab === 'perfil' && (
+        <>
+          <div className="dr-panel">
+            <h3>conceito</h3>
+            <div className="dr-field">
+              <label>história / motivação / papel no grupo</label>
+              <textarea rows={4} value={character.concept} onChange={(e) => save({ concept: e.target.value })} />
+            </div>
+            <div className="dr-field">
+              <label>notas livres</label>
+              <textarea
+                rows={4}
+                value={character.notes ?? ''}
+                onChange={(e) => save({ notes: e.target.value })}
+                placeholder="qualquer coisa que as regras ainda não modelam (Defesa/Evasão, homebrew...)"
+              />
+            </div>
+          </div>
+          <ExperienciasPanel character={character} onChange={save} />
+          <VinculosPanel character={character} onChange={save} />
+          <EcosPanel character={character} onChange={save} />
+        </>
+      )}
 
       <PrintableCharacterSheet character={character} />
     </AnimatedSection>
+  );
+}
+
+/**
+ * Read-only reminder of what can be invoked on a roll. Experiências (+bônus) and Vínculos
+ * (+1 Fortuna) are edited on the Perfil tab, but they're spent during tests — repeating them
+ * here saves tabbing away mid-roll.
+ */
+function InvocaveisReference({ character }: { character: Character }) {
+  const experiencias = character.experiencias.filter((e) => e.texto.trim());
+  const vinculos = character.vinculos.filter((v) => v.nome.trim());
+  if (experiencias.length === 0 && vinculos.length === 0) return null;
+
+  return (
+    <div className="dr-panel">
+      <h3>invocáveis em testes</h3>
+      <p style={{ opacity: 0.7, marginTop: 0 }}>1 experiência e 1 vínculo por teste. edite na aba perfil.</p>
+      {experiencias.map((exp) => (
+        <div key={exp.id} className="dr-attribute-row">
+          <span className="dr-label">{exp.texto}</span>
+          <span>+{exp.bonus}</span>
+        </div>
+      ))}
+      {vinculos.map((v) => (
+        <div key={v.id} className="dr-attribute-row">
+          <span className="dr-label">
+            {v.nome} <span style={{ opacity: 0.6 }}>({v.tipo})</span>
+          </span>
+          <span>+1 Fortuna</span>
+        </div>
+      ))}
+    </div>
   );
 }

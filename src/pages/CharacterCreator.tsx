@@ -34,7 +34,15 @@ const STEPS = [
 export function CharacterCreator() {
   const [draft, dispatch] = useReducer(creatorReducer, undefined, createInitialDraft);
   const [stepIndex, setStepIndex] = useState(0);
+  // Furthest step actually opened. Several steps are optional (their validator always returns
+  // true), so validity alone would paint them "done" before you'd ever seen them.
+  const [furthestVisited, setFurthestVisited] = useState(0);
   const navigate = useNavigate();
+
+  function goToStep(target: number) {
+    setStepIndex(target);
+    setFurthestVisited((f) => Math.max(f, target));
+  }
 
   const stepKey = STEPS[stepIndex].key;
 
@@ -52,6 +60,14 @@ export function CharacterCreator() {
   };
 
   const currentStepValid = validators[stepKey]();
+  const stepValidity = STEPS.map((step) => validators[step.key]());
+  /** Only steps you've already opened *and* satisfied count as done. */
+  const stepDone = stepValidity.map((valid, i) => valid && i < furthestVisited);
+
+  /** A step is reachable once every step before it is valid — mirrors what "próximo" would allow. */
+  function canJumpTo(target: number): boolean {
+    return stepValidity.slice(0, target).every(Boolean);
+  }
 
   function handleCreate() {
     const character = createCharacter({
@@ -80,43 +96,63 @@ export function CharacterCreator() {
         criar personagem
       </PageHeading>
 
-      <div className="dr-wizard-steps">
-        {STEPS.map((step, i) => (
-          <span key={step.key} className={i === stepIndex ? 'current' : i < stepIndex ? 'done' : ''}>
-            {i + 1}. {step.label}
-          </span>
-        ))}
-      </div>
+      <div className="dr-creator-layout">
+        <nav className="dr-step-nav" aria-label="etapas da criação">
+          {STEPS.map((step, i) => {
+            const reachable = canJumpTo(i);
+            return (
+              <button
+                key={step.key}
+                type="button"
+                className={`dr-step-nav-item ${i === stepIndex ? 'current' : ''} ${stepDone[i] ? 'done' : ''}`}
+                onClick={() => goToStep(i)}
+                disabled={!reachable}
+                aria-current={i === stepIndex ? 'step' : undefined}
+              >
+                <span className="dr-step-nav-num">{stepDone[i] ? '✓' : i + 1}</span>
+                <span className="dr-step-nav-label">{step.label}</span>
+              </button>
+            );
+          })}
+        </nav>
 
-      {stepKey === 'concept' && <ConceptStep draft={draft} dispatch={dispatch} />}
-      {stepKey === 'tracos' && <TracosStep draft={draft} dispatch={dispatch} />}
-      {stepKey === 'linhagem' && <LinhagemStep draft={draft} dispatch={dispatch} />}
-      {stepKey === 'domain' && <DomainStep draft={draft} dispatch={dispatch} />}
-      {stepKey === 'patrono' && <PatronoStep draft={draft} dispatch={dispatch} />}
-      {stepKey === 'vinculos' && <VinculosStep draft={draft} dispatch={dispatch} />}
-      {stepKey === 'experiencias' && <ExperienciasStep draft={draft} dispatch={dispatch} />}
-      {stepKey === 'equipment' && <EquipmentStep draft={draft} dispatch={dispatch} />}
-      {stepKey === 'resources' && <ResourcesStep draft={draft} />}
-      {stepKey === 'review' && <ReviewStep draft={draft} />}
+        <div className="dr-creator-content">
+          {stepKey === 'concept' && <ConceptStep draft={draft} dispatch={dispatch} />}
+          {stepKey === 'tracos' && <TracosStep draft={draft} dispatch={dispatch} />}
+          {stepKey === 'linhagem' && <LinhagemStep draft={draft} dispatch={dispatch} />}
+          {stepKey === 'domain' && <DomainStep draft={draft} dispatch={dispatch} />}
+          {stepKey === 'patrono' && <PatronoStep draft={draft} dispatch={dispatch} />}
+          {stepKey === 'vinculos' && <VinculosStep draft={draft} dispatch={dispatch} />}
+          {stepKey === 'experiencias' && <ExperienciasStep draft={draft} dispatch={dispatch} />}
+          {stepKey === 'equipment' && <EquipmentStep draft={draft} dispatch={dispatch} />}
+          {stepKey === 'resources' && <ResourcesStep draft={draft} />}
+          {stepKey === 'review' && <ReviewStep draft={draft} />}
 
-      <div style={{ display: 'flex', gap: '8px', marginTop: '16px' }}>
-        <button type="button" className="dr-btn ghost" onClick={() => setStepIndex((i) => Math.max(0, i - 1))} disabled={stepIndex === 0}>
-          voltar
-        </button>
-        {stepIndex < STEPS.length - 1 ? (
-          <button
-            type="button"
-            className="dr-btn primary"
-            onClick={() => setStepIndex((i) => Math.min(STEPS.length - 1, i + 1))}
-            disabled={!currentStepValid}
-          >
-            próximo
-          </button>
-        ) : (
-          <button type="button" className="dr-btn primary" onClick={handleCreate}>
-            criar personagem
-          </button>
-        )}
+          <div style={{ display: 'flex', gap: '8px', marginTop: '16px' }}>
+            <button
+              type="button"
+              className="dr-btn ghost"
+              onClick={() => goToStep(Math.max(0, stepIndex - 1))}
+              disabled={stepIndex === 0}
+            >
+              voltar
+            </button>
+            {stepIndex < STEPS.length - 1 ? (
+              <button
+                type="button"
+                className="dr-btn primary"
+                onClick={() => goToStep(Math.min(STEPS.length - 1, stepIndex + 1))}
+                disabled={!currentStepValid}
+              >
+                próximo
+              </button>
+            ) : (
+              <button type="button" className="dr-btn primary" onClick={handleCreate}>
+                criar personagem
+              </button>
+            )}
+          </div>
+        </div>
       </div>
     </AnimatedSection>
   );

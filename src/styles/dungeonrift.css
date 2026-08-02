@@ -154,33 +154,6 @@
   color: white;
 }
 
-.dr-wizard-steps {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
-  margin-bottom: 20px;
-  font-size: 0.85rem;
-}
-
-.dr-wizard-steps span {
-  padding: 4px 10px;
-  border-radius: 999px;
-  background: var(--color-secondary);
-  color: var(--color-primary);
-  opacity: 0.6;
-}
-
-.dr-wizard-steps span.current {
-  background: var(--color-accent);
-  color: var(--color-primary);
-  opacity: 1;
-  font-weight: 700;
-}
-
-.dr-wizard-steps span.done {
-  opacity: 1;
-}
-
 .dr-option-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -250,9 +223,318 @@
   background: var(--color-highlight);
 }
 
+/* ---- Character sheet: identity header ---- */
 
-.dr-rank-connector.done {
+.dr-sheet-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 20px;
+  margin-bottom: 16px;
+  background: var(--color-card-background);
+  border: 3px solid var(--color-primary);
+  border-radius: var(--radius-md);
+  box-shadow: calc(var(--shadow-strength) * 6px) calc(var(--shadow-strength) * 6px) 0 var(--color-primary);
+}
+
+.dr-sheet-identity {
+  flex: 1 1 240px;
+  min-width: 0;
+}
+
+.dr-sheet-name {
+  width: 100%;
+  padding: 2px 0;
+  border: none;
+  border-bottom: 2px solid transparent;
+  background: none;
+  color: var(--color-primary);
+  font-family: var(--font-body);
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.dr-sheet-name:hover,
+.dr-sheet-name:focus {
+  border-bottom-color: var(--color-accent);
+  outline: none;
+}
+
+.dr-sheet-subtitle {
+  margin: 4px 0 0;
+  color: var(--color-primary);
+  opacity: 0.75;
+  text-transform: lowercase;
+  letter-spacing: 0.02em;
+}
+
+.dr-sheet-actions {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+/* ---- Character sheet: hero stat bar ---- */
+
+.dr-hero-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.dr-hero-stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  padding: 12px 8px;
+  background: var(--color-card-background);
+  border: 3px solid var(--color-primary);
+  border-radius: var(--radius-md);
+}
+
+.dr-hero-stat.danger {
+  border-color: var(--color-highlight);
+}
+
+.dr-hero-stat-label {
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--color-primary);
+  opacity: 0.7;
+}
+
+.dr-hero-stat-value {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1;
+  color: var(--color-primary);
+}
+
+.dr-hero-stat.danger .dr-hero-stat-value {
+  color: var(--color-highlight);
+}
+
+.dr-hero-stat-max {
+  font-size: 0.95rem;
+  font-weight: 600;
+  opacity: 0.6;
+}
+
+.dr-hero-pv-controls {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.dr-hero-pv-controls button {
+  width: 26px;
+  height: 26px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  border: 2px solid var(--color-primary);
+  background: var(--color-card-background);
+  color: var(--color-primary);
+  font-weight: 700;
+  cursor: pointer;
+}
+
+/* ---- Character sheet: Traço blocks ---- */
+
+.dr-trait-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.dr-trait-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  padding: 12px 8px;
+  background: var(--color-card-background);
+  border: 3px solid var(--color-primary);
+  border-radius: var(--radius-md);
+}
+
+.dr-trait-name {
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--color-primary);
+  opacity: 0.7;
+}
+
+.dr-trait-die {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.1;
+  color: var(--color-primary);
+}
+
+.dr-trait-grau {
+  font-size: 0.75rem;
+  color: var(--color-primary);
+  opacity: 0.7;
+}
+
+.dr-trait-select {
+  width: 100%;
+  margin-top: 6px;
+  padding: 4px;
+  border: 1px solid var(--color-primary);
+  border-radius: var(--radius-sm);
+  background: var(--color-card-background);
+  color: var(--color-primary);
+  font-family: var(--font-body);
+  text-align: center;
+}
+
+/* ---- Character sheet: tabs ---- */
+
+.dr-tabs {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 16px;
+  border-bottom: 2px solid var(--color-primary);
+}
+
+.dr-tab {
+  padding: 10px 20px;
+  border: none;
+  background: none;
+  color: var(--color-primary);
+  font-family: var(--font-body);
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  cursor: pointer;
+  opacity: 0.55;
+  border-bottom: 3px solid transparent;
+  margin-bottom: -2px;
+}
+
+.dr-tab:hover {
+  opacity: 0.85;
+}
+
+.dr-tab.active {
+  opacity: 1;
+  border-bottom-color: var(--color-accent);
+}
+
+/* ---- Creator: vertical step sidebar ---- */
+
+.dr-creator-layout {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: 24px;
+  align-items: start;
+}
+
+.dr-step-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  position: sticky;
+  top: 16px;
+}
+
+.dr-step-nav-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding: 8px 10px;
+  border: none;
+  border-left: 3px solid transparent;
+  border-radius: var(--radius-sm);
+  background: none;
+  color: var(--color-primary);
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  text-align: left;
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.dr-step-nav-item:hover:not(:disabled) {
+  opacity: 0.9;
+  background: var(--color-secondary);
+}
+
+.dr-step-nav-item:disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+}
+
+.dr-step-nav-item.done {
+  opacity: 1;
+}
+
+.dr-step-nav-item.current {
+  opacity: 1;
+  font-weight: 700;
+  border-left-color: var(--color-accent);
+  background: var(--color-secondary);
+}
+
+.dr-step-nav-num {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  border: 2px solid var(--color-primary);
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.dr-step-nav-item.done .dr-step-nav-num {
   background: var(--color-accent);
+  border-color: var(--color-accent);
+}
+
+.dr-creator-content {
+  min-width: 0;
+}
+
+@media (max-width: 800px) {
+  .dr-creator-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .dr-step-nav {
+    position: static;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .dr-step-nav-item {
+    width: auto;
+    border-left: none;
+    border-bottom: 3px solid transparent;
+  }
+
+  .dr-step-nav-item.current {
+    border-left-color: transparent;
+    border-bottom-color: var(--color-accent);
+  }
+
+  .dr-step-nav-label {
+    display: none;
+  }
 }
 
 /* Printable character sheet: hidden on screen, shown only when printing/exporting to PDF. */
