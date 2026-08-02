@@ -3,9 +3,9 @@ export interface PatronoOption {
 }
 
 /**
- * Only the Menor tier roster exists in the source rules — Maior and Supremo tiers aren't
- * researched/written yet. This is fine for character creation: a freshly-Awakened character
- * only gets the Despertar milestone, which grants exactly 1 Menor Patrono.
+ * A freshly-Awakened character only gets the Despertar milestone, which grants exactly 1 Menor
+ * Patrono — Maior/Supremo only come later via Rank progression (C-/B-/A- and S-/SS- respectively),
+ * so only Menor is offered during creation even though all 3 rosters are populated now.
  */
 export const PATRONOS_MENOR: PatronoOption[] = [
   { name: 'Hércules' },
@@ -26,6 +26,32 @@ export const PATRONOS_MENOR: PatronoOption[] = [
   { name: 'Cérbero' },
 ];
 
-/** Not yet defined in the source rules — left empty on purpose. */
-export const PATRONOS_MAIOR: PatronoOption[] = [];
-export const PATRONOS_SUPREMO: PatronoOption[] = [];
+export const PATRONOS_MAIOR: PatronoOption[] = [
+  { name: 'Zeus' },
+  { name: 'Ísis' },
+  { name: 'Odin' },
+  { name: 'Amaterasu' },
+  { name: 'Indra' },
+  { name: 'Marduk' },
+  { name: 'Shangó' },
+  { name: 'Perun' },
+  { name: 'Huitzilopochtli' },
+  { name: 'Inti' },
+  { name: 'Tangaroa' },
+  { name: 'Anu' },
+  { name: 'Ra' },
+  { name: 'Tlaloc' },
+];
+
+export const PATRONOS_SUPREMO: PatronoOption[] = [
+  { name: 'Caos' },
+  { name: 'Ymir' },
+  { name: 'Pangu' },
+  { name: 'Purusha' },
+  { name: 'Atum' },
+  { name: 'Tiamat' },
+  { name: 'Izanagi' },
+  { name: 'Ometeotl' },
+  { name: 'Olodumare' },
+  { name: 'Papatūānuku' },
+];

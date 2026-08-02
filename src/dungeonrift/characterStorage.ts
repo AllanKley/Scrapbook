@@ -27,22 +27,24 @@ function saveStore(store: CharacterStore): void {
   localStorage.setItem(STORAGE_KEY, JSON.stringify(store));
 }
 
+/**
+ * schemaVersion 2 is a hard break from v1 (Atributos/Perícias/Classe/Conexões replaced by
+ * Traços/Experiências/Linhagem/Vínculos) — no real characters existed under v1 yet, so there's
+ * no migration path. A v1-shaped object simply fails this check and is silently omitted by
+ * listCharacters()/getCharacter() rather than crashing.
+ */
 function isValidCharacter(value: unknown): value is Character {
   if (!value || typeof value !== 'object') return false;
   const c = value as Record<string, unknown>;
   return (
     typeof c.id === 'string' &&
-    c.schemaVersion === 1 &&
+    c.schemaVersion === 2 &&
     typeof c.name === 'string' &&
-    typeof c.attributes === 'object' &&
-    typeof c.skills === 'object' &&
+    typeof c.traits === 'object' &&
+    typeof c.linhagemKey !== 'undefined' &&
+    Array.isArray(c.experiencias) &&
     typeof c.resources === 'object'
   );
-}
-
-/** Backfills fields added after a character may have already been saved. */
-function migrateCharacter(raw: Character): Character {
-  return { ...raw, rank: raw.rank ?? 'despertar' };
 }
 
 function generateId(): string {
@@ -64,14 +66,14 @@ function slugify(input: string): string {
 export function listCharacters(): Character[] {
   const store = loadStore();
   return Object.values(store.characters)
-    .map(migrateCharacter)
+    .filter(isValidCharacter)
     .sort((a, b) => b.updatedAt.localeCompare(a.updatedAt));
 }
 
 export function getCharacter(id: string): Character | undefined {
   const store = loadStore();
   const character = store.characters[id];
-  return character ? migrateCharacter(character) : undefined;
+  return character && isValidCharacter(character) ? character : undefined;
 }
 
 export function createCharacter(
@@ -81,7 +83,7 @@ export function createCharacter(
   const character: Character = {
     ...draft,
     id: generateId(),
-    schemaVersion: 1,
+    schemaVersion: 2,
     createdAt: now,
     updatedAt: now,
   };
@@ -137,7 +139,7 @@ export function importCharacterFromFile(file: File): Promise<Character> {
         const nameTaken = Object.values(store.characters).some((c) => c.name === parsed.name);
         const now = new Date().toISOString();
         const imported: Character = {
-          ...migrateCharacter(parsed),
+          ...parsed,
           id: generateId(),
           name: nameTaken ? `${parsed.name} (importado)` : parsed.name,
           createdAt: now,
@@ -152,57 +154,5 @@ export function importCharacterFromFile(file: File): Promise<Character> {
     };
     reader.onerror = () => reject(reader.error ?? new Error('Falha ao ler o arquivo.'));
     reader.readAsText(file);
-  });
-}
-
-export function createBlankCharacter(name = 'Novo Personagem'): Character {
-  return createCharacter({
-    name,
-    concept: '',
-    attributes: { impeto: 1, graca: 1, encanto: 1, astucia: 1, instinto: 1, essencia: 1 },
-    skills: {
-      atletismo: 'iniciante',
-      forca: 'iniciante',
-      intimidacao: 'iniciante',
-      luta: 'iniciante',
-      resistencia: 'iniciante',
-      furtividade: 'iniciante',
-      acrobacia: 'iniciante',
-      manejo: 'iniciante',
-      precisao: 'iniciante',
-      persuasao: 'iniciante',
-      enganacao: 'iniciante',
-      adestramento: 'iniciante',
-      performance: 'iniciante',
-      conduta: 'iniciante',
-      natural: 'iniciante',
-      ilegal: 'iniciante',
-      tecnologico: 'iniciante',
-      historico: 'iniciante',
-      investigacao: 'iniciante',
-      percepcao: 'iniciante',
-      reflexo: 'iniciante',
-      rastreamento: 'iniciante',
-      intuicao: 'iniciante',
-      canalizacao: 'iniciante',
-      ressonancia: 'iniciante',
-      sutileza: 'iniciante',
-      estabilidade: 'iniciante',
-    },
-    rank: 'despertar',
-    classKey: null,
-    domainKey: null,
-    patronos: [],
-    conexoesTier: null,
-    equipment: [],
-    resources: {
-      pv: { current: 10, max: 10 },
-      pa: { current: 3, max: 3 },
-      pe: { current: 3, max: 3 },
-    },
-    woundCount: 0,
-    woundLog: [],
-    conditions: [],
-    ecos: { tenue: 0, manifesto: 0, ancestral: 0, primordial: 0 },
   });
 }

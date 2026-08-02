@@ -31,8 +31,8 @@ export function PatronosPanel({ character, onChange }: PatronosPanelProps) {
     <div className="dr-panel">
       <h3>patronos</h3>
       <p style={{ opacity: 0.75 }}>
-        um personagem recém-Despertado normalmente começa com 1 Patrono Menor. os rosters de Maior e Supremo
-        ainda não existem nas regras — use texto livre se precisar.
+        um personagem recém-Despertado começa com 1 Patrono Menor. Patronos Maiores e Supremos chegam depois, via
+        Rank (C-/B-/A- para Maior, S-/SS- para Supremo).
       </p>
       {character.patronos.map((patrono, index) => {
         const roster = TIER_OPTIONS.find((t) => t.tier === patrono.tier)?.roster ?? [];

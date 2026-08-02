@@ -39,5 +39,5 @@ export const SLOT_COST: Record<Tamanho, number> = {
 
 export const EQUIPPED_SLOT_CAPACITY = 4;
 
-/** Subespaço capacity = Essência attribute score × this multiplier. */
+/** Subespaço capacity = Essência's Grau (1-5, from its die via traitGrau()) × this multiplier. */
 export const SUBESPACO_CAPACITY_PER_ESSENCIA = 5;

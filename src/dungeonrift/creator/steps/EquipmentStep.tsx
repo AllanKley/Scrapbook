@@ -1,6 +1,6 @@
 import type { Dispatch } from 'react';
 import { CategorySelect, defaultCategoryFor } from '../../CategorySelect';
-import { EQUIPPED_SLOT_CAPACITY, SLOT_COST, SUBESPACO_CAPACITY_PER_ESSENCIA } from '../../rules';
+import { EQUIPPED_SLOT_CAPACITY, SLOT_COST, SUBESPACO_CAPACITY_PER_ESSENCIA, traitGrau } from '../../rules';
 import type { EquipmentKind, Tamanho } from '../../types';
 import type { CreatorAction, CreatorDraft } from '../creatorReducer';
 
@@ -16,7 +16,7 @@ function generateId() {
 export function EquipmentStep({ draft, dispatch }: StepProps) {
   const equippedUsed = draft.equipment.filter((i) => i.location === 'equipped').reduce((sum, i) => sum + SLOT_COST[i.tamanho], 0);
   const subespacoUsed = draft.equipment.filter((i) => i.location === 'subespaco').reduce((sum, i) => sum + SLOT_COST[i.tamanho], 0);
-  const subespacoCapacity = draft.attributes.essencia * SUBESPACO_CAPACITY_PER_ESSENCIA;
+  const subespacoCapacity = traitGrau(draft.traits.essencia) * SUBESPACO_CAPACITY_PER_ESSENCIA;
 
   function addItem() {
     dispatch({

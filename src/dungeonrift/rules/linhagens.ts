@@ -1,7 +1,7 @@
-import type { ClassKey } from '../types';
+import type { LinhagemKey } from '../types';
 
-export interface ClassDef {
-  key: ClassKey;
+export interface LinhagemDef {
+  key: LinhagemKey;
   label: string;
   concept: string;
   /** Slug of the full write-up in content/devlog/entries/ — link out rather than duplicating ability text here. */
@@ -9,7 +9,7 @@ export interface ClassDef {
   status: 'completa' | 'revisar';
 }
 
-export const CLASSES: ClassDef[] = [
+export const LINHAGENS: LinhagemDef[] = [
   { key: 'ceifador', label: 'Ceifador', concept: 'senhor da morte e das almas, transforma corpos e energia vital em poder', devlogSlug: 'ceifador', status: 'completa' },
   { key: 'espectro', label: 'Espectro', concept: 'predador tático que caça um único alvo por vez', devlogSlug: 'espectro', status: 'completa' },
   { key: 'selvagem', label: 'Selvagem', concept: 'vínculo espiritual com a fauna e totens', devlogSlug: 'selvagem', status: 'completa' },

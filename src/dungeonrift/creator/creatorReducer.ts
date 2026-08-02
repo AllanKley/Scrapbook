@@ -1,41 +1,59 @@
+import { DESLOCAMENTO_BY_GROUP, DOMAINS, STARTING_BONUS, TRAIT_CREATION_RULES } from '../rules';
 import type {
-  AttributeKey,
-  ClassKey,
-  ConexoesTier,
   DomainKey,
   EquipmentItem,
+  Experiencia,
+  LinhagemKey,
   ResourcePool,
-  SkillKey,
+  TraitDie,
+  TraitKey,
+  Vinculo,
 } from '../types';
+
+function generateId(): string {
+  return typeof crypto !== 'undefined' && 'randomUUID' in crypto ? crypto.randomUUID() : `id-${Date.now()}-${Math.random().toString(36).slice(2)}`;
+}
 
 export interface CreatorDraft {
   name: string;
   concept: string;
-  attributes: Record<AttributeKey, number>;
-  classKey: ClassKey | null;
+  traits: Record<TraitKey, TraitDie>;
+  linhagemKey: LinhagemKey | null;
   domainKey: DomainKey | null;
-  conexoesTier: ConexoesTier | null;
   patronoName: string;
-  promotedSkills: SkillKey[];
+  vinculos: Vinculo[];
+  /** Fixed at exactly 2 entries during creation — growth happens later via Patrono ranks. */
+  experiencias: Experiencia[];
   equipment: EquipmentItem[];
-  resources: { pv: ResourcePool; pa: ResourcePool; pe: ResourcePool };
+  resources: { pv: ResourcePool; pa: ResourcePool; rd: number; deslocamento: number };
 }
 
 export function createInitialDraft(): CreatorDraft {
   return {
     name: '',
     concept: '',
-    attributes: { impeto: 1, graca: 1, encanto: 1, astucia: 1, instinto: 1, essencia: 1 },
-    classKey: null,
+    traits: {
+      impeto: TRAIT_CREATION_RULES.baseDie,
+      graca: TRAIT_CREATION_RULES.baseDie,
+      encanto: TRAIT_CREATION_RULES.baseDie,
+      astucia: TRAIT_CREATION_RULES.baseDie,
+      instinto: TRAIT_CREATION_RULES.baseDie,
+      essencia: TRAIT_CREATION_RULES.baseDie,
+    },
+    linhagemKey: null,
     domainKey: null,
-    conexoesTier: null,
     patronoName: '',
-    promotedSkills: [],
+    vinculos: [],
+    experiencias: [
+      { id: generateId(), texto: '', bonus: STARTING_BONUS },
+      { id: generateId(), texto: '', bonus: STARTING_BONUS },
+    ],
     equipment: [],
     resources: {
       pv: { current: 10, max: 10 },
-      pa: { current: 3, max: 3 },
-      pe: { current: 3, max: 3 },
+      pa: { current: 4, max: 4 },
+      rd: 0,
+      deslocamento: 0,
     },
   };
 }
@@ -43,16 +61,20 @@ export function createInitialDraft(): CreatorDraft {
 export type CreatorAction =
   | { type: 'SET_NAME'; name: string }
   | { type: 'SET_CONCEPT'; concept: string }
-  | { type: 'SET_ATTRIBUTE'; key: AttributeKey; value: number }
-  | { type: 'SET_CLASS'; classKey: ClassKey | null }
+  | { type: 'SET_TRAIT'; key: TraitKey; die: TraitDie }
+  | { type: 'SET_LINHAGEM'; linhagemKey: LinhagemKey | null }
   | { type: 'SET_DOMAIN'; domainKey: DomainKey | null }
-  | { type: 'SET_CONEXOES'; tier: ConexoesTier | null }
   | { type: 'SET_PATRONO'; name: string }
-  | { type: 'TOGGLE_SKILL_PROMOTION'; key: SkillKey }
+  | { type: 'ADD_VINCULO'; vinculo: Vinculo }
+  | { type: 'UPDATE_VINCULO'; id: string; patch: Partial<Vinculo> }
+  | { type: 'REMOVE_VINCULO'; id: string }
+  | { type: 'SET_EXPERIENCIA_TEXT'; index: number; texto: string }
   | { type: 'ADD_EQUIPMENT'; item: EquipmentItem }
   | { type: 'UPDATE_EQUIPMENT'; id: string; patch: Partial<EquipmentItem> }
   | { type: 'REMOVE_EQUIPMENT'; id: string }
-  | { type: 'SET_RESOURCE'; key: 'pv' | 'pa' | 'pe'; patch: Partial<ResourcePool> };
+  | { type: 'SET_RESOURCE'; key: 'pv' | 'pa'; patch: Partial<ResourcePool> }
+  | { type: 'SET_RD'; rd: number }
+  | { type: 'SET_DESLOCAMENTO'; value: number };
 
 export function creatorReducer(state: CreatorDraft, action: CreatorAction): CreatorDraft {
   switch (action.type) {
@@ -60,25 +82,33 @@ export function creatorReducer(state: CreatorDraft, action: CreatorAction): Crea
       return { ...state, name: action.name };
     case 'SET_CONCEPT':
       return { ...state, concept: action.concept };
-    case 'SET_ATTRIBUTE':
-      return { ...state, attributes: { ...state.attributes, [action.key]: action.value } };
-    case 'SET_CLASS':
-      return { ...state, classKey: action.classKey };
-    case 'SET_DOMAIN':
-      return { ...state, domainKey: action.domainKey };
-    case 'SET_CONEXOES':
-      return { ...state, conexoesTier: action.tier };
+    case 'SET_TRAIT':
+      return { ...state, traits: { ...state.traits, [action.key]: action.die } };
+    case 'SET_LINHAGEM':
+      return { ...state, linhagemKey: action.linhagemKey };
+    case 'SET_DOMAIN': {
+      // Deslocamento comes from the starting Domínio's group — auto-populate it here so the
+      // Recursos step can show a real derived value instead of asking the player to look it up.
+      const group = DOMAINS.find((d) => d.key === action.domainKey)?.group;
+      const deslocamento = group ? DESLOCAMENTO_BY_GROUP[group] : 0;
+      return { ...state, domainKey: action.domainKey, resources: { ...state.resources, deslocamento } };
+    }
     case 'SET_PATRONO':
       return { ...state, patronoName: action.name };
-    case 'TOGGLE_SKILL_PROMOTION': {
-      const already = state.promotedSkills.includes(action.key);
+    case 'ADD_VINCULO':
+      return { ...state, vinculos: [...state.vinculos, action.vinculo] };
+    case 'UPDATE_VINCULO':
       return {
         ...state,
-        promotedSkills: already
-          ? state.promotedSkills.filter((k) => k !== action.key)
-          : [...state.promotedSkills, action.key],
+        vinculos: state.vinculos.map((v) => (v.id === action.id ? { ...v, ...action.patch } : v)),
       };
-    }
+    case 'REMOVE_VINCULO':
+      return { ...state, vinculos: state.vinculos.filter((v) => v.id !== action.id) };
+    case 'SET_EXPERIENCIA_TEXT':
+      return {
+        ...state,
+        experiencias: state.experiencias.map((e, i) => (i === action.index ? { ...e, texto: action.texto } : e)),
+      };
     case 'ADD_EQUIPMENT':
       return { ...state, equipment: [...state.equipment, action.item] };
     case 'UPDATE_EQUIPMENT':
@@ -90,6 +120,10 @@ export function creatorReducer(state: CreatorDraft, action: CreatorAction): Crea
       return { ...state, equipment: state.equipment.filter((item) => item.id !== action.id) };
     case 'SET_RESOURCE':
       return { ...state, resources: { ...state.resources, [action.key]: { ...state.resources[action.key], ...action.patch } } };
+    case 'SET_RD':
+      return { ...state, resources: { ...state.resources, rd: action.rd } };
+    case 'SET_DESLOCAMENTO':
+      return { ...state, resources: { ...state.resources, deslocamento: action.value } };
     default:
       return state;
   }

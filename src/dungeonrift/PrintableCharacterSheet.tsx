@@ -1,10 +1,9 @@
-import { ATTRIBUTES, CLASSES, CONDITIONS, CONEXOES, DOMAINS, RANKS, rankIndex, SKILLS, TRAINING_TIER_DICE } from './rules';
+import { CONDITIONS, DOMAINS, LINHAGENS, RANKS, rankIndex, TRAITS } from './rules';
 import type { Character } from './types';
 
 export function PrintableCharacterSheet({ character }: { character: Character }) {
-  const classDef = CLASSES.find((c) => c.key === character.classKey);
-  const domainDef = DOMAINS.find((d) => d.key === character.domainKey);
-  const conexoesDef = CONEXOES.find((c) => c.tier === character.conexoesTier);
+  const linhagemDef = LINHAGENS.find((l) => l.key === character.linhagemKey);
+  const domainLabels = character.domains.map((track) => DOMAINS.find((d) => d.key === track.domainKey)?.label ?? track.domainKey);
   const rankDef = RANKS[rankIndex(character.rank)];
 
   return (
@@ -12,18 +11,18 @@ export function PrintableCharacterSheet({ character }: { character: Character })
       <header className="dr-print-header">
         <h1>{character.name}</h1>
         <p className="dr-print-subtitle">
-          {classDef?.label ?? 'sem classe'} · {domainDef?.label ?? 'sem domínio'} · {rankDef?.label ?? ''}
+          {linhagemDef?.label ?? 'sem linhagem'} · {domainLabels.join(' + ') || 'sem domínio'} · {rankDef?.label ?? ''}
         </p>
         {character.concept && <p className="dr-print-concept">{character.concept}</p>}
       </header>
 
       <section className="dr-print-section">
-        <h2>atributos</h2>
+        <h2>traços</h2>
         <div className="dr-print-attribute-grid">
-          {ATTRIBUTES.map((attr) => (
-            <div key={attr.key} className="dr-print-attribute-box">
-              <span className="dr-print-attribute-value">{character.attributes[attr.key]}</span>
-              <span className="dr-print-attribute-label">{attr.label}</span>
+          {TRAITS.map((trait) => (
+            <div key={trait.key} className="dr-print-attribute-box">
+              <span className="dr-print-attribute-value">d{character.traits[trait.key]}</span>
+              <span className="dr-print-attribute-label">{trait.label}</span>
             </div>
           ))}
         </div>
@@ -45,10 +44,12 @@ export function PrintableCharacterSheet({ character }: { character: Character })
             </span>
           </div>
           <div className="dr-print-resource-box">
-            <span className="dr-print-attribute-label">PE</span>
-            <span className="dr-print-attribute-value">
-              {character.resources.pe.current} / {character.resources.pe.max}
-            </span>
+            <span className="dr-print-attribute-label">RD</span>
+            <span className="dr-print-attribute-value">{character.resources.rd}</span>
+          </div>
+          <div className="dr-print-resource-box">
+            <span className="dr-print-attribute-label">Deslocamento</span>
+            <span className="dr-print-attribute-value">{character.resources.deslocamento}</span>
           </div>
           <div className="dr-print-resource-box">
             <span className="dr-print-attribute-label">Ferimentos</span>
@@ -58,25 +59,20 @@ export function PrintableCharacterSheet({ character }: { character: Character })
       </section>
 
       <section className="dr-print-section">
-        <h2>perícias</h2>
-        <div className="dr-print-skill-columns">
-          {ATTRIBUTES.map((attr) => (
-            <div key={attr.key} className="dr-print-skill-column">
-              <h3>{attr.label}</h3>
-              {SKILLS.filter((s) => s.attribute === attr.key).map((skill) => (
-                <div key={skill.key} className="dr-print-skill-row">
-                  <span>{skill.label}</span>
-                  <span>{TRAINING_TIER_DICE[character.skills[skill.key]]}</span>
-                </div>
-              ))}
-            </div>
-          ))}
-        </div>
+        <h2>experiências</h2>
+        {character.experiencias.map((exp) => (
+          <div key={exp.id} className="dr-print-skill-row">
+            <span>{exp.texto || '(vazia)'}</span>
+            <span>+{exp.bonus}</span>
+          </div>
+        ))}
       </section>
 
       <section className="dr-print-section">
-        <h2>conexões &amp; patronos</h2>
-        <p>conexões: {conexoesDef?.label ?? '—'}</p>
+        <h2>vínculos &amp; patronos</h2>
+        <p>
+          vínculos: {character.vinculos.map((v) => `${v.nome} (${v.tipo === 'pessoal' ? 'pessoal' : 'organizacional'})`).join(', ') || '—'}
+        </p>
         <p>patronos: {character.patronos.map((p) => `${p.name} (${p.tier})`).join(', ') || '—'}</p>
       </section>
 

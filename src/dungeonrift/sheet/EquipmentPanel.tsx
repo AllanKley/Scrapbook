@@ -1,5 +1,5 @@
 import { CategorySelect, defaultCategoryFor } from '../CategorySelect';
-import { EQUIPPED_SLOT_CAPACITY, SLOT_COST, SUBESPACO_CAPACITY_PER_ESSENCIA } from '../rules';
+import { EQUIPPED_SLOT_CAPACITY, SLOT_COST, SUBESPACO_CAPACITY_PER_ESSENCIA, traitGrau } from '../rules';
 import type { Character, EquipmentItem, EquipmentKind, Tamanho } from '../types';
 
 interface EquipmentPanelProps {
@@ -18,7 +18,7 @@ export function EquipmentPanel({ character, onChange }: EquipmentPanelProps) {
   const subespacoUsed = character.equipment
     .filter((i) => i.location === 'subespaco')
     .reduce((sum, i) => sum + SLOT_COST[i.tamanho], 0);
-  const subespacoCapacity = character.attributes.essencia * SUBESPACO_CAPACITY_PER_ESSENCIA;
+  const subespacoCapacity = traitGrau(character.traits.essencia) * SUBESPACO_CAPACITY_PER_ESSENCIA;
 
   function updateItem(id: string, patch: Partial<EquipmentItem>) {
     onChange({ equipment: character.equipment.map((item) => (item.id === id ? { ...item, ...patch } : item)) });

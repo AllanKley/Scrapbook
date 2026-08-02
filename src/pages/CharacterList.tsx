@@ -2,7 +2,7 @@ import { useRef, useState, type ChangeEvent } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { AnimatedSection } from '../components/shared/AnimatedSection';
 import { PageHeading } from '../components/shared/PageHeading';
-import { CLASSES } from '../dungeonrift/rules';
+import { LINHAGENS } from '../dungeonrift/rules';
 import {
   deleteCharacter,
   importCharacterFromFile,
@@ -38,8 +38,8 @@ export function CharacterList() {
     }
   }
 
-  function classLabel(classKey: string | null) {
-    return CLASSES.find((c) => c.key === classKey)?.label ?? 'sem classe';
+  function linhagemLabel(linhagemKey: string | null) {
+    return LINHAGENS.find((l) => l.key === linhagemKey)?.label ?? 'sem linhagem';
   }
 
   return (
@@ -71,7 +71,7 @@ export function CharacterList() {
             <div key={character.id} className="card" style={{ position: 'relative' }}>
               <Link to={`/devlog/personagens/${character.id}`} style={{ textDecoration: 'none', color: 'inherit' }}>
                 <h3>{character.name}</h3>
-                <p>{classLabel(character.classKey)}</p>
+                <p>{linhagemLabel(character.linhagemKey)}</p>
                 {character.concept && <p style={{ opacity: 0.7 }}>{character.concept.slice(0, 80)}</p>}
               </Link>
               <button

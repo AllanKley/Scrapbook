@@ -1,4 +1,4 @@
-import { RANKS, rankIndex } from '../rules';
+import { padraoDeVidaAt, RANKS, rankIndex } from '../rules';
 import type { Character, RankKey } from '../types';
 
 interface RankPanelProps {
@@ -13,8 +13,8 @@ export function RankPanel({ character, onChange }: RankPanelProps) {
     <div className="dr-panel">
       <h3>rank</h3>
       <p style={{ opacity: 0.75 }}>
-        o livro de regras ainda não define o que exige avançar de rank — essa progressão é provisória, só para
-        visualizar. clique em um estágio para mudar.
+        Despertar → F- → F → E- → E → D- → D → C- → C → B- → B → A- → A → S- → S → SS- → SS. clique em um estágio
+        para mudar. Padrão de Vida atual: <strong>{padraoDeVidaAt(character.rank)}</strong>.
       </p>
       <div className="dr-rank-track">
         {RANKS.map((rank, index) => (
@@ -23,7 +23,7 @@ export function RankPanel({ character, onChange }: RankPanelProps) {
               type="button"
               className={`dr-rank-node ${index < currentIndex ? 'done' : ''} ${index === currentIndex ? 'current' : ''}`}
               onClick={() => onChange({ rank: rank.key as RankKey })}
-              title={rank.description}
+              title={rank.grants}
             >
               <span className="dr-rank-node-circle">{index + 1}</span>
               <span className="dr-rank-node-label">{rank.label}</span>
@@ -32,7 +32,7 @@ export function RankPanel({ character, onChange }: RankPanelProps) {
           </div>
         ))}
       </div>
-      <p style={{ opacity: 0.8 }}>{RANKS[currentIndex]?.description}</p>
+      <p style={{ opacity: 0.8 }}>{RANKS[currentIndex]?.grants}</p>
     </div>
   );
 }

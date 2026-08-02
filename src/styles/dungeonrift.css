@@ -244,7 +244,9 @@
 
 .dr-rank-track {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
+  row-gap: 16px;
   margin: 16px 0;
 }
 

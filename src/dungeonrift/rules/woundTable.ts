@@ -48,13 +48,13 @@ export const WOUND_OUTCOME_LABELS: Record<WoundOutcome, string> = {
 };
 
 export const WOUND_OUTCOME_DESCRIPTIONS: Record<WoundOutcome, string> = {
-  desestabilizado: 'Desvantagem em ataques até o seu próximo turno.',
+  desestabilizado: '2 Ruínas em testes de ataque até o seu próximo turno.',
   atordoado: 'Perde o próximo turno.',
   ferimentoLeve: '–1 PV Máximo permanente, removido apenas com "Recuperar-se" em um descanso longo; se o PV Máximo chegar a 0, vira Ferimento Fatal.',
   apagado: 'Inconsciente até o fim do combate; acordar antes da hora (por cura) também causa Atordoamento + um novo Ferimento Leve.',
-  mutilado: 'Todos os efeitos de Ferimento Leve, além de reduzir um atributo em 1 passo de dado; todos os atributos em d4 conta como Ferimento Fatal.',
-  abeiraDaMorte: 'Todos os testes em Desvantagem; morre em 2 rounds sem ajuda, ou reduz para Ferimento Leve se ajudado a tempo.',
-  ferimentoFatal: 'Morre ao final do próximo round; esse round final concede Vantagem em tudo + 2 PA bônus.',
+  mutilado: 'Todos os efeitos de Ferimento Leve, além de reduzir um traço em 1 passo de dado; todos os traços em d4 conta como Ferimento Fatal.',
+  abeiraDaMorte: '2 Ruínas em todas as rolagens; morre em 2 rounds sem ajuda, ou reduz para Ferimento Leve se ajudado a tempo.',
+  ferimentoFatal: 'Morre ao final do próximo round; esse round final concede 2 Fortunas em tudo + 2 PA bônus.',
   morteSubita: 'Morte instantânea.',
 };
 

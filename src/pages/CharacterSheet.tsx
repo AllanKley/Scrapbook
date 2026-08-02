@@ -4,15 +4,15 @@ import { AnimatedSection } from '../components/shared/AnimatedSection';
 import { PageHeading } from '../components/shared/PageHeading';
 import { deleteCharacter, exportCharacterToFile, getCharacter, updateCharacter } from '../dungeonrift/characterStorage';
 import type { Character } from '../dungeonrift/types';
-import { AttributesPanel } from '../dungeonrift/sheet/AttributesPanel';
+import { TracosPanel } from '../dungeonrift/sheet/TracosPanel';
 import { ClassDomainPanel } from '../dungeonrift/sheet/ClassDomainPanel';
-import { ConexoesPanel } from '../dungeonrift/sheet/ConexoesPanel';
+import { VinculosPanel } from '../dungeonrift/sheet/VinculosPanel';
 import { EcosPanel } from '../dungeonrift/sheet/EcosPanel';
 import { EquipmentPanel } from '../dungeonrift/sheet/EquipmentPanel';
 import { PatronosPanel } from '../dungeonrift/sheet/PatronosPanel';
 import { RankPanel } from '../dungeonrift/sheet/RankPanel';
 import { ResourcesPanel } from '../dungeonrift/sheet/ResourcesPanel';
-import { SkillsPanel } from '../dungeonrift/sheet/SkillsPanel';
+import { ExperienciasPanel } from '../dungeonrift/sheet/ExperienciasPanel';
 import { WoundsConditionsPanel } from '../dungeonrift/sheet/WoundsConditionsPanel';
 import { PrintableCharacterSheet } from '../dungeonrift/PrintableCharacterSheet';
 
@@ -99,9 +99,9 @@ export function CharacterSheet() {
 
       <RankPanel character={character} onChange={save} />
       <ClassDomainPanel character={character} onChange={save} />
-      <AttributesPanel character={character} onChange={save} />
-      <SkillsPanel character={character} onChange={save} />
-      <ConexoesPanel character={character} onChange={save} />
+      <TracosPanel character={character} onChange={save} />
+      <ExperienciasPanel character={character} onChange={save} />
+      <VinculosPanel character={character} onChange={save} />
       <PatronosPanel character={character} onChange={save} />
       <EquipmentPanel character={character} onChange={save} />
       <ResourcesPanel character={character} onChange={save} />

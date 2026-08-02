@@ -1,37 +1,9 @@
-export type AttributeKey = 'impeto' | 'graca' | 'encanto' | 'astucia' | 'instinto' | 'essencia';
+export type TraitKey = 'impeto' | 'graca' | 'encanto' | 'astucia' | 'instinto' | 'essencia';
 
-export type SkillKey =
-  | 'atletismo'
-  | 'forca'
-  | 'intimidacao'
-  | 'luta'
-  | 'resistencia'
-  | 'furtividade'
-  | 'acrobacia'
-  | 'manejo'
-  | 'precisao'
-  | 'persuasao'
-  | 'enganacao'
-  | 'adestramento'
-  | 'performance'
-  | 'conduta'
-  | 'natural'
-  | 'ilegal'
-  | 'tecnologico'
-  | 'historico'
-  | 'investigacao'
-  | 'percepcao'
-  | 'reflexo'
-  | 'rastreamento'
-  | 'intuicao'
-  | 'canalizacao'
-  | 'ressonancia'
-  | 'sutileza'
-  | 'estabilidade';
+/** The dice-ladder a Traço climbs: d4 -> d6 -> d8 -> d10 -> d12. */
+export type TraitDie = 4 | 6 | 8 | 10 | 12;
 
-export type TrainingTier = 'iniciante' | 'intermediario' | 'avancado' | 'elite';
-
-export type ClassKey =
+export type LinhagemKey =
   | 'ceifador'
   | 'espectro'
   | 'selvagem'
@@ -46,23 +18,16 @@ export type ClassKey =
 export type DomainKey = 'protetor' | 'bruto' | 'curandeiro' | 'estudioso' | 'ofensivo' | 'assassino' | 'social' | 'tatico';
 export type DomainGroup = 'bastiao' | 'suporte' | 'executor' | 'especialista';
 
-export type ConexoesTier = 'externo' | 'novato' | 'membro' | 'veterano' | 'formado';
+/** Independent per-Domínio-track progress — a character can hold more than one via Multiclasse. */
+export type DomainTrackRank = 'despertar' | 'e' | 'c' | 'a' | 's';
 
-export type ConditionKey =
-  | 'sangramento'
-  | 'fogo'
-  | 'congelamento'
-  | 'veneno'
-  | 'vulnerabilidade'
-  | 'atordoamento'
-  | 'fraqueza'
-  | 'cegueira'
-  | 'lentidao'
-  | 'imobilizacao'
-  | 'silencio'
-  | 'corrosao'
-  | 'exposicao'
-  | 'medo';
+export interface DomainTrack {
+  domainKey: DomainKey;
+  rank: DomainTrackRank;
+}
+
+/** Trimmed from 14 to the 6 real conditions per the condicoes.md rework (Corrupção is new). */
+export type ConditionKey = 'sangramento' | 'corrosao' | 'corrupcao' | 'lentidao' | 'exposicao' | 'medo';
 
 export type WoundOutcome =
   | 'desestabilizado'
@@ -75,11 +40,28 @@ export type WoundOutcome =
   | 'morteSubita';
 
 /**
- * Rank progression track (Despertar -> F -> D -> B -> S). The rulebook only defines this as
- * "5 abilities at these progression ranks" per class/domain — it doesn't yet specify what
- * unlocks each rank-up, so this is a placeholder progression track, not settled rule text.
+ * Full Rank ladder per progressao-de-personagem.md: a full rank (Despertar, F, E, D, C, B, A, S,
+ * SS) alternating with an intermediate "-" rank before each (F-, E-, ...) that grants a Patrono
+ * and either an Experiência or a Grau de Treinamento. Replaces the old 5-step invented placeholder.
  */
-export type RankKey = 'despertar' | 'f' | 'd' | 'b' | 's';
+export type RankKey =
+  | 'despertar'
+  | 'f-'
+  | 'f'
+  | 'e-'
+  | 'e'
+  | 'd-'
+  | 'd'
+  | 'c-'
+  | 'c'
+  | 'b-'
+  | 'b'
+  | 'a-'
+  | 'a'
+  | 's-'
+  | 's'
+  | 'ss-'
+  | 'ss';
 
 export type PatronoTier = 'menor' | 'maior' | 'supremo';
 
@@ -124,29 +106,49 @@ export interface WoundRollLogEntry {
 
 export type EcoTier = 'tenue' | 'manifesto' | 'ancestral' | 'primordial';
 
+/** A bond to a specific person (Pessoal, up to 4) or institution (Organizacional, exactly 1). Replaces Conexões. */
+export interface Vinculo {
+  id: string;
+  tipo: 'pessoal' | 'organizacional';
+  nome: string;
+  /** Purely narrative flavor tags (Admiração/Lealdade/Afeto/etc.) — no mechanical effect. */
+  emocoes?: string[];
+}
+
+/** A short player-authored phrase granting a test bonus and free background knowledge. Replaces trained Perícias. */
+export interface Experiencia {
+  id: string;
+  texto: string;
+  bonus: number;
+}
+
 export interface Character {
   id: string;
-  schemaVersion: 1;
+  schemaVersion: 2;
   name: string;
   concept: string;
   createdAt: string;
   updatedAt: string;
 
-  attributes: Record<AttributeKey, number>;
-  skills: Record<SkillKey, TrainingTier>;
+  traits: Record<TraitKey, TraitDie>;
+  linhagemKey: LinhagemKey | null;
+  /** Index 0 is the starting Domínio (grants initial PV + Deslocamento); later entries come from Multiclasse. */
+  domains: DomainTrack[];
+  vinculos: Vinculo[];
+  experiencias: Experiencia[];
+  patronos: PatronoGrant[];
 
   rank: RankKey;
-  classKey: ClassKey | null;
-  domainKey: DomainKey | null;
-  patronos: PatronoGrant[];
-  conexoesTier: ConexoesTier | null;
 
   equipment: EquipmentItem[];
 
   resources: {
     pv: ResourcePool;
     pa: ResourcePool;
-    pe: ResourcePool;
+    /** Redução de Dano — manual number; armor RD is still a qualitative label upstream (Baixa/Média/Alta). */
+    rd: number;
+    /** Derived by default from domains[0], but stored and freely editable on the Sheet. */
+    deslocamento: number;
   };
 
   woundCount: number;
@@ -155,6 +157,6 @@ export interface Character {
 
   ecos: Record<EcoTier, number>;
 
-  /** Free-text escape hatch for anything not modeled yet (Defesa/Evasão, rank, homebrew notes). */
+  /** Free-text escape hatch for anything not modeled yet (Defesa/Evasão, homebrew notes). */
   notes?: string;
 }
