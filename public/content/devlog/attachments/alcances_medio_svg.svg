@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 374 374" width="374" height="374">
+<rect x="0" y="0" width="374" height="374" fill="#ffffff"/>
+<rect x="0" y="0" width="374" height="374" fill="#3b82f6" fill-opacity="0.35"/>
+<rect x="176" y="176" width="22" height="22" fill="#ffffff"/>
+<path d="M0 0L0 374M0 0L374 0M22 0L22 374M0 22L374 22M44 0L44 374M0 44L374 44M66 0L66 374M0 66L374 66M88 0L88 374M0 88L374 88M110 0L110 374M0 110L374 110M132 0L132 374M0 132L374 132M154 0L154 374M0 154L374 154M176 0L176 374M0 176L374 176M198 0L198 374M0 198L374 198M220 0L220 374M0 220L374 220M242 0L242 374M0 242L374 242M264 0L264 374M0 264L374 264M286 0L286 374M0 286L374 286M308 0L308 374M0 308L374 308M330 0L330 374M0 330L374 330M352 0L352 374M0 352L374 352M374 0L374 374M0 374L374 374" stroke="#b3b3b3" stroke-width="1"/>
+<rect x="0.5" y="0.5" width="373" height="373" fill="none" stroke="#4d4d4d" stroke-width="2"/>
+<circle cx="187.0" cy="187.0" r="6.6" fill="#e11d48" stroke="#7f1d1d" stroke-width="1.5"/>
+</svg>

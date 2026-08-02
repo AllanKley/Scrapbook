@@ -1,6 +1,6 @@
 ---
 title: cenas de tensao
-date: '2026-07-20'
+date: '2026-08-02'
 section: mecanicas
 sourceNote: mecanicas/cenas de tensao.md
 ---

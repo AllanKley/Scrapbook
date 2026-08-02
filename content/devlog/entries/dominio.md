@@ -1,6 +1,6 @@
 ---
 title: domínio
-date: '2026-07-20'
+date: '2026-08-02'
 section: mecanicas/criacao de personagem
 sourceNote: mecanicas/criacao de personagem/domínio.md
 ---
@@ -66,7 +66,7 @@ Reduza o dano recebido em uma quantidade **Alta**.
 
 #### Rank E — *Instinto Defensivo* (Passivo)
 
-Enquanto houver pelo menos um aliado em [alcance estendido](#/devlog/entry/alcances), você recebe **+2 em testes de ataque**.
+Enquanto houver pelo menos um aliado em [alcance estendido](#/devlog/entry/alcances), você recebe **+1 Fortuna em testes de ataque**.
 
 ---
 
@@ -80,7 +80,7 @@ Você ocupa o espaço dele e move esse aliado para qualquer espaço em [alcance 
 
 #### Rank A — *Controle de Área* (Passivo)
 
-Sempre que um inimigo tentar sair voluntariamente de um espaço em [alcance de toque](#/devlog/entry/alcances) de você, faça um teste de Intimidação.
+Sempre que um inimigo tentar sair voluntariamente de um espaço em [alcance de toque](#/devlog/entry/alcances) de você, faça um teste semi-estático de [Ímpeto](#/devlog/entry/tracos) #semi-estatico para intimidá-lo.
 
 Em caso de sucesso, ele permanece onde está.
 
@@ -104,7 +104,7 @@ Seu papel é permanecer de pé até o fim do combate, suportando danos que derru
 
 Até o início do seu próximo turno, todos os inimigos em [alcance curto](#/devlog/entry/alcances) devem focar seus ataques em você.
 
-Para atacar outro alvo ou se afastar, precisam passar em um teste de **Estabilidade**. A tentativa consome sua ação, mesmo em caso de falha.
+Para atacar outro alvo ou se afastar, precisam passar em um teste **semi-estático de [Essência](#/devlog/entry/tracos)** #semi-estatico. A tentativa consome sua ação, mesmo em caso de falha.
 
 ---
 
@@ -163,7 +163,7 @@ Quando um aliado em [alcance curto](#/devlog/entry/alcances) chegar a **0 PV**, 
 
 Analise o fluxo de Essência de uma criatura.
 
-Enquanto mantiver essa análise, receba um bônus **Baixo** em testes de **Intuição** e **Persuasão** contra ela.
+Enquanto mantiver essa análise, receba um bônus **Baixo** em testes de [Instinto](#/devlog/entry/tracos) e [Encanto](#/devlog/entry/tracos) contra ela.
 
 ---
 
@@ -190,7 +190,7 @@ Seu maior poder é o conhecimento. Você identifica padrões, resolve problemas 
 
 #### Despertar — *Conhecimento Paralelo* (1 PA)
 
-Realize um teste utilizando uma perícia na qual você não é treinado como se fosse treinado.
+Ao realizar um teste, escolha um Traço diferente de um dos dois que o mestre indicaria — puxando de um conhecimento inesperado, fora da sua área de conforto — e use-o no lugar.
 
 ---
 
@@ -295,7 +295,7 @@ Enquanto permanecer marcado, todos os ataques contra ele recebem um bônus **Bai
 
 #### Rank A — *Fantasma* (Passivo)
 
-Receba um bônus **Médio** em Furtividade.
+Receba um bônus **Médio** em testes para não ser notado.
 
 Além disso, você pode repetir sua primeira tentativa de se esconder em cada cena.
 

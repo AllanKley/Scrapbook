@@ -1,24 +1,34 @@
 ---
 title: traços
-date: '2026-07-20'
+date: '2026-08-02'
 section: mecanicas/criacao de personagem
 sourceNote: mecanicas/criacao de personagem/traços.md
 ---
-Todo personagem é definido por seus traços, que representam suas capacidades físicas, mentais e arcanas. Eles servem como base para testes de perícia, habilidades e diversas outras mecânicas do sistema.
+Todo personagem é definido por seus traços, que representam suas capacidades físicas, mentais e arcanas. Eles servem como base para todos os testes, habilidades e diversas outras mecânicas do sistema.
 
-Os traços são medidos em uma **escala numérica de 0 a 7**. Esses números representam não apenas a sua capacidade naquele traço, mas a sua confiabilidade — o quão confiante você pode ficar em sua habilidade.
+Os traços são medidos por uma **escada de dados, de d4 a d12**. O dado não representa apenas a sua capacidade naquele traço, mas a sua confiabilidade.
+
+## Grau do Traço
+
+Algumas habilidades não rolam o Traço — elas usam a **posição dele na escada** como um número (quantos Elixires você prepara, quantas Almas você mantém, etc.). Esse número é o **Grau** do Traço:
+
+| Traço | d4 | d6 | d8 | d10 | d12 |
+| ----- | -- | -- | -- | --- | --- |
+| Grau  | 1  | 2  | 3  | 4   | 5   |
+
+Sempre que uma habilidade disser "igual ao **Grau** de [Traço]", use esse valor — nunca o número da face do dado.
 
 ---
 
 ## Distribuição de Traços
 
-Ao criar seu caçador, **todos os seus traços começam em 1** e você recebe **5 pontos** para distribuir entre eles como quiser. Você também pode **reduzir um traço para 0 para receber 1 ponto adicional**. O valor máximo inicial que você pode ter em cada traço é **4**.
+Ao criar seu caçador, **todos os seus traços começam em d4** e você recebe **5 pontos** para subir a escada entre eles como quiser (cada ponto sobe um traço um degrau: d4 → d6 → d8 → d10 → d12). O grau máximo inicial que você pode ter em cada traço é **d10** — chegar a d12 exige progressão pós-criação.
 
-Um ser humano não despertado possui 0 em todos os seus traços, ou no máximo 1 em seu campo de especialização. Você prefere um personagem equilibrado, capaz de lidar com qualquer situação, ou um especialista excepcional em uma área... à custa de falhas catastróficas em outras?
+Um ser humano não despertado possui d4 em todos os seus traços, ou no máximo d6 em seu campo de especialização. Você prefere um personagem equilibrado, capaz de lidar com qualquer situação, ou um especialista excepcional em uma área... à custa de falhas catastróficas em outras?
 
 ## Crescimento pós-criação
 
-Os traços não ficam travados no valor da criação: a cada rank **F+/E+/D+/C+/B+/A+** da escada de [Ranks](#/devlog/entry/progressao-de-personagem), seus Patronos concedem +1 em um traço à sua escolha (veja [Progressão de Patrono](#/devlog/entry/patrono)). Isso permite ultrapassar o teto inicial de 4, até o limite absoluto de **7**.
+Os traços não ficam travados no valor da criação: a cada rank de [Ranks](#/devlog/entry/progressao-de-personagem) que concede **Grau de Treinamento**, um Traço à sua escolha sobe um degrau na escada (veja [Progressão de Patrono](#/devlog/entry/patrono)). Isso permite ultrapassar o teto inicial de d10, até o limite absoluto de **d12**.
 
 ---
 
@@ -26,12 +36,12 @@ Os traços não ficam travados no valor da criação: a cada rank **F+/E+/D+/C+/
 
 |               | equilibrado | focado | especialista |
 | ------------- | ----------- | ------ | ------------ |
-| [Ímpeto](#ímpeto)   | 3           | 4      | 4            |
-| [Graça](#graça)    | 2           | 2      | 4            |
-| [Encanto](#encanto)  | 2           | 2      | 2            |
-| [Astúcia](#astúcia)  | 2           | 1      | 1            |
-| [Instinto](#instinto) | 1           | 1      | 0            |
-| [Essência](#essência) | 1           | 1      | 0            |
+| [Ímpeto](#ímpeto)   | d8          | d10    | d10          |
+| [Graça](#graça)    | d6          | d6     | d10          |
+| [Encanto](#encanto)  | d6          | d6     | d6           |
+| [Astúcia](#astúcia)  | d6          | d4     | d4           |
+| [Instinto](#instinto) | d4          | d4     | d4           |
+| [Essência](#essência) | d4          | d4     | d4           |
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: iluminado
-date: '2026-07-20'
+date: '2026-08-02'
 section: mecanicas/criacao de personagem/linhagens
 sourceNote: mecanicas/criacao de personagem/linhagens/iluminado.md
 ---
@@ -23,7 +23,7 @@ Canalizadores da luz vital, focados em suporte, restauração e proteção espir
 - **Azul:** cura PV em uma quantidade **Média**.
 - **Verde:** remove 1 condição.
 - **Amarelo:** concede +1 Fortuna no próximo teste do alvo.
-- **Violeta:** aplica Cegueira até o início do próximo turno do alvo.
+- **Violeta:** o alvo recebe **2 Ruínas** no próximo teste de ataque que realizar antes do início do seu próximo turno.
 
 > [!todo] Redesenhada sem PE
 > Original cobrava +1 PE adicional para trocar de cor no mesmo turno. Sem PE, o custo de trocar de cor virou PA. #todo

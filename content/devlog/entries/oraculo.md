@@ -1,6 +1,6 @@
 ---
 title: oraculo
-date: '2026-07-20'
+date: '2026-08-02'
 section: mecanicas/criacao de personagem/linhagens
 sourceNote: mecanicas/criacao de personagem/linhagens/oraculo.md
 ---
@@ -14,7 +14,7 @@ Mestres da mente e das emoções, dominando campos sociais e psicológicos como 
 
 #despertar
 
-Ao concluir um descanso longo, role uma quantidade de **d20** igual ao seu traço de **Essência**. Os resultados determinam quais cartas estarão disponíveis para você até seu próximo descanso longo. Além disso, [O Louco](#o-louco) e [O Mundo](#o-mundo) estão sempre disponíveis. Cada carta pode ser usada apenas uma vez por descanso longo.
+Ao concluir um descanso longo, role uma quantidade de **d20** igual ao seu [Grau](#/devlog/entry/tracos) de **Essência**. Os resultados determinam quais cartas estarão disponíveis para você até seu próximo descanso longo. Além disso, [O Louco](#o-louco) e [O Mundo](#o-mundo) estão sempre disponíveis. Cada carta pode ser usada apenas uma vez por descanso longo.
 
 ### O Louco
 
@@ -24,18 +24,18 @@ Descarte sua mão atual e compre o mesmo número de cartas.
 
 Recupere uma carta já utilizada.
 
-1. **O Mago** — No próximo teste, seus dados de Agouro aumentam um nível e Ruínas são anuladas.
-2. **A Sacerdotisa** — Receba um bônus **Médio** em testes de Intuição nesta cena.
+1. **O Mago** — No próximo teste, receba **2 Fortunas** e todas as Ruínas são anuladas.
+2. **A Sacerdotisa** — Receba um bônus **Médio** em testes de [Instinto](#/devlog/entry/tracos) nesta cena.
 3. **A Imperatriz** — Cure um alvo completamente em [alcance médio](#/devlog/entry/alcances).
 4. **O Imperador** — Dê uma ordem simples de uma palavra; o alvo deve obedecer se isso não causar dano a ele ou aliados.
 5. **O Papa** — Remova uma condição de um alvo em [alcance toque](#/devlog/entry/alcances).
 6. **Os Enamorados** — Crie uma conexão telepática entre dois alvos.
 7. **A Carruagem** — Ganhe uma ação de movimento adicional por turno nesta cena.
 8. **A Força** — Use uma reação para reduzir um dano a metade nessa cena.
-9. **O Eremita** — Receba um bônus **Alto** em furtividade nesta cena.
+9. **O Eremita** — Receba um bônus **Alto** em testes para não ser notado nesta cena.
 10. **A Roda da Fortuna** — Role novamente todos os dados que quiser no próximo teste, mas deve aceitar as novas rolagens.
 11. **A Justiça** — Por uma rodada, metade do dano que você receber é refletido ao agressor.
-12. **O Enforcado** — Você fica vulnerável nesta cena, mas causa dano **Médio** adicional em seus ataques.
+12. **O Enforcado** — Você recebe **1 Ruína** em testes de [Ímpeto](#/devlog/entry/tracos) nesta cena, mas causa dano **Médio** adicional em seus ataques.
 13. **A Morte** — Na primeira vez que chegar a 0 HP nesta cena, recupere todos os seus HP (isso não evita o ferimento).
 14. **A Temperança** — Neutralize a última falha em uma cena de convencimento.
 15. **O Diabo** — O alvo só pode atacar seus próprios aliados nesta rodada.
@@ -75,4 +75,4 @@ Em um combate você pode escolher um ser por rodada para fornecer +1 Fortuna ou 
 
 #rank_s
 
-Você pode utilizar Intuição no lugar de conhecimento e pode escolher 3 perícias em que não é treinado para obter treinamento.
+Passivo. Em qualquer teste onde o mestre indicaria [Astúcia](#/devlog/entry/tracos), você pode usar [Instinto](#/devlog/entry/tracos) no lugar — você simplesmente **sabe**, sem precisar raciocinar até lá. Além disso, uma vez por cena, role um teste usando seu melhor Traço no lugar do que a situação exigiria, descrevendo como sua intuição encontrou um caminho que ninguém mais viu.

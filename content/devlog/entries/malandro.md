@@ -1,6 +1,6 @@
 ---
 title: malandro
-date: '2026-07-20'
+date: '2026-08-02'
 section: mecanicas/criacao de personagem/linhagens
 sourceNote: mecanicas/criacao de personagem/linhagens/malandro.md
 ---
@@ -17,9 +17,9 @@ Quebradores de regras da realidade, usando caos, truques e ilusões para dominar
 
 #despertar
 
-Você trapaceia até contra o destino. Ao concluir um descanso longo, role uma quantidade de d20 igual ao seu traço de Astúcia (mínimo 1) e anote os resultados: essas são suas Cartas na Manga.
+Você trapaceia até contra o destino. Ao concluir um descanso longo, role uma quantidade de **d12** igual ao seu [Grau](#/devlog/entry/tracos) de Astúcia (mínimo 1) e anote os resultados: essas são suas Cartas na Manga.
 
-A qualquer momento antes que uma rolagem de d20 seja feita — sua ou de qualquer criatura em [alcance médio](#/devlog/entry/alcances) — você pode descartar uma Carta na Manga para definir o resultado daquele dado como o valor anotado, ignorando a rolagem normal. Você pode fazer isso mesmo fora do seu turno, sem gastar PA.
+A qualquer momento antes que um teste seja rolado — seu ou de qualquer criatura em [alcance médio](#/devlog/entry/alcances) — você pode descartar uma Carta na Manga para definir **um dos dois dados daquele teste** como o valor anotado, ignorando a rolagem normal daquele dado. O outro dado é rolado normalmente. Você pode fazer isso mesmo fora do seu turno, sem gastar PA.
 
 Cartas na Manga não utilizadas são perdidas ao final do dia.
 
@@ -29,7 +29,7 @@ Cartas na Manga não utilizadas são perdidas ao final do dia.
 
 #rank_f
 
-Passivo. Gastando 10 minutos, você assume a aparência de qualquer pessoa que já tenha observado de perto — rosto, voz e postura. A ilusão engana a visão e a audição à distância, mas não resiste ao toque nem a um teste de Investigação ou Intuição bem-sucedido contra sua Enganação ou Sutileza. Você só pode manter um disfarce por vez.
+Passivo. Gastando 10 minutos, você assume a aparência de qualquer pessoa que já tenha observado de perto — rosto, voz e postura. A ilusão engana a visão e a audição à distância, mas não resiste ao toque nem a um teste semi-estático de [Astúcia](#/devlog/entry/tracos) #semi-estatico bem-sucedido em um [Teste Oposto](#/devlog/entry/testes-de-pericias) contra o seu próprio teste de Encanto. Você só pode manter um disfarce por vez.
 
 ---
 
@@ -39,7 +39,7 @@ Passivo. Gastando 10 minutos, você assume a aparência de qualquer pessoa que j
 
 1 PA. Crie uma ilusão sensorial (visual e sonora) do tamanho de uma criatura Média em [alcance curto](#/devlog/entry/alcances). Ela pode se mover de forma simples — andar, gesticular, falar frases curtas — mas não interage fisicamente com nada nem causa dano.
 
-A ilusão persiste até ser tocada, atacada ou até o fim da cena. Uma criatura que desconfie pode fazer um teste de Investigação ou Percepção contra sua Enganação para perceber a farsa.
+A ilusão persiste até ser tocada, atacada ou até o fim da cena. Uma criatura que desconfie pode fazer um teste semi-estático de [Astúcia](#/devlog/entry/tracos) #semi-estatico em um [Teste Oposto](#/devlog/entry/testes-de-pericias) contra o seu teste de Encanto para perceber a farsa.
 
 ---
 
@@ -49,7 +49,7 @@ A ilusão persiste até ser tocada, atacada ou até o fim da cena. Uma criatura 
 
 Passivo. Sempre que usar uma Carta na Manga para transformar um ataque inimigo contra você em uma falha, esse inimigo recebe +1 Ruína no próximo ataque que realizar.
 
-Além disso, ao gastar sua última Carta na Manga do dia, role imediatamente mais 1d20 e anote o resultado como uma nova Carta. Esse bônus só pode ocorrer uma vez por descanso longo.
+Além disso, ao gastar sua última Carta na Manga do dia, role imediatamente mais 1d12 e anote o resultado como uma nova Carta. Esse bônus só pode ocorrer uma vez por descanso longo.
 
 ---
 
@@ -57,9 +57,9 @@ Além disso, ao gastar sua última Carta na Manga do dia, role imediatamente mai
 
 #rank_s
 
-1 PA. Escolha uma criatura em [alcance médio](#/devlog/entry/alcances) que tenha acabado de rolar um d20. Force-a a rolar novamente e usar o pior resultado entre os dois.
+1 PA. Escolha uma criatura em [alcance médio](#/devlog/entry/alcances) que tenha acabado de fazer um teste. Force-a a rolar o teste inteiro novamente e usar o pior resultado entre os dois.
 
-Antes de ver o novo resultado, você pode gastar quantas Cartas na Manga quiser para substituí-lo pelos valores anotados, na ordem que preferir.
+Antes de ver o novo resultado, você pode gastar quantas Cartas na Manga quiser para substituir os dados dessa nova rolagem pelos valores anotados, na ordem que preferir.
 
 ---
 

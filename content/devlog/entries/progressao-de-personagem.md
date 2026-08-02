@@ -1,6 +1,6 @@
 ---
 title: progressao de personagem
-date: '2026-07-20'
+date: '2026-08-02'
 section: mecanicas/criacao de personagem
 sourceNote: mecanicas/criacao de personagem/progressao de personagem.md
 ---
@@ -20,25 +20,28 @@ Subir de Rank não segue XP nem uma contagem de sessões: é **por marco (milest
 Despertar e Rank S são os extremos da carreira de um Caçador; entre eles, a escada intercala entre patamares parciais e completos. 
 
 
-| Rank          | Você ganha                                                                       |
-| ------------- | -------------------------------------------------------------------------------- |
+| Rank          | Você ganha                                                                                                           |
+| ------------- | -------------------------------------------------------------------------------------------------------------------- |
 | **Despertar** | Habilidade de linhagem · Habilidade de domínio · Padrão de vida — **Modesto** · PV Iniciais · Definição de movimento |
-| *Rank F-*     | Patrono menor                                                           |
-| **Rank F**    | Habilidade de Linhagem · *Padrão de vida — Confortável* · *Aumento de acesso*               |
-| *Rank E-*     | Patrono menor · Grau de treinamento                                     |
-| **Rank E**    | Habilidade de Domínio · Aumento de PV · *Aumento de acesso*                                   |
-| *Rank D-*     | Patrono menor                                                           |
-| **Rank D**    | Habilidade de Linhagem · *Padrão de vida — Abastado* · *Aumento de acesso*                  |
-| *Rank C-*     | Patrono maior · Grau de treinamento                                     |
-| **Rank C**    | Habilidade de Domínio · Aumento de PV · *Aumento de acesso*                                   |
-| *Rank B-*     | Patrono maior                                                           |
-| **Rank B**    | Habilidade de Linhagem · *Padrão de vida — Luxuoso* · *Aumento de acesso*                   |
-| *Rank A-*     | Patrono maior · Grau de treinamento                                     |
-| **Rank A**    | Habilidade de Domínio · Aumento de PV · *Aumento de acesso*                                   |
-| *Rank S-*     | Patrono supremo                                                         |
-| **Rank S**    | Habilidade de Linhagem · *Padrão de vida — Milionário* · *Aumento de acesso*                |
-| *Rank SS-*    | Patrono supremo                                                         |
-| **Rank SS**   | Habilidade de Domínio · Aumento de PV · *Aumento de acesso*                                   |
+| *Rank F-*     | Patrono menor · Experiência                                                                                          |
+| **Rank F**    | Habilidade de Linhagem · *Padrão de vida — Confortável* · *Aumento de acesso*                                        |
+| *Rank E-*     | Patrono menor · Grau de treinamento                                                                                  |
+| **Rank E**    | Habilidade de Domínio · Aumento de PV · *Aumento de acesso*                                                          |
+| *Rank D-*     | Patrono menor · Experiência                                                                                          |
+| **Rank D**    | Habilidade de Linhagem · *Padrão de vida — Abastado* · *Aumento de acesso*                                           |
+| *Rank C-*     | Patrono maior · Grau de treinamento                                                                                  |
+| **Rank C**    | Habilidade de Domínio · Aumento de PV · *Aumento de acesso*                                                          |
+| *Rank B-*     | Patrono maior · Experiência                                                                                          |
+| **Rank B**    | Habilidade de Linhagem · *Padrão de vida — Luxuoso* · *Aumento de acesso*                                            |
+| *Rank A-*     | Patrono maior · Grau de treinamento                                                                                  |
+| **Rank A**    | Habilidade de Domínio · Aumento de PV · *Aumento de acesso*                                                          |
+| *Rank S-*     | Patrono supremo · Experiência                                                                                        |
+| **Rank S**    | Habilidade de Linhagem · *Padrão de vida — Milionário* · *Aumento de acesso*                                         |
+| *Rank SS-*    | Patrono supremo · Grau de treinamento                                                                                |
+| **Rank SS**   | Habilidade de Domínio · Aumento de PV · *Aumento de acesso*                                                          |
+
+> [!info] Grau de treinamento e Experiência
+> Esses dois benefícios, junto com os Patronos, têm sua mecânica completa detalhada em [Progressão de Patrono](#/devlog/entry/patrono) — Grau de treinamento sobe um degrau na escada de dados de um [Traço](#/devlog/entry/tracos), enquanto Experiência melhora ou adiciona uma [Experiência](#/devlog/entry/experiencias).
 
 > [!info] Recompensas sociais
 > Diferente de recompensas físicas como suas habilidade de domínio, as recompensas destacadas (ex: *Aumento de acesso*) só são adquiridas provando ao mundo sua força. Para isso é necessário realizar e passar no [Exame de Ascensão](#exame-de-ascensão) para o rank desejado - veja [beneficios sociais](#/devlog/entry/beneficios-sociais)

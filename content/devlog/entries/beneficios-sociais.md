@@ -1,6 +1,6 @@
 ---
 title: beneficios sociais
-date: '2026-07-20'
+date: '2026-08-02'
 section: mecanicas/criacao de personagem
 sourceNote: mecanicas/criacao de personagem/beneficios sociais.md
 ---

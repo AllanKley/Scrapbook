@@ -1,6 +1,6 @@
 ---
 title: espectro
-date: '2026-07-20'
+date: '2026-08-02'
 section: mecanicas/criacao de personagem/linhagens
 sourceNote: mecanicas/criacao de personagem/linhagens/espectro.md
 ---
@@ -24,7 +24,7 @@ Em combate, cada uso de Sombra Viva custa 1 PA. Todos os efeitos contam como a m
 
 ### Buraco Negro
 
-Sua sombra se desprende de você e entra embaixo de um inimigo, se prendendo a ele e o puxando pra baixo. O alvo tem sua velocidade reduzida a metade e recebe +1 Ruína em testes de [Reflexo](#/devlog/entry/pericias).
+Sua sombra se desprende de você e entra embaixo de um inimigo, se prendendo a ele e o puxando pra baixo. O alvo tem sua velocidade reduzida a metade e recebe +1 Ruína em testes de Instinto.
 
 ### Travessia no Vazio
 
@@ -32,11 +32,11 @@ Você move a sua sombra e se transporta instantaneamente até ela. Você pode mo
 
 ### Manto Escuro
 
-Você se esconde dentro da sua sombra. Enquanto dentro da sombra seu movimento é 0 e você recebe um bônus **Alto** para testes de furtividade.
+Você se esconde dentro da sua sombra. Enquanto dentro da sombra seu movimento é 0 e você recebe um bônus **Alto** em testes para não ser notado.
 
 ### Sombra Dupla
 
-Sua sombra se desprende de você e entra embaixo de um alvo, se camuflando na própria sombra do alvo. Enquanto estiver no alcance, você sabe exatamente a localização do alvo. Caso saia do alcance, sua sombra irá continuar seguindo o alvo e você apenas saberá a direção dele, ganhando um bônus **Médio** em Rastreamento.
+Sua sombra se desprende de você e entra embaixo de um alvo, se camuflando na própria sombra do alvo. Enquanto estiver no alcance, você sabe exatamente a localização do alvo. Caso saia do alcance, sua sombra irá continuar seguindo o alvo e você apenas saberá a direção dele, ganhando um bônus **Médio** em testes para rastreá-lo.
 
 ---
 
@@ -44,7 +44,7 @@ Sua sombra se desprende de você e entra embaixo de um alvo, se camuflando na pr
 
 #rank_f
 
-Sua presença é intimidadora, mesmo para aqueles que não têm nada a temer. Você recebe +1 Fortuna em testes de Intimidação.
+Sua presença é intimidadora, mesmo para aqueles que não têm nada a temer. Você recebe +1 Fortuna em testes para intimidar alguém.
 
 ---
 

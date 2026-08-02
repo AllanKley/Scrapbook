@@ -1,6 +1,6 @@
 ---
 title: testes de pericias
-date: '2026-07-20'
+date: '2026-08-02'
 section: mecanicas
 sourceNote: mecanicas/testes de pericias.md
 ---
@@ -14,11 +14,11 @@ Todos os testes seguem uma mesma estrutura, variando apenas conforme a situaçã
 
 # Pedidos de Teste
 
-Os jogadores devem descrever o que querem seus personagens fazem, e não pedir diretamente para realizar testes.
+Os jogadores devem descrever o que querem seus personagens façam, e não pedir diretamente para realizar testes.
 
 Em vez de dizer:
 
-> "Posso fazer um teste de Acrobacia?"
+> "Posso fazer um teste de Graça?"
 
 prefira:
 
@@ -28,67 +28,121 @@ Embora ambos tenham o mesmo objetivo, a forma como a ação é executada muda co
 
 Essas nuances só existem quando o jogador descreve sua intenção, em vez de apenas pedir um teste.
 
-Cabe ao mestre decidir:
+## Escolhendo os Traços
 
-- se um teste é necessário;
-- qual perícia será utilizada;
-- qual traço será empregado;
-- qual será a dificuldade.
+Não existe uma tabela fixa de "qual teste usa qual Traço". O jogador descreve **como** quer que a ação seja feita, e o mestre escolhe, na hora, os dois Traços que melhor refletem essa descrição.
+
+Os dois Traços não precisam ser diferentes: se só um Traço realmente se aplica à cena, o mestre o escolhe duas vezes, e o jogador rola dois dados iguais. Um segundo Traço só entra quando a descrição do jogador justificar claramente uma segunda influência.
+
+**Exemplo:** tentar intimidar alguém pode usar Traços diferentes dependendo da abordagem:
+
+- **Ímpeto** (duas vezes), se o personagem usa só seu tamanho, postura e força física para amedrontar.
+- **Essência** e **Ímpeto**, se o personagem projeta seu poder sobrenatural sobre uma postura física ameaçadora — uma aura visível sustentada por presença corporal.
+- **Encanto** (duas vezes), se a ameaça vem inteiramente de manipulação social calculada, não de força bruta.
+
+O mesmo vale pra qualquer situação — investigar uma cena pode usar Astúcia e Instinto juntos (juntar pistas por dedução lógica, mas notar o que não bate na cena pelo faro), ou só Astúcia duas vezes se for pura lógica. Não existe uma combinação "correta"; existe a combinação que a cena pede.
+
+> [!info] Nota para o mestre
+> Quando a descrição do jogador não sugerir nada especial, escolha o Traço mais óbvio pra situação e use-o duas vezes. Só traga um segundo Traço diferente quando a descrição apontar claramente pra uma segunda influência, isso recompensa descrições criativas sem virar uma negociação a cada teste.
 
 ## Sucesso Automático
 Em muitas situações, rolar dados simplesmente não é necessário. Uma dica para ajudar o mestre a identificar essas situações consiste em considerar três fatores:
-- **Tempo** - Você está com tempo sobrando? 
-- **Conhecimento** - Você sabe o que está fazendo?
-- **Arsenal** - Você tem as ferramentas (ou o físico) necessárias para isso?
+- **Tranquilidade** - Você está com tempo sobrando, tem inimigos próximos? 
+- **Experiência** - Você sabe o que está fazendo, já fez algo similar antes?
+- **Meios** - Você tem todos os recursos necessários para isso?
 
 Se os *três fatores* estiverem presentes não tem por que você fazer um teste, essa ação está completamente no seu domínio. Se apenas *dois desses fatores* estiverem presentes um [Teste Simples](#teste-simples) é necessário. Se apenas *um desses fatores* estiver presente você ainda pode tentar, mas com certeza terá de somar algumas *ruínas* ao seu teste. Por fim se *nenhum desses fatores* estiver presente esse teste é simplesmente impossível.
 
-O mestre é quem determina quais fatores estão presentes em cada situação. Além disso, ele pode conceder Fortunas ou Ruínas adicionais sempre que as circunstâncias justificarem.
+ O mestre é quem determina quais fatores estão presentes em cada situação. Além disso, ele pode conceder Fortunas ou Ruínas adicionais sempre que as circunstâncias justificarem.
+
+**Exemplo (conhecimento):** um Caçador examina uma inscrição rúnica numa parede. Se ele tem tempo (a sala está segura), conhecimento (uma [Experiência](#/devlog/entry/experiencias) que justifique já ter estudado esse tipo de escrita) e o material necessário para comparar — os três fatores estão presentes, e ele simplesmente toma seu tempo para traduzir a inscrição, não existe teste. Se a criatura que dorme na sala ao lado pode acordar a qualquer momento, o fator Tempo desaparece e o teste passa a existir: ele sabe ler aquilo, a dúvida é se consegue antes de ser tarde demais.
+
+> [!info] Nota para o mestre — descobertas acidentais
+> Essa distinção de fatores mede o quanto o personagem **controla** a ação, não o quanto ele merece o resultado. Quando um personagem toma uma ação — empurra a estante errada e revela a passagem, derruba o frasco e descobre qual reagente reage com qual, entra na sala errada e encontra exatamente o que procurava — isso é **a sorte agindo a seu favor**. Não peça rolagem e não imponha Ruína só por eles terempela falta de conhecimento: o personagem não estava tentando aquilo, então não há nada para ele executar mal.
+>
+> A distinção prática é simples: Ruínas por falta de fatores só entram quando o personagem **declarou uma intenção** e está tentando realizá-la sem as condições necessárias. Se a descoberta veio de um acidente, de uma falha em outra ação, ou de simplesmente estar no lugar certo, o mestre entrega a informação e segue.
+
+> [!info] Nota para o mestre — quando realmente pedir um teste de Astúcia
+> Peça um teste de Astúcia quando pelo menos um destes estiver presente:
+>
+> **Pressão** O personagem sabe ler a inscrição; a dúvida é se ele termina antes da criatura acordar. Aqui o teste mede velocidade, não erudição. 
+>
+> **Informação incompleta.** As pistas disponíveis não bastam, e o personagem precisa *deduzir* o que falta. Isso não é memória, é raciocínio — e raciocínio pode errar sem soar absurdo, mesmo vindo de alguém brilhante.
+>
+> **Consequência real no erro.** Misturar o reagente errado, identificar mal a criatura e preparar a defesa errada, traduzir o ritual de um jeito que piora as coisas. Se errar não custa nada, não peça o teste: só entregue a informação.
+>
+> Fora desses casos, entregue o que o personagem saberia e siga a cena. Segurar informação atrás de um dado costuma travar a mesa sem gerar tensão nenhuma — o grupo fica parado sem saber o que fazer, o que não é a mesma coisa que estar em perigo.
+>
+> Um truque que resolve quase tudo: em vez de aceitar a pergunta "eu sei o que é isso?", peça pro jogador declarar **o que ele quer fazer com o conhecimento**. "Quero identificar a fraqueza dessa criatura antes que ela alcance a gente" é uma ação testável, com tempo e consequência embutidos. "Eu sei o que é isso?" não é uma ação — é uma consulta à ficha, e a ficha já tem a resposta.
 
 ## Consequências e Forçar a sorte
 
 Todo teste representa um risco tomado e justamente por isso *toda falha deve ter uma consequência*, por menor que seja. 
 
-Uma falha pode alertar inimigos próximos, pode causar dano direto ou pode até mesmo deixar um npc menos paciente, independente da severidade da consequência, ela ainda deve existir.
+Uma falha pode alertar inimigos próximos, pode deixar um npc menos paciente ou pode até mesmo causar dano direto, independente da severidade da consequência, ela ainda deve existir.
 
-Com isso em mente, se um falha sempre vai ter consequências, *tentar a sorte novamente deve ter consequências ainda mais severas*. Se a situação permitir e o personagem conseguir justificar uma nova abordagem, ele pode tentar novamente, entretanto, cada falha subsequente aumenta exponencialmente a severidade das consequências.
+Com isso em mente, se uma falha sempre vai ter consequências, *tentar a sorte novamente deve ter consequências ainda mais severas*. Se a situação permitir e o personagem conseguir justificar uma nova abordagem, ele pode tentar novamente, entretanto, cada falha subsequente deve aumentar a severidade das consequências.
 
 Antes da toda tentativa, o mestre pode ou não revelar parte das possíveis consequências, permitindo que o jogador decida se vale a pena assumir o risco.
 
+**Exemplo de escalada:** um Caçador tenta arrombar a fechadura de um cofre numa mansão durante uma festa.
+
+Na **primeira falha**, a gazua entala e ele perde tempo — a consequência é apenas o relógio andando: um convidado passa pelo corredor e ele precisa se afastar da porta por alguns minutos.
+
+Ele tenta de novo, agora forçando mais. Na **segunda falha**, a gazua quebra dentro da fechadura. Agora ele precisa de outra ferramenta, e o mecanismo está visivelmente danificado — quem olhar aquela porta vai saber que alguém mexeu ali.
+
+Sem paciência, ele decide arrombar no ombro. Na **terceira falha**, a porta cede com barulho, mas não abre: o estalo atravessa o corredor, a segurança da mansão está a caminho, e o que era uma infiltração silenciosa virou uma fuga.
+
+Repare que a escalada não veio de dificuldades cada vez maiores, e sim de **consequências cada vez piores** — tempo perdido, depois recurso perdido e rastro deixado, depois a cena inteira virando outra coisa. É isso que faz insistir ser uma decisão de verdade em vez de uma formalidade.
+
+
+## Testes Semi-estáticos
+
+Algumas regras e habilidades pedem um **teste semi-estático** de um Traço específico. Isso significa que **o primeiro Traço é fixo** — a natureza daquele desafio sempre exige aquela capacidade — mas **o segundo é livre**, escolhido conforme o jogador descreve sua abordagem.
+
+Resistir a um veneno, por exemplo, sempre passa pelo corpo: [Ímpeto](#/devlog/entry/tracos) é obrigatório. Mas o segundo dado muda conforme o personagem se apoia na força bruta (Ímpeto de novo), na disciplina de manter o ritmo respiratório ([Astúcia](#/devlog/entry/tracos)), ou em queimar a toxina pela própria Essência ([Essência](#/devlog/entry/tracos)).
+
+Se o jogador não descrever nada em particular, o padrão é repetir o Traço fixo duas vezes. O mestre continua com a palavra final sobre se o segundo Traço proposto faz sentido.
+
+> [!note]
+>No restante do vault, esses testes aparecem marcados com a tag #semi-estatico.
+
+
 ---
+
 # Tipos de testes
 ## Teste Simples
 
 Quando um teste é necessário, o mestre escolhe:
 
-- a **Perícia** utilizada;
-- o **Traço** associado;
+- **dois Traços** associados (podem ser o mesmo Traço escolhido duas vezes);
 - a **Dificuldade** do teste.
 
 Dependendo das circunstâncias, o mestre também pode conceder **Fortunas** ou **Ruínas** ao teste (consulte [Agouro](#agouro)). A dificuldade pode ser informada aos jogadores ou mantida em segredo, a critério do mestre.
 
+Além disso, sempre que fizer sentido, o jogador pode evocar uma de suas [experiências](#/devlog/entry/experiencias) para ganhar um bônus naquele teste. Cabe ao mestre determinar se aquela experiência realmente se aplica aquela situação.
+
 > Realize a seguinte rolagem:
 >
-> **1d20 + [Bônus de Perícia](#bônus-de-perícia) + [Agouro](#agouro)**
+> **Dado de Traço + Dado de Traço + Bônus de [Experiência](#/devlog/entry/experiencias) (se aplicável) + [Agouro](#agouro)**
 >
 >Se o resultado final for igual ou superior à dificuldade definida pelo mestre, a ação é bem-sucedida.
 
-### Perícia e Traço não são um par fixo
+### Dado de Traço
 
-Diferente de outros sistemas, uma Perícia aqui não está presa a um único Traço. A [Tabela de Perícias](#/devlog/entry/pericias) mostra a associação mais comum de cada uma, mas o mestre pode — e deve — escolher outro Traço sempre que a descrição da ação justificar.
+Cada [Traço](#/devlog/entry/tracos) **é**, em si, um dado — de **d4** (fraco) a **d12** (excepcional). Um Traço melhor não rola mais dados: rola um dado maior. Veja [Traços](#/devlog/entry/tracos) para a escada completa.
 
-O jogador descreve **como** quer que a ação seja feita; o mestre decide **qual Perícia** e **qual Traço** refletem melhor essa descrição.
+Como o mestre escolhe dois Traços por teste, você rola **dois dados** e soma os resultados. Se os dois Traços escolhidos forem o mesmo, você rola aquele dado duas vezes.
 
-**Exemplo:** um teste de Intimidação pode usar Traços diferentes dependendo da abordagem:
+**Exemplo:** um tiro certeiro à distância, com Graça d10 escolhida duas vezes por não haver segunda influência relevante: role **2d10** e some.
 
-- **Ímpeto**, se o personagem usa seu tamanho, postura e força física para amedrontar.
-- **Essência**, se o personagem projeta seu poder sobrenatural — uma aura ameaçadora, sem dizer uma palavra.
-- **Encanto**, se a ameaça vem de manipulação social calculada, não de força bruta.
+**Exemplo com dois Traços diferentes:** ameaçar um inimigo com Ímpeto d8 e Essência d6 (presença física apoiada por uma aura sobrenatural): role **1d8 + 1d6** e some.
 
-Isso vale pra qualquer Perícia — um teste de Investigação pode usar Astúcia (dedução lógica, juntar pistas) ou Instinto (perceber o que não bate na cena, no faro), dependendo de como o jogador descreve a ação que quer tomar. Não existe uma tabela fechada de combinações; existe a combinação que a cena pede.
+> O Dado de Traço também é usado em rolagens de dano — a arma ou habilidade indica qual Traço rolar.
 
-> [!info] Nota para o mestre
-> Use a associação "padrão" da Tabela de Perícias como ponto de partida rápido quando a descrição não sugerir nada especial. Só troque o Traço quando a descrição do jogador apontar claramente pra outra abordagem — isso recompensa descrições criativas sem virar uma negociação a cada teste.
+### Explosão
+
+Se um dos dois dados rolados mostrar seu **valor máximo**, ele "explode": role **mais um dado do mesmo tipo** (apenas um) e some o resultado ao total obtido por aquele dado. Se esse dado extra também rolar o valor máximo, ele explode de novo, sem limite teórico de repetições.
 
 ---
 
@@ -96,7 +150,7 @@ Isso vale pra qualquer Perícia — um teste de Investigação pode usar Astúci
 
 Sempre que dois personagens tiverem objetivos diretamente conflitantes, realiza-se um Teste Oposto.
 
-Cada participante realiza um [Teste Simples](#teste-simples) utilizando a [perícia](#/devlog/entry/pericias) apropriada para sua ação.
+Cada participante realiza um [Teste Simples](#teste-simples) utilizando os Traços apropriados para sua ação.
 
 Quem obtiver o maior resultado vence o conflito.
 
@@ -141,19 +195,4 @@ Primeiro, Fortunas e Ruínas se cancelam mutuamente, uma para uma. Depois disso,
 > **SE NENHUMA SOBRAR -** O Agouro é **0**.
 
 
-# Bônus de Perícia
-
-Seu bônus de perícia representa o quão bom você é em uma tarefa específica, combinando seu Traço (quantos dados você rola) com seu treinamento na Perícia usada (qual dado você rola):
-
-- **Quantidade de dados:** igual ao valor do *Traço* usado no teste.
-- **Tipo de dado:** definido pelo seu *nível de treinamento* na *Perícia* usada — veja [Níveis de Treinamento](#/devlog/entry/pericias), que vai de **d4** (sem treinamento) a **d12** (especialista).
-
-Role todos os dados e use apenas o **maior resultado** entre eles — os demais são descartados.
-
-**Exemplo:** um teste de Precisão usando Graça, com Graça 3 e treinamento Especialista (d12) em Precisão: role **3d12** e pegue o maior.
-
-> O bônus de perícia também é utilizado em rolagens de dano
-
-## Explosão
-
-Se um dos dados rolados no bônus de perícia mostrar seu **valor máximo**, ele "explode": role **mais um dado do mesmo tipo** (apenas um, não a quantidade toda de novo) e some o resultado ao total obtido por aquele dado. Se esse dado extra também rolar o valor máximo, ele explode de novo, sem limite teórico de repetições.
+> [!idea] personagem que usa ruina a seu favor?

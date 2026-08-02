@@ -1,6 +1,6 @@
 ---
 title: Comece Aqui
-date: '2026-07-20'
+date: '2026-08-02'
 sourceNote: Comece Aqui.md
 ---
 #hub #índice
@@ -28,16 +28,16 @@ Seu personagem é definido por:
 
 - Seus [Traços](#/devlog/entry/tracos), que representam suas capacidades físicas, mentais e arcanas.
 - Sua [Linhagem](#/devlog/entry/linhagem) e seu [domínio](#/devlog/entry/dominio), que definem como você luta e qual papel ocupa no grupo.
-- Suas [perícias](#/devlog/entry/pericias), que representam seu treinamento e experiência.
 - Seu [patrono](#/devlog/entry/patrono), uma entidade poderosa cuja influência molda parte do que você se tornou.
-- Seus [Vínculos](#/devlog/entry/conexoes), os laços que unem você ao mundo.
+- Seus [Vínculos](#/devlog/entry/vinculos), os laços que unem você ao mundo.
+- Suas [Experiências](#/devlog/entry/experiencias), pedaços da sua vida antes de virar Caçador.
 - Seu [Arsenal](#/devlog/entry/equipamentos), que determina grande parte da sua capacidade em combate e exploração.
 
 > Consulte [_criacao de personagem](#/devlog/entry/criacao-de-personagem) para o processo completo de criação.
 
 ## Ranks
 
-Rank é o equivalente a nível: mede o poder do seu Caçador, sobe por marco (a critério do mestre) e segue a mesma escada pra qualquer build. Linhagem e Domínio se intercalam nela — Linhagem em F/D/B, Domínio em E/C/A, ambos junto com Despertar e Rank S — e os Patronos avançam nos ranks intermediários (F+/E+/D+/C+/B+/A+). Alcançar um Rank já concede seus benefícios mecânicos, mas o reconhecimento oficial da Federação e das Guildas (padrão de vida, acesso a lojas e a Fraturas daquele Rank) exige passar num Exame de Ascensão. Veja [Ranks](#/devlog/entry/progressao-de-personagem) para a escada completa.
+Rank é o equivalente a nível: mede o poder do seu Caçador, sobe por marco (a critério do mestre) e segue a mesma escada pra qualquer build. Linhagem e Domínio se intercalam nela — Linhagem em F/D/B, Domínio em E/C/A, ambos junto com Despertar e Rank S — e os Patronos avançam nos ranks intermediários (F-/E-/D-/C-/B-/A-/S-/SS-). Alcançar um Rank já concede seus benefícios mecânicos, mas o reconhecimento oficial da Federação e das Guildas (padrão de vida, acesso a lojas e a Fraturas daquele Rank) exige passar num Exame de Ascensão. Veja [Ranks](#/devlog/entry/progressao-de-personagem) para a escada completa.
 
 ---
 
@@ -59,7 +59,7 @@ Este é um mundo que já se adaptou ao impossível, mas que ainda não entende o
 
 ## Criação de personagem
 - [_criacao de personagem](#/devlog/entry/criacao-de-personagem) — visão geral do processo.
-- [Traços](#/devlog/entry/tracos), [perícias](#/devlog/entry/pericias), [Linhagem](#/devlog/entry/linhagem), [domínio](#/devlog/entry/dominio), [patrono](#/devlog/entry/patrono), [Vínculos](#/devlog/entry/conexoes) `(adaptado, revisar)`, [Arsenal](#/devlog/entry/equipamentos) `(adaptado, revisar)`.
+- [Traços](#/devlog/entry/tracos), [Linhagem](#/devlog/entry/linhagem), [domínio](#/devlog/entry/dominio), [patrono](#/devlog/entry/patrono), [Vínculos](#/devlog/entry/vinculos) `(adaptado, revisar)`, [Experiências](#/devlog/entry/experiencias), [Arsenal](#/devlog/entry/equipamentos) `(adaptado, revisar)`.
 - [recursos](#/devlog/entry/recursos) — PV, PA, Redução de Dano, Defesa, Evasão, Deslocamento e Subespaço.
 - [progressao de personagem](#/devlog/entry/progressao-de-personagem) — a escada de progressão, do Despertar ao Rank S.
 
@@ -75,7 +75,7 @@ Este é um mundo que já se adaptou ao impossível, mas que ainda não entende o
 - [armas](#/devlog/entry/armas), [armaduras](#/devlog/entry/armaduras), [escudos](#/devlog/entry/escudos), [alcances](#/devlog/entry/alcances).
 - [infusoes](#/devlog/entry/infusoes) — melhorias elementais permanentes para armas, armaduras e escudos, pagas em Ecos.
 - [ferimentos](#/devlog/entry/ferimentos) — o que acontece quando um personagem chega a 0 PV.
-- [condições](#/devlog/entry/condicoes) — efeitos temporários como sangramento, veneno e atordoamento.
+- [condições](#/devlog/entry/condicoes) — efeitos temporários como sangramento, corrupção e lentidão.
 
 ## Exploração e cenas
 - [exploracao](#/devlog/entry/exploracao) — Zonas de Interesse e o ciclo de exploração.

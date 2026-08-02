@@ -1,6 +1,6 @@
 ---
 title: escudos
-date: '2026-07-20'
+date: '2026-08-02'
 section: mecanicas/criacao de personagem/equipamentos
 sourceNote: mecanicas/criacao de personagem/equipamentos/escudos.md
 ---
@@ -10,8 +10,8 @@ Escudos permitem **anular completamente o dano** de um ataque, mas possuem durab
 
 Cada escudo possui um número limitado de **Usos** antes de quebrar. Escudos parcialmente danificados podem ser restaurados. *(Método de reparo a definir.)* #todo
 
-> [!info] Perícia e Traço variam por escudo
-> Diferente de armas (que usam sempre a mesma dupla Perícia/Traço por categoria), cada escudo define sua própria combinação para o teste de [Defender](#/devlog/entry/tipos-de-acoes) — um escudo pesado pode se apoiar em Resistência e Ímpeto, um escudo mágico em Estabilidade e Essência, e assim por diante. As três categorias abaixo já vêm com uma dupla sugerida, mas nada impede um escudo específico ter a sua própria.
+> [!info] O Traço varia por escudo
+> Cada escudo define seu próprio Traço para o teste de [Defender](#/devlog/entry/tipos-de-acoes) — um escudo pesado pode se apoiar em Ímpeto, um escudo mágico em Essência, e assim por diante. As três categorias abaixo já vêm com um Traço sugerido, mas nada impede um escudo específico ter o seu próprio, ou até combinar dois Traços diferentes se a descrição do item justificar.
 
 ---
 
@@ -23,7 +23,6 @@ Pequenos e ágeis, dependem da precisão do usuário para bloquear ataques.
 > **Tamanho:** Pequeno  
 > **Penalidade de Peso:** Nenhuma  
 > **Usos:** Poucos  
-> **Perícia:** [Manejo](#/devlog/entry/pericias)  
 > **Traço:** [Graça](#/devlog/entry/tracos)
 
 ---
@@ -36,7 +35,6 @@ Projetados para um equilíbrio entre resistência e mobilidade.
 > **Tamanho:** Médio  
 > **Penalidade de Peso:** Nenhuma  
 > **Usos:** Médios  
-> **Perícia:** [Luta](#/devlog/entry/pericias)  
 > **Traço:** [Ímpeto](#/devlog/entry/tracos)
 
 ---
@@ -49,14 +47,10 @@ Escudos robustos que suportam muitos impactos, mas exigem mais força e comprome
 > **Tamanho:** Grande  
 > **Penalidade de Peso:** Leve  
 > **Usos:** Muitos  
-> **Perícia:** [Resistência](#/devlog/entry/pericias)  
 > **Traço:** [Ímpeto](#/devlog/entry/tracos)
 
-> [!todo] "Fortitude" ou Resistência?
-> Ao descrever esse escudo você mencionou usar "Fortitude" — essa Perícia não existe na lista atual, então usei [Resistência](#/devlog/entry/pericias) (Ímpeto), que cobre "suportar dor, fadiga... condições extremas" e parece a intenção. Confirme se é isso mesmo ou se quer criar Fortitude como Perícia nova. #todo
-
 > [!todo] Escudo mágico ainda não existe como categoria
-> O exemplo de "escudo mágico usando Estabilidade" não corresponde a nenhuma das três categorias atuais (todas físicas). Se quiser, dá pra criar uma quarta categoria de Escudo Mágico, espelhando como [Armas Mágicas](#/devlog/entry/armas) já existe ao lado de Corpo a Corpo e à Distância. #todo
+> O exemplo de "escudo mágico usando Essência" não corresponde a nenhuma das três categorias atuais (todas físicas). Se quiser, dá pra criar uma quarta categoria de Escudo Mágico, espelhando como [Armas Mágicas](#/devlog/entry/armas) já existe ao lado de Corpo a Corpo e à Distância. #todo
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: aprimorado
-date: '2026-07-20'
+date: '2026-08-02'
 section: mecanicas/criacao de personagem/linhagens
 sourceNote: mecanicas/criacao de personagem/linhagens/aprimorado.md
 ---
@@ -27,7 +27,7 @@ Cada ativação concede, cumulativamente, até o fim da cena:
 Entretanto, cada ativação também impõe um preço:
 
 - Sofra dano **Baixo**.
-- Receba **+1 Ruína** em testes de Defesa e [Reflexo](#/devlog/entry/pericias).
+- Receba **+1 Ruína** em testes de Defesa e de Instinto.
 - Reduza seu PV Máximo em uma quantidade **Média** até o fim da cena.
 
 Você pode ativar Além do Limite dessa forma um número de vezes igual ao seu valor de **Ímpeto**.
@@ -43,7 +43,7 @@ Após atingir esse limite, cada nova ativação também faz você sofrer **1 Fer
 Seu instinto reage antes mesmo da sua mente compreender o perigo.
 
 - Você é **imune a ataques surpresa**.
-- Recebe **+1 Fortuna** em testes de **Percepção** para detectar armadilhas.
+- Recebe **+1 Fortuna** em testes de [Instinto](#/devlog/entry/tracos) para detectar armadilhas.
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: lore mundo
-date: '2026-07-20'
+date: '2026-08-02'
 section: world_building
 sourceNote: world_building/lore_mundo.md
 ---

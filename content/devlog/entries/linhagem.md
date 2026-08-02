@@ -1,6 +1,6 @@
 ---
 title: linhagem
-date: '2026-07-20'
+date: '2026-08-02'
 section: mecanicas/criacao de personagem/linhagens
 sourceNote: mecanicas/criacao de personagem/linhagens/_linhagem.md
 ---
@@ -8,7 +8,7 @@ sourceNote: mecanicas/criacao de personagem/linhagens/_linhagem.md
 
 A Linhagem representa a fonte de poder e o estilo de combate do seu personagem — de onde vêm suas habilidades e como elas se manifestam no mundo. Se o [Domínio](#/devlog/entry/dominio) responde "qual papel você ocupa no grupo", a Linhagem responde **como você chega lá**.
 
-Duas pessoas da mesma Linhagem ainda podem jogar de formas completamente diferentes dependendo do Domínio, dos [Traços](#/devlog/entry/tracos), das [perícias](#/devlog/entry/pericias) e do [Patrono](#/devlog/entry/patrono) escolhidos — a Linhagem define o motor, não o papel.
+Duas pessoas da mesma Linhagem ainda podem jogar de formas completamente diferentes dependendo do Domínio, dos [Traços](#/devlog/entry/tracos), do [Patrono](#/devlog/entry/patrono) e das [Experiências](#/devlog/entry/experiencias) escolhidas — a Linhagem define o motor, não o papel.
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: reliquias
-date: '2026-07-20'
+date: '2026-08-02'
 section: mecanicas/criacao de personagem/equipamentos
 sourceNote: mecanicas/criacao de personagem/equipamentos/reliquias.md
 ---
@@ -20,7 +20,7 @@ Toda Relíquia tem três partes: **Origem** (de onde ela vem), **Efeito** (o pod
 
 *Origem: um reino inteiro engolido por uma Fratura na Mesopotâmia — a Âncora daquele lugar é, até hoje, o trono vazio que a coroa deixou para trás.*
 
-**Efeito:** enquanto estiver usando a Coroa, você recebe **Fortuna Alta** em qualquer teste de Persuasão ou Intimidação contra alguém que reconheça algum tipo de autoridade — nobres, guardas, funcionários de guilda, cultistas.
+**Efeito:** enquanto estiver usando a Coroa, você recebe **Fortuna Alta** em qualquer teste para convencer ou intimidar alguém que reconheça algum tipo de autoridade — nobres, guardas, funcionários de guilda, cultistas.
 
 **Custo:** a Coroa não empresta autoridade — ela convence quem a usa de que ele *sempre* teve esse poder. Quanto mais tempo em uso contínuo, mais o personagem passa a reagir com genuína indignação a qualquer desobediência, mesmo vinda de aliados. Recusar uma ordem sua enquanto estiver coroado conta como uma Ruína **Alta** imposta por você mesmo contra quem desobedeceu — e o mestre decide quando isso já virou um problema social de verdade.
 
@@ -62,7 +62,7 @@ Toda Relíquia tem três partes: **Origem** (de onde ela vem), **Efeito** (o pod
 
 **Efeito:** uma vez por Descanso Longo, o Manto remove automaticamente 1 Ferimento Leve de quem o veste, sem precisar da ação Recuperar-se.
 
-**Custo:** o Manto não cura de graça. Cada vez que remove um Ferimento dessa forma, o mestre apaga ou corrompe silenciosamente um fragmento de um [Vínculo](#/devlog/entry/conexoes) do personagem — uma lembrança que fica mais vaga, um laço que esfria sem motivo aparente. Quem usa o Manto por tempo demais se cura às custas de quem se importa com ele.
+**Custo:** o Manto não cura de graça. Cada vez que remove um Ferimento dessa forma, o mestre apaga ou corrompe silenciosamente um fragmento de um [Vínculo](#/devlog/entry/vinculos) do personagem — uma lembrança que fica mais vaga, um laço que esfria sem motivo aparente. Quem usa o Manto por tempo demais se cura às custas de quem se importa com ele.
 
 ---
 

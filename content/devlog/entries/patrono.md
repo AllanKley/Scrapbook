@@ -1,6 +1,6 @@
 ---
 title: patrono
-date: '2026-07-20'
+date: '2026-08-02'
 section: mecanicas/criacao de personagem
 sourceNote: mecanicas/criacao de personagem/patrono.md
 ---
@@ -24,20 +24,22 @@ Você não pode escolher o mesmo Patrono mais de uma vez.
 
 # Progressão de Patrono
 
-Diferente de Linhagem e Domínio, seus Patronos não avançam nos ranks "cheios" (F, E, D, C, B, A, S) — eles avançam nos seis ranks **F+, E+, D+, C+, B+ e A+** da escada de [Ranks](#/devlog/entry/progressao-de-personagem), um degrau intermediário entre cada dupla de ranks cheios. Esta é a única tabela que precisa mudar se você quiser alterar quando cada tier libera — o resto do documento não faz referência a Ranks.
+Diferente de Linhagem e Domínio, seus Patronos não avançam nos ranks "cheios" (F, E, D, C, B, A, S) — eles avançam nos oito ranks intermediários **F-, E-, D-, C-, B-, A-, S- e SS-** da escada de [Ranks](#/devlog/entry/progressao-de-personagem). Esta é a única tabela que precisa mudar se você quiser alterar quando cada tier libera — o resto do documento não faz referência a Ranks.
 
 Em cada um desses ranks, você ganha **os dois benefícios abaixo ao mesmo tempo**:
 
 | Rank | Slot de Patrono ganho | Crescimento pessoal |
 | --- | --- | --- |
-| Rank F+ | +1 Patrono Menor | +1 em um traço à escolha · 1 perícia sobe um nível de treinamento |
-| Rank E+ | +1 Patrono Menor | +1 em um traço à escolha · 1 perícia sobe um nível de treinamento |
-| Rank D+ | +1 Patrono Menor | +1 em um traço à escolha · 1 perícia sobe um nível de treinamento |
-| Rank C+ | +1 Patrono Maior | +1 em um traço à escolha · 1 perícia sobe um nível de treinamento |
-| Rank B+ | +1 Patrono Maior | +1 em um traço à escolha · 1 perícia sobe um nível de treinamento |
-| Rank A+ | +1 Patrono Supremo | +1 em um traço à escolha · 1 perícia sobe um nível de treinamento |
+| Rank F- | +1 Patrono Menor | Melhore o bônus de uma Experiência existente ou adicione uma nova (máx. 5) |
+| Rank E- | +1 Patrono Menor | **Grau de Treinamento:** um traço à escolha sobe um degrau na escada de dados |
+| Rank D- | +1 Patrono Menor | Melhore o bônus de uma Experiência existente ou adicione uma nova (máx. 5) |
+| Rank C- | +1 Patrono Maior | **Grau de Treinamento:** um traço à escolha sobe um degrau na escada de dados |
+| Rank B- | +1 Patrono Maior | Melhore o bônus de uma Experiência existente ou adicione uma nova (máx. 5) |
+| Rank A- | +1 Patrono Maior | **Grau de Treinamento:** um traço à escolha sobe um degrau na escada de dados |
+| Rank S- | +1 Patrono Supremo | Melhore o bônus de uma Experiência existente ou adicione uma nova (máx. 5) |
+| Rank SS- | +1 Patrono Supremo | Melhore o bônus de uma Experiência existente ou adicione uma nova (máx. 5) |
 
-Ao longo de uma carreira completa, isso resulta em **3 Patronos Menores, 2 Patronos Maiores, 1 Patrono Supremo**, **+6 em traços** (distribuídos como o jogador quiser, respeitando o teto de [7](#/devlog/entry/tracos)) e **6 subidas de nível de treinamento de perícia** — a mesma proporção de Patronos de antes, só redistribuída pelos ranks intermediários em vez de Despertar/F/D/B/S. O crescimento de traço/perícia é sentido como a influência crescente dos próprios Patronos sobre o personagem, não como um sistema separado.
+Ao longo de uma carreira completa, isso resulta em **3 Patronos Menores, 3 Patronos Maiores, 2 Patronos Supremos**, **3 subidas na escada de dados de Traço** (distribuídas como o jogador quiser, respeitando o teto de [d12](#/devlog/entry/tracos)) e **5 oportunidades de melhorar ou adicionar Experiências**. O crescimento de traço/Experiência é sentido como a influência crescente dos próprios Patronos sobre o personagem, não como um sistema separado.
 
 ---
 
@@ -48,7 +50,7 @@ Ao longo de uma carreira completa, isso resulta em **3 Patronos Menores, 2 Patro
 ### Hércules
 *Origem: Grécia.*
 
-O herói que completou o impossível através da força bruta e da teimosia. **Efeito:** uma vez por cena, ao acertar um ataque corpo a corpo, cause dano adicional igual ao seu traço de Ímpeto.
+O herói que completou o impossível através da força bruta e da teimosia. **Efeito:** uma vez por cena, ao acertar um ataque corpo a corpo, cause dano adicional igual ao seu [Grau](#/devlog/entry/tracos) de Ímpeto.
 
 ### Cú Chulainn
 *Origem: Stonehenge, Inglaterra (adotado das lendas célticas locais).*
@@ -63,32 +65,32 @@ O guerreiro que enfrentou Grendel e um dragão sozinho. **Efeito:** +1 Fortuna e
 ### Enkidu
 *Origem: Babilônia/Ur, Mesopotâmia.*
 
-Criado da argila e da natureza selvagem para equilibrar um rei arrogante. **Efeito:** +1 Fortuna em testes de Resistência; uma vez por cena, ignore completamente a primeira condição que sofreria na cena.
+Criado da argila e da natureza selvagem para equilibrar um rei arrogante. **Efeito:** +1 Fortuna em testes semi-estáticos de [Ímpeto](#/devlog/entry/tracos) #semi-estatico; uma vez por cena, ignore completamente a primeira condição que sofreria na cena.
 
 ### Kumbhakarna
 *Origem: Varanasi/Kurukshetra, Índia.*
 
-O gigante adormecido, capaz de devorar exércitos quando desperto. **Efeito:** PV Máximo **Baixo** adicional; Vantagem em testes para resistir a sono ou exaustão forçados.
+O gigante adormecido, capaz de devorar exércitos quando desperto. **Efeito:** PV Máximo **Baixo** adicional; **2 Fortunas** em testes para resistir a sono ou exaustão forçados.
 
 ### Sun Wukong
 *Origem: Xi'an, China.*
 
-O Rei Macaco, ágil o suficiente para escapar de qualquer prisão. **Efeito:** uma vez por cena, transforme-se brevemente: até o fim do turno, receba deslocamento **Baixo** adicional e Vantagem em testes de Acrobacia.
+O Rei Macaco, ágil o suficiente para escapar de qualquer prisão. **Efeito:** uma vez por cena, transforme-se brevemente: até o fim do turno, receba deslocamento **Baixo** adicional e **2 Fortunas** em testes de [Graça](#/devlog/entry/tracos).
 
 ### Coyote
 *Origem: territórios além das Bases Estáveis americanas, folclore indígena.*
 
-O trapaceiro que transforma erro em oportunidade. **Efeito:** uma vez por cena, trate uma falha em um teste de perícia como um sucesso com uma complicação (o mestre define a complicação).
+O trapaceiro que transforma erro em oportunidade. **Efeito:** uma vez por cena, trate uma falha em um teste como um sucesso com uma complicação (o mestre define a complicação).
 
 ### Anansi
 *Origem: Lagos de Dogon, África Ocidental.*
 
-A aranha que venceu deuses maiores usando apenas astúcia. **Efeito:** uma vez por cena, repita um teste de Enganação ou Persuasão que tenha acabado de falhar.
+A aranha que venceu deuses maiores usando apenas astúcia. **Efeito:** uma vez por cena, repita um teste de [Encanto](#/devlog/entry/tracos) que tenha acabado de falhar.
 
 ### Curupira
 *Origem: florestas fora dos Epicentros, folclore tupi (Brasil).*
 
-O guardião de pés virados para trás, protetor da mata contra quem a explora sem respeito. **Efeito:** uma vez por cena, faça raízes [Imobilizarem](#/devlog/entry/condicoes) um inimigo em [alcance curto](#/devlog/entry/alcances) (ele pode se soltar com um teste de Força ou Atletismo).
+O guardião de pés virados para trás, protetor da mata contra quem a explora sem respeito. **Efeito:** uma vez por cena, faça raízes prenderem um inimigo em [alcance curto](#/devlog/entry/alcances), aplicando uma quantidade **Alta** de stacks de [Lentidão](#/devlog/entry/condicoes) (ele pode se soltar com um teste semi-estático de [Ímpeto](#/devlog/entry/tracos) #semi-estatico, removendo todos os stacks de uma vez).
 
 ### Saci-Pererê
 *Origem: florestas fora dos Epicentros, folclore brasileiro.*
@@ -98,12 +100,12 @@ O moleque de uma perna só, que aparece e desaparece em redemoinhos de vento. **
 ### Iara
 *Origem: rios fora dos Epicentros, folclore tupi (Brasil).*
 
-A mãe-d'água cujo canto ninguém resiste. **Efeito:** uma vez por cena, force um inimigo em [alcance curto](#/devlog/entry/alcances) a um teste de [Resistência](#/devlog/entry/pericias) ou [Estabilidade](#/devlog/entry/pericias); se falhar, ele não pode atacar você até o fim do turno dele.
+A mãe-d'água cujo canto ninguém resiste. **Efeito:** uma vez por cena, force um inimigo em [alcance curto](#/devlog/entry/alcances) a um teste **semi-estático de [Essência](#/devlog/entry/tracos)** #semi-estatico; se falhar, ele não pode atacar você até o fim do turno dele.
 
 ### A Esfinge de Tebas
 *Origem: Grécia (com raízes egípcias, Vale do Nilo).*
 
-A criatura que bloqueava estradas com enigmas mortais. **Efeito:** uma vez por cena, force um inimigo a um teste de Astúcia; se falhar, ele recebe 1 Ruína em todos os testes até o fim do turno dele.
+A criatura que bloqueava estradas com enigmas mortais. **Efeito:** uma vez por cena, force um inimigo a um teste **semi-estático de [Astúcia](#/devlog/entry/tracos)** #semi-estatico; se falhar, ele recebe 1 Ruína em todos os testes até o fim do turno dele.
 
 ### Eco
 *Origem: Olímpia, Grécia.*
@@ -118,12 +120,12 @@ O espírito zombeteiro que transforma noites em confusão. **Efeito:** uma vez p
 ### Baba Yaga
 *Origem: florestas fora dos Epicentros, folclore eslavo.*
 
-A bruxa da cabana de pernas de galinha, que testa todos que a procuram. **Efeito:** uma vez por cena, escolha uma perícia; se um inimigo falhar em um teste dessa perícia antes do fim da cena, ele recebe 1 Ruína em seu próximo teste.
+A bruxa da cabana de pernas de galinha, que testa todos que a procuram. **Efeito:** uma vez por cena, escolha um [Traço](#/devlog/entry/tracos); se um inimigo falhar em um teste que use esse Traço antes do fim da cena, ele recebe 1 Ruína em seu próximo teste.
 
 ### Cérbero
 *Origem: Grécia.*
 
-O cão de três cabeças que guarda a passagem para o que não deve ser alcançado. **Efeito:** enquanto estiver vigiando uma passagem ou porta, você nunca pode ser pego de surpresa ali, e recebe +1 Fortuna em testes de Percepção.
+O cão de três cabeças que guarda a passagem para o que não deve ser alcançado. **Efeito:** enquanto estiver vigiando uma passagem ou porta, você nunca pode ser pego de surpresa ali, e recebe +1 Fortuna em testes de [Instinto](#/devlog/entry/tracos).
 
 ---
 
@@ -149,7 +151,7 @@ O Allfather, que trocou um olho por sabedoria e se sacrificou por runas. **Efeit
 ### Amaterasu
 *Origem: Monte Fuji, Japão.*
 
-A deusa do sol, cuja luz mantém o mundo visível e vivo. **Efeito:** você e aliados em [alcance curto](#/devlog/entry/alcances) recebem +1 Fortuna em testes para resistir a [Medo](#/devlog/entry/condicoes) e [Cegueira](#/devlog/entry/condicoes); uma vez por cena, dissipe uma área de escuridão sobrenatural em [alcance médio](#/devlog/entry/alcances).
+A deusa do sol, cuja luz mantém o mundo visível e vivo. **Efeito:** você e aliados em [alcance curto](#/devlog/entry/alcances) recebem +1 Fortuna em testes para resistir a [Medo](#/devlog/entry/condicoes) ou a qualquer efeito de escuridão sobrenatural; uma vez por cena, dissipe uma área de escuridão sobrenatural em [alcance médio](#/devlog/entry/alcances).
 
 ### Indra
 *Origem: Varanasi/Kurukshetra, Índia.*
@@ -164,7 +166,7 @@ O deus que derrotou o caos primordial Tiamat e reorganizou o mundo a partir dela
 ### Shangó
 *Origem: tradições afro-atlânticas preservadas por Guildas migrantes.*
 
-Orixá do trovão, do fogo e da justiça implacável. **Efeito:** uma vez por cena, ao acertar um ataque, force o alvo a um teste de [Resistência](#/devlog/entry/pericias) ou sofrer [Atordoamento](#/devlog/entry/condicoes).
+Orixá do trovão, do fogo e da justiça implacável. **Efeito:** uma vez por cena, ao acertar um ataque, force o alvo a um teste **semi-estático de [Ímpeto](#/devlog/entry/tracos)** #semi-estatico ou receba 2 Ruínas no próximo teste que realizar.
 
 ### Perun
 *Origem: florestas fora dos Epicentros, folclore eslavo.*
@@ -184,7 +186,7 @@ O deus-sol, ancestral divino dos governantes incas. **Efeito:** ao concluir um d
 ### Tangaroa
 *Origem: Polinésia.*
 
-Senhor do oceano e de tudo que vive nele. **Efeito:** uma vez por cena, force uma criatura em [alcance médio](#/devlog/entry/alcances) a um teste de Força ou ser puxada uma distância **Baixa** em sua direção.
+Senhor do oceano e de tudo que vive nele. **Efeito:** uma vez por cena, force uma criatura em [alcance médio](#/devlog/entry/alcances) a um teste **semi-estático de [Ímpeto](#/devlog/entry/tracos)** #semi-estatico ou ser puxada uma distância **Baixa** em sua direção.
 
 ### Anu
 *Origem: Babilônia/Ur, Mesopotâmia.*

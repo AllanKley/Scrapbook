@@ -1,6 +1,6 @@
 ---
 title: equipamentos
-date: '2026-07-20'
+date: '2026-08-02'
 section: mecanicas/criacao de personagem/equipamentos
 sourceNote: mecanicas/criacao de personagem/equipamentos/_equipamentos.md
 ---
@@ -48,7 +48,7 @@ Itens que não cabem nos 4 slots de acesso rápido ficam guardados no [Subespaç
 
 Todo caçador tem acesso a um **Subespaço**: um pequeno bolso fora da realidade onde carrega tudo que não está em seus slots de acesso rápido. Não há necessidade de justificar onde o item "estava guardado" — ele simplesmente sai do Subespaço.
 
-- O Subespaço comporta até **seu bônus de [Essência](#/devlog/entry/tracos) multiplicado por 5** em espaços de item.
+- O Subespaço comporta até **o número do dado de [Essência](#/devlog/entry/tracos) multiplicado por 5** em espaços de item (ex: Essência d8 comporta 40 espaços).
 - Puxar um item do Subespaço durante o combate custa **2 PA**.
 - Fora de combate, itens podem ser puxados do Subespaço livremente, sem custo.
 
@@ -65,11 +65,11 @@ Quanto dano a arma causa em um acerto. Atualmente descrito por categoria (Baixo,
 > [!todo] Converter em dado
 > As categorias de Dano ainda precisam virar valores numéricos de dado — veja o aviso equivalente em [armas](#/devlog/entry/armas). #todo
 
-## Perícia e Traço
+## Traço
 
-Toda arma indica a **Perícia** e o **Traço** usados no [Teste Simples](#/devlog/entry/testes-de-pericias) de ataque com ela — os mesmos dois valores que qualquer teste do jogo exige (veja [testes de pericias](#/devlog/entry/testes-de-pericias)).
+Toda arma indica o **Traço** usado no [Teste Simples](#/devlog/entry/testes-de-pericias) de ataque com ela — normalmente rolado duas vezes, como qualquer teste do jogo (veja [testes de pericias](#/devlog/entry/testes-de-pericias)).
 
-Escudos também têm Perícia e Traço, mas para o teste de [Defender](#/devlog/entry/tipos-de-acoes) em vez de ataque — e, diferente de armas, essa dupla varia de escudo para escudo, não só por categoria (veja [escudos](#/devlog/entry/escudos)).
+Escudos também têm um Traço, mas para o teste de [Defender](#/devlog/entry/tipos-de-acoes) em vez de ataque — e, diferente de armas, ele varia de escudo para escudo, não só por categoria (veja [escudos](#/devlog/entry/escudos)).
 
 ## Penalidade de Peso
 

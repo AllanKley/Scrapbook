@@ -1,6 +1,6 @@
 ---
 title: rank
-date: '2026-07-20'
+date: '2026-08-02'
 section: world_building
 sourceNote: world_building/rank.md
 ---
@@ -51,7 +51,7 @@ Use isso. É uma das ferramentas narrativas mais fortes que o sistema oferece de
 
 # Marcas de Rank
 
-Cada Guilda tem sua própria tradição para exibir o Rank de um Caçador — a mesma lógica já usada para marcar [Tempo de Guilda](#/devlog/entry/conexoes) (colares de contas, tatuagens rúnicas, insígnias). A Federação, por sua vez, emite uma credencial oficial única e universalmente reconhecida, independente de qual Guilda o Caçador serve — é ela que faz valer o acesso a Fraturas e lojas restritas em qualquer lugar do mundo, não só na Guilda de origem.
+Cada Guilda tem sua própria tradição para marcar o tempo de serviço de um Caçador — colares de contas, tatuagens rúnicas, insígnias, entre outras. A Federação, por sua vez, emite uma credencial oficial única e universalmente reconhecida, independente de qual Guilda o Caçador serve — é ela que faz valer o acesso a Fraturas e lojas restritas em qualquer lugar do mundo, não só na Guilda de origem.
 
 > [!todo] Detalhes visuais e cerimoniais
 > Ainda não existe uma descrição concreta de como é a credencial da Federação, nem se existe algum tipo de cerimônia pública quando alguém sobe de Rank (principalmente em B/A/S, onde isso teria peso social real). Espaço aberto pra lore adicional. #todo

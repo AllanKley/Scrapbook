@@ -1,6 +1,6 @@
 ---
 title: forjador
-date: '2026-07-20'
+date: '2026-08-02'
 section: mecanicas/criacao de personagem/linhagens
 sourceNote: mecanicas/criacao de personagem/linhagens/forjador.md
 ---
@@ -51,7 +51,7 @@ Passivo. Ao examinar uma arma, armadura ou construto por alguns instantes, você
 
 #rank_b
 
-Passivo. Você pode manter um número de Runas ativas simultaneamente igual ao seu traço de Essência (mínimo 1), em vez de apenas 1.
+Passivo. Você pode manter um número de Runas ativas simultaneamente igual ao seu [Grau](#/devlog/entry/tracos) de Essência (mínimo 1), em vez de apenas 1.
 
 ---
 
@@ -59,7 +59,7 @@ Passivo. Você pode manter um número de Runas ativas simultaneamente igual ao s
 
 #rank_s
 
-1 PA. Transforme um item em [alcance de toque](#/devlog/entry/alcances) em um Golem temporário do tamanho de uma criatura Média, que luta ao seu lado até o fim da cena ou até ser destruído. O Golem age no seu turno, usando seu traço de Essência para testes de ataque e causando dano **Médio** por golpe.
+1 PA. Transforme um item em [alcance de toque](#/devlog/entry/alcances) em um Golem temporário do tamanho de uma criatura Média, que luta ao seu lado até o fim da cena ou até ser destruído. O Golem age no seu turno, atacando com um teste de Essência (seu dado, rolado duas vezes) e causando dano **Médio** por golpe.
 
 ---
 

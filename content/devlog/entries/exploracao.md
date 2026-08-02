@@ -1,11 +1,9 @@
 ---
 title: exploracao
-date: '2026-07-20'
+date: '2026-08-02'
 section: mecanicas
 sourceNote: mecanicas/exploracao.md
 ---
-# Exploração
-
 Quando o grupo entra em uma área perigosa, o mestre inicia uma **Cena de Exploração**.
 
 Uma Cena de Exploração é dividida em **Zonas de Interesse**: locais que apresentam decisões, desafios ou informações relevantes para a aventura.
@@ -40,7 +38,7 @@ O objetivo não é fazer os jogadores passarem vários minutos procurando uma ch
 
 Em vez disso, o mestre deve fornecer automaticamente todas as informações necessárias para que o grupo possa continuar explorando.
 
-Testes de [Investigação](#/devlog/entry/pericias) servem para descobrir:
+Testes **semi-estáticos de [Astúcia](#/devlog/entry/tracos)** #semi-estatico servem para descobrir:
 
 - atalhos;
 - tesouros escondidos;
@@ -58,7 +56,7 @@ Dessa forma, quando os jogadores decidem deixar uma zona, eles podem fazê-lo co
 
 Mover-se entre Zonas de Interesse pode significar atravessar uma porta ou cruzar um grande pátio.
 
-Independentemente da distância percorrida, o principal fator considerado durante o deslocamento é a **[Furtividade](#/devlog/entry/pericias)**.
+Independentemente da distância percorrida, o principal fator considerado durante o deslocamento é passar despercebido — um teste **semi-estático de [Graça](#/devlog/entry/tracos)** #semi-estatico.
 
 ## Deslocamentos Curtos
 
@@ -76,11 +74,11 @@ Quando o deslocamento exige atravessar corredores, áreas abertas ou outros espa
 
 Caso façam isso:
 
-- realizam testes de [Furtividade](#/devlog/entry/pericias);
+- realizam testes semi-estáticos de [Graça](#/devlog/entry/tracos) #semi-estatico para não serem notados;
 - gastam mais tempo para avançar;
 - permitem que o mestre realize rolagens de **[Eventos Aleatórios](#/devlog/entry/eventos-aleatorios)**.
 
-Além disso, sempre que fizer sentido, o mestre pode solicitar testes de **[Percepção](#/devlog/entry/pericias)** para detectar armadilhas ou outros perigos durante o trajeto.
+Além disso, sempre que fizer sentido, o mestre pode solicitar testes **semi-estáticos de [Instinto](#/devlog/entry/tracos)** #semi-estatico para detectar armadilhas ou outros perigos durante o trajeto.
 
 ---
 
@@ -113,11 +111,13 @@ Exemplos:
 
 Caso o percurso seja longo ou perigoso:
 
-- os jogadores realizam testes de [Furtividade](#/devlog/entry/pericias), se desejarem;
+- os jogadores realizam testes semi-estáticos de [Graça](#/devlog/entry/tracos) #semi-estatico para não serem notados, se desejarem;
 - o mestre resolve eventuais [Eventos Aleatórios](#/devlog/entry/eventos-aleatorios);
-- testes de [Percepção](#/devlog/entry/pericias) podem ser solicitados para detectar armadilhas.
+- testes semi-estáticos de [Instinto](#/devlog/entry/tracos) #semi-estatico podem ser solicitados para detectar armadilhas.
 
 ---
+
+
 
 ## 4. Entrada na Zona
 

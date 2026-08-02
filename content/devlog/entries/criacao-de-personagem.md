@@ -1,6 +1,6 @@
 ---
 title: criacao de personagem
-date: '2026-07-20'
+date: '2026-08-02'
 section: mecanicas/criacao de personagem
 sourceNote: mecanicas/criacao de personagem/_criacao de personagem.md
 ---
@@ -20,9 +20,9 @@ A criação de personagem normalmente segue as seguintes etapas:
 2. Distribua seus [Traços](#/devlog/entry/tracos).
 3. Escolha uma [Linhagem](#/devlog/entry/linhagem).
 4. Escolha um [domínio](#/devlog/entry/dominio).
-5. Selecione suas [perícias](#/devlog/entry/pericias).
-6. Escolha um [patrono](#/devlog/entry/patrono).
-7. Defina seus [Vínculos](#/devlog/entry/conexoes).
+5. Escolha um [patrono](#/devlog/entry/patrono).
+6. Defina seus [Vínculos](#/devlog/entry/vinculos).
+7. Escreva suas [Experiências](#/devlog/entry/experiencias).
 8. Escolha seu [Arsenal](#/devlog/entry/equipamentos).
 9. Calcule seus recursos iniciais.
 10. Revise a ficha.
@@ -75,16 +75,6 @@ Enquanto a Linhagem determina **de onde vem** o poder do personagem, o Domínio 
 
 ---
 
-# [perícias](#/devlog/entry/pericias)
-
-Perícias representam treinamento, conhecimento e experiência em atividades específicas.
-
-Elas são utilizadas durante exploração, interações sociais, investigação e diversas outras situações fora do combate.
-
-Sua escolha ajuda a diferenciar personagens que compartilham a mesma linhagem.
-
----
-
 # [patrono](#/devlog/entry/patrono)
 
 Durante sua jornada, personagens se conectam a fragmentos de seres poderosos o bastante para terem deixado uma marca na própria Essência, tornando-se seus Patronos. Saber ou não quem é esse ser é escolha do jogador — nem sempre é uma bênção consciente.
@@ -95,13 +85,21 @@ Além das vantagens mecânicas, Patronos também possuem forte importância narr
 
 ---
 
-# [Vínculos](#/devlog/entry/conexoes)
+# [Vínculos](#/devlog/entry/vinculos)
 
 Vínculos representam os laços que unem seu personagem ao mundo.
 
 Eles podem envolver guildas, organizações, governos, famílias, mestres, grupos religiosos ou até mesmo outros personagens.
 
 Além de fornecer pequenos benefícios mecânicos, os Vínculos servem como ferramentas narrativas para inserir naturalmente o personagem na campanha.
+
+---
+
+# [Experiências](#/devlog/entry/experiencias)
+
+Experiências são frases curtas que resumem quem seu personagem foi antes — ou à margem — da carreira de Caçador. Elas concedem um bônus fixo a testes que a narração justificar.
+
+Todo personagem começa com 2 Experiências, que crescem em número e em bônus ao longo da progressão.
 
 ---
 
@@ -134,9 +132,9 @@ Antes de iniciar a campanha, confirme que:
 - Todos os traços foram distribuídos.
 - A linhagem foi escolhida.
 - O domínio foi selecionado.
-- As perícias foram registradas.
 - Um Patrono foi escolhido.
 - Os Vínculos foram definidos.
+- As 2 Experiências iniciais foram escritas.
 - O Arsenal inicial foi anotado.
 - Todos os recursos derivados foram calculados.
 
@@ -147,11 +145,11 @@ Antes de iniciar a campanha, confirme que:
 Cada etapa da criação possui uma página própria com regras detalhadas:
 
 - [Traços](#/devlog/entry/tracos)
-- [perícias](#/devlog/entry/pericias)
 - [Linhagem](#/devlog/entry/linhagem)
 - [domínio](#/devlog/entry/dominio)
 - [patrono](#/devlog/entry/patrono)
-- [Vínculos](#/devlog/entry/conexoes)
+- [Vínculos](#/devlog/entry/vinculos)
+- [Experiências](#/devlog/entry/experiencias)
 - [Arsenal](#/devlog/entry/equipamentos)
 - [recursos](#/devlog/entry/recursos) — PV, PA, Redução de Dano, Defesa, Evasão, Deslocamento e Subespaço.
 - [progressao de personagem](#/devlog/entry/progressao-de-personagem) — progressão após a criação.

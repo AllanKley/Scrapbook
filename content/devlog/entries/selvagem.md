@@ -1,6 +1,6 @@
 ---
 title: selvagem
-date: '2026-07-20'
+date: '2026-08-02'
 section: mecanicas/criacao de personagem/linhagens
 sourceNote: mecanicas/criacao de personagem/linhagens/selvagem.md
 ---
@@ -24,12 +24,12 @@ Ao primeiro sinal de combate, o companheiro se funde automaticamente a você at�
 
 - dano **Baixo** adicional em rolagens de dano;
 - Redução de Dano Física **Média**;
-- bônus **Baixo** em testes de Percepção;
+- bônus **Baixo** em testes de [Instinto](#/devlog/entry/tracos);
 - deslocamento **Baixo** adicional.
 
 Seu corpo manifesta traços bestiais visíveis relacionados à forma do companheiro.
 
-Fora de combate, você pode se fundir ou separar do companheiro livremente. Você pode realizar essa fusão um número de vezes por descanso longo igual ao seu traço de Essência (mínimo 1).
+Fora de combate, você pode se fundir ou separar do companheiro livremente. Você pode realizar essa fusão um número de vezes por descanso longo igual ao seu [Grau](#/devlog/entry/tracos) de Essência (mínimo 1).
 
 Caso o companheiro seja ferido, morto ou dissipado de qualquer forma, ele desaparece e só pode ser invocado novamente após um descanso longo.
 
@@ -39,7 +39,7 @@ Caso o companheiro seja ferido, morto ou dissipado de qualquer forma, ele desapa
 
 #rank_f
 
-Seus sentidos são mais aguçados que o normal. Você recebe +1 Fortuna em testes de Intuição, Percepção e Rastreamento.
+Seus sentidos são mais aguçados que o normal. Você recebe +1 Fortuna em todos os testes de [Instinto](#/devlog/entry/tracos).
 
 ---
 

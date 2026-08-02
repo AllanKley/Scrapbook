@@ -1,6 +1,6 @@
 ---
 title: apotecario
-date: '2026-07-20'
+date: '2026-08-02'
 section: mecanicas/criacao de personagem/linhagens
 sourceNote: mecanicas/criacao de personagem/linhagens/apotecario.md
 ---
@@ -17,7 +17,7 @@ Alquimistas do campo de batalha que manipulam vida, toxinas e flora, sempre equi
 
 #despertar
 
-Ao concluir um descanso longo, ou gastando 10 minutos de preparo, você produz uma quantidade de Elixires Voláteis igual ao seu traço de Astúcia (mínimo 2), escolhidos livremente entre os tipos abaixo. Elixires não utilizados perdem o efeito ao final do dia.
+Ao concluir um descanso longo, ou gastando 10 minutos de preparo, você produz uma quantidade de Elixires Voláteis igual ao seu [Grau](#/devlog/entry/tracos) de Astúcia (mínimo 2), escolhidos livremente entre os tipos abaixo. Elixires não utilizados perdem o efeito ao final do dia.
 
 Consumir ou aplicar um Elixir custa 1 PA. Podem ser bebidos por você, administrados em um aliado em [alcance de toque](#/devlog/entry/alcances), ou arremessados em um inimigo em [alcance curto](#/devlog/entry/alcances).
 
@@ -25,7 +25,7 @@ Consumir ou aplicar um Elixir custa 1 PA. Podem ser bebidos por você, administr
 - **Elixir Corrosivo:** causa dano de ácido **Médio**; se arremessado contra uma armadura ou escudo, causa dano adicional a ele.
 - **Elixir Estabilizante:** remove 1 condição.
 - **Elixir Selvagem:** concede um bônus **Baixo** no próximo teste ou rolagem de dano do alvo.
-- **Elixir Tóxico:** aplica 1 stack de Veneno.
+- **Elixir Tóxico:** aplica Corrupção.
 
 Elixires Voláteis não utilizados também podem ser vendidos: cada um vale metade do custo em Ecos de uma poção equivalente.
 
@@ -45,7 +45,7 @@ Passivo. Você é imune a dano de veneno e ácido.
 
 1 PA. Preparação: 10 minutos. Alcance: médio. Alvo: 1 pessoa. Duração: sustentada. Requisito: 1 objeto que pertence ao alvo.
 
-Usando um objeto que pertence ao alvo, você produz uma efígie com a qual, enquanto estiver em alcance dele, pode exercer uma das influências abaixo a cada rodada. O alvo pode fazer um teste de Intuição ou Ressonância (o que for maior) contra a sua Sutileza para perceber a influência — caso perceba, saberá que você o estava manipulando.
+Usando um objeto que pertence ao alvo, você produz uma efígie com a qual, enquanto estiver em alcance dele, pode exercer uma das influências abaixo a cada rodada. O alvo pode fazer um teste semi-estático de [Instinto](#/devlog/entry/tracos) #semi-estatico em um [Teste Oposto](#/devlog/entry/testes-de-pericias) contra o seu teste de Essência para perceber a influência — caso perceba, saberá que você o estava manipulando.
 
 - **Dor Simpática:** o alvo sofre dano **Médio**.
 - **Pavor Repentino:** o alvo recebe 1 Ruína no próximo teste que realizar.
@@ -57,7 +57,7 @@ Usando um objeto que pertence ao alvo, você produz uma efígie com a qual, enqu
 
 #rank_b
 
-Passivo. Sempre que aplicar uma condição (Veneno, Sangramento, Congelamento etc.) em um inimigo através de uma de suas habilidades, você pode optar por sofrer metade do efeito daquela condição você mesmo. Se fizer isso, o inimigo sofre o dobro do efeito normal.
+Passivo. Sempre que aplicar uma condição (Corrupção, Sangramento, Lentidão etc.) em um inimigo através de uma de suas habilidades, você pode optar por sofrer metade do efeito daquela condição você mesmo. Se fizer isso, o inimigo sofre o dobro do efeito normal.
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: ferimentos
-date: '2026-07-20'
+date: '2026-08-02'
 section: mecanicas
 sourceNote: mecanicas/ferimentos.md
 ---
@@ -77,7 +77,7 @@ Cada novo Ferimento utiliza uma tabela mais severa, aumentando as chances de con
 
 ## Desestabilizado
 
-Você sofre **Desvantagem em todos os testes de ataque** até o início do seu próximo turno.
+Você recebe **2 Ruínas em todos os testes de ataque** até o início do seu próximo turno.
 
 ---
 
@@ -130,7 +130,7 @@ Este efeito só pode ser removido utilizando a ação [Recuperar-se](#/devlog/en
 
 Você está agonizando.
 
-- Todas as suas rolagens possuem **Desvantagem**.
+- Todas as suas rolagens recebem **2 Ruínas**.
 
 Se você não receber qualquer tipo de ajuda dentro de **2 rodadas**, ou voltar a ficar **À Beira da Morte** durante esse período, transforme este resultado em um **Ferimento Fatal**.
 
@@ -146,7 +146,7 @@ Você morrerá ao final da sua próxima rodada.
 
 Durante sua última rodada:
 
-- todas as suas rolagens possuem **Vantagem**;
+- todas as suas rolagens recebem **2 Fortunas**;
 - você recebe **+2 PA**.
 
 Nada pode impedir sua morte após esse período.
