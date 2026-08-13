@@ -28,6 +28,9 @@ simplicidade custou.
 **Consequência prática:** todo arquivo novo de conteúdo precisa entrar no manifesto,
 senão ele existe mas ninguém acha. É literalmente o único passo fácil de esquecer.
 
+O manifesto é um JSON comum — **dá pra editar na mão**, e nada valida ele. O script
+de sync só digita por você. Veja [editar o manifesto na mão](#editar-o-manifesto-na-mão).
+
 ---
 
 ## Os arquivos, um por um
@@ -166,14 +169,15 @@ Sobre o frontmatter (o bloco entre `---`):
 - `section` — o grupo no índice. Deixe vazio pra cair em "Geral". Escreva igual a
   uma seção que já existe pra entrar no mesmo grupo.
 
-Depois **rode o sync sem argumento nenhum** — é isso que registra o arquivo:
+Falta registrar o arquivo no manifesto. Duas opções — **as duas valem igual**:
 
 ```bash
 node scripts/sync-devlog.mjs
 ```
 
-Sem vault ele só relê `content/` e regenera os dois `index.json`. É o comando que
-faz o arquivo novo aparecer no site.
+Sem vault ele só relê `content/` e regenera os dois `index.json`. Ou então edita o
+`content/devlog/index.json` na mão, acrescentando um objeto ao array `entries`.
+Veja a seção abaixo.
 
 ### Escrevendo o conteúdo
 
@@ -256,11 +260,14 @@ O `description` da lista aparece no card lá no `top10.html`; deixar `""` é ok.
 Imagens vão em `content/top10/images/`. Nome pode ser o que você quiser (as
 antigas têm número na frente porque foram enviadas pela UI antiga).
 
-E o de sempre — registra:
+E registra no manifesto — ou rodando `node scripts/sync-devlog.mjs`, ou
+acrescentando na mão em `content/top10/index.json`:
 
-```bash
-node scripts/sync-devlog.mjs
+```json
+{ "slug": "top-10-filmes", "title": "Top 10 Filmes", "description": "os que eu recomendo sem pensar" }
 ```
+
+**A posição no array é a posição na tela** — o site não reordena as listas.
 
 ### Só adicionar um item numa lista que já existe
 
@@ -269,6 +276,76 @@ só título e descrição da lista, não os itens. A página lê o arquivo intei
 
 Só cuidado com o JSON: vírgula entre itens, mas **não depois do último**. Se a
 lista aparecer vazia com erro, é quase sempre isso.
+
+---
+
+## Editar o manifesto na mão
+
+O script de sync é conveniência, não obrigação. **Você só precisa dele pra importar
+do Obsidian** — porque aí ele faz coisa que não é só listar: converte `[[wikilink]]`
+e `![[imagem]]` pra markdown normal, e copia os anexos do vault. Pra arquivo que
+você escreveu direto no repo não existe nada disso pra converter, então é só somar
+uma linha na lista.
+
+`content/devlog/index.json`:
+
+```json
+{
+  "entries": [
+    { "slug": "minha-entrada", "title": "minha entrada", "date": "2026-08-13", "section": "mecanicas" }
+  ],
+  "changelog": [
+    { "slug": "v0.3.0", "version": "0.3.0", "date": "2026-08-02" }
+  ]
+}
+```
+
+`content/top10/index.json` é mais simples — um array direto:
+
+```json
+[
+  { "slug": "top-10-comidas", "title": "Top 10 Comidas", "description": "" }
+]
+```
+
+O `slug` tem que bater com o nome do arquivo (sem o `.md`, sem o `.json`). É a
+única coisa que quebra de verdade se errar.
+
+### O título aparece em dois lugares, vindo de duas fontes
+
+Isso pega quem edita na mão:
+
+- O **card no índice** usa o `title` do `index.json`
+- O **cabeçalho dentro da página** usa o `title` do frontmatter do `.md`
+
+Editar só um deixa o card dizendo uma coisa e a página dizendo outra. E se o `.md`
+não tiver frontmatter nenhum, a página mostra o slug cru. Mantenha os dois iguais.
+
+### Onde a ordem importa
+
+O site reordena algumas coisas sozinho e outras não:
+
+| | A ordem no arquivo importa? |
+|---|---|
+| Entradas do devlog | **Não** — o site reordena por título dentro de cada seção |
+| Changelog | **Sim** — sai na ordem do JSON (deixe a mais nova em cima) |
+| Listas top 10 | **Sim** — sai na ordem do JSON |
+| Itens de uma lista | **Não** — o site ordena pelo `rank` |
+
+Ou seja: entrada de devlog você joga em qualquer posição do array. Lista top 10
+nova, a posição no arquivo é a posição na tela.
+
+### Quando o script ainda vale a pena
+
+Rodar `node scripts/sync-devlog.mjs` (sem argumento) reescreve os dois manifestos
+a partir do que existe em `content/`. Serve pra:
+
+- adicionar vários arquivos de uma vez sem digitar tudo
+- consertar o manifesto se ele dessincronizar do que tem na pasta
+- conferir: rode com `--dry-run` e ele diz quantas entradas achou, sem escrever nada
+
+Ele lê o frontmatter dos `.md`, então o `title`/`date`/`section` que ele grava vêm
+de lá — mais um motivo pra manter o frontmatter certo.
 
 ---
 
@@ -297,7 +374,8 @@ precisa subir `scripts/`, `design/`, `.github/`, `README.md` nem este guia.
 
 | Sintoma | Causa quase certa |
 |---|---|
-| Adicionei mas não aparece no índice | Não rodou `node scripts/sync-devlog.mjs` |
+| Adicionei mas não aparece no índice | O arquivo não entrou no `index.json` |
+| O card diz um nome, a página diz outro | `title` do `index.json` ≠ `title` do frontmatter |
 | Aparece no Pages mas não no Neocities | Faltou subir o `index.json` no upload |
 | Card leva pra página de erro | Nome do arquivo ≠ campo `slug` |
 | Lista top 10 vazia | Vírgula sobrando no fim do JSON |
