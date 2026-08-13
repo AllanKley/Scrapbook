@@ -6,6 +6,9 @@ de mesa que eu tô desenhando.
 **Site estático puro.** Sem build, sem framework, sem `npm install`. É HTML, CSS e
 um pouco de JavaScript. Dá pra abrir qualquer arquivo num editor e mexer.
 
+> **[GUIA.md](GUIA.md)** explica cada arquivo em detalhe e o passo a passo pra
+> adicionar entrada nova ou lista nova. Este README é o resumo.
+
 ## Como rodar localmente
 
 Não dá pra abrir os `.html` com duplo clique — as páginas usam `fetch()` pra ler os
