@@ -7,7 +7,7 @@ sourceNote: world_building/rank.md
 #lore #mundo
 
 > [!info] Inspirado em Solo Leveling
-> O conceito de Rank aqui é uma adaptação direta da escada de caçadores de Solo Leveling — E até S, uma classificação pública, administrada por uma instituição central, que todo mundo no mundo reconhece e respeita. Para as regras de progressão (o que cada Rank concede mecanicamente), veja [Progressão de Personagem](#/devlog/entry/progressao-de-personagem). #todo
+> O conceito de Rank aqui é uma adaptação direta da escada de caçadores de Solo Leveling — E até S, uma classificação pública, administrada por uma instituição central, que todo mundo no mundo reconhece e respeita. Para as regras de progressão (o que cada Rank concede mecanicamente), veja [Progressão de Personagem](entry.html?slug=progressao-de-personagem). #todo
 
 **Rank** é a forma como o mundo mede — e rotula — o poder de um Despertado. Não é uma opinião nem um título informal: é uma classificação oficial, emitida e fiscalizada pela **Federação**, reconhecida por toda Guilda, governo e instituição que lida com Essência.
 
@@ -17,7 +17,7 @@ Todo Despertado nasce classificado como **Despertar**, o degrau mais baixo, e po
 
 # A Federação
 
-A Federação existe desde os primeiros anos depois do Rompimento, quando ficou claro que o mundo precisava de algum jeito confiável de saber quem era forte o suficiente para lidar com o quê. Hoje ela é uma instituição multinacional, presente em toda Base Estável relevante, com filiais que funcionam como cartório, escola e tribunal ao mesmo tempo: é lá que um Despertado registra sua existência, passa pelo [Exame de Ascensão](#/devlog/entry/progressao-de-personagem), e recebe (ou não) o próximo Rank.
+A Federação existe desde os primeiros anos depois do Rompimento, quando ficou claro que o mundo precisava de algum jeito confiável de saber quem era forte o suficiente para lidar com o quê. Hoje ela é uma instituição multinacional, presente em toda Base Estável relevante, com filiais que funcionam como cartório, escola e tribunal ao mesmo tempo: é lá que um Despertado registra sua existência, passa pelo [Exame de Ascensão](entry.html?slug=progressao-de-personagem), e recebe (ou não) o próximo Rank.
 
 Nenhuma Guilda emite Ranks por conta própria — mesmo as maiores corporações de caçadores do mundo dependem do selo da Federação para saber em quem confiar. Isso torna a Federação politicamente neutra por necessidade: ela não pode favorecer uma Guilda sobre outra sem perder a credibilidade que a torna útil para todas elas.
 
@@ -33,7 +33,7 @@ Cada Rank carrega um peso cultural, não só mecânico:
 - **B e A:** nomes que uma Guilda exibe. Um caçador Rank A muda o equilíbrio de poder de uma filial inteira; é tratado com uma mistura de reverência e cálculo político.
 - **S:** lenda viva. Existem tão poucos que o mundo inteiro sabe seus nomes. Uma Fratura que exige um Rank S na equipe vira notícia antes mesmo de ser fechada.
 
-Esse peso social é exatamente o que está por trás da separação entre benefício **mecânico** e benefício **social** de subir de Rank (veja [Benefícios Físicos vs. Sociais](#/devlog/entry/progressao-de-personagem)): o mundo não reage ao que um personagem *é* de fato, reage ao que a Federação *certificou* que ele é.
+Esse peso social é exatamente o que está por trás da separação entre benefício **mecânico** e benefício **social** de subir de Rank (veja [Benefícios Físicos vs. Sociais](entry.html?slug=progressao-de-personagem)): o mundo não reage ao que um personagem *é* de fato, reage ao que a Federação *certificou* que ele é.
 
 ---
 

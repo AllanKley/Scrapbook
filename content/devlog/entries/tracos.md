@@ -28,7 +28,7 @@ Um ser humano não despertado possui d4 em todos os seus traços, ou no máximo 
 
 ## Crescimento pós-criação
 
-Os traços não ficam travados no valor da criação: a cada rank de [Ranks](#/devlog/entry/progressao-de-personagem) que concede **Grau de Treinamento**, um Traço à sua escolha sobe um degrau na escada (veja [Progressão de Patrono](#/devlog/entry/patrono)). Isso permite ultrapassar o teto inicial de d10, até o limite absoluto de **d12**.
+Os traços não ficam travados no valor da criação: a cada rank de [Ranks](entry.html?slug=progressao-de-personagem) que concede **Grau de Treinamento**, um Traço à sua escolha sobe um degrau na escada (veja [Progressão de Patrono](entry.html?slug=patrono)). Isso permite ultrapassar o teto inicial de d10, até o limite absoluto de **d12**.
 
 ---
 

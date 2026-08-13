@@ -26,7 +26,7 @@ A ordem de ação entre eles é de escolha livre do grupo. As criaturas controla
 
 Quando o grupo é pego de surpresa, **as criaturas do mestre agem primeiro**.
 
-Antes de qualquer ação dos jogadores, cada personagem realiza um teste **semi-estático de [Instinto](#/devlog/entry/tracos)** #semi-estatico:
+Antes de qualquer ação dos jogadores, cada personagem realiza um teste **semi-estático de [Instinto](entry.html?slug=tracos)** #semi-estatico:
 
 - **Sucesso:** o personagem age normalmente na primeira rodada, depois das criaturas.
 - **Falha:** o personagem perde a primeira rodada de combate.
@@ -48,12 +48,12 @@ Existem apenas dois níveis de Penalidade de Peso. Para saber qual afeta seu per
 
 ## Penalidade Leve
 
-- Penalidade **Baixa** em todos os testes baseados em [Graça](#/devlog/entry/tracos).
+- Penalidade **Baixa** em todos os testes baseados em [Graça](entry.html?slug=tracos).
 
 ## Penalidade Severa
 
 - `-1 PA` por turno.
-- Penalidade **Média** em todos os testes baseados em [Graça](#/devlog/entry/tracos).
+- Penalidade **Média** em todos os testes baseados em [Graça](entry.html?slug=tracos).
 - Penalidade **Média** de Movimento por turno.
 
 ---

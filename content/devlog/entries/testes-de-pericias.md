@@ -55,7 +55,7 @@ Se os *três fatores* estiverem presentes não tem por que você fazer um teste,
 
  O mestre é quem determina quais fatores estão presentes em cada situação. Além disso, ele pode conceder Fortunas ou Ruínas adicionais sempre que as circunstâncias justificarem.
 
-**Exemplo (conhecimento):** um Caçador examina uma inscrição rúnica numa parede. Se ele tem tempo (a sala está segura), conhecimento (uma [Experiência](#/devlog/entry/experiencias) que justifique já ter estudado esse tipo de escrita) e o material necessário para comparar — os três fatores estão presentes, e ele simplesmente toma seu tempo para traduzir a inscrição, não existe teste. Se a criatura que dorme na sala ao lado pode acordar a qualquer momento, o fator Tempo desaparece e o teste passa a existir: ele sabe ler aquilo, a dúvida é se consegue antes de ser tarde demais.
+**Exemplo (conhecimento):** um Caçador examina uma inscrição rúnica numa parede. Se ele tem tempo (a sala está segura), conhecimento (uma [Experiência](entry.html?slug=experiencias) que justifique já ter estudado esse tipo de escrita) e o material necessário para comparar — os três fatores estão presentes, e ele simplesmente toma seu tempo para traduzir a inscrição, não existe teste. Se a criatura que dorme na sala ao lado pode acordar a qualquer momento, o fator Tempo desaparece e o teste passa a existir: ele sabe ler aquilo, a dúvida é se consegue antes de ser tarde demais.
 
 > [!info] Nota para o mestre — descobertas acidentais
 > Essa distinção de fatores mede o quanto o personagem **controla** a ação, não o quanto ele merece o resultado. Quando um personagem toma uma ação — empurra a estante errada e revela a passagem, derruba o frasco e descobre qual reagente reage com qual, entra na sala errada e encontra exatamente o que procurava — isso é **a sorte agindo a seu favor**. Não peça rolagem e não imponha Ruína só por eles terempela falta de conhecimento: o personagem não estava tentando aquilo, então não há nada para ele executar mal.
@@ -100,7 +100,7 @@ Repare que a escalada não veio de dificuldades cada vez maiores, e sim de **con
 
 Algumas regras e habilidades pedem um **teste semi-estático** de um Traço específico. Isso significa que **o primeiro Traço é fixo** — a natureza daquele desafio sempre exige aquela capacidade — mas **o segundo é livre**, escolhido conforme o jogador descreve sua abordagem.
 
-Resistir a um veneno, por exemplo, sempre passa pelo corpo: [Ímpeto](#/devlog/entry/tracos) é obrigatório. Mas o segundo dado muda conforme o personagem se apoia na força bruta (Ímpeto de novo), na disciplina de manter o ritmo respiratório ([Astúcia](#/devlog/entry/tracos)), ou em queimar a toxina pela própria Essência ([Essência](#/devlog/entry/tracos)).
+Resistir a um veneno, por exemplo, sempre passa pelo corpo: [Ímpeto](entry.html?slug=tracos) é obrigatório. Mas o segundo dado muda conforme o personagem se apoia na força bruta (Ímpeto de novo), na disciplina de manter o ritmo respiratório ([Astúcia](entry.html?slug=tracos)), ou em queimar a toxina pela própria Essência ([Essência](entry.html?slug=tracos)).
 
 Se o jogador não descrever nada em particular, o padrão é repetir o Traço fixo duas vezes. O mestre continua com a palavra final sobre se o segundo Traço proposto faz sentido.
 
@@ -120,17 +120,17 @@ Quando um teste é necessário, o mestre escolhe:
 
 Dependendo das circunstâncias, o mestre também pode conceder **Fortunas** ou **Ruínas** ao teste (consulte [Agouro](#agouro)). A dificuldade pode ser informada aos jogadores ou mantida em segredo, a critério do mestre.
 
-Além disso, sempre que fizer sentido, o jogador pode evocar uma de suas [experiências](#/devlog/entry/experiencias) para ganhar um bônus naquele teste. Cabe ao mestre determinar se aquela experiência realmente se aplica aquela situação.
+Além disso, sempre que fizer sentido, o jogador pode evocar uma de suas [experiências](entry.html?slug=experiencias) para ganhar um bônus naquele teste. Cabe ao mestre determinar se aquela experiência realmente se aplica aquela situação.
 
 > Realize a seguinte rolagem:
 >
-> **Dado de Traço + Dado de Traço + Bônus de [Experiência](#/devlog/entry/experiencias) (se aplicável) + [Agouro](#agouro)**
+> **Dado de Traço + Dado de Traço + Bônus de [Experiência](entry.html?slug=experiencias) (se aplicável) + [Agouro](#agouro)**
 >
 >Se o resultado final for igual ou superior à dificuldade definida pelo mestre, a ação é bem-sucedida.
 
 ### Dado de Traço
 
-Cada [Traço](#/devlog/entry/tracos) **é**, em si, um dado — de **d4** (fraco) a **d12** (excepcional). Um Traço melhor não rola mais dados: rola um dado maior. Veja [Traços](#/devlog/entry/tracos) para a escada completa.
+Cada [Traço](entry.html?slug=tracos) **é**, em si, um dado — de **d4** (fraco) a **d12** (excepcional). Um Traço melhor não rola mais dados: rola um dado maior. Veja [Traços](entry.html?slug=tracos) para a escada completa.
 
 Como o mestre escolhe dois Traços por teste, você rola **dois dados** e soma os resultados. Se os dois Traços escolhidos forem o mesmo, você rola aquele dado duas vezes.
 

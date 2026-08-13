@@ -58,7 +58,7 @@ Durante cada rodada, cada personagem decide como irá agir — veja **Ritmo das 
 # Ritmo das Ações
 
 > [!info] Não confundir com Planejada/Reativa
-> Este é um eixo diferente do par Planejada/Reativa de [tipos de acoes](#/devlog/entry/tipos-de-acoes). Aquele decide se aliados podem ajudar; este decide quanto da rodada uma ação consome dentro de uma Cena de Tensão. Os dois podem se aplicar à mesma ação ao mesmo tempo.
+> Este é um eixo diferente do par Planejada/Reativa de [tipos de acoes](entry.html?slug=tipos-de-acoes). Aquele decide se aliados podem ajudar; este decide quanto da rodada uma ação consome dentro de uma Cena de Tensão. Os dois podem se aplicar à mesma ação ao mesmo tempo.
 
 Toda ação pode ser realizada de duas maneiras.
 

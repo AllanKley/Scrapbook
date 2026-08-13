@@ -8,7 +8,7 @@ sourceNote: mecanicas/criacao de personagem/equipamentos/reliquias.md
 #todo
 
 > [!info] Rascunho
-> Relíquias são o oposto dos [Itens de Apoio](#/devlog/entry/itens-gerais): nunca genéricas, sempre únicas. Cada uma nasce de um Eco Primordial que não perdeu completamente a identidade de sua origem (veja [Ecos Primordiais](#/devlog/entry/ecos)) — o que significa que toda Relíquia carrega tanto um poder de verdade quanto um custo real, no mesmo espírito dos itens amaldiçoados de Ordem Paranormal. Nenhuma delas é vendida por Guildas ou Artesãos — só se encontra, se herda ou se rouba. #todo
+> Relíquias são o oposto dos [Itens de Apoio](entry.html?slug=itens-gerais): nunca genéricas, sempre únicas. Cada uma nasce de um Eco Primordial que não perdeu completamente a identidade de sua origem (veja [Ecos Primordiais](entry.html?slug=ecos)) — o que significa que toda Relíquia carrega tanto um poder de verdade quanto um custo real, no mesmo espírito dos itens amaldiçoados de Ordem Paranormal. Nenhuma delas é vendida por Guildas ou Artesãos — só se encontra, se herda ou se rouba. #todo
 
 Uma Relíquia nunca aparece duas vezes. Se existem cópias, elas não são a mesma coisa — só imitações sem a memória real por trás.
 
@@ -32,7 +32,7 @@ Toda Relíquia tem três partes: **Origem** (de onde ela vem), **Efeito** (o pod
 
 **Efeito:** contra estruturas, portas, muralhas e objetos, o dano do Machado é **Extremo**. Uma vez por cena, um golpe pode abrir uma rachadura instantânea no ambiente — chão, parede, teto — larga o suficiente para uma pessoa passar.
 
-**Custo:** o Machado carrega o eco do próprio golpe original, e ele quer se repetir. Cada vez que é usado contra algo *vivo*, o usuário sofre **1 stack de [Sangramento](#/devlog/entry/condicoes)** — o peso do golpe é grande demais pro corpo absorver sozinho, e ele corta primeiro quem o empunha.
+**Custo:** o Machado carrega o eco do próprio golpe original, e ele quer se repetir. Cada vez que é usado contra algo *vivo*, o usuário sofre **1 stack de [Sangramento](entry.html?slug=condicoes)** — o peso do golpe é grande demais pro corpo absorver sozinho, e ele corta primeiro quem o empunha.
 
 ---
 
@@ -62,7 +62,7 @@ Toda Relíquia tem três partes: **Origem** (de onde ela vem), **Efeito** (o pod
 
 **Efeito:** uma vez por Descanso Longo, o Manto remove automaticamente 1 Ferimento Leve de quem o veste, sem precisar da ação Recuperar-se.
 
-**Custo:** o Manto não cura de graça. Cada vez que remove um Ferimento dessa forma, o mestre apaga ou corrompe silenciosamente um fragmento de um [Vínculo](#/devlog/entry/vinculos) do personagem — uma lembrança que fica mais vaga, um laço que esfria sem motivo aparente. Quem usa o Manto por tempo demais se cura às custas de quem se importa com ele.
+**Custo:** o Manto não cura de graça. Cada vez que remove um Ferimento dessa forma, o mestre apaga ou corrompe silenciosamente um fragmento de um [Vínculo](entry.html?slug=vinculos) do personagem — uma lembrança que fica mais vaga, um laço que esfria sem motivo aparente. Quem usa o Manto por tempo demais se cura às custas de quem se importa com ele.
 
 ---
 

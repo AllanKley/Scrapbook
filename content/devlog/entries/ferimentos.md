@@ -95,7 +95,7 @@ Seu corpo sofre danos permanentes.
 
 Caso seu PV Máximo seja reduzido a **0**, trate este resultado como um **Ferimento Fatal**.
 
-Este efeito só pode ser removido utilizando a ação [Recuperar-se](#/devlog/entry/descanso) durante um [Descanso Longo](#/devlog/entry/descanso).
+Este efeito só pode ser removido utilizando a ação [Recuperar-se](entry.html?slug=descanso) durante um [Descanso Longo](entry.html?slug=descanso).
 
 ---
 
@@ -122,7 +122,7 @@ Além disso:
 
 Caso todos os seus traços já estejam em **d4**, trate este resultado como um **Ferimento Fatal**.
 
-Este efeito só pode ser removido utilizando a ação [Recuperar-se](#/devlog/entry/descanso) durante um [Descanso Longo](#/devlog/entry/descanso).
+Este efeito só pode ser removido utilizando a ação [Recuperar-se](entry.html?slug=descanso) durante um [Descanso Longo](entry.html?slug=descanso).
 
 ---
 

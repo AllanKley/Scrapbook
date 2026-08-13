@@ -37,10 +37,10 @@ Cada stack reduz seus PA por rodada em 1 (min 1).
 
 # Exposição
 
-Enquanto estiver Exposto, você não pode usar reações para [Defender](#/devlog/entry/tipos-de-acoes) ou [Esquivar](#/devlog/entry/tipos-de-acoes).
+Enquanto estiver Exposto, você não pode usar reações para [Defender](entry.html?slug=tipos-de-acoes) ou [Esquivar](entry.html?slug=tipos-de-acoes).
 
 ---
 
 # Medo
 
-Enquanto estiver com Medo, você não pode atacar a criatura que causou essa condição nem permanecer em [alcance Curto](#/devlog/entry/alcances) dela — se estiver nesse alcance, deve usar seu movimento para se afastar o máximo possível.
+Enquanto estiver com Medo, você não pode atacar a criatura que causou essa condição nem permanecer em [alcance Curto](entry.html?slug=alcances) dela — se estiver nesse alcance, deve usar seu movimento para se afastar o máximo possível.

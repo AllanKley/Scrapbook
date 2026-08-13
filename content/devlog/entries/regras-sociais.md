@@ -38,13 +38,13 @@ Durante uma Interação Aberta:
 
 Um Conflito Social começa quando a intenção de um personagem entra em oposição à intenção de outro.
 
-Sempre que alguém tenta convencer, manipular, intimidar, esconder informações, descobrir segredos ou superar a resistência emocional de outra pessoa, um teste social deve ser realizado. O teste a ser realizado depende da abordagem escolhida pelo personagem, por exemplo uma abordagem agressiva pode resultar em um teste de [Ímpeto](#/devlog/entry/tracos) enquanto uma abordagem mais calculada pode resultar em um teste de [Encanto](#/devlog/entry/tracos).
+Sempre que alguém tenta convencer, manipular, intimidar, esconder informações, descobrir segredos ou superar a resistência emocional de outra pessoa, um teste social deve ser realizado. O teste a ser realizado depende da abordagem escolhida pelo personagem, por exemplo uma abordagem agressiva pode resultar em um teste de [Ímpeto](entry.html?slug=tracos) enquanto uma abordagem mais calculada pode resultar em um teste de [Encanto](entry.html?slug=tracos).
 
 ## Testes Estendidos
 
 Nem todo conflito social pode ser resolvido com uma única rolagem. Convencer um nobre a trair sua família, desmontar lentamente as defesas emocionais de alguém ou negociar um tratado entre facções são objetivos que exigem tempo, múltiplas abordagens e diversas conversas.
 
-Nesses casos, o Mestre pode utilizar um **Relógio de Progresso**, transformando o conflito em um **[Teste Estendido](#/devlog/entry/testes-de-pericias)**.
+Nesses casos, o Mestre pode utilizar um **Relógio de Progresso**, transformando o conflito em um **[Teste Estendido](entry.html?slug=testes-de-pericias)**.
 
 ---
 
@@ -83,7 +83,7 @@ Isso normalmente acontece através de interpretação, observação ou testes so
 
 ### Por Habilidades
 
-Algumas habilidades de [Linhagem](#/devlog/entry/linhagem), [Domínio](#/devlog/entry/dominio) ou [Patrono](#/devlog/entry/patrono) permitem obter Alavancas de forma direta.
+Algumas habilidades de [Linhagem](entry.html?slug=linhagem), [Domínio](entry.html?slug=dominio) ou [Patrono](entry.html?slug=patrono) permitem obter Alavancas de forma direta.
 
 Essas habilidades representam treinamento em leitura emocional, espionagem, manipulação, intimidação ou outras formas especializadas de influência social.
 

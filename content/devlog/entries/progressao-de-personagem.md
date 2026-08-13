@@ -7,7 +7,7 @@ sourceNote: mecanicas/criacao de personagem/progressao de personagem.md
 #criacao_de_personagem #combate
 
 > [!info] Regras de progressão
-> Esta página cobre a mecânica de como um personagem sobe de Rank. Para o que Rank significa no mundo — a Federação, o peso social de cada degrau, a diferença entre poder real e reconhecimento oficial — veja [Rank](#/devlog/entry/rank).
+> Esta página cobre a mecânica de como um personagem sobe de Rank. Para o que Rank significa no mundo — a Federação, o peso social de cada degrau, a diferença entre poder real e reconhecimento oficial — veja [Rank](entry.html?slug=rank).
 
 Rank é o equivalente direto a nível: mede o quão poderoso um Caçador é. A progressão é **idêntica para qualquer build** — não importa a Linhagem, o Domínio ou os Patronos escolhidos, todo mundo sobe a mesma escada, nos mesmos degraus.
 
@@ -41,10 +41,10 @@ Despertar e Rank S são os extremos da carreira de um Caçador; entre eles, a es
 | **Rank SS**   | Habilidade de Domínio · Aumento de PV · *Aumento de acesso*                                                          |
 
 > [!info] Grau de treinamento e Experiência
-> Esses dois benefícios, junto com os Patronos, têm sua mecânica completa detalhada em [Progressão de Patrono](#/devlog/entry/patrono) — Grau de treinamento sobe um degrau na escada de dados de um [Traço](#/devlog/entry/tracos), enquanto Experiência melhora ou adiciona uma [Experiência](#/devlog/entry/experiencias).
+> Esses dois benefícios, junto com os Patronos, têm sua mecânica completa detalhada em [Progressão de Patrono](entry.html?slug=patrono) — Grau de treinamento sobe um degrau na escada de dados de um [Traço](entry.html?slug=tracos), enquanto Experiência melhora ou adiciona uma [Experiência](entry.html?slug=experiencias).
 
 > [!info] Recompensas sociais
-> Diferente de recompensas físicas como suas habilidade de domínio, as recompensas destacadas (ex: *Aumento de acesso*) só são adquiridas provando ao mundo sua força. Para isso é necessário realizar e passar no [Exame de Ascensão](#exame-de-ascensão) para o rank desejado - veja [beneficios sociais](#/devlog/entry/beneficios-sociais)
+> Diferente de recompensas físicas como suas habilidade de domínio, as recompensas destacadas (ex: *Aumento de acesso*) só são adquiridas provando ao mundo sua força. Para isso é necessário realizar e passar no [Exame de Ascensão](#exame-de-ascensão) para o rank desejado - veja [beneficios sociais](entry.html?slug=beneficios-sociais)
 
 ---
 

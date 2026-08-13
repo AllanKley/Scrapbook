@@ -17,7 +17,7 @@ Avatares das forças naturais, capazes de moldar o campo de batalha como um fen�
 
 #despertar
 
-1 PA. Você canaliza um fenômeno natural, montando-o na hora a partir de quatro escolhas. Você possui um total de Pontos de Convergência por uso igual ao maior [Grau](#/devlog/entry/tracos) entre seu Ímpeto e sua Essência (mínimo 3). Distribua esses pontos entre as categorias abaixo:
+1 PA. Você canaliza um fenômeno natural, montando-o na hora a partir de quatro escolhas. Você possui um total de Pontos de Convergência por uso igual ao maior [Grau](entry.html?slug=tracos) entre seu Ímpeto e sua Essência (mínimo 3). Distribua esses pontos entre as categorias abaixo:
 
 **Elemento** (escolha 1)
 - 1p — Fogo: causa dano.
@@ -30,8 +30,8 @@ Avatares das forças naturais, capazes de moldar o campo de batalha como um fen�
 - 3p — Lava: causa dano e cria uma área de Terreno Difícil que continua causando dano de Fogo.
 
 **Forma** (escolha 1)
-- 1p — Tiro: atinge 1 alvo em [alcance médio](#/devlog/entry/alcances).
-- 2p — Cone: atinge todos os alvos em uma área em cone de [alcance curto](#/devlog/entry/alcances).
+- 1p — Tiro: atinge 1 alvo em [alcance médio](entry.html?slug=alcances).
+- 2p — Cone: atinge todos os alvos em uma área em cone de [alcance curto](entry.html?slug=alcances).
 
 **Duração** (escolha 1)
 - 1p — Instantâneo: o efeito se resolve imediatamente.
@@ -57,7 +57,7 @@ Passivo. Você sente mudanças climáticas e fenômenos naturais antes que acont
 
 #rank_d
 
-Passivo. Você pode alterar sutilmente a temperatura, a umidade, a luminosidade ou a pressão do ar em [alcance curto](#/devlog/entry/alcances) — o suficiente para um trovão distante, um vento repentino ou uma garoa fina, sem efeito mecânico direto.
+Passivo. Você pode alterar sutilmente a temperatura, a umidade, a luminosidade ou a pressão do ar em [alcance curto](entry.html?slug=alcances) — o suficiente para um trovão distante, um vento repentino ou uma garoa fina, sem efeito mecânico direto.
 
 Uma vez por cena, use esse efeito a seu favor: você ou um aliado em alcance curto recebe +1 Fortuna em um teste de Ímpeto (para intimidar) ou Encanto (para performar).
 
@@ -75,12 +75,12 @@ Passivo. Sempre que usar Convergência Elemental gastando o número máximo de P
 
 #rank_s
 
-1 PA. Uma vez por descanso longo, desate um fenômeno em escala total, afetando toda a área em [alcance longo](#/devlog/entry/alcances). Escolha uma opção:
+1 PA. Uma vez por descanso longo, desate um fenômeno em escala total, afetando toda a área em [alcance longo](entry.html?slug=alcances). Escolha uma opção:
 
-- **Incêndio Florestal:** a área pega fogo. Toda criatura nela recebe uma quantidade **Média** de stacks de [Corrosão](#/devlog/entry/condicoes), mais 1 stack de [Sangramento](#/devlog/entry/condicoes) a cada rodada em que permanecer dentro.
-- **Terremoto:** todas as criaturas na área são derrubadas e recebem 1 stack de [Lentidão](#/devlog/entry/condicoes).
-- **Furacão:** todas as criaturas na área são empurradas uma distância **Média** na direção que você escolher e recebem **2 Ruínas** em testes de [Instinto](#/devlog/entry/tracos) até o fim da cena.
-- **Nevasca:** a área se torna Terreno Difícil e todas as criaturas nela recebem 1 stack de [Lentidão](#/devlog/entry/condicoes).
+- **Incêndio Florestal:** a área pega fogo. Toda criatura nela recebe uma quantidade **Média** de stacks de [Corrosão](entry.html?slug=condicoes), mais 1 stack de [Sangramento](entry.html?slug=condicoes) a cada rodada em que permanecer dentro.
+- **Terremoto:** todas as criaturas na área são derrubadas e recebem 1 stack de [Lentidão](entry.html?slug=condicoes).
+- **Furacão:** todas as criaturas na área são empurradas uma distância **Média** na direção que você escolher e recebem **2 Ruínas** em testes de [Instinto](entry.html?slug=tracos) até o fim da cena.
+- **Nevasca:** a área se torna Terreno Difícil e todas as criaturas nela recebem 1 stack de [Lentidão](entry.html?slug=condicoes).
 
 ---
 

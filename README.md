@@ -1,70 +1,88 @@
 # scrapbook
 
-my personal corner of the internet — top 10 lists and a devlog for the ttrpg
-system i'm building. fully static, hosted free on GitHub Pages.
+Meu canto da internet — listas de top 10 e as anotações do Dungeon Rift, o sistema
+de mesa que eu tô desenhando.
 
-## how this works
+**Site estático puro.** Sem build, sem framework, sem `npm install`. É HTML, CSS e
+um pouco de JavaScript. Dá pra abrir qualquer arquivo num editor e mexer.
 
-- **normal view** is whatever's on the live site. no login, nothing hidden —
-  it's just the built static site.
-- **admin view** only exists on my own machine. running `npm run dev` starts
-  a local dev server with a `/admin` route where I can edit top 10 lists and
-  the color palette right in the browser; changes write straight to the JSON
-  files in `content/`. That admin code and the local file-write API are both
-  compiled out of the production build entirely — see
-  `vite-plugins/admin-fs-plugin.ts` and the `import.meta.env.DEV` gate in
-  `src/App.tsx`.
-- content lives as files in `content/` (JSON for top 10 lists + the theme
-  palette, Markdown for devlog entries/changelog), versioned by git.
+## Como rodar localmente
 
-## commands
+Não dá pra abrir os `.html` com duplo clique — as páginas usam `fetch()` pra ler os
+arquivos de conteúdo, e o navegador bloqueia isso em `file://`. Sobe um servidor
+qualquer na pasta:
 
 ```bash
-npm run dev       # local dev server + admin editing UI at /admin
-npm run build     # production build to dist/ (no admin code included)
-npm run preview   # serve the production build locally to sanity-check it
-npm run sync-devlog -- <path-to-obsidian-vault-subfolder> [--dry-run]
+python -m http.server 8000
 ```
 
-## day-to-day workflow
+Depois abre <http://localhost:8000>.
 
-1. `npm run dev`, go to `/admin`, edit top 10 lists or the palette.
-2. Or edit `content/*.json` / `content/devlog/**/*.md` directly by hand.
-3. `git add`, commit, push to `main` — GitHub Actions builds and deploys
-   automatically (see `.github/workflows/deploy.yml`).
+## Estrutura
 
-## syncing the ttrpg devlog from Obsidian
+```
+index.html          home
+top10.html          índice das listas
+lista.html          uma lista          → lista.html?slug=top-10-comidas
+dungeon-rift.html   índice do devlog
+entry.html          uma entrada        → entry.html?slug=ferimentos
+changelog.html      uma versão         → changelog.html?slug=v0.3.0
+
+css/style.css       todo o estilo. as cores ficam no :root, lá em cima.
+js/site.js          todo o JavaScript. funções curtas, uma por página.
+js/marked.min.js    biblioteca que transforma markdown em HTML (não precisa mexer)
+
+content/
+  devlog/index.json     lista das entradas ← gerada, não edite à mão
+  devlog/entries/*.md   as 45 entradas
+  devlog/changelog/*.md as versões
+  devlog/attachments/   imagens do devlog
+  top10/index.json      lista das listas ← gerada, não edite à mão
+  top10/*.json          as listas
+  top10/images/         imagens das listas
+
+images/             imagens do site
+scripts/            o sync do Obsidian
+```
+
+## Como editar
+
+**Trocar as cores:** `css/style.css`, primeiras linhas, no `:root`. Um hex por cor,
+o site inteiro acompanha.
+
+**Mexer num texto do Dungeon Rift:** edita o `.md` em `content/devlog/entries/`.
+Markdown normal — títulos, listas, tabelas, `**negrito**`. Callouts do Obsidian
+(`> [!info] Título`) também funcionam.
+
+**Adicionar/editar uma lista top 10:** edita o `.json` em `content/top10/`. Cada item
+aceita `rank`, `title`, `note`, `image`, `link` e `tags`.
+
+**Criar uma entrada ou lista nova:** cria o arquivo e depois roda:
 
 ```bash
-npm run sync-devlog -- "C:\path\to\vault\Devlog" --dry-run   # preview first
-npm run sync-devlog -- "C:\path\to\vault\Devlog"              # then for real
+node scripts/sync-devlog.mjs
 ```
 
-This copies every `.md` file in that vault folder into
-`content/devlog/entries/`, converting Obsidian syntax into portable Markdown
-as it goes:
+Sem argumento nenhum ele só relê o que tem em `content/` e regenera os dois
+`index.json`. É preciso porque hospedagem estática não lista pasta — o navegador
+não tem como descobrir os arquivos sozinho, então essa lista é o índice dele.
 
-- `[[Note]]` / `[[Note|Display]]` → a real link to the synced entry, or
-  plain text if that note wasn't part of this sync.
-- `![[image.png]]` → copies the image into
-  `public/content/devlog/attachments/` and rewrites it as a normal Markdown
-  image.
+**Trazer as regras do Obsidian:**
 
-It never deletes previously-synced entries whose source disappeared from the
-vault folder — it just warns about them so nothing gets lost by accident.
+```bash
+node scripts/sync-devlog.mjs "C:\caminho\do\vault" --dry-run   # ver o que mudaria
+node scripts/sync-devlog.mjs "C:\caminho\do\vault"             # aplicar
+```
 
-After syncing, `git diff` shows exactly what changed. Ask Claude to draft
-`content/devlog/changelog/vX.Y.Z.md` — a "what changed since last version"
-writeup — from that diff, then commit the synced entries and the changelog
-entry together.
+Converte wikilinks (`[[nota]]`) e embeds (`![[img.png]]`) em markdown comum, copia
+os anexos, e regenera os manifestos. Pastas chamadas `ignorar` ou `ignore` são
+puladas. Só precisa de `node` — nenhuma dependência.
 
-## one-time setup
+## Onde fica hospedado
 
-- Repo Settings → Pages → Source: **GitHub Actions**.
-- Custom domain: `allankley.is-a.dev`, registered via a PR to
-  [is-a.dev](https://github.com/is-a-dev/register) (`domains/allankley.json`).
-  `public/CNAME` tells GitHub Pages to serve the site there instead of
-  `allankley.github.io/Scrapbook`.
-- `vite.config.ts` has `base: '/'` since the custom domain serves the site
-  from the root — this would need to go back to `/Scrapbook/` if the custom
-  domain were ever removed.
+**GitHub Pages** em <https://allankley.is-a.dev> — atualiza sozinho a cada push na
+`main` (`.github/workflows/deploy.yml`, que só empacota e publica, sem build). O
+`CNAME` na raiz é o que segura o domínio.
+
+**Neocities** — upload manual. Sobe o conteúdo da raiz do repo; dá pra pular
+`scripts/`, `design/`, `.github/` e este README, que não fazem diferença pro site.

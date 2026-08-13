@@ -6,7 +6,7 @@ sourceNote: mecanicas/criacao de personagem/equipamentos/armaduras.md
 ---
 #combate
 
-Armaduras reduzem passivamente o dano recebido, oferecendo maior proteção em troca de mobilidade e capacidade de carga — veja [_equipamentos](#/devlog/entry/equipamentos) para o que cada propriedade (Manuseio, Tamanho, Penalidade de Peso, Redução de Dano) significa.
+Armaduras reduzem passivamente o dano recebido, oferecendo maior proteção em troca de mobilidade e capacidade de carga — veja [_equipamentos](entry.html?slug=equipamentos) para o que cada propriedade (Manuseio, Tamanho, Penalidade de Peso, Redução de Dano) significa.
 
 ---
 
@@ -43,4 +43,4 @@ Fornecem a maior proteção disponível, mas reduzem significativamente a mobili
 
 ---
 
-Qualquer armadura acima pode receber uma [Infusão](#/devlog/entry/infusoes) elemental — veja essa página para o processo e os efeitos disponíveis.
+Qualquer armadura acima pode receber uma [Infusão](entry.html?slug=infusoes) elemental — veja essa página para o processo e os efeitos disponíveis.

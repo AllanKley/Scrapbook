@@ -60,10 +60,10 @@ Toda ficha depende de um punhado de ações que aparecem em praticamente qualque
 
 Realizar um **Ataque** é uma ação que custa **2 PA**.
 
-Para atacar, gaste o custo acima e realize um [Teste Simples](#/devlog/entry/testes-de-pericias) usando o Traço indicado na sua arma, rolado duas vezes (veja [Traço](#/devlog/entry/equipamentos)).
+Para atacar, gaste o custo acima e realize um [Teste Simples](entry.html?slug=testes-de-pericias) usando o Traço indicado na sua arma, rolado duas vezes (veja [Traço](entry.html?slug=equipamentos)).
 
 > [!info] Não existe mais Defesa passiva
-> Um ataque não precisa superar nenhum valor fixo do alvo. Se o alvo não reagir de nenhuma forma, o ataque **acerta automaticamente** — pule direto para a rolagem de dano. A única forma de evitar um ataque é o próprio alvo gastar uma reação para isso, usando [Defender](#defender) (com escudo) ou [Esquivar](#esquivar) (sem escudo). Só quando o alvo reage é que o teste de ataque acima passa a valer, como um dos lados de um [Teste Oposto](#/devlog/entry/testes-de-pericias).
+> Um ataque não precisa superar nenhum valor fixo do alvo. Se o alvo não reagir de nenhuma forma, o ataque **acerta automaticamente** — pule direto para a rolagem de dano. A única forma de evitar um ataque é o próprio alvo gastar uma reação para isso, usando [Defender](#defender) (com escudo) ou [Esquivar](#esquivar) (sem escudo). Só quando o alvo reage é que o teste de ataque acima passa a valer, como um dos lados de um [Teste Oposto](entry.html?slug=testes-de-pericias).
 
 ### Acerto Crítico (dado explosivo)
 #duvida #rascunho
@@ -76,22 +76,22 @@ Sempre que um dado de dano rolar seu valor máximo, role-o novamente e some o re
 ## Defender
 #combate
 
-Ação **exclusiva de quem estiver com um [Escudo](#/devlog/entry/escudos) equipado**: gaste **1 PA** para tentar bloquear um ataque contra você.
+Ação **exclusiva de quem estiver com um [Escudo](entry.html?slug=escudos) equipado**: gaste **1 PA** para tentar bloquear um ataque contra você.
 
-Para isso, faça um [Teste Oposto](#/devlog/entry/testes-de-pericias) contra o teste de ataque do inimigo, usando o **Traço do seu escudo** — cada escudo define o seu próprio, e ele varia de escudo para escudo (um escudo pesado pode usar Ímpeto, um escudo mágico pode usar Essência, etc.). Veja [escudos](#/devlog/entry/escudos) para os valores de cada categoria.
+Para isso, faça um [Teste Oposto](entry.html?slug=testes-de-pericias) contra o teste de ataque do inimigo, usando o **Traço do seu escudo** — cada escudo define o seu próprio, e ele varia de escudo para escudo (um escudo pesado pode usar Ímpeto, um escudo mágico pode usar Essência, etc.). Veja [escudos](entry.html?slug=escudos) para os valores de cada categoria.
 
 - **Sucesso:** o dano do ataque é reduzido a **0**.
 - **Falha:** o ataque causa dano normalmente.
 - O **1 PA** é gasto independentemente do resultado, e a decisão de defender deve ser tomada **antes de saber quanto dano o ataque causaria**.
 
-Cada escudo possui um número limitado de **Usos** antes de quebrar — veja [escudos](#/devlog/entry/escudos).
+Cada escudo possui um número limitado de **Usos** antes de quebrar — veja [escudos](entry.html?slug=escudos).
 
 ## Esquivar
 #combate
 
 Alternativa ao [Bloqueio](#defender) para quem não está com um escudo equipado (ou não quer gastar um Uso dele): uma **Reação** que custa **2 PA**.
 
-Faça um [Teste Oposto](#/devlog/entry/testes-de-pericias) **semi-estático de [Graça](#/devlog/entry/tracos)** #semi-estatico contra o teste de ataque do inimigo.
+Faça um [Teste Oposto](entry.html?slug=testes-de-pericias) **semi-estático de [Graça](entry.html?slug=tracos)** #semi-estatico contra o teste de ataque do inimigo.
 
 - **Sucesso:** o ataque erra completamente.
 - **Falha:** o ataque causa dano normalmente.
@@ -99,6 +99,6 @@ Faça um [Teste Oposto](#/devlog/entry/testes-de-pericias) **semi-estático de [
 ## Mover-se
 #combate
 
-Deslocar-se pelo campo de batalha usando seu Deslocamento não custa PA por si só, mas pode ser limitado por [Penalidade de Peso](#/devlog/entry/combate-regras-gerais) ou por condições como [Lentidão](#/devlog/entry/condicoes).
+Deslocar-se pelo campo de batalha usando seu Deslocamento não custa PA por si só, mas pode ser limitado por [Penalidade de Peso](entry.html?slug=combate-regras-gerais) ou por condições como [Lentidão](entry.html?slug=condicoes).
 
 Interromper o movimento pra fazer qualquer outra coisa (atacar, usar uma habilidade) é permitido livremente, contanto que o personagem ainda tenha Deslocamento e PA disponíveis para a ação seguinte.

@@ -6,9 +6,9 @@ sourceNote: mecanicas/criacao de personagem/linhagens/_linhagem.md
 ---
 #criacao_de_personagem
 
-A Linhagem representa a fonte de poder e o estilo de combate do seu personagem — de onde vêm suas habilidades e como elas se manifestam no mundo. Se o [Domínio](#/devlog/entry/dominio) responde "qual papel você ocupa no grupo", a Linhagem responde **como você chega lá**.
+A Linhagem representa a fonte de poder e o estilo de combate do seu personagem — de onde vêm suas habilidades e como elas se manifestam no mundo. Se o [Domínio](entry.html?slug=dominio) responde "qual papel você ocupa no grupo", a Linhagem responde **como você chega lá**.
 
-Duas pessoas da mesma Linhagem ainda podem jogar de formas completamente diferentes dependendo do Domínio, dos [Traços](#/devlog/entry/tracos), do [Patrono](#/devlog/entry/patrono) e das [Experiências](#/devlog/entry/experiencias) escolhidas — a Linhagem define o motor, não o papel.
+Duas pessoas da mesma Linhagem ainda podem jogar de formas completamente diferentes dependendo do Domínio, dos [Traços](entry.html?slug=tracos), do [Patrono](entry.html?slug=patrono) e das [Experiências](entry.html?slug=experiencias) escolhidas — a Linhagem define o motor, não o papel.
 
 ---
 
@@ -22,11 +22,11 @@ Os nomes das Linhagens (Ceifador, Espectro, Selvagem...) são **convenções** �
 
 # Como funciona
 
-- Toda Linhagem concede **5 habilidades** ao longo da progressão, desbloqueadas nos mesmos Ranks usados pelo [Domínio](#/devlog/entry/dominio): **Despertar, Rank F, Rank D, Rank B e Rank S**.
+- Toda Linhagem concede **5 habilidades** ao longo da progressão, desbloqueadas nos mesmos Ranks usados pelo [Domínio](entry.html?slug=dominio): **Despertar, Rank F, Rank D, Rank B e Rank S**.
 - A habilidade de **Despertar** é sempre a mais definidora — a mecânica central da Linhagem, em torno da qual as outras quatro giram.
 - As habilidades de Rank F, D, B e S normalmente arredondam a Linhagem: pelo menos uma delas costuma sair do combate puro (percepção, interação social, exploração), mesmo em Linhagens mais agressivas.
 - **Linhagem e Domínio são escolhas independentes.** Qualquer Linhagem pode ser combinada com qualquer Domínio — um Ceifador Bastião (usando Almas para proteger o grupo) joga muito diferente de um Ceifador Executor (usando a mesma fonte de poder pra eliminar alvos), mesmo compartilhando a mesma habilidade de Despertar.
-- **Diferente do Domínio, a Linhagem não tem multiclasse.** Ela é fixa desde o Despertar — veja [Multiclasse de Domínio](#/devlog/entry/dominio) para a mecânica equivalente do lado do Domínio.
+- **Diferente do Domínio, a Linhagem não tem multiclasse.** Ela é fixa desde o Despertar — veja [Multiclasse de Domínio](entry.html?slug=dominio) para a mecânica equivalente do lado do Domínio.
 
 ---
 
@@ -51,6 +51,6 @@ Os nomes das Linhagens (Ceifador, Espectro, Selvagem...) são **convenções** �
 
 # Documentação relacionada
 
-- [_criacao de personagem](#/devlog/entry/criacao-de-personagem) — onde a Linhagem entra no processo de criação.
-- [domínio](#/devlog/entry/dominio) — o papel que a Linhagem vai desempenhar dentro do grupo.
-- [patrono](#/devlog/entry/patrono) — outra camada de personalização, independente de Linhagem e Domínio.
+- [_criacao de personagem](entry.html?slug=criacao-de-personagem) — onde a Linhagem entra no processo de criação.
+- [domínio](entry.html?slug=dominio) — o papel que a Linhagem vai desempenhar dentro do grupo.
+- [patrono](entry.html?slug=patrono) — outra camada de personalização, independente de Linhagem e Domínio.

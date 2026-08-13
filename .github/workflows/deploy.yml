@@ -1,5 +1,8 @@
 name: Deploy to GitHub Pages
 
+# O site é estático puro — não tem build. Isso aqui só empacota os arquivos
+# como estão e publica.
+
 on:
   push:
     branches: [main]
@@ -15,31 +18,15 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 20
-          cache: npm
-      - run: npm ci
-      - run: npm run build
-      - name: Verify admin editing capability is excluded from the production bundle
-        run: |
-          if grep -rlE "__admin-api|ColorPickerField|Top10EditorPanel|admin-fs-plugin" dist/assets/*.js 2>/dev/null; then
-            echo "Admin editing code found in production bundle!" && exit 1
-          fi
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: dist
-
   deploy:
-    needs: build
     runs-on: ubuntu-latest
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
+      - uses: actions/checkout@v4
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
       - id: deployment
         uses: actions/deploy-pages@v4

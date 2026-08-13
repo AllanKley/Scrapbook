@@ -6,7 +6,7 @@ sourceNote: mecanicas/criacao de personagem/equipamentos/armas.md
 ---
 #combate
 
-Todas as armas podem ser utilizadas por qualquer Linhagem. Cada categoria de arma define seu modo de combate, propriedades e características especiais — veja [_equipamentos](#/devlog/entry/equipamentos) para o que cada propriedade (Manuseio, Tamanho, Alcance, Dano, Traço, Penalidade de Peso, Passiva) significa, e [Atacar](#/devlog/entry/tipos-de-acoes) para a ação de ataque em si.
+Todas as armas podem ser utilizadas por qualquer Linhagem. Cada categoria de arma define seu modo de combate, propriedades e características especiais — veja [_equipamentos](entry.html?slug=equipamentos) para o que cada propriedade (Manuseio, Tamanho, Alcance, Dano, Traço, Penalidade de Peso, Passiva) significa, e [Atacar](entry.html?slug=tipos-de-acoes) para a ação de ataque em si.
 
 > [!todo] Converter dano em dado
 > As categorias de Dano (Baixo/Médio/Alto) abaixo ainda precisam virar valores numéricos de dado. #todo
@@ -21,9 +21,9 @@ Armas leves e rápidas, ideais para quem depende de precisão e mobilidade.
 
 > **Manuseio:** 1 mão  
 > **Tamanho:** Pequeno  
-> **Alcance:** [Adjacente](#/devlog/entry/alcances)  
+> **Alcance:** [Adjacente](entry.html?slug=alcances)  
 > **Dano:** Baixo  
-> **Traço:** [Graça](#/devlog/entry/tracos)  
+> **Traço:** [Graça](entry.html?slug=tracos)  
 > **Penalidade de Peso:** Nenhuma  
 > **Passiva:** Atacar um inimigo pelas costas concede **+2 de dano**.
 
@@ -35,9 +35,9 @@ Armas equilibradas, capazes de se adaptar a diferentes estilos de combate.
 
 > **Manuseio:** 1 mão  
 > **Tamanho:** Médio  
-> **Alcance:** [Toque](#/devlog/entry/alcances)  
+> **Alcance:** [Toque](entry.html?slug=alcances)  
 > **Dano:** Médio  
-> **Traço:** [Graça](#/devlog/entry/tracos)  ou [Ímpeto](#/devlog/entry/tracos)
+> **Traço:** [Graça](entry.html?slug=tracos)  ou [Ímpeto](entry.html?slug=tracos)
 > **Penalidade de Peso:** Nenhuma  
 > **Passiva:** Nenhuma.
 
@@ -49,9 +49,9 @@ Armas pesadas que priorizam força e poder de impacto.
 
 > **Manuseio:** 2 mãos  
 > **Tamanho:** Grande  
-> **Alcance:** [Toque](#/devlog/entry/alcances)  
+> **Alcance:** [Toque](entry.html?slug=alcances)  
 > **Dano:** Alto  
-> **Traço:** [Ímpeto](#/devlog/entry/tracos)  
+> **Traço:** [Ímpeto](entry.html?slug=tracos)  
 > **Penalidade de Peso:** Leve  
 > **Passiva:** Seus ataques causam dano adicional a armaduras e escudos.
 
@@ -63,9 +63,9 @@ Armas de grande alcance e presença no campo de batalha.
 
 > **Manuseio:** 2 mãos  
 > **Tamanho:** Grande  
-> **Alcance:** [Toque](#/devlog/entry/alcances)  
+> **Alcance:** [Toque](entry.html?slug=alcances)  
 > **Dano:** Alto  
-> **Traço:** [Ímpeto](#/devlog/entry/tracos)  
+> **Traço:** [Ímpeto](entry.html?slug=tracos)  
 > **Penalidade de Peso:** Leve  
 > **Passiva:** *(A definir.)*
 
@@ -79,9 +79,9 @@ Armas leves que favorecem disparos frequentes.
 
 > **Manuseio:** 2 mãos  
 > **Tamanho:** Médio  
-> **Alcance:** [Médio](#/devlog/entry/alcances)  
+> **Alcance:** [Médio](entry.html?slug=alcances)  
 > **Dano:** Baixo  
-> **Traço:** [Graça](#/devlog/entry/tracos)  
+> **Traço:** [Graça](entry.html?slug=tracos)  
 > **Penalidade de Peso:** Nenhuma  
 > **Passiva:** Nenhuma.
 
@@ -93,9 +93,9 @@ Armas focadas em disparos de longa distância e perfuração.
 
 > **Manuseio:** 2 mãos  
 > **Tamanho:** Grande  
-> **Alcance:** [Longo](#/devlog/entry/alcances)  
+> **Alcance:** [Longo](entry.html?slug=alcances)  
 > **Dano:** Médio  
-> **Traço:** [Graça](#/devlog/entry/tracos)  
+> **Traço:** [Graça](entry.html?slug=tracos)  
 > **Penalidade de Peso:** Nenhuma  
 > **Passiva:** O disparo perfura o alvo, atingindo também **1 inimigo** diretamente atrás dele, em linha reta.
 
@@ -107,9 +107,9 @@ Armas de grande impacto capazes de deslocar seus alvos.
 
 > **Manuseio:** 2 mãos  
 > **Tamanho:** Grande  
-> **Alcance:** [Médio](#/devlog/entry/alcances)  
+> **Alcance:** [Médio](entry.html?slug=alcances)  
 > **Dano:** Alto  
-> **Traço:** [Ímpeto](#/devlog/entry/tracos)  
+> **Traço:** [Ímpeto](entry.html?slug=tracos)  
 > **Penalidade de Peso:** Leve  
 > **Passiva:** Você pode empurrar o alvo em **3 metros**.
 
@@ -123,9 +123,9 @@ Catalisadores voltados para confrontos diretos.
 
 > **Manuseio:** 1 mão  
 > **Tamanho:** Pequeno  
-> **Alcance:** [Curto](#/devlog/entry/alcances)  
+> **Alcance:** [Curto](entry.html?slug=alcances)  
 > **Dano:** Baixo *(baixíssimo por feixe)*  
-> **Traço:** [Graça](#/devlog/entry/tracos)  
+> **Traço:** [Graça](entry.html?slug=tracos)  
 > **Penalidade de Peso:** Nenhuma  
 > **Passiva:** Cada ataque dispara **dois feixes**, que podem atingir o mesmo alvo ou alvos diferentes.
 
@@ -137,11 +137,11 @@ Catalisadores especializados em ataques em área.
 
 > **Manuseio:** 2 mãos  
 > **Tamanho:** Grande  
-> **Alcance:** [Médio](#/devlog/entry/alcances)  
+> **Alcance:** [Médio](entry.html?slug=alcances)  
 > **Dano:** Baixo  
-> **Traço:** [Essência](#/devlog/entry/tracos)  
+> **Traço:** [Essência](entry.html?slug=tracos)  
 > **Penalidade de Peso:** Nenhuma  
-> **Passiva:** O ataque atinge uma área com alcance de [Toque](#/devlog/entry/alcances).
+> **Passiva:** O ataque atinge uma área com alcance de [Toque](entry.html?slug=alcances).
 
 ---
 
@@ -151,12 +151,12 @@ Catalisadores voltados para magias inevitáveis.
 
 > **Manuseio:** 1 mão  
 > **Tamanho:** Médio  
-> **Alcance:** [Médio](#/devlog/entry/alcances)  
+> **Alcance:** [Médio](entry.html?slug=alcances)  
 > **Dano:** Baixo  
-> **Traço:** [Essência](#/devlog/entry/tracos)  
+> **Traço:** [Essência](entry.html?slug=tracos)  
 > **Penalidade de Peso:** Nenhuma  
 > **Passiva:** O ataque não exige um teste de ataque. Em vez disso, o alvo realiza um **teste de Ímpeto** com dificuldade igual a **X**. #todo
 
 ---
 
-Qualquer arma acima pode receber uma [Infusão](#/devlog/entry/infusoes) elemental — veja essa página para o processo e os efeitos disponíveis.
+Qualquer arma acima pode receber uma [Infusão](entry.html?slug=infusoes) elemental — veja essa página para o processo e os efeitos disponíveis.

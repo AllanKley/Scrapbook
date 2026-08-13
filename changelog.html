@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>changelog | scrapbook</title>
+<link rel="icon" href="favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="shell">
+    <a class="logo" href="index.html">scrapbook</a>
+    <ul class="site-nav">
+      <li><a href="top10.html">top 10s</a></li>
+      <li><a class="active" href="dungeon-rift.html">Dungeon Rift</a></li>
+    </ul>
+  </div>
+</header>
+
+<main class="shell">
+
+  <div class="page-heading">
+    <a class="back-link" href="dungeon-rift.html" title="voltar para Dungeon Rift" aria-label="voltar">&lsaquo;</a>
+    <h2 class="section-heading" id="doc-title">carregando…</h2>
+  </div>
+  <p id="doc-meta"></p>
+
+  <div class="markdown-body" id="doc"></div>
+
+</main>
+
+<footer class="site-footer">
+  <div class="shell">made by allan, mostly on evenings i should've been sleeping.</div>
+</footer>
+
+<script src="js/marked.min.js"></script>
+<script src="js/site.js"></script>
+<script>
+  renderDoc({
+    dir: 'content/devlog/changelog/',
+    titleOf: function (data) { return 'v' + data.version; },
+    metaOf: function (data) { return data.previousVersion ? 'desde v' + data.previousVersion : ''; }
+  });
+</script>
+
+</body>
+</html>

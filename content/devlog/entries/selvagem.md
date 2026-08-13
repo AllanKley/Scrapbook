@@ -18,18 +18,18 @@ Sua Essência se manifesta na forma de um companheiro animal espiritual. Sua apa
 
 O companheiro possui aproximadamente o tamanho de um cachorro, compreende ordens simples e permanece próximo de você, a menos que receba outra instrução. Ele é capaz de alcançar locais de difícil acesso para humanoides, atravessar passagens estreitas compatíveis com seu tamanho e manipular objetos simples. Além disso, pode carregar ou arrastar objetos de porte médio, como armas, ferramentas ou itens semelhantes, mas não objetos volumosos como baús, móveis ou criaturas.
 
-Você pode perceber o mundo através dos sentidos do companheiro enquanto ele estiver a até [alcance longo](#/devlog/entry/alcances) de você.
+Você pode perceber o mundo através dos sentidos do companheiro enquanto ele estiver a até [alcance longo](entry.html?slug=alcances) de você.
 
 Ao primeiro sinal de combate, o companheiro se funde automaticamente a você até o fim da cena. Durante a fusão, você recebe os seguintes benefícios:
 
 - dano **Baixo** adicional em rolagens de dano;
 - Redução de Dano Física **Média**;
-- bônus **Baixo** em testes de [Instinto](#/devlog/entry/tracos);
+- bônus **Baixo** em testes de [Instinto](entry.html?slug=tracos);
 - deslocamento **Baixo** adicional.
 
 Seu corpo manifesta traços bestiais visíveis relacionados à forma do companheiro.
 
-Fora de combate, você pode se fundir ou separar do companheiro livremente. Você pode realizar essa fusão um número de vezes por descanso longo igual ao seu [Grau](#/devlog/entry/tracos) de Essência (mínimo 1).
+Fora de combate, você pode se fundir ou separar do companheiro livremente. Você pode realizar essa fusão um número de vezes por descanso longo igual ao seu [Grau](entry.html?slug=tracos) de Essência (mínimo 1).
 
 Caso o companheiro seja ferido, morto ou dissipado de qualquer forma, ele desaparece e só pode ser invocado novamente após um descanso longo.
 
@@ -39,7 +39,7 @@ Caso o companheiro seja ferido, morto ou dissipado de qualquer forma, ele desapa
 
 #rank_f
 
-Seus sentidos são mais aguçados que o normal. Você recebe +1 Fortuna em todos os testes de [Instinto](#/devlog/entry/tracos).
+Seus sentidos são mais aguçados que o normal. Você recebe +1 Fortuna em todos os testes de [Instinto](entry.html?slug=tracos).
 
 ---
 
@@ -47,7 +47,7 @@ Seus sentidos são mais aguçados que o normal. Você recebe +1 Fortuna em todos
 
 #rank_d
 
-Seu companheiro animal passa a ser capaz de se comunicar mentalmente com você em [alcance médio](#/devlog/entry/alcances) e é capaz de realizar tarefas mais complexas sem se perder.
+Seu companheiro animal passa a ser capaz de se comunicar mentalmente com você em [alcance médio](entry.html?slug=alcances) e é capaz de realizar tarefas mais complexas sem se perder.
 
 ---
 

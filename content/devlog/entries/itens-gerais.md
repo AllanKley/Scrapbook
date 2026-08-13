@@ -8,10 +8,10 @@ sourceNote: mecanicas/criacao de personagem/equipamentos/Itens Gerais.md
 #todo
 
 > [!info] Rascunho
-> Itens de Apoio: parte do Arsenal que não são armas, armaduras nem escudos — a categoria referenciada (e ainda não escrita) em [Tamanho](#/devlog/entry/equipamentos). São itens mágicos de baixo poder, nunca algo que mude o resultado de um combate sozinho — o objetivo é utilidade e qualidade de vida, não dano ou defesa. #todo
+> Itens de Apoio: parte do Arsenal que não são armas, armaduras nem escudos — a categoria referenciada (e ainda não escrita) em [Tamanho](entry.html?slug=equipamentos). São itens mágicos de baixo poder, nunca algo que mude o resultado de um combate sozinho — o objetivo é utilidade e qualidade de vida, não dano ou defesa. #todo
 
 > [!info] Sobre o Preço Base
-> O **Preço Base** é só uma referência — o quanto esse tipo de item *costuma* custar em Ecos. O preço final sempre depende de quem está vendendo: uma Guilda cobra diferente de um Artesão Independente, que cobra diferente do Mercado Negro (veja [Comércio](#/devlog/entry/comercio)), e um vendedor específico pode simplesmente pedir mais ou menos dependendo da escassez, da região ou do quanto gosta de você. As labels de preço seguem a mesma ideia das de Escala de Efeito, só que aplicadas a custo em vez de poder:
+> O **Preço Base** é só uma referência — o quanto esse tipo de item *costuma* custar em Ecos. O preço final sempre depende de quem está vendendo: uma Guilda cobra diferente de um Artesão Independente, que cobra diferente do Mercado Negro (veja [Comércio](entry.html?slug=comercio)), e um vendedor específico pode simplesmente pedir mais ou menos dependendo da escassez, da região ou do quanto gosta de você. As labels de preço seguem a mesma ideia das de Escala de Efeito, só que aplicadas a custo em vez de poder:
 >
 > | Label | Referência |
 > | --- | --- |
@@ -26,7 +26,7 @@ sourceNote: mecanicas/criacao de personagem/equipamentos/Itens Gerais.md
 
 | Item | Efeito | Tamanho | Preço Base |
 | --- | --- | --- | --- |
-| **Bolsa Aprimorada** | Tudo guardado dentro dela ocupa uma quantidade **Baixa** a menos de slots de acesso rápido, e pode ser puxado para a mão de quem a usa instantaneamente, sem gastar PA nem contar como puxar do [Subespaço](#/devlog/entry/equipamentos). | Pequeno | Baixo |
+| **Bolsa Aprimorada** | Tudo guardado dentro dela ocupa uma quantidade **Baixa** a menos de slots de acesso rápido, e pode ser puxado para a mão de quem a usa instantaneamente, sem gastar PA nem contar como puxar do [Subespaço](entry.html?slug=equipamentos). | Pequeno | Baixo |
 | **Mochila Aprimorada** | Como a Bolsa Aprimorada, mas com uma redução **Média** de slots — e por ser maior, impõe Penalidade de Peso **Leve** enquanto estiver cheia. | Médio | Médio |
 | **Lanterna de Eco** | Alimentada por uma lasca de Eco Tênue, ilumina em alcance curto sem precisar de combustível ou chama. | Pequeno | Baixo |
 | **Cantil Purificador** | Purifica qualquer líquido colocado dentro dele em água potável, e remove Corrupção de quem beber, uma quantidade **Baixa** de vezes por dia. | Pequeno | Baixo |
@@ -40,6 +40,6 @@ sourceNote: mecanicas/criacao de personagem/equipamentos/Itens Gerais.md
 ---
 
 > [!todo] Pendências
-> - Preços em Ecos reais (Baixo/Médio/Alto/Muito Alto) ainda não existem — mesmo problema já apontado em [ecos](#/devlog/entry/ecos).
+> - Preços em Ecos reais (Baixo/Médio/Alto/Muito Alto) ainda não existem — mesmo problema já apontado em [ecos](entry.html?slug=ecos).
 > - Quantidade exata de redução de slots (Bolsa/Mochila Aprimorada) ainda não tem número.
 > - Mais sugestões de itens são bem-vindas — esta lista não pretende ser exaustiva. #todo

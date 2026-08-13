@@ -8,9 +8,9 @@ sourceNote: mecanicas/descanso.md
 #todo
 
 > [!info] Rascunho
-> Sistema novo, inspirado nas Ações de Descanso de Ordem Paranormal — em vez de um descanso "genérico" que recupera tudo automaticamente, cada personagem escolhe o que fazer com o tempo livre, e isso tem consequências. Ainda não testado em mesa; os valores usam a [Escala de Efeito](#/devlog/entry/combate-regras-gerais) padrão. #todo
+> Sistema novo, inspirado nas Ações de Descanso de Ordem Paranormal — em vez de um descanso "genérico" que recupera tudo automaticamente, cada personagem escolhe o que fazer com o tempo livre, e isso tem consequências. Ainda não testado em mesa; os valores usam a [Escala de Efeito](entry.html?slug=combate-regras-gerais) padrão. #todo
 
-Existem dois tipos de descanso: o **Descanso Curto**, uma pausa rápida no meio de uma sessão de exploração, e o **Descanso Longo**, quando o grupo efetivamente para para acampar, dormir ou voltar a um local seguro. É o Descanso Longo que aparece como "Montar Acampamento" na etapa de [Próxima Decisão](#/devlog/entry/exploracao) da exploração.
+Existem dois tipos de descanso: o **Descanso Curto**, uma pausa rápida no meio de uma sessão de exploração, e o **Descanso Longo**, quando o grupo efetivamente para para acampar, dormir ou voltar a um local seguro. É o Descanso Longo que aparece como "Montar Acampamento" na etapa de [Próxima Decisão](entry.html?slug=exploracao) da exploração.
 
 ---
 
@@ -21,7 +21,7 @@ Uma pausa breve — minutos, não horas — o suficiente para recuperar o fôleg
 Ao concluir um Descanso Curto:
 
 - Recupere uma quantidade **Média** de PA.
-- Escolha 1 [condição](#/devlog/entry/condicoes) afetando você e remova 1 stack dela.
+- Escolha 1 [condição](entry.html?slug=condicoes) afetando você e remova 1 stack dela.
 - Um Escudo em sua posse recupera uma quantidade **Baixa** de Usos.
 
 Um grupo só pode se beneficiar de um Descanso Curto se não estiver em combate ativo, mas não precisa necessariamente estar em segurança completa — é o descanso de "vamos recuperar o fôlego antes da próxima sala".
@@ -37,7 +37,7 @@ Ao concluir um Descanso Longo, cada personagem escolhe **2 Ações de Descanso d
 > [!info] Isso substitui a recuperação automática
 > Diferente da maioria dos sistemas, recuperar Pontos de Vida e PA **não é automático** — é o que a ação [Dormir](#dormir) faz. Um personagem que abra mão de Dormir em favor de outras duas ações não recupera esses recursos neste descanso. A ideia é criar a mesma tensão de Ordem Paranormal: descansar de verdade tem um custo de oportunidade.
 
-Habilidades de Linhagem ou Domínio que disparam **"ao concluir um descanso longo"** (como as de [Oráculo](#/devlog/entry/oraculo), [Malandro](#/devlog/entry/malandro) e [Apotecário](#/devlog/entry/apotecario)) acontecem normalmente, **independente** de quais Ações de Descanso o personagem escolheu.
+Habilidades de Linhagem ou Domínio que disparam **"ao concluir um descanso longo"** (como as de [Oráculo](entry.html?slug=oraculo), [Malandro](entry.html?slug=malandro) e [Apotecário](entry.html?slug=apotecario)) acontecem normalmente, **independente** de quais Ações de Descanso o personagem escolheu.
 
 ## Ações de Descanso
 
@@ -45,10 +45,10 @@ Habilidades de Linhagem ou Domínio que disparam **"ao concluir um descanso long
 A opção padrão e segura. Recupere PV e PA em uma quantidade **Alta** (o mais próximo de "cheio" que este descanso permite).
 
 ### Recuperar-se
-A ação de tratar ferimentos de verdade — é a ação **Recuperar Corpo** referenciada em [ferimentos](#/devlog/entry/ferimentos). Escolha 1 [Ferimento Leve](#/devlog/entry/ferimentos) ou [Mutilado](#/devlog/entry/ferimentos) seu (ou de um aliado que também esteja descansando) e remova-o.
+A ação de tratar ferimentos de verdade — é a ação **Recuperar Corpo** referenciada em [ferimentos](entry.html?slug=ferimentos). Escolha 1 [Ferimento Leve](entry.html?slug=ferimentos) ou [Mutilado](entry.html?slug=ferimentos) seu (ou de um aliado que também esteja descansando) e remova-o.
 
 ### Conversar
-Passe o tempo conversando de verdade com outro personagem do grupo — sem teste, sem mecânica escondida, só a cena. Escolha outro personagem presente: vocês dois recebem **1 Fortuna** no próximo teste que fizerem juntos (Teste Oposto cooperativo, ajudar numa Ação Planejada, etc.), e o mestre pode aprofundar um [Vínculo](#/devlog/entry/vinculos) existente entre vocês ou plantar um novo.
+Passe o tempo conversando de verdade com outro personagem do grupo — sem teste, sem mecânica escondida, só a cena. Escolha outro personagem presente: vocês dois recebem **1 Fortuna** no próximo teste que fizerem juntos (Teste Oposto cooperativo, ajudar numa Ação Planejada, etc.), e o mestre pode aprofundar um [Vínculo](entry.html?slug=vinculos) existente entre vocês ou plantar um novo.
 
 ### Treinar
 Pratique uma habilidade específica à sua escolha, sozinho ou com a ajuda de outro personagem presente. Declare que tipo de ação você treinou; receba **1 Fortuna** no próximo teste que envolva diretamente essa ação, antes do próximo descanso.
@@ -57,19 +57,19 @@ Pratique uma habilidade específica à sua escolha, sozinho ou com a ajuda de ou
 Fique de guarda enquanto os outros descansam. Enquanto pelo menos 1 personagem do grupo escolher Vigiar, o grupo não pode ser pego de **Emboscada** durante este descanso.
 
 ### Meditar
-Volte sua atenção para dentro, fortalecendo sua conexão com a própria Essência. Receba **1 Fortuna** no próximo teste de [Essência](#/devlog/entry/tracos) (ou em uma habilidade de Rank que dependa dela) antes do próximo descanso.
+Volte sua atenção para dentro, fortalecendo sua conexão com a própria Essência. Receba **1 Fortuna** no próximo teste de [Essência](entry.html?slug=tracos) (ou em uma habilidade de Rank que dependa dela) antes do próximo descanso.
 
 ### Cuidar do Arsenal
 Limpe, afie e ajuste seu Arsenal e o de quem pedir ajuda. Escolha 1 item do Arsenal e restaure uma quantidade **Baixa** de Usos ou de Redução de Dano que ele tenha perdido.
 
 ### Estudar
-Debruce-se sobre um livro, um mapa, um item recuperado ou o que se sabe sobre a Fratura atual. Faça um teste **semi-estático de [Astúcia](#/devlog/entry/tracos)** #semi-estatico (dificuldade a critério do mestre); em caso de sucesso, receba uma informação relevante sobre a área, a Fratura ou o item em questão, ou **1 Fortuna** no próximo teste diretamente relacionado a essa pesquisa.
+Debruce-se sobre um livro, um mapa, um item recuperado ou o que se sabe sobre a Fratura atual. Faça um teste **semi-estático de [Astúcia](entry.html?slug=tracos)** #semi-estatico (dificuldade a critério do mestre); em caso de sucesso, receba uma informação relevante sobre a área, a Fratura ou o item em questão, ou **1 Fortuna** no próximo teste diretamente relacionado a essa pesquisa.
 
 ### Explorar Arredores
 Dê uma volta pela área próxima ao acampamento, sem se afastar o suficiente para virar uma nova Zona de Interesse. O mestre pode revelar um pequeno achado (uma quantidade **Baixa** de Ecos, um recurso útil, ou informação sobre o caminho à frente).
 
 ### Celebrar
-Conte uma história, toque um instrumento, cozinhe algo melhor que ração de viagem — qualquer coisa que levante o ânimo do grupo. Faça um teste **semi-estático de [Encanto](#/devlog/entry/tracos)** #semi-estatico; em caso de sucesso, todo o grupo recebe **1 Fortuna** no primeiro teste que realizar na próxima cena.
+Conte uma história, toque um instrumento, cozinhe algo melhor que ração de viagem — qualquer coisa que levante o ânimo do grupo. Faça um teste **semi-estático de [Encanto](entry.html?slug=tracos)** #semi-estatico; em caso de sucesso, todo o grupo recebe **1 Fortuna** no primeiro teste que realizar na próxima cena.
 
 ---
 

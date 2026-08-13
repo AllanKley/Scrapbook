@@ -7,9 +7,9 @@ sourceNote: mecanicas/criacao de personagem/equipamentos/infusoes.md
 #combate #economia
 
 > [!info] Sugestão de sistema (rascunho, revisar)
-> Construído em cima da ideia original: cada [Eco](#/devlog/entry/ecos) carrega um Elemento, refletido na criatura ou local de onde veio. Esses Elementos podem ser usados para Infundir armas (corpo a corpo, à distância e mágicas), armaduras e escudos, e a força da melhoria escala com o tier do Eco gasto (Tênue → Manifesto → Ancestral → Primordial), no mesmo espírito de uma melhoria de ritual Discente/Verdadeiro. Ajuste nomes, números e efeitos conforme o restante do sistema for fechado. #todo
+> Construído em cima da ideia original: cada [Eco](entry.html?slug=ecos) carrega um Elemento, refletido na criatura ou local de onde veio. Esses Elementos podem ser usados para Infundir armas (corpo a corpo, à distância e mágicas), armaduras e escudos, e a força da melhoria escala com o tier do Eco gasto (Tênue → Manifesto → Ancestral → Primordial), no mesmo espírito de uma melhoria de ritual Discente/Verdadeiro. Ajuste nomes, números e efeitos conforme o restante do sistema for fechado. #todo
 
-Uma Infusão é o que acontece quando um Eco é consumido para gravar permanentemente um Elemento dentro de um item do Arsenal. Diferente das Runas temporárias do Forjador (veja [Forjador](#/devlog/entry/forjador)), uma Infusão não desaparece — ela se torna parte do item.
+Uma Infusão é o que acontece quando um Eco é consumido para gravar permanentemente um Elemento dentro de um item do Arsenal. Diferente das Runas temporárias do Forjador (veja [Forjador](entry.html?slug=forjador)), uma Infusão não desaparece — ela se torna parte do item.
 
 ---
 
@@ -24,10 +24,10 @@ Um item do Arsenal nunca pode carregar mais de uma Infusão ao mesmo tempo. Para
 Infundir um item do Arsenal exige:
 
 - **1 Eco** do Elemento e do tier escolhidos (ele é consumido no processo).
-- Um artesão especializado — geralmente ligado a uma Guilda — ou a habilidade **Criação Perfeita** do [Forjador](#/devlog/entry/forjador), que permite ao próprio personagem realizar Infusões permanentes.
+- Um artesão especializado — geralmente ligado a uma Guilda — ou a habilidade **Criação Perfeita** do [Forjador](entry.html?slug=forjador), que permite ao próprio personagem realizar Infusões permanentes.
 - Tempo de trabalho dedicado (referência: 1 dia por tier de Eco usado).
 
-Artesãos independentes podem exigir mais do que apenas o Eco em troca do serviço — veja [comércio](#/devlog/entry/comercio).
+Artesãos independentes podem exigir mais do que apenas o Eco em troca do serviço — veja [comércio](entry.html?slug=comercio).
 
 ## Requisito para usar um item infundido
 
@@ -52,7 +52,7 @@ Esse requisito e o custo em Ecos são os mesmos para qualquer combinação de El
 
 # Elementos
 
-Cada Eco carrega um dos Elementos abaixo, refletido na criatura ou no local de onde ele foi retirado (veja [Fontes de Ecos](#/devlog/entry/ecos)). A lista foi mantida em 10 Elementos de propósito, cobrindo o essencial sem virar um catálogo infinito.
+Cada Eco carrega um dos Elementos abaixo, refletido na criatura ou no local de onde ele foi retirado (veja [Fontes de Ecos](entry.html?slug=ecos)). A lista foi mantida em 10 Elementos de propósito, cobrindo o essencial sem virar um catálogo infinito.
 
 Cada Elemento oferece uma Infusão diferente para cada tipo de item — **Arma Corpo a Corpo**, **Arma à Distância**, **Arma Mágica**, **Armadura** e **Escudo**. Dentro de cada uma, os quatro tiers de Eco funcionam como camadas de melhoria: **Tênue** é o efeito base, e **Manifesto**, **Ancestral** e **Primordial** vão empilhando efeitos acima dela — cada tier inclui tudo dos tiers anteriores.
 
@@ -65,9 +65,9 @@ Cada Elemento oferece uma Infusão diferente para cada tipo de item — **Arma C
 ### Lâmina em Brasa
 *Fogo · Arma Corpo a Corpo*
 
-- **Tênue:** acerto tem chance de aplicar 1 stack de [Corrosão](#/devlog/entry/condicoes).
+- **Tênue:** acerto tem chance de aplicar 1 stack de [Corrosão](entry.html?slug=condicoes).
 - **Manifesto:** causa dano **Médio** de Fogo direto a cada acerto.
-- **Ancestral:** a lâmina ilumina em [alcance curto](#/devlog/entry/alcances) e nunca esfria; quem te acerta corpo a corpo sofre dano **Alto** de Fogo.
+- **Ancestral:** a lâmina ilumina em [alcance curto](entry.html?slug=alcances) e nunca esfria; quem te acerta corpo a corpo sofre dano **Alto** de Fogo.
 - **Primordial:** inimigos incendiados por você só apagam as chamas com magia.
 
 ### Munição Incendiária
@@ -84,15 +84,15 @@ Cada Elemento oferece uma Infusão diferente para cada tipo de item — **Arma C
 - **Tênue:** seus ataques mágicos que causam dano ignoram Redução de Dano contra Fogo.
 - **Manifesto:** dano **Médio** de Fogo adicional, e você recebe **1 Fortuna** no próximo ataque mágico que realizar com esta arma.
 - **Ancestral:** 1x por cena, ao acertar com esta arma, receba **1 Fortuna** no próximo ataque mágico que realizar.
-- **Primordial:** uma vez por cena, transforme um ataque mágico em uma explosão de Fogo que atinge todos em [alcance curto](#/devlog/entry/alcances) do alvo.
+- **Primordial:** uma vez por cena, transforme um ataque mágico em uma explosão de Fogo que atinge todos em [alcance curto](entry.html?slug=alcances) do alvo.
 
 ### Couraça Ígnea
 *Fogo · Armadura*
 
 - **Tênue:** reduz à metade o dano de Fogo recebido.
-- **Manifesto:** imune a [Corrosão](#/devlog/entry/condicoes).
+- **Manifesto:** imune a [Corrosão](entry.html?slug=condicoes).
 - **Ancestral:** quem te acerta corpo a corpo sofre dano **Alto** de Fogo.
-- **Primordial:** você e aliados em [alcance de toque](#/devlog/entry/alcances) são imunes a Fogo.
+- **Primordial:** você e aliados em [alcance de toque](entry.html?slug=alcances) são imunes a Fogo.
 
 ### Escudo em Chamas
 *Fogo · Escudo*
@@ -111,7 +111,7 @@ Cada Elemento oferece uma Infusão diferente para cada tipo de item — **Arma C
 ### Fio de Gelo
 *Gelo · Arma Corpo a Corpo*
 
-- **Tênue:** acerto tem chance de aplicar 1 stack de [Lentidão](#/devlog/entry/condicoes).
+- **Tênue:** acerto tem chance de aplicar 1 stack de [Lentidão](entry.html?slug=condicoes).
 - **Manifesto:** também aplica mais 1 stack de Lentidão.
 - **Ancestral:** acertos críticos aplicam uma quantidade **Alta** de stacks de Lentidão adicionais.
 - **Primordial:** enquanto o alvo tiver 3 ou mais stacks de Lentidão, ele sofre dano **Extremo** ao tentar se mover à força.
@@ -127,10 +127,10 @@ Cada Elemento oferece uma Infusão diferente para cada tipo de item — **Arma C
 ### Glacial
 *Gelo · Arma Mágica*
 
-- **Tênue:** seus ataques mágicos de Gelo não podem ser resistidos por criaturas com [Grau](#/devlog/entry/tracos) de Essência 2 ou menor.
+- **Tênue:** seus ataques mágicos de Gelo não podem ser resistidos por criaturas com [Grau](entry.html?slug=tracos) de Essência 2 ou menor.
 - **Manifesto:** +1 stack de Lentidão adicional, e você recebe **1 Fortuna** no próximo ataque mágico que realizar com esta arma.
 - **Ancestral:** 1x por cena, ao acertar com esta arma, receba **1 Fortuna** no próximo ataque mágico que realizar.
-- **Primordial:** uma vez por cena, congele instantaneamente um alvo em [alcance médio](#/devlog/entry/alcances) — ele recebe uma quantidade **Alta** de stacks de Lentidão, sem teste.
+- **Primordial:** uma vez por cena, congele instantaneamente um alvo em [alcance médio](entry.html?slug=alcances) — ele recebe uma quantidade **Alta** de stacks de Lentidão, sem teste.
 
 ### Manto de Inverno
 *Gelo · Armadura*
@@ -157,7 +157,7 @@ Cada Elemento oferece uma Infusão diferente para cada tipo de item — **Arma C
 ### Golpe Fulminante
 *Raio · Arma Corpo a Corpo*
 
-- **Tênue:** acerto tem chance de aplicar 1 Ruína no próximo teste de [Instinto](#/devlog/entry/tracos) do alvo.
+- **Tênue:** acerto tem chance de aplicar 1 Ruína no próximo teste de [Instinto](entry.html?slug=tracos) do alvo.
 - **Manifesto:** causa dano **Médio** de Raio direto.
 - **Ancestral:** uma vez por turno, seu primeiro ataque não gasta PA.
 - **Primordial:** seus ataques sempre agem antes de qualquer outro na rodada.
@@ -165,9 +165,9 @@ Cada Elemento oferece uma Infusão diferente para cada tipo de item — **Arma C
 ### Disparo Elétrico
 *Raio · Arma à Distância*
 
-- **Tênue:** acerto tem chance de aplicar 1 Ruína no próximo teste de [Instinto](#/devlog/entry/tracos) do alvo.
+- **Tênue:** acerto tem chance de aplicar 1 Ruína no próximo teste de [Instinto](entry.html?slug=tracos) do alvo.
 - **Manifesto:** o disparo atravessa cobertura leve sem perder força.
-- **Ancestral:** o dano salta para 1 inimigo adicional em [alcance curto](#/devlog/entry/alcances) do alvo.
+- **Ancestral:** o dano salta para 1 inimigo adicional em [alcance curto](entry.html?slug=alcances) do alvo.
 - **Primordial:** o salto entre inimigos não tem limite de alvos.
 
 ### Descarga Arcana
@@ -176,7 +176,7 @@ Cada Elemento oferece uma Infusão diferente para cada tipo de item — **Arma C
 - **Tênue:** seus ataques mágicos que causam dano recebem um bônus **Baixo** no teste de ataque contra criaturas com armadura ou escudo metálico.
 - **Manifesto:** dano **Médio** de Raio adicional, e você recupera 1 PA se o ataque eliminar o alvo.
 - **Ancestral:** 1x por cena, ao acertar com esta arma, receba **1 Fortuna** no próximo ataque mágico que realizar.
-- **Primordial:** uma vez por cena, encadeie um ataque mágico para atingir até 3 alvos em [alcance curto](#/devlog/entry/alcances) entre si.
+- **Primordial:** uma vez por cena, encadeie um ataque mágico para atingir até 3 alvos em [alcance curto](entry.html?slug=alcances) entre si.
 
 ### Pele Condutora
 *Raio · Armadura*
@@ -190,7 +190,7 @@ Cada Elemento oferece uma Infusão diferente para cada tipo de item — **Arma C
 *Raio · Escudo*
 
 - **Tênue:** bloqueio concede +1 PA no início do seu próximo turno.
-- **Manifesto:** o bloqueio também força o atacante a um teste semi-estático de [Essência](#/devlog/entry/tracos) #semi-estatico ou receber 2 Ruínas no próximo teste que realizar.
+- **Manifesto:** o bloqueio também força o atacante a um teste semi-estático de [Essência](entry.html?slug=tracos) #semi-estatico ou receber 2 Ruínas no próximo teste que realizar.
 - **Ancestral:** ao bloquear, você pode se mover instantaneamente uma distância **Alta**.
 - **Primordial:** esse teste do atacante sofre uma penalidade **Extrema**.
 
@@ -204,7 +204,7 @@ Cada Elemento oferece uma Infusão diferente para cada tipo de item — **Arma C
 *Terra · Arma Corpo a Corpo*
 
 - **Tênue:** acerto reduz o Movimento do alvo em uma quantidade **Baixa** até o fim do turno dele.
-- **Manifesto:** a cada 3 acertos consecutivos no mesmo alvo, aplique uma quantidade **Alta** de stacks de [Lentidão](#/devlog/entry/condicoes) nele.
+- **Manifesto:** a cada 3 acertos consecutivos no mesmo alvo, aplique uma quantidade **Alta** de stacks de [Lentidão](entry.html?slug=condicoes) nele.
 - **Ancestral:** você não pode ser movido contra sua vontade enquanto empunhar a arma.
 - **Primordial:** seus ataques ignoram Redução de Dano de Armadura e Escudo.
 
@@ -222,7 +222,7 @@ Cada Elemento oferece uma Infusão diferente para cada tipo de item — **Arma C
 - **Tênue:** seus ataques mágicos que causam dano ignoram Redução de Dano de Terreno Difícil ou cobertura.
 - **Manifesto:** dano **Médio** físico adicional, e o alvo tem o Movimento reduzido em uma quantidade **Baixa** até o fim do turno dele.
 - **Ancestral:** 1x por cena, ao acertar com esta arma, receba **1 Fortuna** no próximo ataque mágico que realizar.
-- **Primordial:** uma vez por cena, erga uma parede de pedra com largura **Extrema**, em [alcance curto](#/devlog/entry/alcances), bloqueando linha de visão e movimento.
+- **Primordial:** uma vez por cena, erga uma parede de pedra com largura **Extrema**, em [alcance curto](entry.html?slug=alcances), bloqueando linha de visão e movimento.
 
 ### Couraça de Pedra
 *Terra · Armadura*
@@ -295,7 +295,7 @@ Cada Elemento oferece uma Infusão diferente para cada tipo de item — **Arma C
 ### Lâmina Envenenada
 *Veneno · Arma Corpo a Corpo*
 
-- **Tênue:** acerto tem chance de aplicar [Corrupção](#/devlog/entry/condicoes) no alvo.
+- **Tênue:** acerto tem chance de aplicar [Corrupção](entry.html?slug=condicoes) no alvo.
 - **Manifesto:** acertos críticos contra um alvo já Corrompido causam dano **Alto** adicional.
 - **Ancestral:** enquanto o alvo estiver Corrompido, cada acerto também reduz em uma quantidade **Baixa** os Usos ou a Redução de Dano do Arsenal dele.
 - **Primordial:** um alvo Corrompido que chegue a 0 PV por este ataque sofre 1 Ferimento automático.
@@ -304,9 +304,9 @@ Cada Elemento oferece uma Infusão diferente para cada tipo de item — **Arma C
 *Veneno · Arma à Distância*
 
 - **Tênue:** acerto tem chance de aplicar Corrupção no alvo.
-- **Manifesto:** ao acertar um alvo já Corrompido, a Corrupção se espalha para 1 aliado dele em [alcance de toque](#/devlog/entry/alcances).
+- **Manifesto:** ao acertar um alvo já Corrompido, a Corrupção se espalha para 1 aliado dele em [alcance de toque](entry.html?slug=alcances).
 - **Ancestral:** a Corrupção aplicada por esta arma só pode ser removida por cura ou antídoto, nunca passa sozinha.
-- **Primordial:** ao acertar um alvo já Corrompido, a Corrupção se espalha em [alcance curto](#/devlog/entry/alcances) ao redor dele.
+- **Primordial:** ao acertar um alvo já Corrompido, a Corrupção se espalha em [alcance curto](entry.html?slug=alcances) ao redor dele.
 
 ### Praga Arcana
 *Veneno · Arma Mágica*
@@ -314,7 +314,7 @@ Cada Elemento oferece uma Infusão diferente para cada tipo de item — **Arma C
 - **Tênue:** seus ataques mágicos que causam dano têm chance de aplicar Corrupção.
 - **Manifesto:** enquanto o alvo estiver Corrompido, os testes dele para resistir a efeitos mágicos seus recebem **1 Ruína**.
 - **Ancestral:** 1x por cena, ao acertar com esta arma, receba **1 Fortuna** no próximo ataque mágico que realizar.
-- **Primordial:** uma vez por cena, transforme um ataque mágico em uma nuvem tóxica que aplica Corrupção em todos os inimigos em [alcance curto](#/devlog/entry/alcances) do alvo.
+- **Primordial:** uma vez por cena, transforme um ataque mágico em uma nuvem tóxica que aplica Corrupção em todos os inimigos em [alcance curto](entry.html?slug=alcances) do alvo.
 
 ### Pele Curtida
 *Veneno · Armadura*
@@ -342,7 +342,7 @@ Cada Elemento oferece uma Infusão diferente para cada tipo de item — **Arma C
 *Sombra · Arma Corpo a Corpo*
 
 - **Tênue:** acerto tem chance de aplicar 1 Ruína no próximo teste do alvo para intimidar ou amedrontar você.
-- **Manifesto:** acerto crítico aplica [Medo](#/devlog/entry/condicoes) no alvo.
+- **Manifesto:** acerto crítico aplica [Medo](entry.html?slug=condicoes) no alvo.
 - **Ancestral:** enquanto o alvo tiver Medo, empates em testes de ataque contra ele viram sucesso.
 - **Primordial:** o Medo aplicado só termina com o fim do combate.
 
@@ -387,7 +387,7 @@ Cada Elemento oferece uma Infusão diferente para cada tipo de item — **Arma C
 ### Golpe Radiante
 *Luz · Arma Corpo a Corpo*
 
-- **Tênue:** acerto tem chance de remover 1 condição negativa (se o alvo for aliado) ou aplicar [Exposição](#/devlog/entry/condicoes) (se for inimigo).
+- **Tênue:** acerto tem chance de remover 1 condição negativa (se o alvo for aliado) ou aplicar [Exposição](entry.html?slug=condicoes) (se for inimigo).
 - **Manifesto:** cura uma quantidade **Média** de PV ao acertar um aliado, ou faz o inimigo receber **2 Ruínas** no próximo teste de ataque que realizar.
 - **Ancestral:** você pode escolher curar em vez de causar dano ao acertar um aliado adjacente por engano.
 - **Primordial:** seus ataques contra criaturas ligadas à Sombra causam o dobro de dano.
@@ -406,20 +406,20 @@ Cada Elemento oferece uma Infusão diferente para cada tipo de item — **Arma C
 - **Tênue:** você pode escolher curar em vez de causar dano ao usar esta arma contra um aliado.
 - **Manifesto:** cura uma quantidade **Média** de PV extra ao acertar um aliado, ou faz o inimigo receber **2 Ruínas** no próximo teste de ataque que realizar.
 - **Ancestral:** 1x por cena, ao acertar com esta arma, receba **1 Fortuna** no próximo ataque mágico que realizar.
-- **Primordial:** uma vez por cena, um único ataque mágico pode curar todos os aliados e ferir todos os inimigos em [alcance curto](#/devlog/entry/alcances) simultaneamente.
+- **Primordial:** uma vez por cena, um único ataque mágico pode curar todos os aliados e ferir todos os inimigos em [alcance curto](entry.html?slug=alcances) simultaneamente.
 
 ### Couraça Sagrada
 *Luz · Armadura*
 
 - **Tênue:** reduz à metade o dano de origem sobrenatural.
 - **Manifesto:** imune a Exposição e às Ruínas impostas por ataques de Luz.
-- **Ancestral:** você emite luz em [alcance curto](#/devlog/entry/alcances), cancelando efeitos de Sombra próximos.
-- **Primordial:** você e aliados em [alcance curto](#/devlog/entry/alcances) são imunes a Medo e às Ruínas impostas por ataques de Luz.
+- **Ancestral:** você emite luz em [alcance curto](entry.html?slug=alcances), cancelando efeitos de Sombra próximos.
+- **Primordial:** você e aliados em [alcance curto](entry.html?slug=alcances) são imunes a Medo e às Ruínas impostas por ataques de Luz.
 
 ### Escudo Consagrado
 *Luz · Escudo*
 
-- **Tênue:** bloqueio cura uma quantidade **Baixa** de PV de um aliado em [alcance de toque](#/devlog/entry/alcances).
+- **Tênue:** bloqueio cura uma quantidade **Baixa** de PV de um aliado em [alcance de toque](entry.html?slug=alcances).
 - **Manifesto:** a cura sobe para uma quantidade **Alta** e também remove 1 condição.
 - **Ancestral:** a cura também remove 1 Ferimento Leve temporariamente, uma vez por cena.
 - **Primordial:** você pode usar o bloqueio como uma cura mesmo sem ser atacado.
@@ -433,7 +433,7 @@ Cada Elemento oferece uma Infusão diferente para cada tipo de item — **Arma C
 ### Lâmina Sanguessuga
 *Sangue · Arma Corpo a Corpo*
 
-- **Tênue:** acerto tem chance de aplicar 1 stack de [Sangramento](#/devlog/entry/condicoes).
+- **Tênue:** acerto tem chance de aplicar 1 stack de [Sangramento](entry.html?slug=condicoes).
 - **Manifesto:** você cura PV igual à metade do dano causado.
 - **Ancestral:** matar um inimigo com este ataque reduz em 1 a penalidade de um Ferimento Leve seu.
 - **Primordial:** você não pode morrer por Sangramento enquanto empunhar esta arma.
@@ -443,8 +443,8 @@ Cada Elemento oferece uma Infusão diferente para cada tipo de item — **Arma C
 
 - **Tênue:** acerto tem chance de aplicar 1 stack de Sangramento.
 - **Manifesto:** o Sangramento aplicado se espalha para 1 inimigo adjacente ao alvo.
-- **Ancestral:** inimigos sangrando por sua causa recebem Ruína em testes de [Ímpeto](#/devlog/entry/tracos).
-- **Primordial:** criaturas mortas por este ataque explodem em sangue, causando dano **Extremo** a inimigos em [alcance de toque](#/devlog/entry/alcances).
+- **Ancestral:** inimigos sangrando por sua causa recebem Ruína em testes de [Ímpeto](entry.html?slug=tracos).
+- **Primordial:** criaturas mortas por este ataque explodem em sangue, causando dano **Extremo** a inimigos em [alcance de toque](entry.html?slug=alcances).
 
 ### Pacto de Sangue
 *Sangue · Arma Mágica*
@@ -474,12 +474,12 @@ Cada Elemento oferece uma Infusão diferente para cada tipo de item — **Arma C
 
 ## Natureza
 
-*Crescimento, ciclo, vida selvagem.* **Onde encontrar:** florestas antigas, territórios do [Selvagem](#/devlog/entry/selvagem), ruínas tomadas pela vegetação.
+*Crescimento, ciclo, vida selvagem.* **Onde encontrar:** florestas antigas, territórios do [Selvagem](entry.html?slug=selvagem), ruínas tomadas pela vegetação.
 
 ### Raízes da Lâmina
 *Natureza · Arma Corpo a Corpo*
 
-- **Tênue:** acerto tem chance de prender o alvo com raízes, aplicando uma quantidade **Alta** de stacks de [Lentidão](#/devlog/entry/condicoes) (ele pode se soltar com um teste semi-estático de [Ímpeto](#/devlog/entry/tracos) #semi-estatico, removendo todos os stacks de uma vez).
+- **Tênue:** acerto tem chance de prender o alvo com raízes, aplicando uma quantidade **Alta** de stacks de [Lentidão](entry.html?slug=condicoes) (ele pode se soltar com um teste semi-estático de [Ímpeto](entry.html?slug=tracos) #semi-estatico, removendo todos os stacks de uma vez).
 - **Manifesto:** enquanto o alvo tiver 3 ou mais stacks de Lentidão causados por você, ele sofre dano **Médio** por rodada.
 - **Ancestral:** você pode redirecionar as raízes para prender um aliado que esteja caindo ou sendo empurrado, anulando o efeito.
 - **Primordial:** inimigos com 3 ou mais stacks de Lentidão causados por você não podem ser curados enquanto mantiverem esses stacks.
@@ -487,7 +487,7 @@ Cada Elemento oferece uma Infusão diferente para cada tipo de item — **Arma C
 ### Semente Perfurante
 *Natureza · Arma à Distância*
 
-- **Tênue:** acerto tem chance de prender o alvo com raízes, aplicando uma quantidade **Alta** de stacks de Lentidão (ele pode se soltar com um teste semi-estático de [Ímpeto](#/devlog/entry/tracos) #semi-estatico, removendo todos os stacks de uma vez).
+- **Tênue:** acerto tem chance de prender o alvo com raízes, aplicando uma quantidade **Alta** de stacks de Lentidão (ele pode se soltar com um teste semi-estático de [Ímpeto](entry.html?slug=tracos) #semi-estatico, removendo todos os stacks de uma vez).
 - **Manifesto:** a munição pode germinar, criando Terreno Difícil onde caiu.
 - **Ancestral:** o Terreno Difícil se espalha uma distância **Alta** por rodada enquanto ninguém o queimar.
 - **Primordial:** o Terreno Difícil vira uma pequena floresta que bloqueia linha de visão.
@@ -495,10 +495,10 @@ Cada Elemento oferece uma Infusão diferente para cada tipo de item — **Arma C
 ### Chamado Selvagem
 *Natureza · Arma Mágica*
 
-- **Tênue:** seus ataques mágicos podem crescer vinhas que prendem o alvo, aplicando uma quantidade **Alta** de stacks de Lentidão (ele pode se soltar com um teste semi-estático de [Ímpeto](#/devlog/entry/tracos) #semi-estatico, removendo todos os stacks de uma vez).
+- **Tênue:** seus ataques mágicos podem crescer vinhas que prendem o alvo, aplicando uma quantidade **Alta** de stacks de Lentidão (ele pode se soltar com um teste semi-estático de [Ímpeto](entry.html?slug=tracos) #semi-estatico, removendo todos os stacks de uma vez).
 - **Manifesto:** enquanto o alvo tiver 3 ou mais stacks de Lentidão causados por você, ele sofre dano **Médio** por rodada.
 - **Ancestral:** 1x por cena, ao acertar com esta arma, receba **1 Fortuna** no próximo ataque mágico que realizar.
-- **Primordial:** uma vez por cena, invoque um emaranhado de raízes que aplica uma quantidade **Alta** de stacks de Lentidão em todos os inimigos em [alcance curto](#/devlog/entry/alcances).
+- **Primordial:** uma vez por cena, invoque um emaranhado de raízes que aplica uma quantidade **Alta** de stacks de Lentidão em todos os inimigos em [alcance curto](entry.html?slug=alcances).
 
 ### Casca Viva
 *Natureza · Armadura*
@@ -511,7 +511,7 @@ Cada Elemento oferece uma Infusão diferente para cada tipo de item — **Arma C
 ### Escudo Vivo
 *Natureza · Escudo*
 
-- **Tênue:** bloqueio cria um emaranhado que prende o atacante, aplicando uma quantidade **Alta** de stacks de Lentidão (ele pode se soltar com um teste semi-estático de [Ímpeto](#/devlog/entry/tracos) #semi-estatico, removendo todos os stacks de uma vez).
+- **Tênue:** bloqueio cria um emaranhado que prende o atacante, aplicando uma quantidade **Alta** de stacks de Lentidão (ele pode se soltar com um teste semi-estático de [Ímpeto](entry.html?slug=tracos) #semi-estatico, removendo todos os stacks de uma vez).
 - **Manifesto:** o emaranhado dura até o fim da cena ou até ser destruído.
-- **Ancestral:** o emaranhado também aplica a mesma Lentidão a qualquer inimigo que entre em [alcance de toque](#/devlog/entry/alcances) dele.
+- **Ancestral:** o emaranhado também aplica a mesma Lentidão a qualquer inimigo que entre em [alcance de toque](entry.html?slug=alcances) dele.
 - **Primordial:** o emaranhado se torna permanente até alguém gastar uma ação inteira destruindo-o.

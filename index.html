@@ -1,19 +1,64 @@
 <!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <title>scrapbook | allan kley</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>scrapbook | allan kley</title>
+<link rel="icon" href="favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<script src="js/site.js"></script>
+<script>
+  // Links antigos (#/devlog/entry/x) continuam funcionando.
+  redirectLegacyHash();
+</script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="shell">
+    <a class="logo" href="index.html">scrapbook</a>
+    <ul class="site-nav">
+      <li><a href="top10.html">top 10s</a></li>
+      <li><a href="dungeon-rift.html">Dungeon Rift</a></li>
+    </ul>
+  </div>
+</header>
+
+<main class="shell">
+
+  <section class="hero" data-reveal>
+    <div>
+      <h1>hey, i'm allan.</h1>
+      <p>
+        this is my little corner of the internet for showing friends the stuff i'm into &mdash;
+        ranked opinions, works in progress, and whatever
+        <span class="highlight">ttrpg system</span> i'm currently breaking and rebuilding.
+      </p>
+    </div>
+    <div class="hero-portrait">
+      <img src="images/profile-hero.png" alt="pixel art do allan">
+    </div>
+  </section>
+
+  <div class="card-grid" data-reveal>
+    <a class="card" href="top10.html">
+      <h3>top 10s</h3>
+      <p>my ranked lists of games, books, food, and anything else worth arguing about.</p>
+    </a>
+    <a class="card" href="dungeon-rift.html">
+      <h3>Dungeon Rift</h3>
+      <p>progress notes and changelogs for the tabletop system i'm designing.</p>
+    </a>
+  </div>
+
+</main>
+
+<footer class="site-footer">
+  <div class="shell">made by allan, mostly on evenings i should've been sleeping.</div>
+</footer>
+
+</body>
 </html>

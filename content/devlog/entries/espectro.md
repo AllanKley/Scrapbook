@@ -16,7 +16,7 @@ Predadores táticos que caçam alvos específicos, eliminando ameaças com preci
 
 Sua sombra é parte de você, mas também é algo à parte. Você pode controlar a sua sombra para diversos efeitos.
 
-Todos os efeitos de Sombra Viva possuem [alcance curto](#/devlog/entry/alcances). Enquanto sua sombra estiver separada de você, ela deve permanecer conectada por uma superfície contínua, como chão, paredes ou tetos. Caso sua sombra ultrapasse esse alcance, você perde o vínculo com ela até recuperá-la fisicamente ou concluir um descanso longo.
+Todos os efeitos de Sombra Viva possuem [alcance curto](entry.html?slug=alcances). Enquanto sua sombra estiver separada de você, ela deve permanecer conectada por uma superfície contínua, como chão, paredes ou tetos. Caso sua sombra ultrapasse esse alcance, você perde o vínculo com ela até recuperá-la fisicamente ou concluir um descanso longo.
 
 Em combate, cada uso de Sombra Viva custa 1 PA. Todos os efeitos contam como a mesma habilidade para fins de Ritmo de Combate.
 

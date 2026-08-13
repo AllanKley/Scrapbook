@@ -7,7 +7,7 @@ sourceNote: mecanicas/criacao de personagem/patrono.md
 #criacao_de_personagem
 
 > [!info] Sugestão de sistema (rascunho, revisar)
-> Patronos funcionam como talentos: não definem seu papel em combate como [Linhagem](#/devlog/entry/linhagem) ou [Domínio](#/devlog/entry/dominio), mas concedem uma habilidade passiva ou de uso limitado, permanente, e ajudam a diversificar a build. Todo Patrono é um **ser individual e específico** — nunca uma categoria inteira de criaturas (nada de "uma ninfa" ou "um djinn": tem que ser uma ninfa específica, com nome). Cada um reflete uma cultura ou lenda real da Primeira Era, na mesma linha de memória-não-divindade de [lore_mundo](#/devlog/entry/lore-mundo). Ajuste nomes, efeitos e a tabela de Ranks conforme o restante do sistema for fechado. #todo
+> Patronos funcionam como talentos: não definem seu papel em combate como [Linhagem](entry.html?slug=linhagem) ou [Domínio](entry.html?slug=dominio), mas concedem uma habilidade passiva ou de uso limitado, permanente, e ajudam a diversificar a build. Todo Patrono é um **ser individual e específico** — nunca uma categoria inteira de criaturas (nada de "uma ninfa" ou "um djinn": tem que ser uma ninfa específica, com nome). Cada um reflete uma cultura ou lenda real da Primeira Era, na mesma linha de memória-não-divindade de [lore_mundo](entry.html?slug=lore-mundo). Ajuste nomes, efeitos e a tabela de Ranks conforme o restante do sistema for fechado. #todo
 
 # Origem (lore)
 
@@ -24,7 +24,7 @@ Você não pode escolher o mesmo Patrono mais de uma vez.
 
 # Progressão de Patrono
 
-Diferente de Linhagem e Domínio, seus Patronos não avançam nos ranks "cheios" (F, E, D, C, B, A, S) — eles avançam nos oito ranks intermediários **F-, E-, D-, C-, B-, A-, S- e SS-** da escada de [Ranks](#/devlog/entry/progressao-de-personagem). Esta é a única tabela que precisa mudar se você quiser alterar quando cada tier libera — o resto do documento não faz referência a Ranks.
+Diferente de Linhagem e Domínio, seus Patronos não avançam nos ranks "cheios" (F, E, D, C, B, A, S) — eles avançam nos oito ranks intermediários **F-, E-, D-, C-, B-, A-, S- e SS-** da escada de [Ranks](entry.html?slug=progressao-de-personagem). Esta é a única tabela que precisa mudar se você quiser alterar quando cada tier libera — o resto do documento não faz referência a Ranks.
 
 Em cada um desses ranks, você ganha **os dois benefícios abaixo ao mesmo tempo**:
 
@@ -39,7 +39,7 @@ Em cada um desses ranks, você ganha **os dois benefícios abaixo ao mesmo tempo
 | Rank S- | +1 Patrono Supremo | Melhore o bônus de uma Experiência existente ou adicione uma nova (máx. 5) |
 | Rank SS- | +1 Patrono Supremo | Melhore o bônus de uma Experiência existente ou adicione uma nova (máx. 5) |
 
-Ao longo de uma carreira completa, isso resulta em **3 Patronos Menores, 3 Patronos Maiores, 2 Patronos Supremos**, **3 subidas na escada de dados de Traço** (distribuídas como o jogador quiser, respeitando o teto de [d12](#/devlog/entry/tracos)) e **5 oportunidades de melhorar ou adicionar Experiências**. O crescimento de traço/Experiência é sentido como a influência crescente dos próprios Patronos sobre o personagem, não como um sistema separado.
+Ao longo de uma carreira completa, isso resulta em **3 Patronos Menores, 3 Patronos Maiores, 2 Patronos Supremos**, **3 subidas na escada de dados de Traço** (distribuídas como o jogador quiser, respeitando o teto de [d12](entry.html?slug=tracos)) e **5 oportunidades de melhorar ou adicionar Experiências**. O crescimento de traço/Experiência é sentido como a influência crescente dos próprios Patronos sobre o personagem, não como um sistema separado.
 
 ---
 
@@ -50,7 +50,7 @@ Ao longo de uma carreira completa, isso resulta em **3 Patronos Menores, 3 Patro
 ### Hércules
 *Origem: Grécia.*
 
-O herói que completou o impossível através da força bruta e da teimosia. **Efeito:** uma vez por cena, ao acertar um ataque corpo a corpo, cause dano adicional igual ao seu [Grau](#/devlog/entry/tracos) de Ímpeto.
+O herói que completou o impossível através da força bruta e da teimosia. **Efeito:** uma vez por cena, ao acertar um ataque corpo a corpo, cause dano adicional igual ao seu [Grau](entry.html?slug=tracos) de Ímpeto.
 
 ### Cú Chulainn
 *Origem: Stonehenge, Inglaterra (adotado das lendas célticas locais).*
@@ -65,7 +65,7 @@ O guerreiro que enfrentou Grendel e um dragão sozinho. **Efeito:** +1 Fortuna e
 ### Enkidu
 *Origem: Babilônia/Ur, Mesopotâmia.*
 
-Criado da argila e da natureza selvagem para equilibrar um rei arrogante. **Efeito:** +1 Fortuna em testes semi-estáticos de [Ímpeto](#/devlog/entry/tracos) #semi-estatico; uma vez por cena, ignore completamente a primeira condição que sofreria na cena.
+Criado da argila e da natureza selvagem para equilibrar um rei arrogante. **Efeito:** +1 Fortuna em testes semi-estáticos de [Ímpeto](entry.html?slug=tracos) #semi-estatico; uma vez por cena, ignore completamente a primeira condição que sofreria na cena.
 
 ### Kumbhakarna
 *Origem: Varanasi/Kurukshetra, Índia.*
@@ -75,7 +75,7 @@ O gigante adormecido, capaz de devorar exércitos quando desperto. **Efeito:** P
 ### Sun Wukong
 *Origem: Xi'an, China.*
 
-O Rei Macaco, ágil o suficiente para escapar de qualquer prisão. **Efeito:** uma vez por cena, transforme-se brevemente: até o fim do turno, receba deslocamento **Baixo** adicional e **2 Fortunas** em testes de [Graça](#/devlog/entry/tracos).
+O Rei Macaco, ágil o suficiente para escapar de qualquer prisão. **Efeito:** uma vez por cena, transforme-se brevemente: até o fim do turno, receba deslocamento **Baixo** adicional e **2 Fortunas** em testes de [Graça](entry.html?slug=tracos).
 
 ### Coyote
 *Origem: territórios além das Bases Estáveis americanas, folclore indígena.*
@@ -85,12 +85,12 @@ O trapaceiro que transforma erro em oportunidade. **Efeito:** uma vez por cena, 
 ### Anansi
 *Origem: Lagos de Dogon, África Ocidental.*
 
-A aranha que venceu deuses maiores usando apenas astúcia. **Efeito:** uma vez por cena, repita um teste de [Encanto](#/devlog/entry/tracos) que tenha acabado de falhar.
+A aranha que venceu deuses maiores usando apenas astúcia. **Efeito:** uma vez por cena, repita um teste de [Encanto](entry.html?slug=tracos) que tenha acabado de falhar.
 
 ### Curupira
 *Origem: florestas fora dos Epicentros, folclore tupi (Brasil).*
 
-O guardião de pés virados para trás, protetor da mata contra quem a explora sem respeito. **Efeito:** uma vez por cena, faça raízes prenderem um inimigo em [alcance curto](#/devlog/entry/alcances), aplicando uma quantidade **Alta** de stacks de [Lentidão](#/devlog/entry/condicoes) (ele pode se soltar com um teste semi-estático de [Ímpeto](#/devlog/entry/tracos) #semi-estatico, removendo todos os stacks de uma vez).
+O guardião de pés virados para trás, protetor da mata contra quem a explora sem respeito. **Efeito:** uma vez por cena, faça raízes prenderem um inimigo em [alcance curto](entry.html?slug=alcances), aplicando uma quantidade **Alta** de stacks de [Lentidão](entry.html?slug=condicoes) (ele pode se soltar com um teste semi-estático de [Ímpeto](entry.html?slug=tracos) #semi-estatico, removendo todos os stacks de uma vez).
 
 ### Saci-Pererê
 *Origem: florestas fora dos Epicentros, folclore brasileiro.*
@@ -100,32 +100,32 @@ O moleque de uma perna só, que aparece e desaparece em redemoinhos de vento. **
 ### Iara
 *Origem: rios fora dos Epicentros, folclore tupi (Brasil).*
 
-A mãe-d'água cujo canto ninguém resiste. **Efeito:** uma vez por cena, force um inimigo em [alcance curto](#/devlog/entry/alcances) a um teste **semi-estático de [Essência](#/devlog/entry/tracos)** #semi-estatico; se falhar, ele não pode atacar você até o fim do turno dele.
+A mãe-d'água cujo canto ninguém resiste. **Efeito:** uma vez por cena, force um inimigo em [alcance curto](entry.html?slug=alcances) a um teste **semi-estático de [Essência](entry.html?slug=tracos)** #semi-estatico; se falhar, ele não pode atacar você até o fim do turno dele.
 
 ### A Esfinge de Tebas
 *Origem: Grécia (com raízes egípcias, Vale do Nilo).*
 
-A criatura que bloqueava estradas com enigmas mortais. **Efeito:** uma vez por cena, force um inimigo a um teste **semi-estático de [Astúcia](#/devlog/entry/tracos)** #semi-estatico; se falhar, ele recebe 1 Ruína em todos os testes até o fim do turno dele.
+A criatura que bloqueava estradas com enigmas mortais. **Efeito:** uma vez por cena, force um inimigo a um teste **semi-estático de [Astúcia](entry.html?slug=tracos)** #semi-estatico; se falhar, ele recebe 1 Ruína em todos os testes até o fim do turno dele.
 
 ### Eco
 *Origem: Olímpia, Grécia.*
 
-A ninfa condenada a repetir apenas o que ouve. **Efeito:** uma vez por cena, repita um som (uma palavra, um grito, um comando) fazendo-o parecer vir de qualquer ponto em [alcance médio](#/devlog/entry/alcances).
+A ninfa condenada a repetir apenas o que ouve. **Efeito:** uma vez por cena, repita um som (uma palavra, um grito, um comando) fazendo-o parecer vir de qualquer ponto em [alcance médio](entry.html?slug=alcances).
 
 ### Puck
 *Origem: Stonehenge, Inglaterra (folclore inglês).*
 
-O espírito zombeteiro que transforma noites em confusão. **Efeito:** uma vez por cena, force um inimigo em [alcance curto](#/devlog/entry/alcances) a uma risada incontrolável — ele perde a próxima Reação disponível.
+O espírito zombeteiro que transforma noites em confusão. **Efeito:** uma vez por cena, force um inimigo em [alcance curto](entry.html?slug=alcances) a uma risada incontrolável — ele perde a próxima Reação disponível.
 
 ### Baba Yaga
 *Origem: florestas fora dos Epicentros, folclore eslavo.*
 
-A bruxa da cabana de pernas de galinha, que testa todos que a procuram. **Efeito:** uma vez por cena, escolha um [Traço](#/devlog/entry/tracos); se um inimigo falhar em um teste que use esse Traço antes do fim da cena, ele recebe 1 Ruína em seu próximo teste.
+A bruxa da cabana de pernas de galinha, que testa todos que a procuram. **Efeito:** uma vez por cena, escolha um [Traço](entry.html?slug=tracos); se um inimigo falhar em um teste que use esse Traço antes do fim da cena, ele recebe 1 Ruína em seu próximo teste.
 
 ### Cérbero
 *Origem: Grécia.*
 
-O cão de três cabeças que guarda a passagem para o que não deve ser alcançado. **Efeito:** enquanto estiver vigiando uma passagem ou porta, você nunca pode ser pego de surpresa ali, e recebe +1 Fortuna em testes de [Instinto](#/devlog/entry/tracos).
+O cão de três cabeças que guarda a passagem para o que não deve ser alcançado. **Efeito:** enquanto estiver vigiando uma passagem ou porta, você nunca pode ser pego de surpresa ali, e recebe +1 Fortuna em testes de [Instinto](entry.html?slug=tracos).
 
 ---
 
@@ -151,7 +151,7 @@ O Allfather, que trocou um olho por sabedoria e se sacrificou por runas. **Efeit
 ### Amaterasu
 *Origem: Monte Fuji, Japão.*
 
-A deusa do sol, cuja luz mantém o mundo visível e vivo. **Efeito:** você e aliados em [alcance curto](#/devlog/entry/alcances) recebem +1 Fortuna em testes para resistir a [Medo](#/devlog/entry/condicoes) ou a qualquer efeito de escuridão sobrenatural; uma vez por cena, dissipe uma área de escuridão sobrenatural em [alcance médio](#/devlog/entry/alcances).
+A deusa do sol, cuja luz mantém o mundo visível e vivo. **Efeito:** você e aliados em [alcance curto](entry.html?slug=alcances) recebem +1 Fortuna em testes para resistir a [Medo](entry.html?slug=condicoes) ou a qualquer efeito de escuridão sobrenatural; uma vez por cena, dissipe uma área de escuridão sobrenatural em [alcance médio](entry.html?slug=alcances).
 
 ### Indra
 *Origem: Varanasi/Kurukshetra, Índia.*
@@ -166,7 +166,7 @@ O deus que derrotou o caos primordial Tiamat e reorganizou o mundo a partir dela
 ### Shangó
 *Origem: tradições afro-atlânticas preservadas por Guildas migrantes.*
 
-Orixá do trovão, do fogo e da justiça implacável. **Efeito:** uma vez por cena, ao acertar um ataque, force o alvo a um teste **semi-estático de [Ímpeto](#/devlog/entry/tracos)** #semi-estatico ou receba 2 Ruínas no próximo teste que realizar.
+Orixá do trovão, do fogo e da justiça implacável. **Efeito:** uma vez por cena, ao acertar um ataque, force o alvo a um teste **semi-estático de [Ímpeto](entry.html?slug=tracos)** #semi-estatico ou receba 2 Ruínas no próximo teste que realizar.
 
 ### Perun
 *Origem: florestas fora dos Epicentros, folclore eslavo.*
@@ -186,7 +186,7 @@ O deus-sol, ancestral divino dos governantes incas. **Efeito:** ao concluir um d
 ### Tangaroa
 *Origem: Polinésia.*
 
-Senhor do oceano e de tudo que vive nele. **Efeito:** uma vez por cena, force uma criatura em [alcance médio](#/devlog/entry/alcances) a um teste **semi-estático de [Ímpeto](#/devlog/entry/tracos)** #semi-estatico ou ser puxada uma distância **Baixa** em sua direção.
+Senhor do oceano e de tudo que vive nele. **Efeito:** uma vez por cena, force uma criatura em [alcance médio](entry.html?slug=alcances) a um teste **semi-estático de [Ímpeto](entry.html?slug=tracos)** #semi-estatico ou ser puxada uma distância **Baixa** em sua direção.
 
 ### Anu
 *Origem: Babilônia/Ur, Mesopotâmia.*
@@ -201,7 +201,7 @@ O sol que morre e renasce todos os dias, navegando pelo mundo dos mortos à noit
 ### Tlaloc
 *Origem: Chichén Itzá/Teotihuacán, México.*
 
-Deus da chuva, capaz de nutrir ou afogar uma colheita inteira. **Efeito:** uma vez por cena, crie uma chuva torrencial em [alcance curto](#/devlog/entry/alcances) que aplica 1 stack de [Lentidão](#/devlog/entry/condicoes) em todos os inimigos dentro dela.
+Deus da chuva, capaz de nutrir ou afogar uma colheita inteira. **Efeito:** uma vez por cena, crie uma chuva torrencial em [alcance curto](entry.html?slug=alcances) que aplica 1 stack de [Lentidão](entry.html?slug=condicoes) em todos os inimigos dentro dela.
 
 ---
 
@@ -217,17 +217,17 @@ O vazio primordial do qual surgiu tudo o mais, incluindo os próprios deuses. **
 ### Ymir
 *Origem: Stonehenge, Inglaterra (adotado das lendas nórdicas).*
 
-O gigante primordial cujo corpo foi usado para forjar o mundo. **Efeito:** PV Máximo **Médio** permanente adicional; ao sofrer um [Ferimento Fatal](#/devlog/entry/ferimentos), você pode deixar uma marca permanente e narrativamente significativa na área ao seu redor, à sua escolha (em acordo com o mestre).
+O gigante primordial cujo corpo foi usado para forjar o mundo. **Efeito:** PV Máximo **Médio** permanente adicional; ao sofrer um [Ferimento Fatal](entry.html?slug=ferimentos), você pode deixar uma marca permanente e narrativamente significativa na área ao seu redor, à sua escolha (em acordo com o mestre).
 
 ### Pangu
 *Origem: Xi'an, China.*
 
-O gigante que separou o céu da terra com um único golpe de machado. **Efeito:** uma vez por sessão, crie uma divisão física instantânea — uma parede, um fosso, uma clareira — em qualquer ponto até [alcance longo](#/devlog/entry/alcances).
+O gigante que separou o céu da terra com um único golpe de machado. **Efeito:** uma vez por sessão, crie uma divisão física instantânea — uma parede, um fosso, uma clareira — em qualquer ponto até [alcance longo](entry.html?slug=alcances).
 
 ### Purusha
 *Origem: Varanasi/Kurukshetra, Índia.*
 
-O ser cósmico cujo sacrifício deu origem ao universo e a todos os seres. **Efeito:** uma vez por sessão, ao ser reduzido a 0 PV, distribua Pontos de Vida iguais ao dano que sofreria entre até 3 aliados em [alcance longo](#/devlog/entry/alcances).
+O ser cósmico cujo sacrifício deu origem ao universo e a todos os seres. **Efeito:** uma vez por sessão, ao ser reduzido a 0 PV, distribua Pontos de Vida iguais ao dano que sofreria entre até 3 aliados em [alcance longo](entry.html?slug=alcances).
 
 ### Atum
 *Origem: Vale do Nilo, Egito.*
@@ -242,7 +242,7 @@ O caos primordial em forma de dragão, mãe de todos os deuses antes de sua derr
 ### Izanagi
 *Origem: Monte Fuji, Japão.*
 
-O primeiro pai, criador das ilhas e de boa parte dos deuses japoneses. **Efeito:** uma vez por sessão, purifique-se completamente — remova todas as [condições](#/devlog/entry/condicoes) e Ferimentos temporários (não permanentes) de si mesmo instantaneamente.
+O primeiro pai, criador das ilhas e de boa parte dos deuses japoneses. **Efeito:** uma vez por sessão, purifique-se completamente — remova todas as [condições](entry.html?slug=condicoes) e Ferimentos temporários (não permanentes) de si mesmo instantaneamente.
 
 ### Ometeotl
 *Origem: Chichén Itzá/Teotihuacán, México.*

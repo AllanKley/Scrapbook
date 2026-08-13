@@ -17,7 +17,7 @@ Engenheiros místicos que moldam armas, armaduras e até o próprio corpo com ru
 
 #despertar
 
-1 PA. Você grava uma Runa temporária em uma arma, armadura ou objeto em [alcance de toque](#/devlog/entry/alcances), escolhendo um efeito:
+1 PA. Você grava uma Runa temporária em uma arma, armadura ou objeto em [alcance de toque](entry.html?slug=alcances), escolhendo um efeito:
 
 - **Runa de Corte:** o próximo ataque realizado com este item causa dano **Médio** adicional.
 - **Runa de Alcance:** o alcance de ataques com este item aumenta em 1 categoria até o fim do turno.
@@ -27,7 +27,7 @@ Engenheiros místicos que moldam armas, armaduras e até o próprio corpo com ru
 Você pode manter apenas 1 Runa ativa por vez, a menos que uma habilidade diga o contrário. Runas gravadas em seu próprio Arsenal duram o dobro do tempo normal.
 
 > [!note] Sinergia com Infusões
-> Diferente de um artesão comum, você pode realizar [Infusões](#/devlog/entry/infusoes) permanentes sozinho, sem depender de uma Guilda ou de um artesão independente — sua Criação Perfeita é o que outras Linhagens chamariam de processo de Infusão. Isso não muda o custo em Ecos nem os requisitos de Rank para usar o item, só remove a necessidade de um terceiro.
+> Diferente de um artesão comum, você pode realizar [Infusões](entry.html?slug=infusoes) permanentes sozinho, sem depender de uma Guilda ou de um artesão independente — sua Criação Perfeita é o que outras Linhagens chamariam de processo de Infusão. Isso não muda o custo em Ecos nem os requisitos de Rank para usar o item, só remove a necessidade de um terceiro.
 
 ---
 
@@ -43,7 +43,7 @@ Passivo. Ao examinar uma arma, armadura ou construto por alguns instantes, você
 
 #rank_d
 
-1 PA. Toque uma armadura ou escudo em [alcance de toque](#/devlog/entry/alcances) e restaure 1 Uso perdido, ou conceda Redução de Dano **Baixa** a ele até o fim da cena.
+1 PA. Toque uma armadura ou escudo em [alcance de toque](entry.html?slug=alcances) e restaure 1 Uso perdido, ou conceda Redução de Dano **Baixa** a ele até o fim da cena.
 
 ---
 
@@ -51,7 +51,7 @@ Passivo. Ao examinar uma arma, armadura ou construto por alguns instantes, você
 
 #rank_b
 
-Passivo. Você pode manter um número de Runas ativas simultaneamente igual ao seu [Grau](#/devlog/entry/tracos) de Essência (mínimo 1), em vez de apenas 1.
+Passivo. Você pode manter um número de Runas ativas simultaneamente igual ao seu [Grau](entry.html?slug=tracos) de Essência (mínimo 1), em vez de apenas 1.
 
 ---
 
@@ -59,7 +59,7 @@ Passivo. Você pode manter um número de Runas ativas simultaneamente igual ao s
 
 #rank_s
 
-1 PA. Transforme um item em [alcance de toque](#/devlog/entry/alcances) em um Golem temporário do tamanho de uma criatura Média, que luta ao seu lado até o fim da cena ou até ser destruído. O Golem age no seu turno, atacando com um teste de Essência (seu dado, rolado duas vezes) e causando dano **Médio** por golpe.
+1 PA. Transforme um item em [alcance de toque](entry.html?slug=alcances) em um Golem temporário do tamanho de uma criatura Média, que luta ao seu lado até o fim da cena ou até ser destruído. O Golem age no seu turno, atacando com um teste de Essência (seu dado, rolado duas vezes) e causando dano **Médio** por golpe.
 
 ---
 

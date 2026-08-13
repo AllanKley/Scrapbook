@@ -17,13 +17,13 @@ Esta página apresenta uma visão geral do processo de criação. Cada tópico p
 A criação de personagem normalmente segue as seguintes etapas:
 
 1. Defina um conceito para o personagem.
-2. Distribua seus [Traços](#/devlog/entry/tracos).
-3. Escolha uma [Linhagem](#/devlog/entry/linhagem).
-4. Escolha um [domínio](#/devlog/entry/dominio).
-5. Escolha um [patrono](#/devlog/entry/patrono).
-6. Defina seus [Vínculos](#/devlog/entry/vinculos).
-7. Escreva suas [Experiências](#/devlog/entry/experiencias).
-8. Escolha seu [Arsenal](#/devlog/entry/equipamentos).
+2. Distribua seus [Traços](entry.html?slug=tracos).
+3. Escolha uma [Linhagem](entry.html?slug=linhagem).
+4. Escolha um [domínio](entry.html?slug=dominio).
+5. Escolha um [patrono](entry.html?slug=patrono).
+6. Defina seus [Vínculos](entry.html?slug=vinculos).
+7. Escreva suas [Experiências](entry.html?slug=experiencias).
+8. Escolha seu [Arsenal](entry.html?slug=equipamentos).
 9. Calcule seus recursos iniciais.
 10. Revise a ficha.
 
@@ -47,7 +47,7 @@ Um conceito sólido facilita todas as escolhas posteriores.
 
 ---
 
-# [Traços](#/devlog/entry/tracos)
+# [Traços](entry.html?slug=tracos)
 
 Os traços representam as capacidades fundamentais do personagem.
 
@@ -57,7 +57,7 @@ A distribuição dos traços ajuda a definir os pontos fortes e as limitações 
 
 ---
 
-# [Linhagem](#/devlog/entry/linhagem)
+# [Linhagem](entry.html?slug=linhagem)
 
 A Linhagem é a fundação inata do personagem: quando a Essência desperta alguém, ela busca em sua alma e seu corpo qual Linhagem heroica mais combina com aquela pessoa. Não é escolhida nem treinada — é descoberta.
 
@@ -67,15 +67,15 @@ Duas pessoas da mesma Linhagem ainda podem desempenhar funções completamente d
 
 ---
 
-# [domínio](#/devlog/entry/dominio)
+# [domínio](entry.html?slug=dominio)
 
 O Domínio representa o treino do personagem sobre o controle da própria Essência — nada nele é inato, tudo é resultado de dedicação. Suas categorias (Bastião, Suporte, Executor, Especialista) são definidas pela Associação, e são escolhas **independentes** da Linhagem: qualquer Linhagem pode ser combinada com qualquer Domínio.
 
-Enquanto a Linhagem determina **de onde vem** o poder do personagem, o Domínio determina **qual papel ele desempenha dentro da equipe** — e, diferente da Linhagem, o Domínio pode ser "multiclassado": a cada novo nível de Domínio, o personagem pode se dedicar a treinar uma habilidade de um Domínio diferente do seu principal. Veja [domínio](#/devlog/entry/dominio) para os detalhes.
+Enquanto a Linhagem determina **de onde vem** o poder do personagem, o Domínio determina **qual papel ele desempenha dentro da equipe** — e, diferente da Linhagem, o Domínio pode ser "multiclassado": a cada novo nível de Domínio, o personagem pode se dedicar a treinar uma habilidade de um Domínio diferente do seu principal. Veja [domínio](entry.html?slug=dominio) para os detalhes.
 
 ---
 
-# [patrono](#/devlog/entry/patrono)
+# [patrono](entry.html?slug=patrono)
 
 Durante sua jornada, personagens se conectam a fragmentos de seres poderosos o bastante para terem deixado uma marca na própria Essência, tornando-se seus Patronos. Saber ou não quem é esse ser é escolha do jogador — nem sempre é uma bênção consciente.
 
@@ -85,7 +85,7 @@ Além das vantagens mecânicas, Patronos também possuem forte importância narr
 
 ---
 
-# [Vínculos](#/devlog/entry/vinculos)
+# [Vínculos](entry.html?slug=vinculos)
 
 Vínculos representam os laços que unem seu personagem ao mundo.
 
@@ -95,7 +95,7 @@ Além de fornecer pequenos benefícios mecânicos, os Vínculos servem como ferr
 
 ---
 
-# [Experiências](#/devlog/entry/experiencias)
+# [Experiências](entry.html?slug=experiencias)
 
 Experiências são frases curtas que resumem quem seu personagem foi antes — ou à margem — da carreira de Caçador. Elas concedem um bônus fixo a testes que a narração justificar.
 
@@ -103,7 +103,7 @@ Todo personagem começa com 2 Experiências, que crescem em número e em bônus 
 
 ---
 
-# [Arsenal](#/devlog/entry/equipamentos)
+# [Arsenal](entry.html?slug=equipamentos)
 
 Armas, armaduras e o restante do Arsenal determinam grande parte das capacidades do personagem em combate e exploração.
 
@@ -115,12 +115,12 @@ Cada linhagem costuma favorecer um estilo de Arsenal, mas diferentes estilos de 
 
 Ao finalizar as escolhas anteriores, determine os recursos do personagem: PV, PA, Redução de Dano, Defesa, Evasão, Deslocamento e Subespaço.
 
-Veja [recursos](#/devlog/entry/recursos) para o resumo de cada um e para onde ir calcular o valor específico.
+Veja [recursos](entry.html?slug=recursos) para o resumo de cada um e para onde ir calcular o valor específico.
 
-Todo personagem começa no rank **Despertar**. Veja [Ranks](#/devlog/entry/progressao-de-personagem) para como a progressão funciona daqui em diante.
+Todo personagem começa no rank **Despertar**. Veja [Ranks](entry.html?slug=progressao-de-personagem) para como a progressão funciona daqui em diante.
 
 > [!todo] Defesa e Evasão nunca foram definidas
-> "Defesa" e "Evasão" são citadas aqui e em algumas habilidades ([Aprimorado](#/devlog/entry/aprimorado), [Espectro](#/devlog/entry/espectro), [patrono](#/devlog/entry/patrono)) como se fossem testes ou valores calculáveis, mas nenhuma página define como calculá-las ou o que exatamente significam. #todo
+> "Defesa" e "Evasão" são citadas aqui e em algumas habilidades ([Aprimorado](entry.html?slug=aprimorado), [Espectro](entry.html?slug=espectro), [patrono](entry.html?slug=patrono)) como se fossem testes ou valores calculáveis, mas nenhuma página define como calculá-las ou o que exatamente significam. #todo
 
 ---
 
@@ -144,12 +144,12 @@ Antes de iniciar a campanha, confirme que:
 
 Cada etapa da criação possui uma página própria com regras detalhadas:
 
-- [Traços](#/devlog/entry/tracos)
-- [Linhagem](#/devlog/entry/linhagem)
-- [domínio](#/devlog/entry/dominio)
-- [patrono](#/devlog/entry/patrono)
-- [Vínculos](#/devlog/entry/vinculos)
-- [Experiências](#/devlog/entry/experiencias)
-- [Arsenal](#/devlog/entry/equipamentos)
-- [recursos](#/devlog/entry/recursos) — PV, PA, Redução de Dano, Defesa, Evasão, Deslocamento e Subespaço.
-- [progressao de personagem](#/devlog/entry/progressao-de-personagem) — progressão após a criação.
+- [Traços](entry.html?slug=tracos)
+- [Linhagem](entry.html?slug=linhagem)
+- [domínio](entry.html?slug=dominio)
+- [patrono](entry.html?slug=patrono)
+- [Vínculos](entry.html?slug=vinculos)
+- [Experiências](entry.html?slug=experiencias)
+- [Arsenal](entry.html?slug=equipamentos)
+- [recursos](entry.html?slug=recursos) — PV, PA, Redução de Dano, Defesa, Evasão, Deslocamento e Subespaço.
+- [progressao de personagem](entry.html?slug=progressao-de-personagem) — progressão após a criação.

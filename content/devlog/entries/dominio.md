@@ -6,19 +6,19 @@ sourceNote: mecanicas/criacao de personagem/domínio.md
 ---
 Os Domínios definem o papel do seu personagem dentro do grupo. Cada um oferece duas especializações, que concedem habilidades únicas ao longo da progressão.
 
-As habilidades de Domínio são desbloqueadas em **Despertar, Rank E, Rank C, Rank A e Rank S** — ranks diferentes dos de Linhagem (que usam F, D e B), intercalados na mesma escada. Veja [Ranks](#/devlog/entry/progressao-de-personagem) para a progressão completa.
+As habilidades de Domínio são desbloqueadas em **Despertar, Rank E, Rank C, Rank A e Rank S** — ranks diferentes dos de Linhagem (que usam F, D e B), intercalados na mesma escada. Veja [Ranks](entry.html?slug=progressao-de-personagem) para a progressão completa.
 
 > [!todo] Rank provisório
 > Os ranks abaixo foram distribuídos de forma provisória, só para que cada habilidade tenha um marcador — a posição exata de cada uma ainda pode mudar.
 
 > [!info] PV e Deslocamento são por Domínio, não por especialização
-> As duas especializações de um mesmo Domínio compartilham o mesmo PV inicial/por nível e o mesmo Deslocamento — só as habilidades mudam entre elas. Veja [recursos](#/devlog/entry/recursos) para como esses dois recursos se encaixam no resto da ficha.
+> As duas especializações de um mesmo Domínio compartilham o mesmo PV inicial/por nível e o mesmo Deslocamento — só as habilidades mudam entre elas. Veja [recursos](entry.html?slug=recursos) para como esses dois recursos se encaixam no resto da ficha.
 
 ---
 
 # Origem (lore)
 
-Diferente da [Linhagem](#/devlog/entry/linhagem), nada no Domínio é inato ou único ao personagem: toda habilidade de Domínio representa dedicação e treino — o resultado direto de alguém se esforçando para controlar melhor a própria Essência, não um dom com que já nasceu. As quatro categorias (Bastião, Suporte, Executor, Especialista) e suas oito especializações são um sistema de classificação da **Associação**, criado para organizar e ensinar esse treino de forma consistente — não uma força mística ou uma marca da alma.
+Diferente da [Linhagem](entry.html?slug=linhagem), nada no Domínio é inato ou único ao personagem: toda habilidade de Domínio representa dedicação e treino — o resultado direto de alguém se esforçando para controlar melhor a própria Essência, não um dom com que já nasceu. As quatro categorias (Bastião, Suporte, Executor, Especialista) e suas oito especializações são um sistema de classificação da **Associação**, criado para organizar e ensinar esse treino de forma consistente — não uma força mística ou uma marca da alma.
 
 É justamente por ser treino, e não fundação, que o Domínio pode ser expandido: um personagem pode se dedicar a treinar um Domínio diferente do seu principal, algo impensável para a Linhagem, que é fixa desde o Despertar.
 
@@ -58,7 +58,7 @@ Você é o escudo da equipe, colocando-se entre seus aliados e qualquer ameaça.
 
 #### Despertar — *Mártir* (1 PA • Reação)
 
-Quando um aliado em [alcance adjacente](#/devlog/entry/alcances) for alvo de um ataque, você pode redirecioná-lo para si.
+Quando um aliado em [alcance adjacente](entry.html?slug=alcances) for alvo de um ataque, você pode redirecioná-lo para si.
 
 Reduza o dano recebido em uma quantidade **Alta**.
 
@@ -66,21 +66,21 @@ Reduza o dano recebido em uma quantidade **Alta**.
 
 #### Rank E — *Instinto Defensivo* (Passivo)
 
-Enquanto houver pelo menos um aliado em [alcance estendido](#/devlog/entry/alcances), você recebe **+1 Fortuna em testes de ataque**.
+Enquanto houver pelo menos um aliado em [alcance estendido](entry.html?slug=alcances), você recebe **+1 Fortuna em testes de ataque**.
 
 ---
 
 #### Rank C — *Defensor Veloz* (1 PA)
 
-Mova-se até um aliado em [alcance curto](#/devlog/entry/alcances).
+Mova-se até um aliado em [alcance curto](entry.html?slug=alcances).
 
-Você ocupa o espaço dele e move esse aliado para qualquer espaço em [alcance estendido](#/devlog/entry/alcances).
+Você ocupa o espaço dele e move esse aliado para qualquer espaço em [alcance estendido](entry.html?slug=alcances).
 
 ---
 
 #### Rank A — *Controle de Área* (Passivo)
 
-Sempre que um inimigo tentar sair voluntariamente de um espaço em [alcance de toque](#/devlog/entry/alcances) de você, faça um teste semi-estático de [Ímpeto](#/devlog/entry/tracos) #semi-estatico para intimidá-lo.
+Sempre que um inimigo tentar sair voluntariamente de um espaço em [alcance de toque](entry.html?slug=alcances) de você, faça um teste semi-estático de [Ímpeto](entry.html?slug=tracos) #semi-estatico para intimidá-lo.
 
 Em caso de sucesso, ele permanece onde está.
 
@@ -90,7 +90,7 @@ Em caso de sucesso, ele permanece onde está.
 
 Sua Essência toma forma como uma barreira sólida.
 
-Ela se estende em linha até [alcance curto](#/devlog/entry/alcances), impedindo que qualquer dano — inclusive dano em área — atravesse para o outro lado.
+Ela se estende em linha até [alcance curto](entry.html?slug=alcances), impedindo que qualquer dano — inclusive dano em área — atravesse para o outro lado.
 
 ---
 
@@ -102,9 +102,9 @@ Seu papel é permanecer de pé até o fim do combate, suportando danos que derru
 
 #### Despertar — *Ponto Focal* (1 PA)
 
-Até o início do seu próximo turno, todos os inimigos em [alcance curto](#/devlog/entry/alcances) devem focar seus ataques em você.
+Até o início do seu próximo turno, todos os inimigos em [alcance curto](entry.html?slug=alcances) devem focar seus ataques em você.
 
-Para atacar outro alvo ou se afastar, precisam passar em um teste **semi-estático de [Essência](#/devlog/entry/tracos)** #semi-estatico. A tentativa consome sua ação, mesmo em caso de falha.
+Para atacar outro alvo ou se afastar, precisam passar em um teste **semi-estático de [Essência](entry.html?slug=tracos)** #semi-estatico. A tentativa consome sua ação, mesmo em caso de falha.
 
 ---
 
@@ -147,7 +147,7 @@ Você canaliza a Essência para restaurar o equilíbrio físico e espiritual dos
 
 #### Despertar — *Transferência de Vitalidade* (1 PA)
 
-Transfira Pontos de Vida entre criaturas em [alcance estendido](#/devlog/entry/alcances), incluindo você.
+Transfira Pontos de Vida entre criaturas em [alcance estendido](entry.html?slug=alcances), incluindo você.
 
 Caso retire vida de um inimigo, o máximo transferido por ação é uma quantidade **Alta** de PV.
 
@@ -155,7 +155,7 @@ Caso retire vida de um inimigo, o máximo transferido por ação é uma quantida
 
 #### Rank E — *Resgate Veloz* (Passivo)
 
-Quando um aliado em [alcance curto](#/devlog/entry/alcances) chegar a **0 PV**, você pode mover-se até um espaço adjacente sem gastar PA e fazê-lo retornar com **1 PV**.
+Quando um aliado em [alcance curto](entry.html?slug=alcances) chegar a **0 PV**, você pode mover-se até um espaço adjacente sem gastar PA e fazê-lo retornar com **1 PV**.
 
 ---
 
@@ -163,13 +163,13 @@ Quando um aliado em [alcance curto](#/devlog/entry/alcances) chegar a **0 PV**, 
 
 Analise o fluxo de Essência de uma criatura.
 
-Enquanto mantiver essa análise, receba um bônus **Baixo** em testes de [Instinto](#/devlog/entry/tracos) e [Encanto](#/devlog/entry/tracos) contra ela.
+Enquanto mantiver essa análise, receba um bônus **Baixo** em testes de [Instinto](entry.html?slug=tracos) e [Encanto](entry.html?slug=tracos) contra ela.
 
 ---
 
 #### Rank A — *Instinto Protetor* (Passivo)
 
-Enquanto estiver em [alcance estendido](#/devlog/entry/alcances) de um aliado que possua [Ferimentos](#/devlog/entry/ferimentos), seus ataques recebem dano **Baixo** adicional.
+Enquanto estiver em [alcance estendido](entry.html?slug=alcances) de um aliado que possua [Ferimentos](entry.html?slug=ferimentos), seus ataques recebem dano **Baixo** adicional.
 
 ---
 
@@ -275,7 +275,7 @@ Seu poder cresce quando elimina inimigos isolados com rapidez e precisão.
 
 #### Despertar — *Duelista* (Passivo)
 
-Ao atacar um inimigo que não possua aliados em [alcance curto](#/devlog/entry/alcances), adicione dano **Médio** ao ataque.
+Ao atacar um inimigo que não possua aliados em [alcance curto](entry.html?slug=alcances), adicione dano **Médio** ao ataque.
 
 ---
 
@@ -287,7 +287,7 @@ Na primeira rodada de cada combate, você recebe uma ação de Movimento gratuit
 
 #### Rank C — *Marca do Assassino* (1 PA)
 
-Marque um inimigo em [alcance médio](#/devlog/entry/alcances).
+Marque um inimigo em [alcance médio](entry.html?slug=alcances).
 
 Enquanto permanecer marcado, todos os ataques contra ele recebem um bônus **Baixo** no teste de ataque.
 
@@ -361,7 +361,7 @@ Movimentos, posicionamentos e oportunidades passam pelas suas mãos.
 
 #### Despertar — *Olhar Analítico* (1 PA)
 
-Faça um teste para analisar um inimigo em [alcance médio](#/devlog/entry/alcances).
+Faça um teste para analisar um inimigo em [alcance médio](entry.html?slug=alcances).
 
 Em caso de sucesso, descubra **1** das seguintes informações:
 
@@ -376,7 +376,7 @@ Se usar esta habilidade na primeira rodada do combate, descubra **2 informaçõe
 
 #### Rank E — *Estrategista de Campo* (Passivo)
 
-Aliados em [alcance curto](#/devlog/entry/alcances) recebem **+1 PA por rodada**.
+Aliados em [alcance curto](entry.html?slug=alcances) recebem **+1 PA por rodada**.
 
 ---
 

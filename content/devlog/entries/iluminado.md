@@ -17,7 +17,7 @@ Canalizadores da luz vital, focados em suporte, restauração e proteção espir
 
 #despertar
 
-1 PA. Sua Essência se manifesta como luz pura, capaz de se refratar em cores diferentes, cada uma com um efeito distinto. Emita um Feixe em [alcance médio](#/devlog/entry/alcances), escolhendo uma cor:
+1 PA. Sua Essência se manifesta como luz pura, capaz de se refratar em cores diferentes, cada uma com um efeito distinto. Emita um Feixe em [alcance médio](entry.html?slug=alcances), escolhendo uma cor:
 
 - **Vermelho:** causa dano **Médio**.
 - **Azul:** cura PV em uma quantidade **Média**.
@@ -36,7 +36,7 @@ Você só pode manter uma cor ativa por vez. Trocar de cor no mesmo turno custa 
 
 #rank_f
 
-1 PA. Você suga uma cor da presença de uma criatura em [alcance curto](#/devlog/entry/alcances), causando um efeito temático ligado a ela até o fim da cena. Alguns exemplos: roubar o "vermelho" da fúria de um inimigo reduz o dano dos ataques dele em 1d4; roubar o "amarelo" da coragem de alguém aplica Medo nele.
+1 PA. Você suga uma cor da presença de uma criatura em [alcance curto](entry.html?slug=alcances), causando um efeito temático ligado a ela até o fim da cena. Alguns exemplos: roubar o "vermelho" da fúria de um inimigo reduz o dano dos ataques dele em 1d4; roubar o "amarelo" da coragem de alguém aplica Medo nele.
 
 ---
 
@@ -52,7 +52,7 @@ Você só pode manter uma cor ativa por vez. Trocar de cor no mesmo turno custa 
 
 #rank_b
 
-Passivo. Aliados em [alcance curto](#/devlog/entry/alcances) de você recebem Redução de Dano **Baixa** contra dano de origem sobrenatural ou de Essência.
+Passivo. Aliados em [alcance curto](entry.html?slug=alcances) de você recebem Redução de Dano **Baixa** contra dano de origem sobrenatural ou de Essência.
 
 ---
 

@@ -17,9 +17,9 @@ Alquimistas do campo de batalha que manipulam vida, toxinas e flora, sempre equi
 
 #despertar
 
-Ao concluir um descanso longo, ou gastando 10 minutos de preparo, você produz uma quantidade de Elixires Voláteis igual ao seu [Grau](#/devlog/entry/tracos) de Astúcia (mínimo 2), escolhidos livremente entre os tipos abaixo. Elixires não utilizados perdem o efeito ao final do dia.
+Ao concluir um descanso longo, ou gastando 10 minutos de preparo, você produz uma quantidade de Elixires Voláteis igual ao seu [Grau](entry.html?slug=tracos) de Astúcia (mínimo 2), escolhidos livremente entre os tipos abaixo. Elixires não utilizados perdem o efeito ao final do dia.
 
-Consumir ou aplicar um Elixir custa 1 PA. Podem ser bebidos por você, administrados em um aliado em [alcance de toque](#/devlog/entry/alcances), ou arremessados em um inimigo em [alcance curto](#/devlog/entry/alcances).
+Consumir ou aplicar um Elixir custa 1 PA. Podem ser bebidos por você, administrados em um aliado em [alcance de toque](entry.html?slug=alcances), ou arremessados em um inimigo em [alcance curto](entry.html?slug=alcances).
 
 - **Elixir de Vigor:** cura PV em uma quantidade **Média**.
 - **Elixir Corrosivo:** causa dano de ácido **Médio**; se arremessado contra uma armadura ou escudo, causa dano adicional a ele.
@@ -45,7 +45,7 @@ Passivo. Você é imune a dano de veneno e ácido.
 
 1 PA. Preparação: 10 minutos. Alcance: médio. Alvo: 1 pessoa. Duração: sustentada. Requisito: 1 objeto que pertence ao alvo.
 
-Usando um objeto que pertence ao alvo, você produz uma efígie com a qual, enquanto estiver em alcance dele, pode exercer uma das influências abaixo a cada rodada. O alvo pode fazer um teste semi-estático de [Instinto](#/devlog/entry/tracos) #semi-estatico em um [Teste Oposto](#/devlog/entry/testes-de-pericias) contra o seu teste de Essência para perceber a influência — caso perceba, saberá que você o estava manipulando.
+Usando um objeto que pertence ao alvo, você produz uma efígie com a qual, enquanto estiver em alcance dele, pode exercer uma das influências abaixo a cada rodada. O alvo pode fazer um teste semi-estático de [Instinto](entry.html?slug=tracos) #semi-estatico em um [Teste Oposto](entry.html?slug=testes-de-pericias) contra o seu teste de Essência para perceber a influência — caso perceba, saberá que você o estava manipulando.
 
 - **Dor Simpática:** o alvo sofre dano **Médio**.
 - **Pavor Repentino:** o alvo recebe 1 Ruína no próximo teste que realizar.
@@ -65,4 +65,4 @@ Passivo. Sempre que aplicar uma condição (Corrupção, Sangramento, Lentidão 
 
 #rank_s
 
-1 PA. Gaste todos os Elixires Voláteis que ainda possui. Para cada um, escolha um dos efeitos da Bolsa de Poções e aplique-o imediatamente, distribuindo os efeitos entre até 3 alvos em [alcance médio](#/devlog/entry/alcances).
+1 PA. Gaste todos os Elixires Voláteis que ainda possui. Para cada um, escolha um dos efeitos da Bolsa de Poções e aplique-o imediatamente, distribuindo os efeitos entre até 3 alvos em [alcance médio](entry.html?slug=alcances).

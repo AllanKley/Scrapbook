@@ -38,7 +38,7 @@ O objetivo não é fazer os jogadores passarem vários minutos procurando uma ch
 
 Em vez disso, o mestre deve fornecer automaticamente todas as informações necessárias para que o grupo possa continuar explorando.
 
-Testes **semi-estáticos de [Astúcia](#/devlog/entry/tracos)** #semi-estatico servem para descobrir:
+Testes **semi-estáticos de [Astúcia](entry.html?slug=tracos)** #semi-estatico servem para descobrir:
 
 - atalhos;
 - tesouros escondidos;
@@ -56,7 +56,7 @@ Dessa forma, quando os jogadores decidem deixar uma zona, eles podem fazê-lo co
 
 Mover-se entre Zonas de Interesse pode significar atravessar uma porta ou cruzar um grande pátio.
 
-Independentemente da distância percorrida, o principal fator considerado durante o deslocamento é passar despercebido — um teste **semi-estático de [Graça](#/devlog/entry/tracos)** #semi-estatico.
+Independentemente da distância percorrida, o principal fator considerado durante o deslocamento é passar despercebido — um teste **semi-estático de [Graça](entry.html?slug=tracos)** #semi-estatico.
 
 ## Deslocamentos Curtos
 
@@ -74,11 +74,11 @@ Quando o deslocamento exige atravessar corredores, áreas abertas ou outros espa
 
 Caso façam isso:
 
-- realizam testes semi-estáticos de [Graça](#/devlog/entry/tracos) #semi-estatico para não serem notados;
+- realizam testes semi-estáticos de [Graça](entry.html?slug=tracos) #semi-estatico para não serem notados;
 - gastam mais tempo para avançar;
-- permitem que o mestre realize rolagens de **[Eventos Aleatórios](#/devlog/entry/eventos-aleatorios)**.
+- permitem que o mestre realize rolagens de **[Eventos Aleatórios](entry.html?slug=eventos-aleatorios)**.
 
-Além disso, sempre que fizer sentido, o mestre pode solicitar testes **semi-estáticos de [Instinto](#/devlog/entry/tracos)** #semi-estatico para detectar armadilhas ou outros perigos durante o trajeto.
+Além disso, sempre que fizer sentido, o mestre pode solicitar testes **semi-estáticos de [Instinto](entry.html?slug=tracos)** #semi-estatico para detectar armadilhas ou outros perigos durante o trajeto.
 
 ---
 
@@ -111,9 +111,9 @@ Exemplos:
 
 Caso o percurso seja longo ou perigoso:
 
-- os jogadores realizam testes semi-estáticos de [Graça](#/devlog/entry/tracos) #semi-estatico para não serem notados, se desejarem;
-- o mestre resolve eventuais [Eventos Aleatórios](#/devlog/entry/eventos-aleatorios);
-- testes semi-estáticos de [Instinto](#/devlog/entry/tracos) #semi-estatico podem ser solicitados para detectar armadilhas.
+- os jogadores realizam testes semi-estáticos de [Graça](entry.html?slug=tracos) #semi-estatico para não serem notados, se desejarem;
+- o mestre resolve eventuais [Eventos Aleatórios](entry.html?slug=eventos-aleatorios);
+- testes semi-estáticos de [Instinto](entry.html?slug=tracos) #semi-estatico podem ser solicitados para detectar armadilhas.
 
 ---
 
@@ -164,7 +164,7 @@ Inicie uma nova etapa de exploração, retornando ao passo **1**.
 
 ### Montar Acampamento
 
-Consulte [Descanso Longo](#/devlog/entry/descanso) — montar acampamento é a forma mais comum de conseguir um.
+Consulte [Descanso Longo](entry.html?slug=descanso) — montar acampamento é a forma mais comum de conseguir um.
 
 ---
 
@@ -172,6 +172,6 @@ Consulte [Descanso Longo](#/devlog/entry/descanso) — montar acampamento é a f
 
 O grupo permanece no local.
 
-Enquanto isso, o mestre inicia a contagem para os **[Eventos Aleatórios](#/devlog/entry/eventos-aleatorios)** conforme a Volatilidade da área.
+Enquanto isso, o mestre inicia a contagem para os **[Eventos Aleatórios](entry.html?slug=eventos-aleatorios)** conforme a Volatilidade da área.
 
 Após resolver os eventos decorrentes da espera, o grupo escolhe novamente como deseja prosseguir.

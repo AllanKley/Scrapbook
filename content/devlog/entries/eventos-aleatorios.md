@@ -77,7 +77,7 @@ Quanto menor o intervalo, maior a frequência com que novos problemas surgem.
 # Acelerando o Caos
 
 Cada **Falha Extrema** sofrida por um personagem reduz em **1 minuto** o tempo restante até o próximo Evento Aleatório. #todo
-*"Falha Extrema" nunca foi definida em [testes de pericias](#/devlog/entry/testes-de-pericias). Com dois dados somados, o antigo "1 natural" não existe mais — as duas definições candidatas são **falhar por uma margem grande** ou **os dois dados caírem no valor mínimo**. Definir lá e linkar aqui.*
+*"Falha Extrema" nunca foi definida em [testes de pericias](entry.html?slug=testes-de-pericias). Com dois dados somados, o antigo "1 natural" não existe mais — as duas definições candidatas são **falhar por uma margem grande** ou **os dois dados caírem no valor mínimo**. Definir lá e linkar aqui.*
 
 Quando o tempo restante chegar a **0**, novas Falhas Extremas deixam de reduzir o tempo e passam a gerar **1 Evento Aleatório adicional** imediatamente.
 

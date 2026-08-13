@@ -43,7 +43,7 @@ Após atingir esse limite, cada nova ativação também faz você sofrer **1 Fer
 Seu instinto reage antes mesmo da sua mente compreender o perigo.
 
 - Você é **imune a ataques surpresa**.
-- Recebe **+1 Fortuna** em testes de [Instinto](#/devlog/entry/tracos) para detectar armadilhas.
+- Recebe **+1 Fortuna** em testes de [Instinto](entry.html?slug=tracos) para detectar armadilhas.
 
 ---
 

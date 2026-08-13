@@ -88,6 +88,6 @@ Nessas áreas, a ausência de controle permite que a concentração de Essência
 
 ## Epicentros: Concentração Regional
 
-Antártida e oceanos são os casos extremos, mas a concentração de Fraturas não é uniforme em nenhum lugar do mundo. Regiões que já foram palco de grandes impérios, templos e lendas na Primeira Era guardam uma memória de Essência mais forte, e por isso concentram Fraturas maiores e mais numerosas — o que o mundo chama de **Epicentros**. Veja [Geografia Mundial](#/devlog/entry/geografia-mundial) para o mapa completo de Epicentros e das Bases Estáveis que cresceram ao redor deles. `(adaptado do RPG anterior, ainda em revisão)`
+Antártida e oceanos são os casos extremos, mas a concentração de Fraturas não é uniforme em nenhum lugar do mundo. Regiões que já foram palco de grandes impérios, templos e lendas na Primeira Era guardam uma memória de Essência mais forte, e por isso concentram Fraturas maiores e mais numerosas — o que o mundo chama de **Epicentros**. Veja [Geografia Mundial](entry.html?slug=geografia-mundial) para o mapa completo de Epicentros e das Bases Estáveis que cresceram ao redor deles. `(adaptado do RPG anterior, ainda em revisão)`
 
 ---

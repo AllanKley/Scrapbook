@@ -1,0 +1,421 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="3760" height="1180" viewBox="0 0 3760 1180" font-family="Quicksand, Trebuchet MS, sans-serif">
+  <style>
+    .page { fill: #c2cce7; }
+    .card { fill: #fcfaf8; stroke: #9c48ae; stroke-width: 3; }
+    .card-thin { fill: #fcfaf8; stroke: #9c48ae; stroke-width: 2; }
+    .shadow { fill: #9c48ae; }
+    .t { fill: #9c48ae; }
+    .t-dim { fill: #9c48ae; opacity: .6; }
+    .t-inv { fill: #fcfaf8; }
+    .accent-fill { fill: #86c6be; }
+    .accent-stroke { fill: none; stroke: #86c6be; stroke-width: 3; }
+    .hl-fill { fill: #76a2c9; }
+    .rule { stroke: #9c48ae; stroke-width: 2; }
+    .rule-faint { stroke: #9c48ae; stroke-width: 1; opacity: .18; }
+    .lbl { font-size: 13px; font-weight: 700; letter-spacing: 1.1px; }
+    .h1 { font-size: 34px; font-weight: 700; }
+    .h2 { font-size: 21px; font-weight: 700; }
+    .h3 { font-size: 16px; font-weight: 700; }
+    .body { font-size: 14px; }
+    .small { font-size: 12px; }
+    .big-num { font-size: 30px; font-weight: 700; }
+    .die { font-size: 34px; font-weight: 700; }
+    .frame-title { font-size: 24px; font-weight: 700; fill: #4a2352; }
+    .frame-note { font-size: 14px; fill: #4a2352; opacity: .7; }
+  </style>
+
+  <rect width="3760" height="1180" fill="#eef1f8"/>
+
+  <!-- ============================== FRAME 1 : FICHA ============================== -->
+  <g transform="translate(60,20)">
+    <text class="frame-title" x="0" y="26">1 · Ficha do personagem</text>
+    <text class="frame-note" x="0" y="48">display-only. build muda só no level-up.</text>
+
+    <g transform="translate(0,66)">
+      <rect class="page" width="1150" height="1060"/>
+
+      <!-- site header -->
+      <rect x="0" y="0" width="1150" height="52" fill="#c2cce7"/>
+      <line class="rule" x1="0" y1="52" x2="1150" y2="52"/>
+      <text class="t h2" x="28" y="34">scrapbook</text>
+      <text class="t lbl" x="900" y="33">TOP 10S</text>
+      <text class="t lbl" x="1010" y="33">DUNGEON RIFT</text>
+
+      <!-- page heading -->
+      <circle cx="52" cy="94" r="18" fill="#9c48ae"/>
+      <path d="M57 88 l-6 6 l6 6" fill="none" stroke="#fcfaf8" stroke-width="2.5" stroke-linecap="round"/>
+      <text class="t h2" x="84" y="101">ficha</text>
+      <line stroke="#86c6be" stroke-width="3" x1="84" y1="110" x2="150" y2="110"/>
+
+      <!-- ===== identity header card ===== -->
+      <rect class="shadow" x="34" y="136" width="1082" height="112"/>
+      <rect class="card" x="28" y="130" width="1082" height="112"/>
+      <text class="t h1" x="52" y="176">Fenda</text>
+      <line class="rule-faint" x1="52" y1="188" x2="330" y2="188"/>
+      <text class="t-dim body" x="52" y="212">ceifador · protetor + bruto</text>
+
+      <!-- rank block -->
+      <rect class="accent-stroke" x="600" y="148" width="176" height="78"/>
+      <text class="t lbl" x="688" y="170" text-anchor="middle">RANK</text>
+      <text class="t big-num" x="688" y="200" text-anchor="middle">E</text>
+      <text class="t-dim small" x="688" y="218" text-anchor="middle">Modesto</text>
+      <rect class="accent-fill" x="792" y="172" width="146" height="34"/>
+      <text class="t small" x="865" y="194" text-anchor="middle" font-weight="700">subir de rank</text>
+
+      <!-- actions -->
+      <rect class="card-thin" x="952" y="150" width="140" height="26"/>
+      <text class="t small" x="1022" y="168" text-anchor="middle">exportar PDF</text>
+      <rect class="card-thin" x="952" y="182" width="140" height="26"/>
+      <text class="t small" x="1022" y="200" text-anchor="middle">exportar JSON</text>
+      <rect x="952" y="214" width="140" height="26" fill="#76a2c9"/>
+      <text class="t-inv small" x="1022" y="232" text-anchor="middle">excluir</text>
+
+      <!-- ===== hero stat bar ===== -->
+      <g transform="translate(28,264)">
+        <rect class="card" x="0"   y="0" width="168" height="92"/>
+        <text class="t lbl"     x="84"  y="22" text-anchor="middle">PV</text>
+        <circle cx="24" cy="52" r="12" fill="none" stroke="#9c48ae" stroke-width="2"/><text class="t h3" x="24" y="57" text-anchor="middle">−</text>
+        <text class="t big-num" x="84"  y="62" text-anchor="middle">16</text>
+        <circle cx="144" cy="52" r="12" fill="none" stroke="#9c48ae" stroke-width="2"/><text class="t h3" x="144" y="57" text-anchor="middle">+</text>
+        <text class="t-dim small" x="84" y="82" text-anchor="middle">máx 16</text>
+
+        <rect class="card" x="182" y="0" width="168" height="92"/>
+        <text class="t lbl"     x="266" y="22" text-anchor="middle">PA</text>
+        <text class="t big-num" x="266" y="62" text-anchor="middle">4</text>
+        <text class="t-dim small" x="266" y="82" text-anchor="middle">de 4</text>
+
+        <rect class="card" x="364" y="0" width="168" height="92"/>
+        <text class="t lbl"     x="448" y="22" text-anchor="middle">RD</text>
+        <text class="t big-num" x="448" y="62" text-anchor="middle">0</text>
+
+        <rect class="card" x="546" y="0" width="168" height="92"/>
+        <text class="t lbl"     x="630" y="22" text-anchor="middle">DESLOCAMENTO</text>
+        <text class="t big-num" x="630" y="62" text-anchor="middle">6</text>
+        <text class="t-dim small" x="630" y="82" text-anchor="middle">do domínio</text>
+
+        <rect class="card" x="728" y="0" width="168" height="92"/>
+        <text class="t lbl"     x="812" y="22" text-anchor="middle">FERIMENTOS</text>
+        <text class="t big-num" x="812" y="62" text-anchor="middle">0</text>
+
+        <rect class="card" x="910" y="0" width="168" height="92"/>
+        <text class="t lbl"     x="994" y="22" text-anchor="middle">SUBESPAÇO</text>
+        <text class="t big-num" x="994" y="62" text-anchor="middle">20</text>
+        <text class="t-dim small" x="994" y="82" text-anchor="middle">Grau Ess × 5</text>
+      </g>
+
+      <!-- ===== trait blocks ===== -->
+      <g transform="translate(28,376)">
+        <rect class="card" x="0"   y="0" width="168" height="104"/>
+        <text class="t lbl" x="84"  y="24" text-anchor="middle">ÍMPETO</text>
+        <text class="t die" x="84"  y="66" text-anchor="middle">d10</text>
+        <text class="t-dim small" x="84" y="88" text-anchor="middle">Grau 4</text>
+
+        <rect class="card" x="182" y="0" width="168" height="104"/>
+        <text class="t lbl" x="266" y="24" text-anchor="middle">GRAÇA</text>
+        <text class="t die" x="266" y="66" text-anchor="middle">d4</text>
+        <text class="t-dim small" x="266" y="88" text-anchor="middle">Grau 1</text>
+
+        <rect class="card" x="364" y="0" width="168" height="104"/>
+        <text class="t lbl" x="448" y="24" text-anchor="middle">ENCANTO</text>
+        <text class="t die" x="448" y="66" text-anchor="middle">d4</text>
+        <text class="t-dim small" x="448" y="88" text-anchor="middle">Grau 1</text>
+
+        <rect class="card" x="546" y="0" width="168" height="104"/>
+        <text class="t lbl" x="630" y="24" text-anchor="middle">ASTÚCIA</text>
+        <text class="t die" x="630" y="66" text-anchor="middle">d4</text>
+        <text class="t-dim small" x="630" y="88" text-anchor="middle">Grau 1</text>
+
+        <rect class="card" x="728" y="0" width="168" height="104"/>
+        <text class="t lbl" x="812" y="24" text-anchor="middle">INSTINTO</text>
+        <text class="t die" x="812" y="66" text-anchor="middle">d4</text>
+        <text class="t-dim small" x="812" y="88" text-anchor="middle">Grau 1</text>
+
+        <rect class="card" x="910" y="0" width="168" height="104"/>
+        <text class="t lbl" x="994" y="24" text-anchor="middle">ESSÊNCIA</text>
+        <text class="t die" x="994" y="66" text-anchor="middle">d10</text>
+        <text class="t-dim small" x="994" y="88" text-anchor="middle">Grau 4</text>
+      </g>
+
+      <!-- ===== tabs ===== -->
+      <g transform="translate(28,504)">
+        <text class="t lbl" x="16" y="22">HABILIDADES</text>
+        <line stroke="#86c6be" stroke-width="3" x1="10" y1="34" x2="132" y2="34"/>
+        <text class="t-dim lbl" x="164" y="22">COMBATE</text>
+        <text class="t-dim lbl" x="290" y="22">PERFIL</text>
+        <line class="rule" x1="0" y1="34" x2="1082" y2="34"/>
+      </g>
+
+      <!-- ===== abilities panel ===== -->
+      <rect class="shadow" x="34" y="562" width="1082" height="464"/>
+      <rect class="card" x="28" y="556" width="1082" height="464"/>
+      <text class="t h3" x="52" y="586">linhagem — Ceifador</text>
+      <text class="small" fill="#76a2c9" x="230" y="586">ver regras</text>
+
+      <g transform="translate(52,600)">
+        <text class="t lbl"  x="0"  y="20">DESPERTAR</text>
+        <text class="t h3"   x="120" y="20">Cortejo Fúnebre</text>
+        <text class="t-dim body" x="120" y="40">invoca Almas que bloqueiam ataques ao serem sacrificadas.</text>
+        <line class="rule-faint" x1="0" y1="54" x2="1030" y2="54"/>
+
+        <text class="t lbl"  x="0"  y="80">RANK F</text>
+        <text class="t h3"   x="120" y="80">Memórias Póstumas</text>
+        <text class="t-dim body" x="120" y="100">ao tocar uma criatura morta, vê seus últimos momentos.</text>
+        <line class="rule-faint" x1="0" y1="114" x2="1030" y2="114"/>
+
+        <g opacity=".4">
+          <text class="t lbl"  x="0"  y="140">RANK D</text>
+          <text class="t h3"   x="120" y="140">Absorção de Energia</text>
+          <text class="t-dim body" x="120" y="160">1 PA: absorve uma Alma para recuperar PV Baixo.</text>
+          <line class="rule-faint" x1="0" y1="174" x2="1030" y2="174"/>
+
+          <text class="t lbl"  x="0"  y="200">RANK B</text>
+          <text class="t h3"   x="120" y="200">Alimentado pela Dor</text>
+          <text class="t-dim body" x="120" y="220">a cada Ferimento, próximo ataque causa dano extra.</text>
+          <line class="rule-faint" x1="0" y1="234" x2="1030" y2="234"/>
+
+          <text class="t lbl"  x="0"  y="260">RANK S</text>
+          <text class="t h3"   x="120" y="260">Sacrifício Aproveitado</text>
+          <text class="t-dim body" x="120" y="280">contra-ataca sem gastar PA.</text>
+        </g>
+
+        <text class="t-dim small" x="0" y="316">↑ habilidades bloqueadas ficam esmaecidas (opacity .4)</text>
+
+        <line class="rule" x1="0" y1="336" x2="1030" y2="336"/>
+        <text class="t h3" x="0" y="366">domínio</text>
+        <text class="t-dim small" x="0" y="390">Protetor · Despertar · trilha inicial   ·   Bruto · Despertar · multiclasse</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- ============================== FRAME 2 : CRIADOR ============================== -->
+  <g transform="translate(1290,20)">
+    <text class="frame-title" x="0" y="26">2 · Criar personagem</text>
+    <text class="frame-note" x="0" y="48">wizard de 10 passos · sidebar vertical com ✓</text>
+
+    <g transform="translate(0,66)">
+      <rect class="page" width="1150" height="1060"/>
+
+      <rect x="0" y="0" width="1150" height="52" fill="#c2cce7"/>
+      <line class="rule" x1="0" y1="52" x2="1150" y2="52"/>
+      <text class="t h2" x="28" y="34">scrapbook</text>
+      <text class="t lbl" x="900" y="33">TOP 10S</text>
+      <text class="t lbl" x="1010" y="33">DUNGEON RIFT</text>
+
+      <circle cx="52" cy="94" r="18" fill="#9c48ae"/>
+      <path d="M57 88 l-6 6 l6 6" fill="none" stroke="#fcfaf8" stroke-width="2.5" stroke-linecap="round"/>
+      <text class="t h2" x="84" y="101">criar personagem</text>
+      <line stroke="#86c6be" stroke-width="3" x1="84" y1="110" x2="290" y2="110"/>
+
+      <!-- step sidebar -->
+      <g transform="translate(28,140)">
+        <rect x="0" y="0" width="200" height="42" fill="#c2cce7"/>
+        <circle cx="24" cy="21" r="12" fill="#86c6be" stroke="#86c6be" stroke-width="2"/>
+        <text class="t small" x="24" y="26" text-anchor="middle" font-weight="700">✓</text>
+        <text class="t body" x="48" y="26">conceito</text>
+
+        <circle cx="24" cy="63" r="12" fill="#86c6be" stroke="#86c6be" stroke-width="2"/>
+        <text class="t small" x="24" y="68" text-anchor="middle" font-weight="700">✓</text>
+        <text class="t body" x="48" y="68">traços</text>
+
+        <rect x="0" y="84" width="200" height="42" fill="#c2cce7"/>
+        <line stroke="#86c6be" stroke-width="4" x1="0" y1="84" x2="0" y2="126"/>
+        <circle cx="24" cy="105" r="12" fill="none" stroke="#9c48ae" stroke-width="2"/>
+        <text class="t small" x="24" y="110" text-anchor="middle" font-weight="700">3</text>
+        <text class="t body" x="48" y="110" font-weight="700">linhagem</text>
+
+        <g opacity=".45">
+          <circle cx="24" cy="147" r="12" fill="none" stroke="#9c48ae" stroke-width="2"/>
+          <text class="t small" x="24" y="152" text-anchor="middle" font-weight="700">4</text>
+          <text class="t body" x="48" y="152">domínio</text>
+          <circle cx="24" cy="189" r="12" fill="none" stroke="#9c48ae" stroke-width="2"/>
+          <text class="t small" x="24" y="194" text-anchor="middle" font-weight="700">5</text>
+          <text class="t body" x="48" y="194">patrono</text>
+          <circle cx="24" cy="231" r="12" fill="none" stroke="#9c48ae" stroke-width="2"/>
+          <text class="t small" x="24" y="236" text-anchor="middle" font-weight="700">6</text>
+          <text class="t body" x="48" y="236">vínculos</text>
+          <circle cx="24" cy="273" r="12" fill="none" stroke="#9c48ae" stroke-width="2"/>
+          <text class="t small" x="24" y="278" text-anchor="middle" font-weight="700">7</text>
+          <text class="t body" x="48" y="278">experiências</text>
+          <circle cx="24" cy="315" r="12" fill="none" stroke="#9c48ae" stroke-width="2"/>
+          <text class="t small" x="24" y="320" text-anchor="middle" font-weight="700">8</text>
+          <text class="t body" x="48" y="320">equipamentos</text>
+          <circle cx="24" cy="357" r="12" fill="none" stroke="#9c48ae" stroke-width="2"/>
+          <text class="t small" x="24" y="362" text-anchor="middle" font-weight="700">9</text>
+          <text class="t body" x="48" y="362">recursos</text>
+          <circle cx="24" cy="399" r="12" fill="none" stroke="#9c48ae" stroke-width="2"/>
+          <text class="t small" x="24" y="404" text-anchor="middle" font-weight="700">10</text>
+          <text class="t body" x="48" y="404">revisão</text>
+        </g>
+        <text class="t-dim small" x="0" y="440">sticky · bloqueado até o passo anterior valer</text>
+      </g>
+
+      <!-- content pane -->
+      <rect class="shadow" x="270" y="146" width="846" height="620"/>
+      <rect class="card" x="264" y="140" width="846" height="620"/>
+      <text class="t h2" x="292" y="176">linhagem</text>
+      <text class="t-dim body" x="292" y="200">como esse personagem luta.</text>
+
+      <!-- option cards grid -->
+      <g transform="translate(292,220)">
+        <!-- selected card -->
+        <rect x="0" y="0" width="248" height="176" fill="#fcfaf8" stroke="#86c6be" stroke-width="5"/>
+        <text class="t h3" x="16" y="28">Ceifador</text>
+        <rect class="accent-fill" x="100" y="14" width="72" height="18"/>
+        <text class="t small" x="136" y="27" text-anchor="middle">completa</text>
+        <text class="t-dim small" x="16" y="50">senhor da morte e das almas,</text>
+        <text class="t-dim small" x="16" y="66">transforma corpos em poder</text>
+        <rect x="16" y="78" width="216" height="56" fill="#c2cce7"/>
+        <text class="t small" x="24" y="96" font-weight="700">Cortejo Fúnebre</text>
+        <text class="t small" x="24" y="112">(Despertar) — invoca Almas</text>
+        <text class="t small" x="24" y="126">que bloqueiam ataques.</text>
+        <text class="small" fill="#76a2c9" x="16" y="158">ver regras</text>
+
+        <rect class="card-thin" x="268" y="0" width="248" height="176"/>
+        <text class="t h3" x="284" y="28">Espectro</text>
+        <rect class="accent-fill" x="368" y="14" width="72" height="18"/>
+        <text class="t small" x="404" y="27" text-anchor="middle">completa</text>
+        <text class="t-dim small" x="284" y="50">predador tático que caça um</text>
+        <text class="t-dim small" x="284" y="66">único alvo por vez</text>
+        <text class="small" fill="#76a2c9" x="284" y="158">ver regras</text>
+
+        <rect class="card-thin" x="536" y="0" width="248" height="176"/>
+        <text class="t h3" x="552" y="28">Selvagem</text>
+        <rect class="accent-fill" x="652" y="14" width="72" height="18"/>
+        <text class="t small" x="688" y="27" text-anchor="middle">completa</text>
+        <text class="t-dim small" x="552" y="50">vínculo espiritual com a</text>
+        <text class="t-dim small" x="552" y="66">fauna e totens</text>
+        <text class="small" fill="#76a2c9" x="552" y="158">ver regras</text>
+
+        <rect class="card-thin" x="0" y="196" width="248" height="120"/>
+        <text class="t h3" x="16" y="224">Malandro</text>
+        <rect x="116" y="210" width="66" height="18" fill="#76a2c9"/>
+        <text class="t-inv small" x="149" y="223" text-anchor="middle">revisar</text>
+        <text class="t-dim small" x="16" y="246">quebra as regras da realidade</text>
+        <text class="small" fill="#76a2c9" x="16" y="300">ver regras</text>
+
+        <rect class="card-thin" x="268" y="196" width="248" height="120"/>
+        <text class="t h3" x="284" y="224">Apotecário</text>
+        <rect x="392" y="210" width="66" height="18" fill="#76a2c9"/>
+        <text class="t-inv small" x="425" y="223" text-anchor="middle">revisar</text>
+        <text class="t-dim small" x="284" y="246">alquimista de campo</text>
+        <text class="small" fill="#76a2c9" x="284" y="300">ver regras</text>
+
+        <rect class="card-thin" x="536" y="196" width="248" height="120"/>
+        <text class="t h3" x="552" y="224">Iluminado</text>
+        <rect x="656" y="210" width="66" height="18" fill="#76a2c9"/>
+        <text class="t-inv small" x="689" y="223" text-anchor="middle">revisar</text>
+        <text class="t-dim small" x="552" y="246">canalizador de luz vital</text>
+        <text class="small" fill="#76a2c9" x="552" y="300">ver regras</text>
+
+        <text class="t-dim small" x="0" y="360">card selecionado ganha borda accent 5px · badge completa/revisar no canto</text>
+      </g>
+
+      <!-- nav buttons -->
+      <rect class="card-thin" x="292" y="790" width="110" height="38"/>
+      <text class="t body" x="347" y="815" text-anchor="middle">voltar</text>
+      <rect class="accent-fill" x="414" y="790" width="120" height="38"/>
+      <text class="t body" x="474" y="815" text-anchor="middle" font-weight="700">próximo</text>
+    </g>
+  </g>
+
+  <!-- ============================== FRAME 3 : SUBIR DE RANK ============================== -->
+  <g transform="translate(2520,20)">
+    <text class="frame-title" x="0" y="26">3 · Subir de rank</text>
+    <text class="frame-note" x="0" y="48">passos variam conforme o que o rank concede</text>
+
+    <g transform="translate(0,66)">
+      <rect class="page" width="1150" height="1060"/>
+
+      <rect x="0" y="0" width="1150" height="52" fill="#c2cce7"/>
+      <line class="rule" x1="0" y1="52" x2="1150" y2="52"/>
+      <text class="t h2" x="28" y="34">scrapbook</text>
+      <text class="t lbl" x="900" y="33">TOP 10S</text>
+      <text class="t lbl" x="1010" y="33">DUNGEON RIFT</text>
+
+      <circle cx="52" cy="94" r="18" fill="#9c48ae"/>
+      <path d="M57 88 l-6 6 l6 6" fill="none" stroke="#fcfaf8" stroke-width="2.5" stroke-linecap="round"/>
+      <text class="t h2" x="84" y="101">subir de rank</text>
+      <line stroke="#86c6be" stroke-width="3" x1="84" y1="110" x2="252" y2="110"/>
+
+      <!-- dynamic step sidebar -->
+      <g transform="translate(28,140)">
+        <circle cx="24" cy="21" r="12" fill="#86c6be" stroke="#86c6be" stroke-width="2"/>
+        <text class="t small" x="24" y="26" text-anchor="middle" font-weight="700">✓</text>
+        <text class="t body" x="48" y="26">visão geral</text>
+
+        <rect x="0" y="42" width="200" height="42" fill="#c2cce7"/>
+        <line stroke="#86c6be" stroke-width="4" x1="0" y1="42" x2="0" y2="84"/>
+        <circle cx="24" cy="63" r="12" fill="none" stroke="#9c48ae" stroke-width="2"/>
+        <text class="t small" x="24" y="68" text-anchor="middle" font-weight="700">2</text>
+        <text class="t body" x="48" y="68" font-weight="700">domínio</text>
+
+        <g opacity=".45">
+          <circle cx="24" cy="105" r="12" fill="none" stroke="#9c48ae" stroke-width="2"/>
+          <text class="t small" x="24" y="110" text-anchor="middle" font-weight="700">3</text>
+          <text class="t body" x="48" y="110">PV</text>
+          <circle cx="24" cy="147" r="12" fill="none" stroke="#9c48ae" stroke-width="2"/>
+          <text class="t small" x="24" y="152" text-anchor="middle" font-weight="700">4</text>
+          <text class="t body" x="48" y="152">vínculos</text>
+          <circle cx="24" cy="189" r="12" fill="none" stroke="#9c48ae" stroke-width="2"/>
+          <text class="t small" x="24" y="194" text-anchor="middle" font-weight="700">5</text>
+          <text class="t body" x="48" y="194">confirmar</text>
+        </g>
+
+        <text class="t-dim small" x="0" y="240">Rank E concede domínio + PV,</text>
+        <text class="t-dim small" x="0" y="258">então só esses passos aparecem.</text>
+        <text class="t-dim small" x="0" y="284">Rank F- pediria patrono +</text>
+        <text class="t-dim small" x="0" y="302">experiência no lugar.</text>
+      </g>
+
+      <!-- content pane -->
+      <rect class="shadow" x="270" y="146" width="846" height="560"/>
+      <rect class="card" x="264" y="140" width="846" height="560"/>
+      <text class="t h2" x="292" y="176">habilidade de domínio</text>
+      <text class="t-dim body" x="292" y="200">continue uma trilha que já tem, ou multiclasse num novo Domínio.</text>
+
+      <g transform="translate(292,222)">
+        <!-- option: advance existing -->
+        <rect x="0" y="0" width="790" height="112" fill="#fcfaf8" stroke="#86c6be" stroke-width="5"/>
+        <circle cx="24" cy="26" r="9" fill="none" stroke="#9c48ae" stroke-width="2"/>
+        <circle cx="24" cy="26" r="4.5" fill="#9c48ae"/>
+        <text class="t h3" x="44" y="31">Protetor</text>
+        <text class="t-dim body" x="120" y="31">— Despertar → Rank E</text>
+        <rect x="44" y="46" width="722" height="50" fill="#c2cce7"/>
+        <text class="t body" x="56" y="66" font-weight="700">Instinto Defensivo</text>
+        <text class="t small" x="56" y="86">passivo: +1 Fortuna em ataques com aliado em alcance estendido.</text>
+
+        <!-- option: multiclass -->
+        <rect class="card-thin" x="0" y="128" width="790" height="150"/>
+        <circle cx="24" cy="154" r="9" fill="none" stroke="#9c48ae" stroke-width="2"/>
+        <text class="t h3" x="44" y="159">multiclassar</text>
+        <text class="t-dim body" x="164" y="159">— novo Domínio no Despertar</text>
+        <rect class="card-thin" x="44" y="174" width="722" height="30"/>
+        <text class="t body" x="56" y="194">Bruto</text>
+        <text class="t-dim body" x="750" y="194" text-anchor="end">▾</text>
+        <rect x="44" y="212" width="722" height="50" fill="#c2cce7"/>
+        <text class="t body" x="56" y="232" font-weight="700">Ponto Focal</text>
+        <text class="t small" x="56" y="252">1 PA: força inimigos em alcance curto a focarem em você.</text>
+
+        <text class="t-dim small" x="0" y="308">domínios já treinados são removidos da lista</text>
+      </g>
+
+      <rect class="card-thin" x="292" y="730" width="110" height="38"/>
+      <text class="t body" x="347" y="755" text-anchor="middle">voltar</text>
+      <rect class="accent-fill" x="414" y="730" width="120" height="38"/>
+      <text class="t body" x="474" y="755" text-anchor="middle" font-weight="700">próximo</text>
+
+      <text class="t-dim small" x="292" y="800">nada é salvo até o passo "confirmar"</text>
+    </g>
+  </g>
+
+  <!-- ============================== PALETTE LEGEND ============================== -->
+  <g transform="translate(60,1112)">
+    <text class="frame-title" x="0" y="14" font-size="16">Paleta</text>
+    <rect x="80"  y="0" width="26" height="18" fill="#9c48ae"/><text class="frame-note" x="112" y="14">primary #9c48ae</text>
+    <rect x="250" y="0" width="26" height="18" fill="#c2cce7"/><text class="frame-note" x="282" y="14">secondary #c2cce7</text>
+    <rect x="430" y="0" width="26" height="18" fill="#86c6be"/><text class="frame-note" x="462" y="14">accent #86c6be</text>
+    <rect x="600" y="0" width="26" height="18" fill="#76a2c9"/><text class="frame-note" x="632" y="14">highlight #76a2c9</text>
+    <rect x="780" y="0" width="26" height="18" fill="#fcfaf8" stroke="#9c48ae"/><text class="frame-note" x="812" y="14">card #fcfaf8</text>
+    <text class="frame-note" x="950" y="14">Quicksand · cantos 0px · sombra dura 6px offset</text>
+  </g>
+</svg>
