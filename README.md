@@ -28,6 +28,9 @@ dungeon-rift.html   índice do devlog
 entry.html          uma entrada        → entry.html?slug=ferimentos
 changelog.html      uma versão         → changelog.html?slug=v0.3.0
 
+not_found.html      página de erro do Neocities  ┐ cópias idênticas: se mexer
+404.html            página de erro do Pages      ┘ numa, copia pra outra
+
 css/style.css       todo o estilo. as cores ficam no :root, lá em cima.
 js/site.js          todo o JavaScript. funções curtas, uma por página.
 js/marked.min.js    biblioteca que transforma markdown em HTML (não precisa mexer)
@@ -86,3 +89,9 @@ puladas. Só precisa de `node` — nenhuma dependência.
 
 **Neocities** — upload manual. Sobe o conteúdo da raiz do repo; dá pra pular
 `scripts/`, `design/`, `.github/` e este README, que não fazem diferença pro site.
+
+> Sobe **todos** os `.html`, inclusive `entry.html` e `changelog.html`. Eles não
+> aparecem no menu, mas são as páginas que abrem o devlog — sem eles todo link de
+> entrada cai no 404. E vale saber: o Neocities redireciona `/entry.html` pra
+> `/entry` mesmo quando o arquivo não existe, então o endereço parece certo e o
+> erro fica difícil de enxergar.

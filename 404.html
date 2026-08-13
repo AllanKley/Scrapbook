@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>página não encontrada | scrapbook</title>
+<!-- Caminhos absolutos de propósito: essa página pode ser servida em
+     qualquer profundidade de URL, e caminho relativo quebraria. -->
+<link rel="icon" href="/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/style.css">
+<style>
+  .rift {
+    max-width: 640px;
+    margin: 64px auto;
+    padding: 40px;
+    background: var(--card);
+    border: 3px solid var(--primary);
+    box-shadow: var(--shadow);
+    text-align: center;
+  }
+  .rift-code {
+    margin: 0;
+    font-size: 5rem;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: -0.04em;
+  }
+  .rift-code span { background: var(--accent); padding: 0 10px; }
+  .rift h1 { margin: 12px 0 8px; font-size: 1.5rem; }
+  .rift p { margin: 0 auto 24px; max-width: 44ch; }
+  .rift-actions { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+  .rift-btn {
+    padding: 10px 20px;
+    border: 3px solid var(--primary);
+    background: var(--card);
+    color: var(--primary);
+    font-weight: 700;
+    text-decoration: none;
+  }
+  .rift-btn.primary { background: var(--accent); border-color: var(--accent); }
+  .rift-btn:hover { border-color: var(--accent); }
+  .rift-url {
+    margin-top: 24px;
+    font-size: 0.85rem;
+    opacity: 0.6;
+    word-break: break-all;
+  }
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="shell">
+    <a class="logo" href="/index.html">scrapbook</a>
+    <ul class="site-nav">
+      <li><a href="/top10.html">top 10s</a></li>
+      <li><a href="/dungeon-rift.html">Dungeon Rift</a></li>
+    </ul>
+  </div>
+</header>
+
+<main class="shell">
+  <div class="rift">
+    <p class="rift-code"><span>404</span></p>
+    <h1>essa página caiu numa Fratura</h1>
+    <p>
+      o link pode estar velho, ou a página pode ter sido renomeada.
+      de qualquer forma, ela não está mais aqui.
+    </p>
+    <div class="rift-actions">
+      <a class="rift-btn primary" href="/index.html">voltar pro início</a>
+      <a class="rift-btn" href="/dungeon-rift.html">ver o Dungeon Rift</a>
+      <a class="rift-btn" href="/top10.html">ver os top 10s</a>
+    </div>
+    <p class="rift-url" id="tried"></p>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="shell">made by allan, mostly on evenings i should've been sleeping.</div>
+</footer>
+
+<script>
+  // Mostra o endereço que falhou, pra ficar claro o que foi tentado.
+  document.getElementById('tried').textContent = 'tentou abrir: ' + location.pathname + location.search;
+</script>
+
+</body>
+</html>
